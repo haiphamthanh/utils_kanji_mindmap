@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kanji-map.local/schemas/relations.schema.json",
+  "title": "Kanji Relations",
+  "description": "Directed edges between kanji. For type=component, 'from' is a component of 'to'.",
+  "type": "object",
+  "required": ["version", "edges"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "edge_types": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/EdgeType" }
+    },
+    "edges": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Edge" }
+    }
+  },
+  "$defs": {
+    "EdgeType": {
+      "type": "string",
+      "enum": ["component", "radical", "phonetic", "semantic", "derived", "variant", "similar", "antonym"]
+    },
+    "Position": {
+      "type": "string",
+      "enum": ["full", "left", "right", "top", "bottom", "enclosure", "inside", "overlay"]
+    },
+    "Edge": {
+      "type": "object",
+      "required": ["from", "to", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "from": { "type": "string", "minLength": 1, "maxLength": 1 },
+        "to": { "type": "string", "minLength": 1, "maxLength": 1 },
+        "type": { "$ref": "#/$defs/EdgeType" },
+        "position": { "$ref": "#/$defs/Position" },
+        "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

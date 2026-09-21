@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>漢字 MAP — Sơ đồ Kanji</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-mark">漢</span>
+      <h1>Sơ đồ Kanji</h1>
+    </div>
+    <div class="header-actions">
+      <button id="historyBtn" class="ghost-btn" title="Lịch sử">Lịch sử</button>
+      <button id="themeBtn" class="ghost-btn" title="Đổi giao diện">🌙</button>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input
+        id="searchInput"
+        type="text"
+        autocomplete="off"
+        placeholder="Tìm Hán tự, kana, romaji, nghĩa…"
+      />
+      <button id="clearSearch" class="clear-btn" title="Xóa" hidden>×</button>
+      <ul id="suggestions" class="suggestions" hidden></ul>
+    </div>
+
+    <button id="createBtn" class="primary-btn">Tạo sơ đồ</button>
+
+    <label class="switch" title="Đảo hướng quan hệ">
+      <span>Đảo ngược</span>
+      <input type="checkbox" id="reverseToggle" />
+      <span class="switch-track"><span class="switch-thumb"></span></span>
+    </label>
+
+    <div class="jlpt-filters" id="jlptFilters"></div>
+
+    <label class="depth-select" title="Số tầng hiển thị">
+      <span>Tầng</span>
+      <select id="depthSelect">
+        <option value="1">1</option>
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+      </select>
+    </label>
+
+    <div class="zoom-controls">
+      <button id="zoomOut" class="icon-btn" title="Thu nhỏ">−</button>
+      <input type="range" id="zoomRange" min="25" max="300" value="100" />
+      <button id="zoomIn" class="icon-btn" title="Phóng to">+</button>
+      <button id="fitBtn" class="ghost-btn" title="Vừa vặn">Vừa vặn</button>
+    </div>
+  </div>
+
+  <main class="graph-area">
+    <svg id="kanjiGraph" aria-label="Sơ đồ quan hệ Kanji">
+      <g id="viewport">
+        <g id="edges"></g>
+        <g id="nodes"></g>
+      </g>
+    </svg>
+
+    <aside id="detailPanel" class="detail-panel" hidden></aside>
+
+    <div id="tooltip" class="tooltip" hidden></div>
+
+    <div id="emptyState" class="empty-state" hidden>
+      <p>Không tìm thấy Hán tự phù hợp.</p>
+      <p class="muted">Thử tìm một Hán tự khác.</p>
+    </div>
+  </main>
+
+  <footer class="statusbar">
+    <nav id="breadcrumb" class="breadcrumb" aria-label="Lịch sử khám phá"></nav>
+    <span id="status" class="status-text"></span>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

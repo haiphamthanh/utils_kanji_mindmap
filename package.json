@@ -1,0 +1,14 @@
+{
+  "name": "kanji-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kanji relationship mindmap — SVG + Vanilla JS + Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

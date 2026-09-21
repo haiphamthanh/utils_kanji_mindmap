@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-09-22T00:00:00Z",
+  "edge_types": ["component", "radical", "phonetic", "semantic", "variant", "similar"],
+  "edges": [
+    { "from": "車", "to": "軍", "type": "component", "position": "bottom", "weight": 1 },
+    { "from": "車", "to": "転", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "軸", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "軽", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "較", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "載", "type": "component", "position": "bottom", "weight": 1 },
+    { "from": "車", "to": "輩", "type": "component", "position": "bottom", "weight": 1 },
+    { "from": "車", "to": "輪", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "輸", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "轄", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "陣", "type": "component", "position": "right", "weight": 1 },
+    { "from": "車", "to": "連", "type": "component", "position": "right", "weight": 1 },
+    { "from": "車", "to": "斬", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "庫", "type": "component", "position": "bottom", "weight": 1 },
+    { "from": "車", "to": "撃", "type": "component", "position": "bottom", "weight": 1 },
+    { "from": "車", "to": "範", "type": "component", "position": "right", "weight": 1 },
+    { "from": "車", "to": "繋", "type": "component", "position": "bottom", "weight": 1 },
+    { "from": "車", "to": "軌", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "軒", "type": "component", "position": "left", "weight": 1 },
+    { "from": "車", "to": "軟", "type": "component", "position": "left", "weight": 1 },
+    { "from": "軍", "to": "運", "type": "component", "position": "right", "weight": 1 },
+    { "from": "軍", "to": "揮", "type": "component", "position": "right", "weight": 1 },
+    { "from": "軍", "to": "輝", "type": "component", "position": "right", "weight": 1 },
+    { "from": "斬", "to": "暫", "type": "component", "position": "top", "weight": 1 },
+    { "from": "斬", "to": "漸", "type": "component", "position": "right", "weight": 1 }
+  ]
+}

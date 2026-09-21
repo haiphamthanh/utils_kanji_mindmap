@@ -1,0 +1,415 @@
+{
+  "車": {
+    "literal": "車",
+    "codepoint": "U+8ECA",
+    "stroke_count": 7,
+    "grade": 1,
+    "jlpt": "N5",
+    "frequency": 101,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["シャ"], "kun": ["くるま"] },
+    "meanings": { "vi": ["xe", "xe cộ"], "en": ["car", "vehicle"] },
+    "components": [{ "character": "車", "role": "radical", "position": "full" }],
+    "tags": ["joyo", "grade1"]
+  },
+  "軍": {
+    "literal": "軍",
+    "codepoint": "U+8ECD",
+    "stroke_count": 9,
+    "grade": 4,
+    "jlpt": "N3",
+    "frequency": 253,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["グン"], "kun": [] },
+    "meanings": { "vi": ["quân đội", "quân"], "en": ["army", "force", "troops", "war"] },
+    "components": [
+      { "character": "冖", "role": "component", "position": "top" },
+      { "character": "車", "role": "radical", "position": "bottom" }
+    ],
+    "tags": ["joyo", "grade4"]
+  },
+  "転": {
+    "literal": "転",
+    "codepoint": "U+8EE2",
+    "stroke_count": 11,
+    "grade": 3,
+    "jlpt": "N4",
+    "frequency": 290,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["テン"], "kun": ["ころ(がる)", "ころ(ぶ)"] },
+    "meanings": { "vi": ["chuyển", "quay", "lăn"], "en": ["revolve", "turn", "roll"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "云", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade3"]
+  },
+  "軸": {
+    "literal": "軸",
+    "codepoint": "U+8EF8",
+    "stroke_count": 12,
+    "grade": 4,
+    "jlpt": "N2",
+    "frequency": 1269,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["ジク"], "kun": [] },
+    "meanings": { "vi": ["trục"], "en": ["axis", "shaft"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "由", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade4"]
+  },
+  "軽": {
+    "literal": "軽",
+    "codepoint": "U+8EFD",
+    "stroke_count": 12,
+    "grade": 3,
+    "jlpt": "N3",
+    "frequency": 785,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["ケイ"], "kun": ["かる(い)", "かろ(やか)"] },
+    "meanings": { "vi": ["nhẹ", "nhẹ nhàng"], "en": ["light", "slight"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "圣", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade3"]
+  },
+  "較": {
+    "literal": "較",
+    "codepoint": "U+8F03",
+    "stroke_count": 13,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1798,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["カク"], "kun": [] },
+    "meanings": { "vi": ["so sánh"], "en": ["compare", "contrast"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "交", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "載": {
+    "literal": "載",
+    "codepoint": "U+8F09",
+    "stroke_count": 13,
+    "grade": 8,
+    "jlpt": "N2",
+    "frequency": 1200,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["サイ"], "kun": ["の(せる)", "の(る)"] },
+    "meanings": { "vi": ["chở", "đăng tải", "ghi"], "en": ["load", "place", "record"] },
+    "components": [
+      { "character": "戈", "role": "component", "position": "top" },
+      { "character": "車", "role": "radical", "position": "bottom" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "輩": {
+    "literal": "輩",
+    "codepoint": "U+8F29",
+    "stroke_count": 15,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 2035,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["ハイ"], "kun": [] },
+    "meanings": { "vi": ["bọn", "bè", "bậc"], "en": ["companion", "fellow"] },
+    "components": [
+      { "character": "非", "role": "component", "position": "top" },
+      { "character": "車", "role": "radical", "position": "bottom" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "輪": {
+    "literal": "輪",
+    "codepoint": "U+8F2A",
+    "stroke_count": 15,
+    "grade": 4,
+    "jlpt": "N2",
+    "frequency": 693,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["リン"], "kun": ["わ"] },
+    "meanings": { "vi": ["bánh xe", "vòng", "vành"], "en": ["wheel", "ring", "circle"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "侖", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade4"]
+  },
+  "輸": {
+    "literal": "輸",
+    "codepoint": "U+8F38",
+    "stroke_count": 16,
+    "grade": 5,
+    "jlpt": "N2",
+    "frequency": 987,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["ユ"], "kun": [] },
+    "meanings": { "vi": ["vận chuyển", "chuyên chở"], "en": ["transport", "send"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "兪", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade5"]
+  },
+  "轄": {
+    "literal": "轄",
+    "codepoint": "U+8F44",
+    "stroke_count": 17,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1980,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["カツ"], "kun": [] },
+    "meanings": { "vi": ["quản lý", "cai quản"], "en": ["control", "administer"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "害", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "陣": {
+    "literal": "陣",
+    "codepoint": "U+9663",
+    "stroke_count": 10,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1520,
+    "radical": { "character": "阜", "number": 170, "name_vi": "phụ", "name_en": "mound" },
+    "readings": { "on": ["ジン"], "kun": [] },
+    "meanings": { "vi": ["trận", "đội hình"], "en": ["camp", "battle array"] },
+    "components": [
+      { "character": "阝", "role": "component", "position": "left" },
+      { "character": "車", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "連": {
+    "literal": "連",
+    "codepoint": "U+9023",
+    "stroke_count": 10,
+    "grade": 4,
+    "jlpt": "N3",
+    "frequency": 208,
+    "radical": { "character": "辵", "number": 162, "name_vi": "sước", "name_en": "walk" },
+    "readings": { "on": ["レン"], "kun": ["つ(れる)", "つ(ながる)"] },
+    "meanings": { "vi": ["liên tục", "đi cùng", "kết nối"], "en": ["take along", "connect"] },
+    "components": [
+      { "character": "辶", "role": "component", "position": "left" },
+      { "character": "車", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade4"]
+  },
+  "斬": {
+    "literal": "斬",
+    "codepoint": "U+65AC",
+    "stroke_count": 11,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 2100,
+    "radical": { "character": "斤", "number": 69, "name_vi": "cân", "name_en": "axe" },
+    "readings": { "on": ["ザン"], "kun": ["き(る)"] },
+    "meanings": { "vi": ["chém", "cắt"], "en": ["behead", "slash", "kill"] },
+    "components": [
+      { "character": "車", "role": "component", "position": "left" },
+      { "character": "斤", "role": "radical", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "庫": {
+    "literal": "庫",
+    "codepoint": "U+5EAB",
+    "stroke_count": 10,
+    "grade": 3,
+    "jlpt": "N2",
+    "frequency": 1060,
+    "radical": { "character": "广", "number": 53, "name_vi": "nghiễm", "name_en": "dotted cliff" },
+    "readings": { "on": ["コ"], "kun": ["くら"] },
+    "meanings": { "vi": ["kho", "nhà kho"], "en": ["warehouse", "storehouse"] },
+    "components": [
+      { "character": "广", "role": "radical", "position": "top" },
+      { "character": "車", "role": "component", "position": "bottom" }
+    ],
+    "tags": ["joyo", "grade3"]
+  },
+  "撃": {
+    "literal": "撃",
+    "codepoint": "U+6483",
+    "stroke_count": 15,
+    "grade": 8,
+    "jlpt": "N2",
+    "frequency": 905,
+    "radical": { "character": "手", "number": 64, "name_vi": "thủ", "name_en": "hand" },
+    "readings": { "on": ["ゲキ"], "kun": ["う(つ)"] },
+    "meanings": { "vi": ["đánh", "tấn công", "bắn"], "en": ["strike", "attack", "beat"] },
+    "components": [
+      { "character": "車", "role": "component", "position": "bottom" },
+      { "character": "殳", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "範": {
+    "literal": "範",
+    "codepoint": "U+7BC4",
+    "stroke_count": 15,
+    "grade": 8,
+    "jlpt": "N3",
+    "frequency": 1116,
+    "radical": { "character": "竹", "number": 118, "name_vi": "trúc", "name_en": "bamboo" },
+    "readings": { "on": ["ハン"], "kun": [] },
+    "meanings": { "vi": ["phạm vi", "khuôn mẫu"], "en": ["pattern", "range", "model"] },
+    "components": [
+      { "character": "竹", "role": "radical", "position": "top" },
+      { "character": "車", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "繋": {
+    "literal": "繋",
+    "codepoint": "U+7E4B",
+    "stroke_count": 19,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 2100,
+    "radical": { "character": "糸", "number": 120, "name_vi": "mịch", "name_en": "thread" },
+    "readings": { "on": ["ケイ"], "kun": ["つな(ぐ)", "か(ける)"] },
+    "meanings": { "vi": ["kết nối", "trói buộc"], "en": ["connect", "tie", "fasten"] },
+    "components": [
+      { "character": "車", "role": "component", "position": "bottom" },
+      { "character": "糸", "role": "radical", "position": "top" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "軌": {
+    "literal": "軌",
+    "codepoint": "U+8ECC",
+    "stroke_count": 9,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1720,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["キ"], "kun": [] },
+    "meanings": { "vi": ["quỹ đạo", "đường ray"], "en": ["rut", "wheel track", "orbit"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "九", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "軒": {
+    "literal": "軒",
+    "codepoint": "U+8ED2",
+    "stroke_count": 10,
+    "grade": 8,
+    "jlpt": "N2",
+    "frequency": 1050,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["ケン"], "kun": ["のき"] },
+    "meanings": { "vi": ["hiên", "mái hiên"], "en": ["eaves", "counter for houses"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "干", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "軟": {
+    "literal": "軟",
+    "codepoint": "U+8EDF",
+    "stroke_count": 11,
+    "grade": 8,
+    "jlpt": "N2",
+    "frequency": 1550,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["ナン"], "kun": ["やわ(らかい)"] },
+    "meanings": { "vi": ["mềm", "yếu"], "en": ["soft", "weak"] },
+    "components": [
+      { "character": "車", "role": "radical", "position": "left" },
+      { "character": "欠", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "暫": {
+    "literal": "暫",
+    "codepoint": "U+66AB",
+    "stroke_count": 15,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1600,
+    "radical": { "character": "日", "number": 72, "name_vi": "nhật", "name_en": "sun" },
+    "readings": { "on": ["ザン"], "kun": ["しばら(く)"] },
+    "meanings": { "vi": ["tạm thời", "một lát"], "en": ["temporarily", "awhile"] },
+    "components": [
+      { "character": "斬", "role": "component", "position": "top" },
+      { "character": "日", "role": "radical", "position": "bottom" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "漸": {
+    "literal": "漸",
+    "codepoint": "U+6F38",
+    "stroke_count": 14,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1800,
+    "radical": { "character": "水", "number": 85, "name_vi": "thủy", "name_en": "water" },
+    "readings": { "on": ["ゼン"], "kun": ["ようや(く)"] },
+    "meanings": { "vi": ["dần dần", "cuối cùng"], "en": ["gradually", "finally"] },
+    "components": [
+      { "character": "氵", "role": "radical", "position": "left" },
+      { "character": "斬", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "揮": {
+    "literal": "揮",
+    "codepoint": "U+63EE",
+    "stroke_count": 12,
+    "grade": 6,
+    "jlpt": "N2",
+    "frequency": 1080,
+    "radical": { "character": "手", "number": 64, "name_vi": "thủ", "name_en": "hand" },
+    "readings": { "on": ["キ"], "kun": [] },
+    "meanings": { "vi": ["vung", "điều khiển"], "en": ["brandish", "wield", "command"] },
+    "components": [
+      { "character": "扌", "role": "radical", "position": "left" },
+      { "character": "軍", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade6"]
+  },
+  "輝": {
+    "literal": "輝",
+    "codepoint": "U+8F1D",
+    "stroke_count": 15,
+    "grade": 8,
+    "jlpt": "N1",
+    "frequency": 1800,
+    "radical": { "character": "車", "number": 159, "name_vi": "xa", "name_en": "cart" },
+    "readings": { "on": ["キ"], "kun": ["かがや(く)"] },
+    "meanings": { "vi": ["sáng chói", "rực rỡ"], "en": ["radiance", "shine", "sparkle"] },
+    "components": [
+      { "character": "光", "role": "component", "position": "left" },
+      { "character": "軍", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade8"]
+  },
+  "運": {
+    "literal": "運",
+    "codepoint": "U+904B",
+    "stroke_count": 12,
+    "grade": 3,
+    "jlpt": "N3",
+    "frequency": 362,
+    "radical": { "character": "辵", "number": 162, "name_vi": "sước", "name_en": "walk" },
+    "readings": { "on": ["ウン"], "kun": ["はこ(ぶ)"] },
+    "meanings": { "vi": ["vận chuyển", "vận mệnh"], "en": ["carry", "luck", "fate"] },
+    "components": [
+      { "character": "辶", "role": "component", "position": "left" },
+      { "character": "軍", "role": "component", "position": "right" }
+    ],
+    "tags": ["joyo", "grade3"]
+  }
+}

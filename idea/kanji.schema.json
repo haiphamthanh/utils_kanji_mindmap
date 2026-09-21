@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kanji-map.local/schemas/kanji.schema.json",
+  "title": "Kanji Dataset",
+  "description": "Dictionary of Joyo kanji keyed by the literal character.",
+  "type": "object",
+  "additionalProperties": { "$ref": "#/$defs/KanjiEntry" },
+  "$defs": {
+    "JLPT": {
+      "type": "string",
+      "enum": ["N5", "N4", "N3", "N2", "N1"]
+    },
+    "Position": {
+      "type": "string",
+      "enum": ["full", "left", "right", "top", "bottom", "enclosure", "inside", "overlay"]
+    },
+    "KanjiEntry": {
+      "type": "object",
+      "required": ["literal", "stroke_count", "jlpt", "readings", "meanings"],
+      "additionalProperties": false,
+      "properties": {
+        "literal": { "type": "string", "minLength": 1, "maxLength": 1 },
+        "codepoint": { "type": "string", "pattern": "^U\\+[0-9A-F]{4,5}$" },
+        "stroke_count": { "type": "integer", "minimum": 1, "maximum": 34 },
+        "grade": { "type": ["integer", "null"], "minimum": 1, "maximum": 9 },
+        "jlpt": { "$ref": "#/$defs/JLPT" },
+        "frequency": { "type": ["integer", "null"], "minimum": 1 },
+        "radical": { "$ref": "#/$defs/Radical" },
+        "readings": { "$ref": "#/$defs/Readings" },
+        "meanings": { "$ref": "#/$defs/Meanings" },
+        "components": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Component" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "svg": { "type": ["string", "null"] }
+      }
+    },
+    "Radical": {
+      "type": "object",
+      "required": ["character"],
+      "additionalProperties": false,
+      "properties": {
+        "character": { "type": "string", "minLength": 1 },
+        "number": { "type": ["integer", "null"], "minimum": 1, "maximum": 214 },
+        "name_vi": { "type": ["string", "null"] },
+        "name_en": { "type": ["string", "null"] }
+      }
+    },
+    "Readings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "on": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "kun": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "Meanings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "vi": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "en": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "Component": {
+      "type": "object",
+      "required": ["character"],
+      "additionalProperties": false,
+      "properties": {
+        "character": { "type": "string", "minLength": 1 },
+        "role": {
+          "type": "string",
+          "enum": ["radical", "component", "phonetic", "part"]
+        },
+        "position": { "$ref": "#/$defs/Position" }
+      }
+    }
+  }
+}
