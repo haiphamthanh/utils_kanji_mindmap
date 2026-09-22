@@ -4,15 +4,14 @@
 //   public/data/relations.json
 //
 // Mục tiêu: dữ liệu khớp schema UI BẢN GỐC (không cần sửa giao diện).
-//   - kanji.json: literal, jlpt, stroke_count, readings, meanings, components...
-//   - relations.json: cạnh CÓ HƯỚNG { from, to, type } để graph children/reverse chạy.
 //
-// Vì dữ liệu thật KHÔNG có JLPT, trường `jlpt` được gán TRANG TRÍ (deterministic)
-// chỉ để tô màu/ filter như bản gốc. Không phải JLPT thật.
+// Quan hệ (nhiều tầng, để chọn số tầng có ý nghĩa):
+//   1. V6 containment: component_seed <-> chain (type "component"), 2 chiều để
+//      đi được cả xuống (mở rộng) lẫn lên (về seed).
+//   2. Fallback theo bộ cho ký tự KHÔNG có trong V6 (type "radical").
+//   Sau đó giới hạn fan-out mỗi node (MAX_OUT) vì layout bản gốc chỉ hợp ~20 node.
 //
-// Quan hệ theo bộ thủ, phát 2 chiều để bất kỳ Hán tự nào cũng có sơ đồ:
-//   bộ -> thành viên   (xem các Hán tự cùng bộ)
-//   thành viên -> bộ   (đi lên tâm bộ, rồi tỏa ra các thành viên khác)
+// `jlpt` được gán TRANG TRÍ (deterministic) chỉ để tô màu/filter như bản gốc.
 
 const fs = require("fs");
 const path = require("path");
@@ -24,8 +23,8 @@ const OUT_KANJI = path.join(OUT_DIR, "kanji.json");
 const OUT_RELATIONS = path.join(OUT_DIR, "relations.json");
 
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
+const MAX_OUT = 24; // số quan hệ tối đa tỏa ra từ 1 node (layout gốc ~20)
 
-// Gán level trang trí, ổn định theo ký tự (để tô màu như bản gốc).
 function decorativeLevel(ch) {
   let hash = 0;
   for (const c of ch) hash = (hash * 31 + c.codePointAt(0)) >>> 0;
@@ -45,7 +44,7 @@ function build() {
   const kanji = {};
 
   // -----------------------------------------------------------------
-  // 1. Ký tự có trong từ điển
+  // 1. Ký tự có trong từ điển bộ thủ
   // -----------------------------------------------------------------
   for (const c of Object.values(src.characters)) {
     kanji[c.character] = {
@@ -67,64 +66,101 @@ function build() {
     };
   }
 
-  // -----------------------------------------------------------------
-  // 2. Bộ thủ không có trong từ điển (vd 丶 丿) -> node để click được
-  // -----------------------------------------------------------------
-  let radicalNodes = 0;
+  // tra cứu bộ: thành viên -> bộ, và bộ -> các thành viên
+  const componentOf = new Map();
+  const membersByComponent = new Map();
   for (const family of src.families) {
-    const comp = family.component;
-    if (kanji[comp]) continue;
-    radicalNodes++;
-    kanji[comp] = {
-      literal: comp,
-      codepoint: toCodepoint(comp),
-      node_type: "radical",
-      jlpt: decorativeLevel(comp),
-      stroke_count: family.radical_stroke_count,
-      readings: { on: [], kun: [] },
-      meanings: { vi: [], en: [] },
-      radical: {
-        character: comp,
-        name_vi: family.radical_name_vi,
-        stroke_count: family.radical_stroke_count,
-      },
-      components: [{ character: comp, role: "radical", position: null }],
-      tags: ["radical"],
-      han_viet: family.radical_name_vi,
-    };
+    const members = family.members.filter((m) => m !== family.component);
+    membersByComponent.set(family.component, members);
+    for (const m of members) componentOf.set(m, family.component);
   }
 
   // -----------------------------------------------------------------
-  // 3. Quan hệ: bộ <-> thành viên (2 chiều)
+  // 2. Sinh quan hệ (thô)
   // -----------------------------------------------------------------
+  const raw = [];
+  const edgeKeys = new Set();
+  const covered = new Set();
+
+  function addRaw(from, to, type) {
+    if (!from || !to || from === to) return;
+    const key = `${from}|${to}|${type}`;
+    if (edgeKeys.has(key)) return;
+    edgeKeys.add(key);
+    raw.push({ from, to, type });
+  }
+
+  // 2a. V6 containment (2 chiều)
+  for (const fam of src.formationFamilies || []) {
+    const seed = fam.component_seed;
+    if (!seed) continue;
+    for (const member of fam.chain || []) {
+      if (member === seed) continue;
+      addRaw(seed, member, "component");
+      addRaw(member, seed, "component");
+      covered.add(seed);
+      covered.add(member);
+    }
+  }
+
+  // 2b. Fallback theo bộ (chỉ với ký tự không có trong V6)
+  for (const ch of Object.keys(kanji)) {
+    if (covered.has(ch)) continue;
+    const component = membersByComponent.has(ch) ? ch : componentOf.get(ch);
+    const siblings = component ? membersByComponent.get(component) : null;
+    if (!siblings) continue;
+    for (const sibling of siblings) addRaw(ch, sibling, "radical");
+  }
+
+  // -----------------------------------------------------------------
+  // 3. Giới hạn fan-out: ưu tiên "component" trước "radical", giữ ổn định
+  // -----------------------------------------------------------------
+  const bySource = new Map();
+  for (const edge of raw) {
+    if (!bySource.has(edge.from)) bySource.set(edge.from, []);
+    bySource.get(edge.from).push(edge);
+  }
+
   const edges = [];
-  const seen = new Set();
-  for (const family of src.families) {
-    const comp = family.component;
-    for (const member of family.members) {
-      if (member === comp) continue;
+  const priority = { component: 0, radical: 1 };
+  for (const list of bySource.values()) {
+    list.sort((a, b) => (priority[a.type] ?? 9) - (priority[b.type] ?? 9));
+    for (const edge of list.slice(0, MAX_OUT)) {
+      edges.push({ ...edge, position: null });
+    }
+  }
 
-      const down = `${comp}->${member}`;
-      if (!seen.has(down)) {
-        seen.add(down);
-        edges.push({ from: comp, to: member, type: "component", position: null });
-      }
-
-      const up = `${member}->${comp}`;
-      if (!seen.has(up)) {
-        seen.add(up);
-        edges.push({ from: member, to: comp, type: "component", position: null });
-      }
+  // -----------------------------------------------------------------
+  // 4. Node phụ: ký tự được quan hệ nhắc tới nhưng chưa có trong từ điển
+  // -----------------------------------------------------------------
+  let extraNodes = 0;
+  for (const edge of edges) {
+    for (const id of [edge.from, edge.to]) {
+      if (kanji[id]) continue;
+      extraNodes++;
+      kanji[id] = {
+        literal: id,
+        codepoint: toCodepoint(id),
+        node_type: "extra",
+        jlpt: decorativeLevel(id),
+        stroke_count: null,
+        readings: { on: [], kun: [] },
+        meanings: { vi: [], en: [] },
+        radical: { character: null, name_vi: null, stroke_count: null },
+        components: [],
+        tags: [],
+        han_viet: null,
+      };
     }
   }
 
   const relations = {
-    version: "3.0.0",
+    version: "5.0.0",
     generated_at: new Date().toISOString(),
-    model: "radical-family-directed",
-    lookLike: "original-ui",
-    edge_types: ["component"],
-    note: "jlpt được gán trang trí để tô màu, không phải JLPT thật.",
+    model: "v6-containment",
+    edge_types: ["component", "radical"],
+    max_out: MAX_OUT,
+    note: "component = V6 containment (seed <-> chain); radical = fallback cùng bộ. jlpt trang trí để tô màu.",
     edges,
   };
 
@@ -133,21 +169,23 @@ function build() {
   fs.writeFileSync(OUT_RELATIONS, JSON.stringify(relations, null, 2));
 
   // -----------------------------------------------------------------
-  // 4. Kiểm tra
+  // 5. Kiểm tra
   // -----------------------------------------------------------------
   const problems = [];
   for (const e of edges) {
     if (!kanji[e.from]) problems.push(`from thiếu: ${e.from}`);
     if (!kanji[e.to]) problems.push(`to thiếu: ${e.to}`);
   }
-
-  const levelCounts = {};
-  for (const k of Object.values(kanji)) levelCounts[k.jlpt] = (levelCounts[k.jlpt] || 0) + 1;
+  const orphan = Object.keys(kanji).filter(
+    (id) => !bySource.has(id)
+  ).length;
 
   console.log(
-    `[build] ${Object.keys(kanji).length} node (${radicalNodes} bộ-only) · ${edges.length} cạnh -> public/data/`
+    `[build] ${Object.keys(kanji).length} node (${extraNodes} extra) · ${edges.length} cạnh ` +
+      `(component ${edges.filter((e) => e.type === "component").length}, ` +
+      `radical ${edges.filter((e) => e.type === "radical").length}) -> public/data/`
   );
-  console.log(`[build] phân bố màu (trang trí): ${JSON.stringify(levelCounts)}`);
+  console.log(`[build] node không có quan hệ đi ra: ${orphan}`);
   if (problems.length) {
     console.warn(`[build] ${problems.length} cảnh báo:`);
     problems.slice(0, 10).forEach((p) => console.warn("  -", p));

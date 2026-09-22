@@ -63952,12 +63952,58 @@
     ],
     "han_viet": "Phi"
   },
+  "侶": {
+    "literal": "侶",
+    "codepoint": "U+4FB6",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "冶": {
+    "literal": "冶",
+    "codepoint": "U+51B6",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
   "一": {
     "literal": "一",
     "codepoint": "U+4E00",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N2",
-    "stroke_count": 1,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -63967,183 +64013,20 @@
       "en": []
     },
     "radical": {
-      "character": "一",
-      "name_vi": "Nhất",
-      "stroke_count": 1
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "一",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Nhất"
-  },
-  "乙": {
-    "literal": "乙",
-    "codepoint": "U+4E59",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 1,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "乙",
-      "name_vi": "Ất",
-      "stroke_count": 1
-    },
-    "components": [
-      {
-        "character": "乙",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Ất"
-  },
-  "丶": {
-    "literal": "丶",
-    "codepoint": "U+4E36",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 1,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "丶",
-      "name_vi": "Chủ",
-      "stroke_count": 1
-    },
-    "components": [
-      {
-        "character": "丶",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Chủ"
-  },
-  "丿": {
-    "literal": "丿",
-    "codepoint": "U+4E3F",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 1,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "丿",
-      "name_vi": "Triệt",
-      "stroke_count": 1
-    },
-    "components": [
-      {
-        "character": "丿",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Triệt"
-  },
-  "亅": {
-    "literal": "亅",
-    "codepoint": "U+4E85",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 1,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "亅",
-      "name_vi": "Quyết",
-      "stroke_count": 1
-    },
-    "components": [
-      {
-        "character": "亅",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Quyết"
-  },
-  "丨": {
-    "literal": "丨",
-    "codepoint": "U+4E28",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 1,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "丨",
-      "name_vi": "Cổn",
-      "stroke_count": 1
-    },
-    "components": [
-      {
-        "character": "丨",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Cổn"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "十": {
     "literal": "十",
     "codepoint": "U+5341",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N2",
-    "stroke_count": 2,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64153,121 +64036,20 @@
       "en": []
     },
     "radical": {
-      "character": "十",
-      "name_vi": "Thập",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "十",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Thập"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "二": {
-    "literal": "二",
-    "codepoint": "U+4E8C",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "二",
-      "name_vi": "Nhị",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "二",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Nhị"
-  },
-  "入": {
-    "literal": "入",
-    "codepoint": "U+5165",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "入",
-      "name_vi": "Nhập",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "入",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Nhập"
-  },
-  "八": {
-    "literal": "八",
-    "codepoint": "U+516B",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "八",
-      "name_vi": "Bát",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "八",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Bát"
-  },
-  "卜": {
-    "literal": "卜",
-    "codepoint": "U+535C",
-    "node_type": "radical",
+  "呪": {
+    "literal": "呪",
+    "codepoint": "U+546A",
+    "node_type": "extra",
     "jlpt": "N5",
-    "stroke_count": 2,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64277,28 +64059,20 @@
       "en": []
     },
     "radical": {
-      "character": "卜",
-      "name_vi": "Bốc",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "卜",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Bốc"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "又": {
-    "literal": "又",
-    "codepoint": "U+53C8",
-    "node_type": "radical",
+  "咽": {
+    "literal": "咽",
+    "codepoint": "U+54BD",
+    "node_type": "extra",
     "jlpt": "N2",
-    "stroke_count": 2,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64308,28 +64082,20 @@
       "en": []
     },
     "radical": {
-      "character": "又",
-      "name_vi": "Hựu",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "又",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Hựu"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "亠": {
-    "literal": "亠",
-    "codepoint": "U+4EA0",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 2,
+  "扌": {
+    "literal": "扌",
+    "codepoint": "U+624C",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64339,28 +64105,917 @@
       "en": []
     },
     "radical": {
-      "character": "亠",
-      "name_vi": "Đầu",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "亠",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Đầu"
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "哺": {
+    "literal": "哺",
+    "codepoint": "U+54FA",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "唾": {
+    "literal": "唾",
+    "codepoint": "U+553E",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "喩": {
+    "literal": "喩",
+    "codepoint": "U+55A9",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "嗅": {
+    "literal": "嗅",
+    "codepoint": "U+55C5",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "嘲": {
+    "literal": "嘲",
+    "codepoint": "U+5632",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "埼": {
+    "literal": "埼",
+    "codepoint": "U+57FC",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "憬": {
+    "literal": "憬",
+    "codepoint": "U+61AC",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "拐": {
+    "literal": "拐",
+    "codepoint": "U+62D0",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "捉": {
+    "literal": "捉",
+    "codepoint": "U+6349",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "敬": {
+    "literal": "敬",
+    "codepoint": "U+656C",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "渦": {
+    "literal": "渦",
+    "codepoint": "U+6E26",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "点": {
+    "literal": "点",
+    "codepoint": "U+70B9",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "矯": {
+    "literal": "矯",
+    "codepoint": "U+77EF",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "舗": {
+    "literal": "舗",
+    "codepoint": "U+8217",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "艶": {
+    "literal": "艶",
+    "codepoint": "U+8276",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "藻": {
+    "literal": "藻",
+    "codepoint": "U+85FB",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "虞": {
+    "literal": "虞",
+    "codepoint": "U+865E",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "融": {
+    "literal": "融",
+    "codepoint": "U+878D",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "裾": {
+    "literal": "裾",
+    "codepoint": "U+88FE",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "褒": {
+    "literal": "褒",
+    "codepoint": "U+8912",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "訃": {
+    "literal": "訃",
+    "codepoint": "U+8A03",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "詣": {
+    "literal": "詣",
+    "codepoint": "U+8A63",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "詮": {
+    "literal": "詮",
+    "codepoint": "U+8A6E",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "諧": {
+    "literal": "諧",
+    "codepoint": "U+8AE7",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "謎": {
+    "literal": "謎",
+    "codepoint": "U+8B0E",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "貼": {
+    "literal": "貼",
+    "codepoint": "U+8CBC",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "賂": {
+    "literal": "賂",
+    "codepoint": "U+8CC2",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "踪": {
+    "literal": "踪",
+    "codepoint": "U+8E2A",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "蹴": {
+    "literal": "蹴",
+    "codepoint": "U+8E74",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "辣": {
+    "literal": "辣",
+    "codepoint": "U+8FA3",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "錮": {
+    "literal": "錮",
+    "codepoint": "U+932E",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "鍋": {
+    "literal": "鍋",
+    "codepoint": "U+934B",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "闘": {
+    "literal": "闘",
+    "codepoint": "U+95D8",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "駒": {
+    "literal": "駒",
+    "codepoint": "U+99D2",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "丘": {
+    "literal": "丘",
+    "codepoint": "U+4E18",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "両": {
+    "literal": "両",
+    "codepoint": "U+4E21",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "余": {
+    "literal": "余",
+    "codepoint": "U+4F59",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "俸": {
+    "literal": "俸",
+    "codepoint": "U+4FF8",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "兵": {
+    "literal": "兵",
+    "codepoint": "U+5175",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "冂": {
     "literal": "冂",
     "codepoint": "U+5182",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N4",
-    "stroke_count": 2,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64370,183 +65025,20 @@
       "en": []
     },
     "radical": {
-      "character": "冂",
-      "name_vi": "Quynh",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "冂",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Quynh"
-  },
-  "几": {
-    "literal": "几",
-    "codepoint": "U+51E0",
-    "node_type": "radical",
-    "jlpt": "N5",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "几",
-      "name_vi": "Kỷ",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "几",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Kỷ"
-  },
-  "凵": {
-    "literal": "凵",
-    "codepoint": "U+51F5",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "凵",
-      "name_vi": "Khảm",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "凵",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Khảm"
-  },
-  "勹": {
-    "literal": "勹",
-    "codepoint": "U+52F9",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "勹",
-      "name_vi": "Bao",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "勹",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Bao"
-  },
-  "匕": {
-    "literal": "匕",
-    "codepoint": "U+5315",
-    "node_type": "radical",
-    "jlpt": "N1",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "匕",
-      "name_vi": "Tỷ",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "匕",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Tỷ"
-  },
-  "匸": {
-    "literal": "匸",
-    "codepoint": "U+5338",
-    "node_type": "radical",
-    "jlpt": "N1",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "匸",
-      "name_vi": "Hễ",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "匸",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Hễ"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "卩": {
     "literal": "卩",
     "codepoint": "U+5369",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N2",
-    "stroke_count": 2,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64556,59 +65048,20 @@
       "en": []
     },
     "radical": {
-      "character": "卩",
-      "name_vi": "Tiết",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "卩",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Tiết"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "厶": {
-    "literal": "厶",
-    "codepoint": "U+53B6",
-    "node_type": "radical",
-    "jlpt": "N5",
-    "stroke_count": 2,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "厶",
-      "name_vi": "Khư",
-      "stroke_count": 2
-    },
-    "components": [
-      {
-        "character": "厶",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Khư"
-  },
-  "廴": {
-    "literal": "廴",
-    "codepoint": "U+5EF4",
-    "node_type": "radical",
+  "丷": {
+    "literal": "丷",
+    "codepoint": "U+4E37",
+    "node_type": "extra",
     "jlpt": "N2",
-    "stroke_count": 2,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64618,28 +65071,20 @@
       "en": []
     },
     "radical": {
-      "character": "廴",
-      "name_vi": "Dẫn",
-      "stroke_count": 2
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "廴",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Dẫn"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "弓": {
-    "literal": "弓",
-    "codepoint": "U+5F13",
-    "node_type": "radical",
+  "刂": {
+    "literal": "刂",
+    "codepoint": "U+5202",
+    "node_type": "extra",
     "jlpt": "N1",
-    "stroke_count": 3,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64649,59 +65094,20 @@
       "en": []
     },
     "radical": {
-      "character": "弓",
-      "name_vi": "Cung",
-      "stroke_count": 3
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "弓",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Cung"
-  },
-  "巾": {
-    "literal": "巾",
-    "codepoint": "U+5DFE",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "巾",
-      "name_vi": "Cân",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "巾",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Cân"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "囗": {
     "literal": "囗",
     "codepoint": "U+56D7",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N4",
-    "stroke_count": 3,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64711,276 +65117,20 @@
       "en": []
     },
     "radical": {
-      "character": "囗",
-      "name_vi": "Vi",
-      "stroke_count": 3
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "囗",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Vi"
-  },
-  "夂": {
-    "literal": "夂",
-    "codepoint": "U+5902",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "夂",
-      "name_vi": "Tri",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "夂",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Tri"
-  },
-  "夊": {
-    "literal": "夊",
-    "codepoint": "U+590A",
-    "node_type": "radical",
-    "jlpt": "N1",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "夊",
-      "name_vi": "Tuy",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "夊",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Tuy"
-  },
-  "尢": {
-    "literal": "尢",
-    "codepoint": "U+5C22",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "尢",
-      "name_vi": "Uông",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "尢",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Uông"
-  },
-  "巛": {
-    "literal": "巛",
-    "codepoint": "U+5DDB",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "巛",
-      "name_vi": "Xuyên",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "巛",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Xuyên"
-  },
-  "幺": {
-    "literal": "幺",
-    "codepoint": "U+5E7A",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "幺",
-      "name_vi": "Yêu",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "幺",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Yêu"
-  },
-  "广": {
-    "literal": "广",
-    "codepoint": "U+5E7F",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "广",
-      "name_vi": "Nghiễm",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "广",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Nghiễm"
-  },
-  "彡": {
-    "literal": "彡",
-    "codepoint": "U+5F61",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 3,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "彡",
-      "name_vi": "Sam",
-      "stroke_count": 3
-    },
-    "components": [
-      {
-        "character": "彡",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Sam"
-  },
-  "瓦": {
-    "literal": "瓦",
-    "codepoint": "U+74E6",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 4,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "瓦",
-      "name_vi": "Ngoã",
-      "stroke_count": 4
-    },
-    "components": [
-      {
-        "character": "瓦",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Ngoã"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "月": {
     "literal": "月",
     "codepoint": "U+6708",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N4",
-    "stroke_count": 4,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -64990,28 +65140,43 @@
       "en": []
     },
     "radical": {
-      "character": "月",
-      "name_vi": "Nguyệt",
-      "stroke_count": 4
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "月",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Nguyệt"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "片": {
-    "literal": "片",
-    "codepoint": "U+7247",
-    "node_type": "radical",
+  "氵": {
+    "literal": "氵",
+    "codepoint": "U+6C35",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "媛": {
+    "literal": "媛",
+    "codepoint": "U+5A9B",
+    "node_type": "extra",
     "jlpt": "N5",
-    "stroke_count": 4,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65021,28 +65186,20 @@
       "en": []
     },
     "radical": {
-      "character": "片",
-      "name_vi": "Phiến",
-      "stroke_count": 4
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "片",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Phiến"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "攴": {
-    "literal": "攴",
-    "codepoint": "U+6534",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 4,
+  "弐": {
+    "literal": "弐",
+    "codepoint": "U+5F10",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65052,28 +65209,20 @@
       "en": []
     },
     "radical": {
-      "character": "攴",
-      "name_vi": "Phác",
-      "stroke_count": 4
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "攴",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Phác"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "曰": {
-    "literal": "曰",
-    "codepoint": "U+66F0",
-    "node_type": "radical",
+  "捻": {
+    "literal": "捻",
+    "codepoint": "U+637B",
+    "node_type": "extra",
     "jlpt": "N3",
-    "stroke_count": 4,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65083,90 +65232,20 @@
       "en": []
     },
     "radical": {
-      "character": "曰",
-      "name_vi": "Viết",
-      "stroke_count": 4
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "曰",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Viết"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "歹": {
-    "literal": "歹",
-    "codepoint": "U+6B79",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 4,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "歹",
-      "name_vi": "Ngạt",
-      "stroke_count": 4
-    },
-    "components": [
-      {
-        "character": "歹",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Ngạt"
-  },
-  "毋": {
-    "literal": "毋",
-    "codepoint": "U+6BCB",
-    "node_type": "radical",
-    "jlpt": "N5",
-    "stroke_count": 4,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "毋",
-      "name_vi": "Vô",
-      "stroke_count": 4
-    },
-    "components": [
-      {
-        "character": "毋",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Vô"
-  },
-  "甘": {
-    "literal": "甘",
-    "codepoint": "U+7518",
-    "node_type": "radical",
+  "曹": {
+    "literal": "曹",
+    "codepoint": "U+66F9",
+    "node_type": "extra",
     "jlpt": "N4",
-    "stroke_count": 5,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65176,338 +65255,20 @@
       "en": []
     },
     "radical": {
-      "character": "甘",
-      "name_vi": "Cam",
-      "stroke_count": 5
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "甘",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Cam"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "疋": {
-    "literal": "疋",
-    "codepoint": "U+758B",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 5,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "疋",
-      "name_vi": "Sơ",
-      "stroke_count": 5
-    },
-    "components": [
-      {
-        "character": "疋",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Sơ"
-  },
-  "癶": {
-    "literal": "癶",
-    "codepoint": "U+7676",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 5,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "癶",
-      "name_vi": "Bát",
-      "stroke_count": 5
-    },
-    "components": [
-      {
-        "character": "癶",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Bát"
-  },
-  "臼": {
-    "literal": "臼",
-    "codepoint": "U+81FC",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "臼",
-      "name_vi": "Cữu",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "臼",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Cữu"
-  },
-  "而": {
-    "literal": "而",
-    "codepoint": "U+800C",
-    "node_type": "radical",
-    "jlpt": "N5",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "而",
-      "name_vi": "Nhi",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "而",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Nhi"
-  },
-  "虫": {
-    "literal": "虫",
-    "codepoint": "U+866B",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "虫",
-      "name_vi": "Trùng",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "虫",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Trùng"
-  },
-  "网": {
-    "literal": "网",
-    "codepoint": "U+7F51",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "网",
-      "name_vi": "Võng",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "网",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Võng"
-  },
-  "艸": {
-    "literal": "艸",
-    "codepoint": "U+8278",
-    "node_type": "radical",
-    "jlpt": "N5",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "艸",
-      "name_vi": "Thảo",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "艸",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Thảo"
-  },
-  "虍": {
-    "literal": "虍",
-    "codepoint": "U+864D",
-    "node_type": "radical",
-    "jlpt": "N4",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "虍",
-      "name_vi": "Hô",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "虍",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Hô"
-  },
-  "襾": {
-    "literal": "襾",
-    "codepoint": "U+897E",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 6,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "襾",
-      "name_vi": "Á",
-      "stroke_count": 6
-    },
-    "components": [
-      {
-        "character": "襾",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Á"
-  },
-  "釆": {
-    "literal": "釆",
-    "codepoint": "U+91C6",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 7,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "釆",
-      "name_vi": "Biện",
-      "stroke_count": 7
-    },
-    "components": [
-      {
-        "character": "釆",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Biện"
-  },
-  "邑": {
-    "literal": "邑",
-    "codepoint": "U+9091",
-    "node_type": "radical",
+  "桁": {
+    "literal": "桁",
+    "codepoint": "U+6841",
+    "node_type": "extra",
     "jlpt": "N1",
-    "stroke_count": 7,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65517,28 +65278,20 @@
       "en": []
     },
     "radical": {
-      "character": "邑",
-      "name_vi": "Ấp",
-      "stroke_count": 7
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "邑",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Ấp"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "豕": {
-    "literal": "豕",
-    "codepoint": "U+8C55",
-    "node_type": "radical",
+  "梗": {
+    "literal": "梗",
+    "codepoint": "U+6897",
+    "node_type": "extra",
     "jlpt": "N5",
-    "stroke_count": 7,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65548,28 +65301,1561 @@
       "en": []
     },
     "radical": {
-      "character": "豕",
-      "name_vi": "Thỉ",
-      "stroke_count": 7
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "豕",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Thỉ"
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "槽": {
+    "literal": "槽",
+    "codepoint": "U+69FD",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "溝": {
+    "literal": "溝",
+    "codepoint": "U+6E9D",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "潰": {
+    "literal": "潰",
+    "codepoint": "U+6F70",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "琴": {
+    "literal": "琴",
+    "codepoint": "U+7434",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "緻": {
+    "literal": "緻",
+    "codepoint": "U+7DFB",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "貪": {
+    "literal": "貪",
+    "codepoint": "U+8CAA",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "頓": {
+    "literal": "頓",
+    "codepoint": "U+9813",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "頰": {
+    "literal": "頰",
+    "codepoint": "U+9830",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "顎": {
+    "literal": "顎",
+    "codepoint": "U+984E",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "餅": {
+    "literal": "餅",
+    "codepoint": "U+9905",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "麗": {
+    "literal": "麗",
+    "codepoint": "U+9E97",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "亀": {
+    "literal": "亀",
+    "codepoint": "U+4E80",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "俺": {
+    "literal": "俺",
+    "codepoint": "U+4FFA",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "冥": {
+    "literal": "冥",
+    "codepoint": "U+51A5",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "卑": {
+    "literal": "卑",
+    "codepoint": "U+5351",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "履": {
+    "literal": "履",
+    "codepoint": "U+5C65",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弾": {
+    "literal": "弾",
+    "codepoint": "U+5F3E",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "彰": {
+    "literal": "彰",
+    "codepoint": "U+5F70",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "昧": {
+    "literal": "昧",
+    "codepoint": "U+6627",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "曖": {
+    "literal": "曖",
+    "codepoint": "U+66D6",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "曽": {
+    "literal": "曽",
+    "codepoint": "U+66FD",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "楷": {
+    "literal": "楷",
+    "codepoint": "U+6977",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "歴": {
+    "literal": "歴",
+    "codepoint": "U+6B74",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "漠": {
+    "literal": "漠",
+    "codepoint": "U+6F20",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "盟": {
+    "literal": "盟",
+    "codepoint": "U+76DF",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "稽": {
+    "literal": "稽",
+    "codepoint": "U+7A3D",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "箸": {
+    "literal": "箸",
+    "codepoint": "U+7BB8",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "簡": {
+    "literal": "簡",
+    "codepoint": "U+7C21",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "縄": {
+    "literal": "縄",
+    "codepoint": "U+7E04",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "腺": {
+    "literal": "腺",
+    "codepoint": "U+817A",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "複": {
+    "literal": "複",
+    "codepoint": "U+8907",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "褐": {
+    "literal": "褐",
+    "codepoint": "U+8910",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "覆": {
+    "literal": "覆",
+    "codepoint": "U+8986",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "賭": {
+    "literal": "賭",
+    "codepoint": "U+8CED",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "醒": {
+    "literal": "醒",
+    "codepoint": "U+9192",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "闇": {
+    "literal": "闇",
+    "codepoint": "U+95C7",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "韓": {
+    "literal": "韓",
+    "codepoint": "U+97D3",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "刹": {
+    "literal": "刹",
+    "codepoint": "U+5239",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "彙": {
+    "literal": "彙",
+    "codepoint": "U+5F59",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "枕": {
+    "literal": "枕",
+    "codepoint": "U+6795",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "枠": {
+    "literal": "枠",
+    "codepoint": "U+67A0",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "柵": {
+    "literal": "柵",
+    "codepoint": "U+67F5",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "柿": {
+    "literal": "柿",
+    "codepoint": "U+67FF",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "栃": {
+    "literal": "栃",
+    "codepoint": "U+6803",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "栓": {
+    "literal": "栓",
+    "codepoint": "U+6813",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "桟": {
+    "literal": "桟",
+    "codepoint": "U+685F",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "棚": {
+    "literal": "棚",
+    "codepoint": "U+68DA",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "磨": {
+    "literal": "磨",
+    "codepoint": "U+78E8",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "耗": {
+    "literal": "耗",
+    "codepoint": "U+8017",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "膝": {
+    "literal": "膝",
+    "codepoint": "U+819D",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "襟": {
+    "literal": "襟",
+    "codepoint": "U+895F",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "鬱": {
+    "literal": "鬱",
+    "codepoint": "U+9B31",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "魔": {
+    "literal": "魔",
+    "codepoint": "U+9B54",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "麓": {
+    "literal": "麓",
+    "codepoint": "U+9E93",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "八": {
+    "literal": "八",
+    "codepoint": "U+516B",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "典": {
+    "literal": "典",
+    "codepoint": "U+5178",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "漬": {
+    "literal": "漬",
+    "codepoint": "U+6F2C",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "匕": {
+    "literal": "匕",
+    "codepoint": "U+5315",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "窟": {
+    "literal": "窟",
+    "codepoint": "U+7A9F",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "窮": {
+    "literal": "窮",
+    "codepoint": "U+7AAE",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "翁": {
+    "literal": "翁",
+    "codepoint": "U+7FC1",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "雰": {
+    "literal": "雰",
+    "codepoint": "U+96F0",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "黄": {
+    "literal": "黄",
+    "codepoint": "U+9EC4",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "堆": {
+    "literal": "堆",
+    "codepoint": "U+5806",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⻖": {
+    "literal": "⻖",
+    "codepoint": "U+2ED6",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "塞": {
+    "literal": "塞",
+    "codepoint": "U+585E",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "塡": {
+    "literal": "塡",
+    "codepoint": "U+5861",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "豸": {
     "literal": "豸",
     "codepoint": "U+8C78",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N5",
-    "stroke_count": 7,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65579,28 +66865,20 @@
       "en": []
     },
     "radical": {
-      "character": "豸",
-      "name_vi": "Trĩ",
-      "stroke_count": 7
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "豸",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Trĩ"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "辵": {
-    "literal": "辵",
-    "codepoint": "U+8FB5",
-    "node_type": "radical",
-    "jlpt": "N1",
-    "stroke_count": 7,
+  "壌": {
+    "literal": "壌",
+    "codepoint": "U+58CC",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65610,28 +66888,503 @@
       "en": []
     },
     "radical": {
-      "character": "辵",
-      "name_vi": "Sước",
-      "stroke_count": 7
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "辵",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Sước"
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "挫": {
+    "literal": "挫",
+    "codepoint": "U+632B",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "摯": {
+    "literal": "摯",
+    "codepoint": "U+646F",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "毀": {
+    "literal": "毀",
+    "codepoint": "U+6BC0",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "睦": {
+    "literal": "睦",
+    "codepoint": "U+7766",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "瞳": {
+    "literal": "瞳",
+    "codepoint": "U+77B3",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "腫": {
+    "literal": "腫",
+    "codepoint": "U+816B",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "丿": {
+    "literal": "丿",
+    "codepoint": "U+4E3F",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "乏": {
+    "literal": "乏",
+    "codepoint": "U+4E4F",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "乗": {
+    "literal": "乗",
+    "codepoint": "U+4E57",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "及": {
+    "literal": "及",
+    "codepoint": "U+53CA",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "帥": {
+    "literal": "帥",
+    "codepoint": "U+5E25",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "戚": {
+    "literal": "戚",
+    "codepoint": "U+621A",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "戯": {
+    "literal": "戯",
+    "codepoint": "U+622F",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "戴": {
+    "literal": "戴",
+    "codepoint": "U+6234",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "歳": {
+    "literal": "歳",
+    "codepoint": "U+6B73",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "丨": {
+    "literal": "丨",
+    "codepoint": "U+4E28",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "虫": {
+    "literal": "虫",
+    "codepoint": "U+866B",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "畿": {
+    "literal": "畿",
+    "codepoint": "U+757F",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "羞": {
+    "literal": "羞",
+    "codepoint": "U+7F9E",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "翻": {
+    "literal": "翻",
+    "codepoint": "U+7FFB",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "蜜": {
+    "literal": "蜜",
+    "codepoint": "U+871C",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "阜": {
     "literal": "阜",
     "codepoint": "U+961C",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N2",
-    "stroke_count": 8,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65641,28 +67394,871 @@
       "en": []
     },
     "radical": {
-      "character": "阜",
-      "name_vi": "Phụ",
-      "stroke_count": 8
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "阜",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Phụ"
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "傘": {
+    "literal": "傘",
+    "codepoint": "U+5098",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "丶": {
+    "literal": "丶",
+    "codepoint": "U+4E36",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "䒑": {
+    "literal": "䒑",
+    "codepoint": "U+4491",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "脊": {
+    "literal": "脊",
+    "codepoint": "U+810A",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "丹": {
+    "literal": "丹",
+    "codepoint": "U+4E39",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "丼": {
+    "literal": "丼",
+    "codepoint": "U+4E3C",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "嫉": {
+    "literal": "嫉",
+    "codepoint": "U+5AC9",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "二": {
+    "literal": "二",
+    "codepoint": "U+4E8C",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "庸": {
+    "literal": "庸",
+    "codepoint": "U+5EB8",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⻏": {
+    "literal": "⻏",
+    "codepoint": "U+2ECF",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "旋": {
+    "literal": "旋",
+    "codepoint": "U+65CB",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "汎": {
+    "literal": "汎",
+    "codepoint": "U+6C4E",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "汰": {
+    "literal": "汰",
+    "codepoint": "U+6C70",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "痩": {
+    "literal": "痩",
+    "codepoint": "U+75E9",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "瘍": {
+    "literal": "瘍",
+    "codepoint": "U+760D",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "奈": {
+    "literal": "奈",
+    "codepoint": "U+5948",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "羅": {
+    "literal": "羅",
+    "codepoint": "U+7F85",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "遜": {
+    "literal": "遜",
+    "codepoint": "U+905C",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "隷": {
+    "literal": "隷",
+    "codepoint": "U+96B7",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "午": {
+    "literal": "午",
+    "codepoint": "U+5348",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "璧": {
+    "literal": "璧",
+    "codepoint": "U+74A7",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "聴": {
+    "literal": "聴",
+    "codepoint": "U+8074",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "袖": {
+    "literal": "袖",
+    "codepoint": "U+8896",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "辛": {
+    "literal": "辛",
+    "codepoint": "U+8F9B",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⻌": {
+    "literal": "⻌",
+    "codepoint": "U+2ECC",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "飛": {
+    "literal": "飛",
+    "codepoint": "U+98DB",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "氾": {
+    "literal": "氾",
+    "codepoint": "U+6C3E",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "沃": {
+    "literal": "沃",
+    "codepoint": "U+6C83",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "淫": {
+    "literal": "淫",
+    "codepoint": "U+6DEB",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "溺": {
+    "literal": "溺",
+    "codepoint": "U+6EBA",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "潟": {
+    "literal": "潟",
+    "codepoint": "U+6F5F",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "亻": {
+    "literal": "亻",
+    "codepoint": "U+4EBB",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "厶": {
+    "literal": "厶",
+    "codepoint": "U+53B6",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "𠂇": {
+    "literal": "𠂇",
+    "codepoint": "U+20087",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "𠂉": {
+    "literal": "𠂉",
+    "codepoint": "U+20089",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "夂": {
+    "literal": "夂",
+    "codepoint": "U+5902",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "龶": {
+    "literal": "龶",
+    "codepoint": "U+9FB6",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
   "隹": {
     "literal": "隹",
     "codepoint": "U+96B9",
-    "node_type": "radical",
+    "node_type": "extra",
     "jlpt": "N5",
-    "stroke_count": 8,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65672,28 +68268,20 @@
       "en": []
     },
     "radical": {
-      "character": "隹",
-      "name_vi": "Chuy",
-      "stroke_count": 8
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "隹",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Chuy"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "髟": {
-    "literal": "髟",
-    "codepoint": "U+9ADF",
-    "node_type": "radical",
+  "僅": {
+    "literal": "僅",
+    "codepoint": "U+50C5",
+    "node_type": "extra",
     "jlpt": "N3",
-    "stroke_count": 10,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65703,59 +68291,20 @@
       "en": []
     },
     "radical": {
-      "character": "髟",
-      "name_vi": "Tiêu",
-      "stroke_count": 10
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "髟",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Tiêu"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "麥": {
-    "literal": "麥",
-    "codepoint": "U+9EA5",
-    "node_type": "radical",
-    "jlpt": "N2",
-    "stroke_count": 11,
-    "readings": {
-      "on": [],
-      "kun": []
-    },
-    "meanings": {
-      "vi": [],
-      "en": []
-    },
-    "radical": {
-      "character": "麥",
-      "name_vi": "Mạch",
-      "stroke_count": 11
-    },
-    "components": [
-      {
-        "character": "麥",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Mạch"
-  },
-  "黑": {
-    "literal": "黑",
-    "codepoint": "U+9ED1",
-    "node_type": "radical",
+  "靴": {
+    "literal": "靴",
+    "codepoint": "U+9774",
+    "node_type": "extra",
     "jlpt": "N3",
-    "stroke_count": 12,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65765,28 +68314,112 @@
       "en": []
     },
     "radical": {
-      "character": "黑",
-      "name_vi": "Hắc",
-      "stroke_count": 12
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "黑",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Hắc"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "齒": {
-    "literal": "齒",
-    "codepoint": "U+9F52",
-    "node_type": "radical",
+  "惧": {
+    "literal": "惧",
+    "codepoint": "U+60E7",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "岬": {
+    "literal": "岬",
+    "codepoint": "U+5CAC",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "瑠": {
+    "literal": "瑠",
+    "codepoint": "U+7460",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "甲": {
+    "literal": "甲",
+    "codepoint": "U+7532",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "畏": {
+    "literal": "畏",
+    "codepoint": "U+754F",
+    "node_type": "extra",
     "jlpt": "N4",
-    "stroke_count": 15,
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65796,28 +68429,20 @@
       "en": []
     },
     "radical": {
-      "character": "齒",
-      "name_vi": "Xỉ",
-      "stroke_count": 15
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "齒",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Xỉ"
+    "components": [],
+    "tags": [],
+    "han_viet": null
   },
-  "戶": {
-    "literal": "戶",
-    "codepoint": "U+6236",
-    "node_type": "radical",
-    "jlpt": "N3",
-    "stroke_count": 999,
+  "畝": {
+    "literal": "畝",
+    "codepoint": "U+755D",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
     "readings": {
       "on": [],
       "kun": []
@@ -65827,20 +68452,3232 @@
       "en": []
     },
     "radical": {
-      "character": "戶",
-      "name_vi": "Hộ",
-      "stroke_count": 999
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
     },
-    "components": [
-      {
-        "character": "戶",
-        "role": "radical",
-        "position": null
-      }
-    ],
-    "tags": [
-      "radical"
-    ],
-    "han_viet": "Hộ"
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "五": {
+    "literal": "五",
+    "codepoint": "U+4E94",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "井": {
+    "literal": "井",
+    "codepoint": "U+4E95",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "玩": {
+    "literal": "玩",
+    "codepoint": "U+73A9",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "粛": {
+    "literal": "粛",
+    "codepoint": "U+7C9B",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "鍵": {
+    "literal": "鍵",
+    "codepoint": "U+9375",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "披": {
+    "literal": "披",
+    "codepoint": "U+62AB",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "拉": {
+    "literal": "拉",
+    "codepoint": "U+62C9",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "拭": {
+    "literal": "拭",
+    "codepoint": "U+62ED",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "挑": {
+    "literal": "挑",
+    "codepoint": "U+6311",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "挟": {
+    "literal": "挟",
+    "codepoint": "U+631F",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "挨": {
+    "literal": "挨",
+    "codepoint": "U+6328",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "挿": {
+    "literal": "挿",
+    "codepoint": "U+633F",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "捗": {
+    "literal": "捗",
+    "codepoint": "U+6357",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "又": {
+    "literal": "又",
+    "codepoint": "U+53C8",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "股": {
+    "literal": "股",
+    "codepoint": "U+80A1",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "腎": {
+    "literal": "腎",
+    "codepoint": "U+814E",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "幺": {
+    "literal": "幺",
+    "codepoint": "U+5E7A",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "舷": {
+    "literal": "舷",
+    "codepoint": "U+8237",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "岡": {
+    "literal": "岡",
+    "codepoint": "U+5CA1",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "凝": {
+    "literal": "凝",
+    "codepoint": "U+51DD",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "爽": {
+    "literal": "爽",
+    "codepoint": "U+723D",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "亠": {
+    "literal": "亠",
+    "codepoint": "U+4EA0",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "斑": {
+    "literal": "斑",
+    "codepoint": "U+6591",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "衰": {
+    "literal": "衰",
+    "codepoint": "U+8870",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "衷": {
+    "literal": "衷",
+    "codepoint": "U+8877",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "襲": {
+    "literal": "襲",
+    "codepoint": "U+8972",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "諦": {
+    "literal": "諦",
+    "codepoint": "U+8AE6",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "𠃊": {
+    "literal": "𠃊",
+    "codepoint": "U+200CA",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "乂": {
+    "literal": "乂",
+    "codepoint": "U+4E42",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "忄": {
+    "literal": "忄",
+    "codepoint": "U+5FC4",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "危": {
+    "literal": "危",
+    "codepoint": "U+5371",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "芯": {
+    "literal": "芯",
+    "codepoint": "U+82AF",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "茨": {
+    "literal": "茨",
+    "codepoint": "U+8328",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "萎": {
+    "literal": "萎",
+    "codepoint": "U+840E",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "葛": {
+    "literal": "葛",
+    "codepoint": "U+845B",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "蓋": {
+    "literal": "蓋",
+    "codepoint": "U+84CB",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "蔑": {
+    "literal": "蔑",
+    "codepoint": "U+8511",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "蔽": {
+    "literal": "蔽",
+    "codepoint": "U+853D",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "藤": {
+    "literal": "藤",
+    "codepoint": "U+85E4",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "宛": {
+    "literal": "宛",
+    "codepoint": "U+5B9B",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "稼": {
+    "literal": "稼",
+    "codepoint": "U+7A3C",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "綻": {
+    "literal": "綻",
+    "codepoint": "U+7DBB",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "煎": {
+    "literal": "煎",
+    "codepoint": "U+714E",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "熊": {
+    "literal": "熊",
+    "codepoint": "U+718A",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "籠": {
+    "literal": "籠",
+    "codepoint": "U+7C60",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "罷": {
+    "literal": "罷",
+    "codepoint": "U+7F77",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "肘": {
+    "literal": "肘",
+    "codepoint": "U+8098",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "脇": {
+    "literal": "脇",
+    "codepoint": "U+8107",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "覇": {
+    "literal": "覇",
+    "codepoint": "U+8987",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "遡": {
+    "literal": "遡",
+    "codepoint": "U+9061",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "羨": {
+    "literal": "羨",
+    "codepoint": "U+7FA8",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "怨": {
+    "literal": "怨",
+    "codepoint": "U+6028",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "恣": {
+    "literal": "恣",
+    "codepoint": "U+6063",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "乞": {
+    "literal": "乞",
+    "codepoint": "U+4E5E",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "乾": {
+    "literal": "乾",
+    "codepoint": "U+4E7E",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "勾": {
+    "literal": "勾",
+    "codepoint": "U+52FE",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "強": {
+    "literal": "強",
+    "codepoint": "U+5F37",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "凄": {
+    "literal": "凄",
+    "codepoint": "U+51C4",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "妖": {
+    "literal": "妖",
+    "codepoint": "U+5996",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "妬": {
+    "literal": "妬",
+    "codepoint": "U+59AC",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "要": {
+    "literal": "要",
+    "codepoint": "U+8981",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "彐": {
+    "literal": "彐",
+    "codepoint": "U+5F50",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "串": {
+    "literal": "串",
+    "codepoint": "U+4E32",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "出": {
+    "literal": "出",
+    "codepoint": "U+51FA",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弔": {
+    "literal": "弔",
+    "codepoint": "U+5F14",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "引": {
+    "literal": "引",
+    "codepoint": "U+5F15",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "篤": {
+    "literal": "篤",
+    "codepoint": "U+7BE4",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "罵": {
+    "literal": "罵",
+    "codepoint": "U+7F75",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "凵": {
+    "literal": "凵",
+    "codepoint": "U+51F5",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弓": {
+    "literal": "弓",
+    "codepoint": "U+5F13",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "導": {
+    "literal": "導",
+    "codepoint": "U+5C0E",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "爵": {
+    "literal": "爵",
+    "codepoint": "U+7235",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "酎": {
+    "literal": "酎",
+    "codepoint": "U+914E",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "辶": {
+    "literal": "辶",
+    "codepoint": "U+8FB6",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "蜂": {
+    "literal": "蜂",
+    "codepoint": "U+8702",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "酸": {
+    "literal": "酸",
+    "codepoint": "U+9178",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "麺": {
+    "literal": "麺",
+    "codepoint": "U+9EBA",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "匂": {
+    "literal": "匂",
+    "codepoint": "U+5302",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "北": {
+    "literal": "北",
+    "codepoint": "U+5317",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "剝": {
+    "literal": "剝",
+    "codepoint": "U+525D",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "班": {
+    "literal": "班",
+    "codepoint": "U+73ED",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "巾": {
+    "literal": "巾",
+    "codepoint": "U+5DFE",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "几": {
+    "literal": "几",
+    "codepoint": "U+51E0",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⺮": {
+    "literal": "⺮",
+    "codepoint": "U+2EAE",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "勹": {
+    "literal": "勹",
+    "codepoint": "U+52F9",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弄": {
+    "literal": "弄",
+    "codepoint": "U+5F04",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "球": {
+    "literal": "球",
+    "codepoint": "U+7403",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "璽": {
+    "literal": "璽",
+    "codepoint": "U+74BD",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "釜": {
+    "literal": "釜",
+    "codepoint": "U+91DC",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "幣": {
+    "literal": "幣",
+    "codepoint": "U+5E63",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "赦": {
+    "literal": "赦",
+    "codepoint": "U+8D66",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "誰": {
+    "literal": "誰",
+    "codepoint": "U+8AB0",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "離": {
+    "literal": "離",
+    "codepoint": "U+96E2",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "並": {
+    "literal": "並",
+    "codepoint": "U+4E26",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "业": {
+    "literal": "业",
+    "codepoint": "U+4E1A",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "勃": {
+    "literal": "勃",
+    "codepoint": "U+52C3",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弱": {
+    "literal": "弱",
+    "codepoint": "U+5F31",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "巛": {
+    "literal": "巛",
+    "codepoint": "U+5DDB",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "衤": {
+    "literal": "衤",
+    "codepoint": "U+8864",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "隅": {
+    "literal": "隅",
+    "codepoint": "U+9685",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "隙": {
+    "literal": "隙",
+    "codepoint": "U+9699",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "隠": {
+    "literal": "隠",
+    "codepoint": "U+96A0",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "慄": {
+    "literal": "慄",
+    "codepoint": "U+6144",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "崖": {
+    "literal": "崖",
+    "codepoint": "U+5D16",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "幹": {
+    "literal": "幹",
+    "codepoint": "U+5E79",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "斬": {
+    "literal": "斬",
+    "codepoint": "U+65AC",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "既": {
+    "literal": "既",
+    "codepoint": "U+65E2",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⺈": {
+    "literal": "⺈",
+    "codepoint": "U+2E88",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "争": {
+    "literal": "争",
+    "codepoint": "U+4E89",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "象": {
+    "literal": "象",
+    "codepoint": "U+8C61",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "釒": {
+    "literal": "釒",
+    "codepoint": "U+91D2",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "築": {
+    "literal": "築",
+    "codepoint": "U+7BC9",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "𥫗": {
+    "literal": "𥫗",
+    "codepoint": "U+25AD7",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "凸": {
+    "literal": "凸",
+    "codepoint": "U+51F8",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "凹": {
+    "literal": "凹",
+    "codepoint": "U+51F9",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "醸": {
+    "literal": "醸",
+    "codepoint": "U+91B8",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弥": {
+    "literal": "弥",
+    "codepoint": "U+5F25",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "弧": {
+    "literal": "弧",
+    "codepoint": "U+5F27",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "張": {
+    "literal": "張",
+    "codepoint": "U+5F35",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "彡": {
+    "literal": "彡",
+    "codepoint": "U+5F61",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "𤣩": {
+    "literal": "𤣩",
+    "codepoint": "U+248E9",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⺍": {
+    "literal": "⺍",
+    "codepoint": "U+2E8D",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "那": {
+    "literal": "那",
+    "codepoint": "U+90A3",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "餌": {
+    "literal": "餌",
+    "codepoint": "U+990C",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "世": {
+    "literal": "世",
+    "codepoint": "U+4E16",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "虚": {
+    "literal": "虚",
+    "codepoint": "U+865A",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "裕": {
+    "literal": "裕",
+    "codepoint": "U+88D5",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "狙": {
+    "literal": "狙",
+    "codepoint": "U+72D9",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "犭": {
+    "literal": "犭",
+    "codepoint": "U+72AD",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "龴": {
+    "literal": "龴",
+    "codepoint": "U+9FB4",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "虍": {
+    "literal": "虍",
+    "codepoint": "U+864D",
+    "node_type": "extra",
+    "jlpt": "N4",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "虐": {
+    "literal": "虐",
+    "codepoint": "U+8650",
+    "node_type": "extra",
+    "jlpt": "N1",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "廴": {
+    "literal": "廴",
+    "codepoint": "U+5EF4",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "当": {
+    "literal": "当",
+    "codepoint": "U+5F53",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "⻊": {
+    "literal": "⻊",
+    "codepoint": "U+2ECA",
+    "node_type": "extra",
+    "jlpt": "N2",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "州": {
+    "literal": "州",
+    "codepoint": "U+5DDE",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "箋": {
+    "literal": "箋",
+    "codepoint": "U+7B8B",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "貌": {
+    "literal": "貌",
+    "codepoint": "U+8C8C",
+    "node_type": "extra",
+    "jlpt": "N5",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "鶴": {
+    "literal": "鶴",
+    "codepoint": "U+9DB4",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
+  },
+  "璃": {
+    "literal": "璃",
+    "codepoint": "U+7483",
+    "node_type": "extra",
+    "jlpt": "N3",
+    "stroke_count": null,
+    "readings": {
+      "on": [],
+      "kun": []
+    },
+    "meanings": {
+      "vi": [],
+      "en": []
+    },
+    "radical": {
+      "character": null,
+      "name_vi": null,
+      "stroke_count": null
+    },
+    "components": [],
+    "tags": [],
+    "han_viet": null
   }
 }
