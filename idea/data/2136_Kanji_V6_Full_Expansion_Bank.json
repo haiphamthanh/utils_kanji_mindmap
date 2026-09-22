@@ -1,0 +1,9382 @@
+[
+  {
+    "id": "M151",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "乱",
+      "享",
+      "京",
+      "亭",
+      "伺",
+      "何",
+      "使",
+      "侶"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "乱",
+      "享",
+      "京",
+      "亭",
+      "伺",
+      "何",
+      "使",
+      "侶"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M152",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "促",
+      "倉",
+      "個",
+      "倍",
+      "克",
+      "党",
+      "冶",
+      "凍"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "促",
+      "倉",
+      "個",
+      "倍",
+      "克",
+      "党",
+      "冶",
+      "凍"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M153",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "剖",
+      "割",
+      "創",
+      "加",
+      "勅",
+      "匿",
+      "占",
+      "古"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "剖",
+      "割",
+      "創",
+      "加",
+      "勅",
+      "匿",
+      "占",
+      "古"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M154",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "句",
+      "叫",
+      "召",
+      "可",
+      "台",
+      "右",
+      "号",
+      "司"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "句",
+      "叫",
+      "召",
+      "可",
+      "台",
+      "右",
+      "号",
+      "司"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M155",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "各",
+      "合",
+      "吉",
+      "同",
+      "名",
+      "后",
+      "吏",
+      "吐"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "各",
+      "合",
+      "吉",
+      "同",
+      "名",
+      "后",
+      "吏",
+      "吐"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M156",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "君",
+      "否",
+      "含",
+      "呂",
+      "呈",
+      "呉",
+      "告",
+      "周"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "君",
+      "否",
+      "含",
+      "呂",
+      "呈",
+      "呉",
+      "告",
+      "周"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M157",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "呪",
+      "命",
+      "咲",
+      "咽",
+      "哀",
+      "員",
+      "哲",
+      "哺"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "呪",
+      "命",
+      "咲",
+      "咽",
+      "哀",
+      "員",
+      "哲",
+      "哺"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M158",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "唄",
+      "唆",
+      "唇",
+      "唐",
+      "唯",
+      "唱",
+      "唾",
+      "啓"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "唄",
+      "唆",
+      "唇",
+      "唐",
+      "唯",
+      "唱",
+      "唾",
+      "啓"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M159",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "喉",
+      "喚",
+      "喝",
+      "喩",
+      "喫",
+      "嗅",
+      "嗣",
+      "嘆"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "喉",
+      "喚",
+      "喝",
+      "喩",
+      "喫",
+      "嗅",
+      "嗣",
+      "嘆"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M160",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "嘱",
+      "嘲",
+      "噴",
+      "嚇",
+      "囲",
+      "固",
+      "園",
+      "域"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "嘱",
+      "嘲",
+      "噴",
+      "嚇",
+      "囲",
+      "固",
+      "園",
+      "域"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M161",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "培",
+      "埼",
+      "堂",
+      "塔",
+      "塾",
+      "奇",
+      "如",
+      "始"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "培",
+      "埼",
+      "堂",
+      "塔",
+      "塾",
+      "奇",
+      "如",
+      "始"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M162",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "姻",
+      "娯",
+      "嫡",
+      "宮",
+      "寄",
+      "尋",
+      "尚",
+      "就"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "姻",
+      "娯",
+      "嫡",
+      "宮",
+      "寄",
+      "尋",
+      "尚",
+      "就"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M163",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "局",
+      "居",
+      "崎",
+      "常",
+      "店",
+      "彫",
+      "怠",
+      "恩"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "局",
+      "居",
+      "崎",
+      "常",
+      "店",
+      "彫",
+      "怠",
+      "恩"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M164",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "悟",
+      "悦",
+      "惑",
+      "憩",
+      "憬",
+      "憲",
+      "憾",
+      "拐"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "悟",
+      "悦",
+      "惑",
+      "憩",
+      "憬",
+      "憲",
+      "憾",
+      "拐"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M165",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "拘",
+      "招",
+      "括",
+      "拾",
+      "捉",
+      "据",
+      "掌",
+      "損"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "拘",
+      "招",
+      "括",
+      "拾",
+      "捉",
+      "据",
+      "掌",
+      "損"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M166",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "搭",
+      "摘",
+      "操",
+      "故",
+      "敬",
+      "敵",
+      "昭",
+      "景"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "搭",
+      "摘",
+      "操",
+      "故",
+      "敬",
+      "敵",
+      "昭",
+      "景"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M167",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "枯",
+      "架",
+      "格",
+      "棟",
+      "樹",
+      "橋",
+      "沼",
+      "沿"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "枯",
+      "架",
+      "格",
+      "棟",
+      "樹",
+      "橋",
+      "沼",
+      "沿"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M168",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "況",
+      "洞",
+      "活",
+      "涼",
+      "減",
+      "渦",
+      "滴",
+      "漢"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "況",
+      "洞",
+      "活",
+      "涼",
+      "減",
+      "渦",
+      "滴",
+      "漢"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M169",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "澄",
+      "瀬",
+      "点",
+      "照",
+      "燥",
+      "猿",
+      "獄",
+      "獣"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "澄",
+      "瀬",
+      "点",
+      "照",
+      "燥",
+      "猿",
+      "獄",
+      "獣"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M170",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "略",
+      "疎",
+      "痘",
+      "痴",
+      "登",
+      "短",
+      "矯",
+      "祝"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "略",
+      "疎",
+      "痘",
+      "痴",
+      "登",
+      "短",
+      "矯",
+      "祝"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M171",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "禍",
+      "程",
+      "稿",
+      "競",
+      "筒",
+      "箇",
+      "粘",
+      "糖"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "禍",
+      "程",
+      "稿",
+      "競",
+      "筒",
+      "箇",
+      "粘",
+      "糖"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M172",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "紹",
+      "絡",
+      "絹",
+      "繕",
+      "繰",
+      "群",
+      "聖",
+      "胎"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "紹",
+      "絡",
+      "絹",
+      "繕",
+      "繰",
+      "群",
+      "聖",
+      "胎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M173",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "胴",
+      "膨",
+      "臨",
+      "舌",
+      "舎",
+      "舗",
+      "艶",
+      "苛"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "胴",
+      "膨",
+      "臨",
+      "舌",
+      "舎",
+      "舗",
+      "艶",
+      "苛"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M174",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "若",
+      "苦",
+      "落",
+      "藻",
+      "虞",
+      "融",
+      "裾",
+      "褒"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "若",
+      "苦",
+      "落",
+      "藻",
+      "虞",
+      "融",
+      "裾",
+      "褒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M175",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "訃",
+      "計",
+      "討",
+      "訓",
+      "託",
+      "訟",
+      "設",
+      "許"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "訃",
+      "計",
+      "討",
+      "訓",
+      "託",
+      "訟",
+      "設",
+      "許"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M176",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "訴",
+      "詐",
+      "詔",
+      "詞",
+      "詠",
+      "詣",
+      "詩",
+      "詮"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "訴",
+      "詐",
+      "詔",
+      "詞",
+      "詠",
+      "詣",
+      "詩",
+      "詮"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M177",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "詰",
+      "該",
+      "詳",
+      "誇",
+      "誌",
+      "誕",
+      "課",
+      "調"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "詰",
+      "該",
+      "詳",
+      "誇",
+      "誌",
+      "誕",
+      "課",
+      "調"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M178",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "談",
+      "請",
+      "諧",
+      "諮",
+      "諸",
+      "諾",
+      "謀",
+      "謁"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "談",
+      "請",
+      "諧",
+      "諮",
+      "諸",
+      "諾",
+      "謀",
+      "謁"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M179",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "謎",
+      "謙",
+      "講",
+      "謹",
+      "識",
+      "譜",
+      "警",
+      "譲"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "謎",
+      "謙",
+      "講",
+      "謹",
+      "識",
+      "譜",
+      "警",
+      "譲"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M180",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "豆",
+      "豊",
+      "豪",
+      "貼",
+      "賀",
+      "賂",
+      "賞",
+      "賠"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "豆",
+      "豊",
+      "豪",
+      "貼",
+      "賀",
+      "賂",
+      "賞",
+      "賠"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M181",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "超",
+      "距",
+      "践",
+      "踏",
+      "踪",
+      "蹴",
+      "躍",
+      "轄"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "超",
+      "距",
+      "践",
+      "踏",
+      "踪",
+      "蹴",
+      "躍",
+      "轄"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M182",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "辞",
+      "辣",
+      "速",
+      "造",
+      "過",
+      "遠",
+      "適",
+      "還"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "辞",
+      "辣",
+      "速",
+      "造",
+      "過",
+      "遠",
+      "適",
+      "還"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M183",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "郡",
+      "郭",
+      "酪",
+      "酷",
+      "鉛",
+      "銅",
+      "銘",
+      "鋭"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "郡",
+      "郭",
+      "酪",
+      "酷",
+      "鉛",
+      "銅",
+      "銘",
+      "鋭"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M184",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "錬",
+      "錮",
+      "鍋",
+      "閣",
+      "閲",
+      "闘",
+      "陪",
+      "陳"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "錬",
+      "錮",
+      "鍋",
+      "閣",
+      "閲",
+      "闘",
+      "陪",
+      "陳"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M185",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "隔",
+      "露",
+      "韻",
+      "頭",
+      "頼",
+      "額",
+      "飼",
+      "駒"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "隔",
+      "露",
+      "韻",
+      "頭",
+      "頼",
+      "額",
+      "飼",
+      "駒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M186",
+    "title": "Formation family 口",
+    "chain": [
+      "事",
+      "高",
+      "鯨",
+      "鳴",
+      "鼓"
+    ],
+    "logic": "Bridge qua component 口; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "口",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "高",
+      "鯨",
+      "鳴",
+      "鼓"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M187",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "丘",
+      "丙",
+      "両",
+      "今",
+      "令",
+      "但",
+      "低",
+      "余"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "丘",
+      "丙",
+      "両",
+      "今",
+      "令",
+      "但",
+      "低",
+      "余"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M188",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "併",
+      "例",
+      "便",
+      "俸",
+      "倒",
+      "倫",
+      "儒",
+      "優"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "併",
+      "例",
+      "便",
+      "俸",
+      "倒",
+      "倫",
+      "儒",
+      "優"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M189",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "兵",
+      "冷",
+      "列",
+      "到",
+      "叙",
+      "吟",
+      "型",
+      "垣"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "兵",
+      "冷",
+      "列",
+      "到",
+      "叙",
+      "吟",
+      "型",
+      "垣"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M190",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "塀",
+      "塗",
+      "壇",
+      "天",
+      "奉",
+      "威",
+      "媛",
+      "宇"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "塀",
+      "塗",
+      "壇",
+      "天",
+      "奉",
+      "威",
+      "媛",
+      "宇"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M191",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "宣",
+      "寡",
+      "屋",
+      "岳",
+      "底",
+      "延",
+      "弐",
+      "征"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "宣",
+      "寡",
+      "屋",
+      "岳",
+      "底",
+      "延",
+      "弐",
+      "征"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M192",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "徐",
+      "得",
+      "念",
+      "恒",
+      "愉",
+      "憂",
+      "懲",
+      "戸"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "徐",
+      "得",
+      "念",
+      "恒",
+      "愉",
+      "憂",
+      "懲",
+      "戸"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M193",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "戻",
+      "房",
+      "所",
+      "扇",
+      "扉",
+      "抵",
+      "担",
+      "拝"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "戻",
+      "房",
+      "所",
+      "扇",
+      "扉",
+      "抵",
+      "担",
+      "拝"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M194",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "捻",
+      "揚",
+      "握",
+      "撮",
+      "斜",
+      "旦",
+      "暁",
+      "暖"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "捻",
+      "揚",
+      "握",
+      "撮",
+      "斜",
+      "旦",
+      "暁",
+      "暖"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M195",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "曲",
+      "更",
+      "曹",
+      "替",
+      "最",
+      "朕",
+      "柄",
+      "桁"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "曲",
+      "更",
+      "曹",
+      "替",
+      "最",
+      "朕",
+      "柄",
+      "桁"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M196",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "梗",
+      "棒",
+      "極",
+      "構",
+      "槽",
+      "殉",
+      "殊",
+      "残"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "梗",
+      "棒",
+      "極",
+      "構",
+      "槽",
+      "殉",
+      "殊",
+      "残"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M197",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "殖",
+      "汽",
+      "浜",
+      "涙",
+      "添",
+      "湯",
+      "満",
+      "溝"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "殖",
+      "汽",
+      "浜",
+      "涙",
+      "添",
+      "湯",
+      "満",
+      "溝"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M198",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "滅",
+      "潰",
+      "濃",
+      "烈",
+      "無",
+      "煩",
+      "琴",
+      "瓶"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "滅",
+      "潰",
+      "濃",
+      "烈",
+      "無",
+      "煩",
+      "琴",
+      "瓶"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M199",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "症",
+      "百",
+      "直",
+      "硬",
+      "窒",
+      "端",
+      "糧",
+      "緩"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "症",
+      "百",
+      "直",
+      "硬",
+      "窒",
+      "端",
+      "糧",
+      "緩"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M200",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "緻",
+      "置",
+      "耐",
+      "肩",
+      "胆",
+      "至",
+      "致",
+      "芋"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "緻",
+      "置",
+      "耐",
+      "肩",
+      "胆",
+      "至",
+      "致",
+      "芋"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M201",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "蚕",
+      "術",
+      "衝",
+      "衡",
+      "裂",
+      "覧",
+      "諭",
+      "貪"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "蚕",
+      "術",
+      "衝",
+      "衡",
+      "裂",
+      "覧",
+      "諭",
+      "貪"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M202",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "貴",
+      "賓",
+      "賦",
+      "購",
+      "輝",
+      "農",
+      "送",
+      "途"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "貴",
+      "賓",
+      "賦",
+      "購",
+      "輝",
+      "農",
+      "送",
+      "途"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M203",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "遣",
+      "遭",
+      "邸",
+      "鈴",
+      "鉢",
+      "開",
+      "除",
+      "陽"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "遣",
+      "遭",
+      "邸",
+      "鈴",
+      "鉢",
+      "開",
+      "除",
+      "陽"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M204",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "雇",
+      "零",
+      "需",
+      "霊",
+      "頂",
+      "頃",
+      "項",
+      "須"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "雇",
+      "零",
+      "需",
+      "霊",
+      "頂",
+      "頃",
+      "項",
+      "須"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M205",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "預",
+      "頑",
+      "頒",
+      "頓",
+      "領",
+      "頰",
+      "頻",
+      "題"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "預",
+      "頑",
+      "頒",
+      "頓",
+      "領",
+      "頰",
+      "頻",
+      "題"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M206",
+    "title": "Formation family 一",
+    "chain": [
+      "事",
+      "顎",
+      "顔",
+      "顕",
+      "類",
+      "顧",
+      "餅",
+      "麗"
+    ],
+    "logic": "Bridge qua component 一; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "一",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "事"
+    ],
+    "new_kanji": [
+      "顎",
+      "顔",
+      "顕",
+      "類",
+      "顧",
+      "餅",
+      "麗"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M207",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "亀",
+      "伯",
+      "俺",
+      "借",
+      "僧",
+      "億",
+      "児",
+      "冒"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "亀",
+      "伯",
+      "俺",
+      "借",
+      "僧",
+      "億",
+      "児",
+      "冒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M208",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "冥",
+      "卑",
+      "卓",
+      "厚",
+      "堤",
+      "増",
+      "宴",
+      "層"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "冥",
+      "卑",
+      "卓",
+      "厚",
+      "堤",
+      "増",
+      "宴",
+      "層"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M209",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "履",
+      "帽",
+      "弾",
+      "彰",
+      "悼",
+      "惜",
+      "慢",
+      "憎"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "履",
+      "帽",
+      "弾",
+      "彰",
+      "悼",
+      "惜",
+      "慢",
+      "憎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M210",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "拍",
+      "指",
+      "措",
+      "掲",
+      "提",
+      "旧",
+      "旨",
+      "早"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "拍",
+      "指",
+      "措",
+      "掲",
+      "提",
+      "旧",
+      "旨",
+      "早"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M211",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "旬",
+      "旺",
+      "昆",
+      "昇",
+      "易",
+      "星",
+      "映",
+      "昧"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "旬",
+      "旺",
+      "昆",
+      "昇",
+      "易",
+      "星",
+      "映",
+      "昧"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M212",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "昨",
+      "是",
+      "晩",
+      "普",
+      "晶",
+      "暇",
+      "暑",
+      "暗"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "昨",
+      "是",
+      "晩",
+      "普",
+      "晶",
+      "暇",
+      "暑",
+      "暗"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M213",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "暫",
+      "暮",
+      "暴",
+      "曇",
+      "曖",
+      "曜",
+      "曽",
+      "楷"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "暫",
+      "暮",
+      "暴",
+      "曇",
+      "曖",
+      "曜",
+      "曽",
+      "楷"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M214",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "歴",
+      "泉",
+      "泊",
+      "混",
+      "渇",
+      "温",
+      "滝",
+      "漠"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "歴",
+      "泉",
+      "泊",
+      "混",
+      "渇",
+      "温",
+      "滝",
+      "漠"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M215",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "漫",
+      "潮",
+      "激",
+      "煮",
+      "爆",
+      "白",
+      "的",
+      "皆"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "漫",
+      "潮",
+      "激",
+      "煮",
+      "爆",
+      "白",
+      "的",
+      "皆"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M216",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "皇",
+      "盟",
+      "禅",
+      "稽",
+      "竜",
+      "章",
+      "箸",
+      "簡"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "皇",
+      "盟",
+      "禅",
+      "稽",
+      "竜",
+      "章",
+      "箸",
+      "簡"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M217",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "綿",
+      "緒",
+      "縄",
+      "署",
+      "者",
+      "脂",
+      "腸",
+      "腹"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "綿",
+      "緒",
+      "縄",
+      "署",
+      "者",
+      "脂",
+      "腸",
+      "腹"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M218",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "腺",
+      "臆",
+      "舶",
+      "草",
+      "著",
+      "複",
+      "褐",
+      "覆"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "腺",
+      "臆",
+      "舶",
+      "草",
+      "著",
+      "複",
+      "褐",
+      "覆"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M219",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "賜",
+      "賭",
+      "贈",
+      "迫",
+      "都",
+      "醒",
+      "錦",
+      "錯"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "賜",
+      "賭",
+      "贈",
+      "迫",
+      "都",
+      "醒",
+      "錦",
+      "錯"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M220",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "鏡",
+      "間",
+      "闇",
+      "陥",
+      "階",
+      "障",
+      "韓",
+      "響"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "鏡",
+      "間",
+      "闇",
+      "陥",
+      "階",
+      "障",
+      "韓",
+      "響"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M221",
+    "title": "Formation family 日",
+    "chain": [
+      "但",
+      "香"
+    ],
+    "logic": "Bridge qua component 日; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "日",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "但"
+    ],
+    "new_kanji": [
+      "香"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M222",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "傑",
+      "刹",
+      "媒",
+      "巣",
+      "床",
+      "彙",
+      "彩",
+      "想"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "傑",
+      "刹",
+      "媒",
+      "巣",
+      "床",
+      "彙",
+      "彩",
+      "想"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M223",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "抹",
+      "採",
+      "摩",
+      "新",
+      "未",
+      "末",
+      "札",
+      "朱"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "抹",
+      "採",
+      "摩",
+      "新",
+      "未",
+      "末",
+      "札",
+      "朱"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M224",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "朴",
+      "朽",
+      "杉",
+      "来",
+      "杯",
+      "松",
+      "枕",
+      "枚"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "朴",
+      "朽",
+      "杉",
+      "来",
+      "杯",
+      "松",
+      "枕",
+      "枚"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M225",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "枠",
+      "枢",
+      "某",
+      "柔",
+      "柳",
+      "柵",
+      "柿",
+      "栃"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "枠",
+      "枢",
+      "某",
+      "柔",
+      "柳",
+      "柵",
+      "柿",
+      "栃"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M226",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "栄",
+      "栓",
+      "株",
+      "核",
+      "根",
+      "栽",
+      "桃",
+      "案"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "栄",
+      "栓",
+      "株",
+      "核",
+      "根",
+      "栽",
+      "桃",
+      "案"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M227",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "桑",
+      "桜",
+      "桟",
+      "梅",
+      "梨",
+      "械",
+      "棄",
+      "棋"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "桑",
+      "桜",
+      "桟",
+      "梅",
+      "梨",
+      "械",
+      "棄",
+      "棋"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M228",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "棚",
+      "棺",
+      "椎",
+      "楼",
+      "概",
+      "様",
+      "標",
+      "模"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "棚",
+      "棺",
+      "椎",
+      "楼",
+      "概",
+      "様",
+      "標",
+      "模"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M229",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "横",
+      "欄",
+      "殺",
+      "深",
+      "漆",
+      "珠",
+      "磨",
+      "礎"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "横",
+      "欄",
+      "殺",
+      "深",
+      "漆",
+      "珠",
+      "磨",
+      "礎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M230",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "禁",
+      "箱",
+      "籍",
+      "耗",
+      "膝",
+      "茶",
+      "菓",
+      "菜"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "禁",
+      "箱",
+      "籍",
+      "耗",
+      "膝",
+      "茶",
+      "菓",
+      "菜"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M231",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "薪",
+      "裸",
+      "襟",
+      "述",
+      "采",
+      "閑",
+      "集",
+      "霜"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "薪",
+      "裸",
+      "襟",
+      "述",
+      "采",
+      "閑",
+      "集",
+      "霜"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M232",
+    "title": "Formation family 木",
+    "chain": [
+      "休",
+      "鬱",
+      "魅",
+      "魔",
+      "麓",
+      "麻"
+    ],
+    "logic": "Bridge qua component 木; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "木",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "休"
+    ],
+    "new_kanji": [
+      "鬱",
+      "魅",
+      "魔",
+      "麓",
+      "麻"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M233",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "供",
+      "側",
+      "偵",
+      "債",
+      "償",
+      "典",
+      "墳",
+      "愁"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "供",
+      "側",
+      "偵",
+      "債",
+      "償",
+      "典",
+      "墳",
+      "愁"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M234",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "慣",
+      "憤",
+      "控",
+      "搾",
+      "摂",
+      "旗",
+      "期",
+      "欺"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "慣",
+      "憤",
+      "控",
+      "搾",
+      "摂",
+      "旗",
+      "期",
+      "欺"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M235",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "殿",
+      "淡",
+      "漬",
+      "灰",
+      "炊",
+      "炭",
+      "焦",
+      "然"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "殿",
+      "淡",
+      "漬",
+      "灰",
+      "炊",
+      "炭",
+      "焦",
+      "然"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M236",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "煙",
+      "率",
+      "盆",
+      "碁",
+      "礁",
+      "積",
+      "穴",
+      "突"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "煙",
+      "率",
+      "盆",
+      "碁",
+      "礁",
+      "積",
+      "穴",
+      "突"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M237",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "窃",
+      "窓",
+      "窟",
+      "窮",
+      "粉",
+      "紛",
+      "総",
+      "績"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "窃",
+      "窓",
+      "窟",
+      "窮",
+      "粉",
+      "紛",
+      "総",
+      "績"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M238",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "翁",
+      "貞",
+      "負",
+      "財",
+      "貢",
+      "販",
+      "貫",
+      "貿"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "翁",
+      "貞",
+      "負",
+      "財",
+      "貢",
+      "販",
+      "貫",
+      "貿"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M239",
+    "title": "Formation family 八",
+    "chain": [
+      "傾",
+      "賃",
+      "賄",
+      "賊",
+      "賛",
+      "賢",
+      "鎖",
+      "雰",
+      "黄"
+    ],
+    "logic": "Bridge qua component 八; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "八",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "賃",
+      "賄",
+      "賊",
+      "賛",
+      "賢",
+      "鎖",
+      "雰",
+      "黄"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M240",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "佳",
+      "侍",
+      "勢",
+      "勲",
+      "却",
+      "厘",
+      "去",
+      "圧"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "佳",
+      "侍",
+      "勢",
+      "勲",
+      "却",
+      "厘",
+      "去",
+      "圧"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M241",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "在",
+      "坂",
+      "均",
+      "坊",
+      "坑",
+      "坪",
+      "垂",
+      "埋"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "在",
+      "坂",
+      "均",
+      "坊",
+      "坑",
+      "坪",
+      "垂",
+      "埋"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M242",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "城",
+      "執",
+      "堀",
+      "堅",
+      "堆",
+      "堕",
+      "堪",
+      "塁"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "城",
+      "執",
+      "堀",
+      "堅",
+      "堆",
+      "堕",
+      "堪",
+      "塁"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M243",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "塊",
+      "塑",
+      "塚",
+      "塞",
+      "塡",
+      "塩",
+      "墓",
+      "墜"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "塊",
+      "塑",
+      "塚",
+      "塞",
+      "塡",
+      "塩",
+      "墓",
+      "墜"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M244",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "墾",
+      "壁",
+      "壊",
+      "壌",
+      "姓",
+      "寺",
+      "封",
+      "幸"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "墾",
+      "壁",
+      "壊",
+      "壌",
+      "姓",
+      "寺",
+      "封",
+      "幸"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M245",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "座",
+      "径",
+      "待",
+      "徒",
+      "性",
+      "怪",
+      "憧",
+      "挫"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "座",
+      "径",
+      "待",
+      "徒",
+      "性",
+      "怪",
+      "憧",
+      "挫"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M246",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "掛",
+      "摯",
+      "毀",
+      "涯",
+      "牲",
+      "特",
+      "睡",
+      "睦"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "掛",
+      "摯",
+      "毀",
+      "涯",
+      "牲",
+      "特",
+      "睡",
+      "睦"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M247",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "瞳",
+      "童",
+      "等",
+      "粧",
+      "精",
+      "経",
+      "腫",
+      "茎"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "瞳",
+      "童",
+      "等",
+      "粧",
+      "精",
+      "経",
+      "腫",
+      "茎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M248",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "薫",
+      "裏",
+      "走",
+      "赴",
+      "越",
+      "趣",
+      "軽",
+      "郵"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "薫",
+      "裏",
+      "走",
+      "赴",
+      "越",
+      "趣",
+      "軽",
+      "郵"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M249",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "里",
+      "野",
+      "鐘",
+      "陛",
+      "陸",
+      "隆",
+      "青",
+      "静"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "里",
+      "野",
+      "鐘",
+      "陛",
+      "陸",
+      "隆",
+      "青",
+      "静"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M250",
+    "title": "Formation family 土",
+    "chain": [
+      "倒",
+      "黙"
+    ],
+    "logic": "Bridge qua component 土; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "土",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倒"
+    ],
+    "new_kanji": [
+      "黙"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M251",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "乏",
+      "乗",
+      "儀",
+      "剰",
+      "及",
+      "失",
+      "宅",
+      "密"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "乏",
+      "乗",
+      "儀",
+      "剰",
+      "及",
+      "失",
+      "宅",
+      "密"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M252",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "審",
+      "寿",
+      "嵐",
+      "帥",
+      "幾",
+      "必",
+      "戒",
+      "戚"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "審",
+      "寿",
+      "嵐",
+      "帥",
+      "幾",
+      "必",
+      "戒",
+      "戚"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M253",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "戯",
+      "戴",
+      "扱",
+      "携",
+      "歳",
+      "沸",
+      "泌",
+      "濯"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "戯",
+      "戴",
+      "扱",
+      "携",
+      "歳",
+      "沸",
+      "泌",
+      "濯"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M254",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "犠",
+      "界",
+      "番",
+      "畿",
+      "盛",
+      "秀",
+      "秘",
+      "秩"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "犠",
+      "界",
+      "番",
+      "畿",
+      "盛",
+      "秀",
+      "秘",
+      "秩"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M255",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "級",
+      "繊",
+      "羞",
+      "羽",
+      "翌",
+      "翻",
+      "翼",
+      "茂"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "級",
+      "繊",
+      "羞",
+      "羽",
+      "翌",
+      "翻",
+      "翼",
+      "茂"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M256",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "蔵",
+      "蜜",
+      "衆",
+      "誘",
+      "迭",
+      "追",
+      "透",
+      "酢"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "蔵",
+      "蜜",
+      "衆",
+      "誘",
+      "迭",
+      "追",
+      "透",
+      "酢"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M257",
+    "title": "Formation family 丿",
+    "chain": [
+      "介",
+      "醜",
+      "釈",
+      "鋳",
+      "閥",
+      "阜",
+      "餓",
+      "鬼",
+      "魂"
+    ],
+    "logic": "Bridge qua component 丿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "醜",
+      "釈",
+      "鋳",
+      "閥",
+      "阜",
+      "餓",
+      "鬼",
+      "魂"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M258",
+    "title": "Formation family 人",
+    "chain": [
+      "丙",
+      "以",
+      "企",
+      "似",
+      "傘",
+      "僕",
+      "券",
+      "削",
+      "卒"
+    ],
+    "logic": "Bridge qua component 人; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "人",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "以",
+      "企",
+      "似",
+      "傘",
+      "僕",
+      "券",
+      "削",
+      "卒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M259",
+    "title": "Formation family 人",
+    "chain": [
+      "丙",
+      "囚",
+      "夫",
+      "宵",
+      "徹",
+      "扶",
+      "拳",
+      "撤",
+      "撲"
+    ],
+    "logic": "Bridge qua component 人; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "人",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "囚",
+      "夫",
+      "宵",
+      "徹",
+      "扶",
+      "拳",
+      "撤",
+      "撲"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M260",
+    "title": "Formation family 人",
+    "chain": [
+      "丙",
+      "渓",
+      "滑",
+      "潜",
+      "硝",
+      "肉",
+      "肌",
+      "肖",
+      "肝"
+    ],
+    "logic": "Bridge qua component 人; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "人",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "渓",
+      "滑",
+      "潜",
+      "硝",
+      "肉",
+      "肌",
+      "肖",
+      "肝"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M261",
+    "title": "Formation family 人",
+    "chain": [
+      "丙",
+      "肢",
+      "肯",
+      "背",
+      "胸",
+      "脅",
+      "脊",
+      "脚",
+      "脱"
+    ],
+    "logic": "Bridge qua component 人; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "人",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "肢",
+      "肯",
+      "背",
+      "胸",
+      "脅",
+      "脊",
+      "脚",
+      "脱"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M262",
+    "title": "Formation family 人",
+    "chain": [
+      "丙",
+      "脳",
+      "腰",
+      "臓",
+      "謄",
+      "飾",
+      "養",
+      "騰",
+      "骨"
+    ],
+    "logic": "Bridge qua component 人; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "人",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "脳",
+      "腰",
+      "臓",
+      "謄",
+      "飾",
+      "養",
+      "騰",
+      "骨"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M263",
+    "title": "Formation family 人",
+    "chain": [
+      "丙",
+      "骸",
+      "髄",
+      "鶏",
+      "齢"
+    ],
+    "logic": "Bridge qua component 人; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "人",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "骸",
+      "髄",
+      "鶏",
+      "齢"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M264",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "丸",
+      "丹",
+      "主",
+      "丼",
+      "伏",
+      "倣",
+      "傍",
+      "傲"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "丸",
+      "丹",
+      "主",
+      "丼",
+      "伏",
+      "倣",
+      "傍",
+      "傲"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M265",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "凡",
+      "刃",
+      "太",
+      "妨",
+      "娘",
+      "嫉",
+      "帆",
+      "席"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "凡",
+      "刃",
+      "太",
+      "妨",
+      "娘",
+      "嫉",
+      "帆",
+      "席"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M266",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "庁",
+      "広",
+      "府",
+      "度",
+      "庫",
+      "庭",
+      "庶",
+      "康"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "庁",
+      "広",
+      "府",
+      "度",
+      "庫",
+      "庭",
+      "庶",
+      "康"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M267",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "庸",
+      "廉",
+      "廊",
+      "往",
+      "応",
+      "放",
+      "敷",
+      "方"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "庸",
+      "廉",
+      "廊",
+      "往",
+      "応",
+      "放",
+      "敷",
+      "方"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M268",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "施",
+      "旋",
+      "朗",
+      "氷",
+      "永",
+      "汎",
+      "汰",
+      "注"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "施",
+      "旋",
+      "朗",
+      "氷",
+      "永",
+      "汎",
+      "汰",
+      "注"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M269",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "泳",
+      "浪",
+      "液",
+      "渡",
+      "犬",
+      "状",
+      "狂",
+      "狩"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "泳",
+      "浪",
+      "液",
+      "渡",
+      "犬",
+      "状",
+      "狂",
+      "狩"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M270",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "狭",
+      "献",
+      "獲",
+      "疫",
+      "疾",
+      "痕",
+      "痢",
+      "痩"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "狭",
+      "献",
+      "獲",
+      "疫",
+      "疾",
+      "痕",
+      "痢",
+      "痩"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M271",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "瘍",
+      "療",
+      "癖",
+      "肪",
+      "腐",
+      "良",
+      "芳",
+      "薦"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "瘍",
+      "療",
+      "癖",
+      "肪",
+      "腐",
+      "良",
+      "芳",
+      "薦"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M272",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "訪",
+      "遊",
+      "遮",
+      "郎",
+      "酌",
+      "釣",
+      "駄",
+      "駐"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "訪",
+      "遊",
+      "遮",
+      "郎",
+      "酌",
+      "釣",
+      "駄",
+      "駐"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M273",
+    "title": "Formation family 丶",
+    "chain": [
+      "以",
+      "鹿"
+    ],
+    "logic": "Bridge qua component 丶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "以"
+    ],
+    "new_kanji": [
+      "鹿"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M274",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "僚",
+      "劣",
+      "叔",
+      "奈",
+      "妙",
+      "宗",
+      "寂",
+      "寮"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "僚",
+      "劣",
+      "叔",
+      "奈",
+      "妙",
+      "宗",
+      "寂",
+      "寮"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M275",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "尉",
+      "少",
+      "崇",
+      "慰",
+      "懸",
+      "抄",
+      "斎",
+      "款"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "尉",
+      "少",
+      "崇",
+      "慰",
+      "懸",
+      "抄",
+      "斎",
+      "款"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M276",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "沙",
+      "淑",
+      "漂",
+      "潔",
+      "省",
+      "県",
+      "督",
+      "瞭"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "沙",
+      "淑",
+      "漂",
+      "潔",
+      "省",
+      "県",
+      "督",
+      "瞭"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M277",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "示",
+      "祭",
+      "秒",
+      "称",
+      "系",
+      "糾",
+      "紀",
+      "紅"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "示",
+      "祭",
+      "秒",
+      "称",
+      "系",
+      "糾",
+      "紀",
+      "紅"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M278",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "紋",
+      "納",
+      "純",
+      "素",
+      "紫",
+      "累",
+      "細",
+      "紳"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "紋",
+      "納",
+      "純",
+      "素",
+      "紫",
+      "累",
+      "細",
+      "紳"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M279",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "紺",
+      "終",
+      "絞",
+      "統",
+      "絶",
+      "維",
+      "綱",
+      "網"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "紺",
+      "終",
+      "絞",
+      "統",
+      "絶",
+      "維",
+      "綱",
+      "網"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M280",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "緊",
+      "緑",
+      "締",
+      "編",
+      "緯",
+      "縛",
+      "縦",
+      "縮"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "緊",
+      "緑",
+      "締",
+      "編",
+      "緯",
+      "縛",
+      "縦",
+      "縮"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M281",
+    "title": "Formation family 小",
+    "chain": [
+      "京",
+      "繁",
+      "繭",
+      "羅",
+      "遜",
+      "際",
+      "隷"
+    ],
+    "logic": "Bridge qua component 小; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "小",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "京"
+    ],
+    "new_kanji": [
+      "繁",
+      "繭",
+      "羅",
+      "遜",
+      "際",
+      "隷"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M282",
+    "title": "Formation family 十",
+    "chain": [
+      "享",
+      "伎",
+      "伴",
+      "升",
+      "午",
+      "半",
+      "南",
+      "博",
+      "奔"
+    ],
+    "logic": "Bridge qua component 十; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "十",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "享"
+    ],
+    "new_kanji": [
+      "伎",
+      "伴",
+      "升",
+      "午",
+      "半",
+      "南",
+      "博",
+      "奔"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M283",
+    "title": "Formation family 十",
+    "chain": [
+      "享",
+      "宙",
+      "宰",
+      "届",
+      "岐",
+      "帯",
+      "慎",
+      "懐",
+      "抽"
+    ],
+    "logic": "Bridge qua component 十; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "十",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "享"
+    ],
+    "new_kanji": [
+      "宙",
+      "宰",
+      "届",
+      "岐",
+      "帯",
+      "慎",
+      "懐",
+      "抽"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M284",
+    "title": "Formation family 十",
+    "chain": [
+      "享",
+      "支",
+      "汁",
+      "油",
+      "準",
+      "滞",
+      "璧",
+      "由",
+      "畔"
+    ],
+    "logic": "Bridge qua component 十; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "十",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "享"
+    ],
+    "new_kanji": [
+      "支",
+      "汁",
+      "油",
+      "準",
+      "滞",
+      "璧",
+      "由",
+      "畔"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M285",
+    "title": "Formation family 十",
+    "chain": [
+      "享",
+      "真",
+      "笛",
+      "粋",
+      "聴",
+      "袖",
+      "辛",
+      "迅",
+      "酔"
+    ],
+    "logic": "Bridge qua component 十; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "十",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "享"
+    ],
+    "new_kanji": [
+      "真",
+      "笛",
+      "粋",
+      "聴",
+      "袖",
+      "辛",
+      "迅",
+      "酔"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M286",
+    "title": "Formation family 十",
+    "chain": [
+      "享",
+      "鎮",
+      "飛"
+    ],
+    "logic": "Bridge qua component 十; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "十",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "享"
+    ],
+    "new_kanji": [
+      "鎮",
+      "飛"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M287",
+    "title": "Formation family 氵",
+    "chain": [
+      "塗",
+      "婆",
+      "氾",
+      "汗",
+      "江",
+      "池",
+      "沃",
+      "沈",
+      "沖"
+    ],
+    "logic": "Bridge qua component 氵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "氵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "塗"
+    ],
+    "new_kanji": [
+      "婆",
+      "氾",
+      "汗",
+      "江",
+      "池",
+      "沃",
+      "沈",
+      "沖"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M288",
+    "title": "Formation family 氵",
+    "chain": [
+      "塗",
+      "没",
+      "沢",
+      "泡",
+      "泣",
+      "洋",
+      "津",
+      "派",
+      "浅"
+    ],
+    "logic": "Bridge qua component 氵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "氵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "塗"
+    ],
+    "new_kanji": [
+      "没",
+      "沢",
+      "泡",
+      "泣",
+      "洋",
+      "津",
+      "派",
+      "浅"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M289",
+    "title": "Formation family 氵",
+    "chain": [
+      "塗",
+      "浦",
+      "浮",
+      "浸",
+      "淫",
+      "済",
+      "渋",
+      "湧",
+      "湾"
+    ],
+    "logic": "Bridge qua component 氵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "氵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "塗"
+    ],
+    "new_kanji": [
+      "浦",
+      "浮",
+      "浸",
+      "淫",
+      "済",
+      "渋",
+      "湧",
+      "湾"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M290",
+    "title": "Formation family 氵",
+    "chain": [
+      "塗",
+      "溶",
+      "溺",
+      "滋",
+      "漁",
+      "漏",
+      "漸",
+      "潟",
+      "潤"
+    ],
+    "logic": "Bridge qua component 氵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "氵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "塗"
+    ],
+    "new_kanji": [
+      "溶",
+      "溺",
+      "滋",
+      "漁",
+      "漏",
+      "漸",
+      "潟",
+      "潤"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M291",
+    "title": "Formation family 氵",
+    "chain": [
+      "塗",
+      "濫",
+      "簿",
+      "薄",
+      "藩",
+      "酒"
+    ],
+    "logic": "Bridge qua component 氵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "氵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "塗"
+    ],
+    "new_kanji": [
+      "濫",
+      "簿",
+      "薄",
+      "藩",
+      "酒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M292",
+    "title": "Formation family 亻",
+    "chain": [
+      "仕",
+      "仁",
+      "仏",
+      "他",
+      "付",
+      "仙",
+      "代",
+      "仰",
+      "件"
+    ],
+    "logic": "Bridge qua component 亻; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亻",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仕"
+    ],
+    "new_kanji": [
+      "仁",
+      "仏",
+      "他",
+      "付",
+      "仙",
+      "代",
+      "仰",
+      "件"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M293",
+    "title": "Formation family 亻",
+    "chain": [
+      "仕",
+      "伸",
+      "佐",
+      "依",
+      "侮",
+      "侯",
+      "侵",
+      "俊",
+      "俗"
+    ],
+    "logic": "Bridge qua component 亻; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亻",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仕"
+    ],
+    "new_kanji": [
+      "伸",
+      "佐",
+      "依",
+      "侮",
+      "侯",
+      "侵",
+      "俊",
+      "俗"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M294",
+    "title": "Formation family 亻",
+    "chain": [
+      "仕",
+      "俳",
+      "俵",
+      "倹",
+      "偉",
+      "偶",
+      "備",
+      "催",
+      "僅"
+    ],
+    "logic": "Bridge qua component 亻; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亻",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仕"
+    ],
+    "new_kanji": [
+      "俳",
+      "俵",
+      "倹",
+      "偉",
+      "偶",
+      "備",
+      "催",
+      "僅"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M295",
+    "title": "Formation family 亻",
+    "chain": [
+      "仕",
+      "像",
+      "化",
+      "悠",
+      "符",
+      "袋",
+      "附",
+      "靴"
+    ],
+    "logic": "Bridge qua component 亻; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亻",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仕"
+    ],
+    "new_kanji": [
+      "像",
+      "化",
+      "悠",
+      "符",
+      "袋",
+      "附",
+      "靴"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M296",
+    "title": "Formation family 目",
+    "chain": [
+      "値",
+      "寛",
+      "循",
+      "惧",
+      "現",
+      "盲",
+      "盾",
+      "眉",
+      "看"
+    ],
+    "logic": "Bridge qua component 目; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "目",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "値"
+    ],
+    "new_kanji": [
+      "寛",
+      "循",
+      "惧",
+      "現",
+      "盲",
+      "盾",
+      "眉",
+      "看"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M297",
+    "title": "Formation family 目",
+    "chain": [
+      "値",
+      "眺",
+      "眼",
+      "瞬",
+      "視",
+      "覚"
+    ],
+    "logic": "Bridge qua component 目; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "目",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "値"
+    ],
+    "new_kanji": [
+      "眺",
+      "眼",
+      "瞬",
+      "視",
+      "覚"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M298",
+    "title": "Formation family 田",
+    "chain": [
+      "働",
+      "副",
+      "勇",
+      "奮",
+      "岬",
+      "幅",
+      "押",
+      "捜",
+      "描"
+    ],
+    "logic": "Bridge qua component 田; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "田",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "働"
+    ],
+    "new_kanji": [
+      "副",
+      "勇",
+      "奮",
+      "岬",
+      "幅",
+      "押",
+      "捜",
+      "描"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M299",
+    "title": "Formation family 田",
+    "chain": [
+      "働",
+      "猫",
+      "瑠",
+      "甲",
+      "男",
+      "画",
+      "畏",
+      "留",
+      "畜"
+    ],
+    "logic": "Bridge qua component 田; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "田",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "働"
+    ],
+    "new_kanji": [
+      "猫",
+      "瑠",
+      "甲",
+      "男",
+      "画",
+      "畏",
+      "留",
+      "畜"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M300",
+    "title": "Formation family 田",
+    "chain": [
+      "働",
+      "畝",
+      "畳",
+      "胃",
+      "膚",
+      "虜",
+      "魚",
+      "鮮",
+      "鼻"
+    ],
+    "logic": "Bridge qua component 田; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "田",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "働"
+    ],
+    "new_kanji": [
+      "畝",
+      "畳",
+      "胃",
+      "膚",
+      "虜",
+      "魚",
+      "鮮",
+      "鼻"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M301",
+    "title": "Formation family 二",
+    "chain": [
+      "丼",
+      "五",
+      "井",
+      "元",
+      "冠",
+      "完",
+      "恭",
+      "擦",
+      "玩"
+    ],
+    "logic": "Bridge qua component 二; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "二",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丼"
+    ],
+    "new_kanji": [
+      "五",
+      "井",
+      "元",
+      "冠",
+      "完",
+      "恭",
+      "擦",
+      "玩"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M302",
+    "title": "Formation family 二",
+    "chain": [
+      "丼",
+      "粛",
+      "芸",
+      "鍵",
+      "院"
+    ],
+    "logic": "Bridge qua component 二; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "二",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丼"
+    ],
+    "new_kanji": [
+      "粛",
+      "芸",
+      "鍵",
+      "院"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M303",
+    "title": "Formation family 扌",
+    "chain": [
+      "哲",
+      "払",
+      "把",
+      "抑",
+      "抗",
+      "折",
+      "抜",
+      "択",
+      "披"
+    ],
+    "logic": "Bridge qua component 扌; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "扌",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "哲"
+    ],
+    "new_kanji": [
+      "払",
+      "把",
+      "抑",
+      "抗",
+      "折",
+      "抜",
+      "択",
+      "披"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M304",
+    "title": "Formation family 扌",
+    "chain": [
+      "哲",
+      "抱",
+      "拉",
+      "拒",
+      "拓",
+      "拙",
+      "拭",
+      "拷",
+      "挑"
+    ],
+    "logic": "Bridge qua component 扌; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "扌",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "哲"
+    ],
+    "new_kanji": [
+      "抱",
+      "拉",
+      "拒",
+      "拓",
+      "拙",
+      "拭",
+      "拷",
+      "挑"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M305",
+    "title": "Formation family 扌",
+    "chain": [
+      "哲",
+      "挟",
+      "挨",
+      "振",
+      "挿",
+      "捕",
+      "捗",
+      "掃",
+      "授"
+    ],
+    "logic": "Bridge qua component 扌; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "扌",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "哲"
+    ],
+    "new_kanji": [
+      "挟",
+      "挨",
+      "振",
+      "挿",
+      "捕",
+      "捗",
+      "掃",
+      "授"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M306",
+    "title": "Formation family 扌",
+    "chain": [
+      "哲",
+      "排",
+      "掘",
+      "接",
+      "推",
+      "換",
+      "揮",
+      "揺",
+      "搬"
+    ],
+    "logic": "Bridge qua component 扌; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "扌",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "哲"
+    ],
+    "new_kanji": [
+      "排",
+      "掘",
+      "接",
+      "推",
+      "換",
+      "揮",
+      "揺",
+      "搬"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M307",
+    "title": "Formation family 扌",
+    "chain": [
+      "哲",
+      "擁",
+      "擬",
+      "逝"
+    ],
+    "logic": "Bridge qua component 扌; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "扌",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "哲"
+    ],
+    "new_kanji": [
+      "擁",
+      "擬",
+      "逝"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M308",
+    "title": "Formation family 又",
+    "chain": [
+      "仮",
+      "努",
+      "双",
+      "反",
+      "受",
+      "奴",
+      "役",
+      "撃",
+      "殴"
+    ],
+    "logic": "Bridge qua component 又; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "又",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仮"
+    ],
+    "new_kanji": [
+      "努",
+      "双",
+      "反",
+      "受",
+      "奴",
+      "役",
+      "撃",
+      "殴"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M309",
+    "title": "Formation family 又",
+    "chain": [
+      "仮",
+      "段",
+      "殻",
+      "版",
+      "盤",
+      "穀",
+      "穫",
+      "股",
+      "腎"
+    ],
+    "logic": "Bridge qua component 又; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "又",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仮"
+    ],
+    "new_kanji": [
+      "段",
+      "殻",
+      "版",
+      "盤",
+      "穀",
+      "穫",
+      "股",
+      "腎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M310",
+    "title": "Formation family 又",
+    "chain": [
+      "仮",
+      "般",
+      "返",
+      "鍛",
+      "阪",
+      "隻",
+      "騒",
+      "髪"
+    ],
+    "logic": "Bridge qua component 又; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "又",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仮"
+    ],
+    "new_kanji": [
+      "般",
+      "返",
+      "鍛",
+      "阪",
+      "隻",
+      "騒",
+      "髪"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M311",
+    "title": "Formation family 幺",
+    "chain": [
+      "係",
+      "幻",
+      "幼",
+      "幽",
+      "弦",
+      "後",
+      "慈",
+      "玄",
+      "磁"
+    ],
+    "logic": "Bridge qua component 幺; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "幺",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "係"
+    ],
+    "new_kanji": [
+      "幻",
+      "幼",
+      "幽",
+      "弦",
+      "後",
+      "慈",
+      "玄",
+      "磁"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M312",
+    "title": "Formation family 幺",
+    "chain": [
+      "係",
+      "舷",
+      "郷"
+    ],
+    "logic": "Bridge qua component 幺; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "幺",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "係"
+    ],
+    "new_kanji": [
+      "舷",
+      "郷"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M313",
+    "title": "Formation family 冂",
+    "chain": [
+      "丙",
+      "剛",
+      "岡"
+    ],
+    "logic": "Bridge qua component 冂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "冂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丙"
+    ],
+    "new_kanji": [
+      "剛",
+      "岡"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M314",
+    "title": "Formation family 大",
+    "chain": [
+      "伏",
+      "凝",
+      "参",
+      "契",
+      "奥",
+      "奨",
+      "奪",
+      "惨",
+      "爽"
+    ],
+    "logic": "Bridge qua component 大; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "大",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "伏"
+    ],
+    "new_kanji": [
+      "凝",
+      "参",
+      "契",
+      "奥",
+      "奨",
+      "奪",
+      "惨",
+      "爽"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M315",
+    "title": "Formation family 大",
+    "chain": [
+      "伏",
+      "矢",
+      "臭",
+      "遷",
+      "騎"
+    ],
+    "logic": "Bridge qua component 大; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "大",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "伏"
+    ],
+    "new_kanji": [
+      "矢",
+      "臭",
+      "遷",
+      "騎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M316",
+    "title": "Formation family 亠",
+    "chain": [
+      "交",
+      "亡",
+      "刻",
+      "劾",
+      "妄",
+      "対",
+      "帝",
+      "忙",
+      "慌"
+    ],
+    "logic": "Bridge qua component 亠; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亠",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "交"
+    ],
+    "new_kanji": [
+      "亡",
+      "刻",
+      "劾",
+      "妄",
+      "対",
+      "帝",
+      "忙",
+      "慌"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M317",
+    "title": "Formation family 亠",
+    "chain": [
+      "交",
+      "斑",
+      "航",
+      "荒",
+      "蚊",
+      "衰",
+      "衷",
+      "装",
+      "襲"
+    ],
+    "logic": "Bridge qua component 亠; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亠",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "交"
+    ],
+    "new_kanji": [
+      "斑",
+      "航",
+      "荒",
+      "蚊",
+      "衰",
+      "衷",
+      "装",
+      "襲"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M318",
+    "title": "Formation family 亠",
+    "chain": [
+      "交",
+      "諦",
+      "郊"
+    ],
+    "logic": "Bridge qua component 亠; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "亠",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "交"
+    ],
+    "new_kanji": [
+      "諦",
+      "郊"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M319",
+    "title": "Formation family 厂",
+    "chain": [
+      "仮",
+      "励",
+      "危",
+      "厄",
+      "厳",
+      "岸"
+    ],
+    "logic": "Bridge qua component 厂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "厂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仮"
+    ],
+    "new_kanji": [
+      "励",
+      "危",
+      "厄",
+      "厳",
+      "岸"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M320",
+    "title": "Formation family 艹",
+    "chain": [
+      "匿",
+      "募",
+      "夢",
+      "幕",
+      "慕",
+      "膜",
+      "芝",
+      "芯",
+      "英"
+    ],
+    "logic": "Bridge qua component 艹; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "艹",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "匿"
+    ],
+    "new_kanji": [
+      "募",
+      "夢",
+      "幕",
+      "慕",
+      "膜",
+      "芝",
+      "芯",
+      "英"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M321",
+    "title": "Formation family 艹",
+    "chain": [
+      "匿",
+      "茨",
+      "荘",
+      "菊",
+      "菌",
+      "華",
+      "萎",
+      "葛",
+      "蒸"
+    ],
+    "logic": "Bridge qua component 艹; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "艹",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "匿"
+    ],
+    "new_kanji": [
+      "茨",
+      "荘",
+      "菊",
+      "菌",
+      "華",
+      "萎",
+      "葛",
+      "蒸"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M322",
+    "title": "Formation family 艹",
+    "chain": [
+      "匿",
+      "蓋",
+      "蔑",
+      "蔽",
+      "藍",
+      "藤",
+      "驚"
+    ],
+    "logic": "Bridge qua component 艹; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "艹",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "匿"
+    ],
+    "new_kanji": [
+      "蓋",
+      "蔑",
+      "蔽",
+      "藍",
+      "藤",
+      "驚"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M323",
+    "title": "Formation family 宀",
+    "chain": [
+      "割",
+      "嫁",
+      "守",
+      "官",
+      "宛",
+      "宜",
+      "宝",
+      "容",
+      "寧"
+    ],
+    "logic": "Bridge qua component 宀; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "宀",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "割"
+    ],
+    "new_kanji": [
+      "嫁",
+      "守",
+      "官",
+      "宛",
+      "宜",
+      "宝",
+      "容",
+      "寧"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M324",
+    "title": "Formation family 宀",
+    "chain": [
+      "割",
+      "稼",
+      "綻",
+      "腕",
+      "蛇",
+      "錠",
+      "館"
+    ],
+    "logic": "Bridge qua component 宀; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "宀",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "割"
+    ],
+    "new_kanji": [
+      "稼",
+      "綻",
+      "腕",
+      "蛇",
+      "錠",
+      "館"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M325",
+    "title": "Formation family 月",
+    "chain": [
+      "優",
+      "前",
+      "婿",
+      "崩",
+      "惰",
+      "態",
+      "煎",
+      "熊",
+      "籠"
+    ],
+    "logic": "Bridge qua component 月; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "月",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "優"
+    ],
+    "new_kanji": [
+      "前",
+      "婿",
+      "崩",
+      "惰",
+      "態",
+      "煎",
+      "熊",
+      "籠"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M326",
+    "title": "Formation family 月",
+    "chain": [
+      "優",
+      "罷",
+      "肘",
+      "胞",
+      "脇",
+      "覇",
+      "豚",
+      "遡",
+      "随"
+    ],
+    "logic": "Bridge qua component 月; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "月",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "優"
+    ],
+    "new_kanji": [
+      "罷",
+      "肘",
+      "胞",
+      "脇",
+      "覇",
+      "豚",
+      "遡",
+      "随"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M327",
+    "title": "Formation family 丷",
+    "chain": [
+      "併",
+      "尊",
+      "平",
+      "猶",
+      "羨",
+      "遂",
+      "遵",
+      "隊"
+    ],
+    "logic": "Bridge qua component 丷; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丷",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "併"
+    ],
+    "new_kanji": [
+      "尊",
+      "平",
+      "猶",
+      "羨",
+      "遂",
+      "遵",
+      "隊"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M328",
+    "title": "Formation family 儿",
+    "chain": [
+      "元",
+      "充",
+      "先",
+      "免",
+      "勉",
+      "勘",
+      "匹",
+      "四",
+      "甚"
+    ],
+    "logic": "Bridge qua component 儿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "儿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "元"
+    ],
+    "new_kanji": [
+      "充",
+      "先",
+      "免",
+      "勉",
+      "勘",
+      "匹",
+      "四",
+      "甚"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M329",
+    "title": "Formation family 儿",
+    "chain": [
+      "元",
+      "虎",
+      "逸",
+      "銃"
+    ],
+    "logic": "Bridge qua component 儿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "儿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "元"
+    ],
+    "new_kanji": [
+      "虎",
+      "逸",
+      "銃"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M330",
+    "title": "Formation family 心",
+    "chain": [
+      "億",
+      "忌",
+      "志",
+      "忠",
+      "急",
+      "怨",
+      "恣",
+      "恥",
+      "息"
+    ],
+    "logic": "Bridge qua component 心; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "心",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "億"
+    ],
+    "new_kanji": [
+      "忌",
+      "志",
+      "忠",
+      "急",
+      "怨",
+      "恣",
+      "恥",
+      "息"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M331",
+    "title": "Formation family 心",
+    "chain": [
+      "億",
+      "恵",
+      "患",
+      "悪",
+      "愚",
+      "慶",
+      "懇"
+    ],
+    "logic": "Bridge qua component 心; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "心",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "億"
+    ],
+    "new_kanji": [
+      "恵",
+      "患",
+      "悪",
+      "愚",
+      "慶",
+      "懇"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M332",
+    "title": "Formation family 𠂉",
+    "chain": [
+      "侮",
+      "乞",
+      "乾",
+      "悔",
+      "敏",
+      "毎"
+    ],
+    "logic": "Bridge qua component 𠂉; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "𠂉",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "侮"
+    ],
+    "new_kanji": [
+      "乞",
+      "乾",
+      "悔",
+      "敏",
+      "毎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M333",
+    "title": "Formation family 厶",
+    "chain": [
+      "仏",
+      "勾",
+      "弁",
+      "強",
+      "私",
+      "雄"
+    ],
+    "logic": "Bridge qua component 厶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "厶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仏"
+    ],
+    "new_kanji": [
+      "勾",
+      "弁",
+      "強",
+      "私",
+      "雄"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M334",
+    "title": "Formation family 尸",
+    "chain": [
+      "倉",
+      "刷",
+      "尺",
+      "尻",
+      "尼",
+      "尽",
+      "尾",
+      "尿",
+      "屈"
+    ],
+    "logic": "Bridge qua component 尸; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "尸",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倉"
+    ],
+    "new_kanji": [
+      "刷",
+      "尺",
+      "尻",
+      "尼",
+      "尽",
+      "尾",
+      "尿",
+      "屈"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M335",
+    "title": "Formation family 尸",
+    "chain": [
+      "倉",
+      "属",
+      "訳",
+      "遅"
+    ],
+    "logic": "Bridge qua component 尸; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "尸",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倉"
+    ],
+    "new_kanji": [
+      "属",
+      "訳",
+      "遅"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M336",
+    "title": "Formation family 立",
+    "chain": [
+      "位",
+      "粒"
+    ],
+    "logic": "Bridge qua component 立; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "立",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "位"
+    ],
+    "new_kanji": [
+      "粒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M337",
+    "title": "Formation family 女",
+    "chain": [
+      "努",
+      "凄",
+      "好",
+      "妃",
+      "妊",
+      "妖",
+      "妥",
+      "妬",
+      "妻"
+    ],
+    "logic": "Bridge qua component 女; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "女",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "努"
+    ],
+    "new_kanji": [
+      "凄",
+      "好",
+      "妃",
+      "妊",
+      "妖",
+      "妥",
+      "妬",
+      "妻"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M338",
+    "title": "Formation family 女",
+    "chain": [
+      "努",
+      "委",
+      "姫",
+      "姿",
+      "娠",
+      "婦",
+      "嫌",
+      "嬢",
+      "要"
+    ],
+    "logic": "Bridge qua component 女; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "女",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "努"
+    ],
+    "new_kanji": [
+      "委",
+      "姫",
+      "姿",
+      "娠",
+      "婦",
+      "嫌",
+      "嬢",
+      "要"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M339",
+    "title": "Formation family 丨",
+    "chain": [
+      "介",
+      "串",
+      "出",
+      "弔",
+      "引",
+      "篤",
+      "罵",
+      "馬",
+      "駆"
+    ],
+    "logic": "Bridge qua component 丨; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "丨",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "介"
+    ],
+    "new_kanji": [
+      "串",
+      "出",
+      "弔",
+      "引",
+      "篤",
+      "罵",
+      "馬",
+      "駆"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M340",
+    "title": "Formation family 寸",
+    "chain": [
+      "付",
+      "団",
+      "専",
+      "射",
+      "将",
+      "導",
+      "爵",
+      "辱",
+      "酎"
+    ],
+    "logic": "Bridge qua component 寸; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "寸",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "付"
+    ],
+    "new_kanji": [
+      "団",
+      "専",
+      "射",
+      "将",
+      "導",
+      "爵",
+      "辱",
+      "酎"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M341",
+    "title": "Formation family 夂",
+    "chain": [
+      "俊",
+      "処",
+      "務",
+      "峰",
+      "蜂",
+      "酸",
+      "降",
+      "陵",
+      "麦"
+    ],
+    "logic": "Bridge qua component 夂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "夂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "俊"
+    ],
+    "new_kanji": [
+      "処",
+      "務",
+      "峰",
+      "蜂",
+      "酸",
+      "降",
+      "陵",
+      "麦"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M342",
+    "title": "Formation family 夂",
+    "chain": [
+      "俊",
+      "麺"
+    ],
+    "logic": "Bridge qua component 夂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "夂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "俊"
+    ],
+    "new_kanji": [
+      "麺"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M343",
+    "title": "Formation family 匕",
+    "chain": [
+      "傾",
+      "匂",
+      "北",
+      "壱",
+      "雌"
+    ],
+    "logic": "Bridge qua component 匕; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "匕",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傾"
+    ],
+    "new_kanji": [
+      "匂",
+      "北",
+      "壱",
+      "雌"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M344",
+    "title": "Formation family 刂",
+    "chain": [
+      "例",
+      "別",
+      "制",
+      "刺",
+      "剝",
+      "剣",
+      "剤",
+      "帰",
+      "班"
+    ],
+    "logic": "Bridge qua component 刂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "刂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "例"
+    ],
+    "new_kanji": [
+      "別",
+      "制",
+      "刺",
+      "剝",
+      "剣",
+      "剤",
+      "帰",
+      "班"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M345",
+    "title": "Formation family 刂",
+    "chain": [
+      "例",
+      "罰"
+    ],
+    "logic": "Bridge qua component 刂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "刂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "例"
+    ],
+    "new_kanji": [
+      "罰"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M346",
+    "title": "Formation family 冖",
+    "chain": [
+      "亭",
+      "冗",
+      "写",
+      "蛍"
+    ],
+    "logic": "Bridge qua component 冖; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "冖",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "亭"
+    ],
+    "new_kanji": [
+      "冗",
+      "写",
+      "蛍"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M347",
+    "title": "Formation family 囗",
+    "chain": [
+      "便",
+      "吹",
+      "圏"
+    ],
+    "logic": "Bridge qua component 囗; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "囗",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "便"
+    ],
+    "new_kanji": [
+      "吹",
+      "圏"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M348",
+    "title": "Formation family 禾",
+    "chain": [
+      "利",
+      "科",
+      "租",
+      "稚",
+      "穏",
+      "笑"
+    ],
+    "logic": "Bridge qua component 禾; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "禾",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "利"
+    ],
+    "new_kanji": [
+      "科",
+      "租",
+      "稚",
+      "穏",
+      "笑"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M349",
+    "title": "Formation family 弋",
+    "chain": [
+      "代",
+      "式"
+    ],
+    "logic": "Bridge qua component 弋; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "弋",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "代"
+    ],
+    "new_kanji": [
+      "式"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M350",
+    "title": "Formation family 勹",
+    "chain": [
+      "傷",
+      "包",
+      "砲",
+      "飽"
+    ],
+    "logic": "Bridge qua component 勹; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "勹",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "傷"
+    ],
+    "new_kanji": [
+      "包",
+      "砲",
+      "飽"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M351",
+    "title": "Formation family 王",
+    "chain": [
+      "主",
+      "全",
+      "弄",
+      "徴",
+      "玉",
+      "球",
+      "璽",
+      "釜"
+    ],
+    "logic": "Bridge qua component 王; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "王",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "主"
+    ],
+    "new_kanji": [
+      "全",
+      "弄",
+      "徴",
+      "玉",
+      "球",
+      "璽",
+      "釜"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M352",
+    "title": "Formation family 攵",
+    "chain": [
+      "倣",
+      "幣",
+      "弊",
+      "微",
+      "敢",
+      "牧",
+      "赦"
+    ],
+    "logic": "Bridge qua component 攵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "攵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "倣"
+    ],
+    "new_kanji": [
+      "幣",
+      "弊",
+      "微",
+      "敢",
+      "牧",
+      "赦"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M353",
+    "title": "Formation family 隹",
+    "chain": [
+      "催",
+      "准",
+      "勧",
+      "歓",
+      "誰",
+      "進",
+      "雅",
+      "雑",
+      "離"
+    ],
+    "logic": "Bridge qua component 隹; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "隹",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "催"
+    ],
+    "new_kanji": [
+      "准",
+      "勧",
+      "歓",
+      "誰",
+      "進",
+      "雅",
+      "雑",
+      "離"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M354",
+    "title": "Formation family 䒑",
+    "chain": [
+      "僕",
+      "並",
+      "従",
+      "逆",
+      "首"
+    ],
+    "logic": "Bridge qua component 䒑; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "䒑",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "僕"
+    ],
+    "new_kanji": [
+      "並",
+      "従",
+      "逆",
+      "首"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M355",
+    "title": "Formation family 力",
+    "chain": [
+      "働",
+      "功",
+      "勃",
+      "筋"
+    ],
+    "logic": "Bridge qua component 力; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "力",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "働"
+    ],
+    "new_kanji": [
+      "功",
+      "勃",
+      "筋"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M356",
+    "title": "Formation family 冫",
+    "chain": [
+      "冶",
+      "弱",
+      "次",
+      "盗"
+    ],
+    "logic": "Bridge qua component 冫; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "冫",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "冶"
+    ],
+    "new_kanji": [
+      "弱",
+      "次",
+      "盗"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M357",
+    "title": "Formation family ⻌",
+    "chain": [
+      "迅",
+      "巡",
+      "込",
+      "迎",
+      "退",
+      "逐",
+      "逮",
+      "遇",
+      "達"
+    ],
+    "logic": "Bridge qua component ⻌; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⻌",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "迅"
+    ],
+    "new_kanji": [
+      "巡",
+      "込",
+      "迎",
+      "退",
+      "逐",
+      "逮",
+      "遇",
+      "達"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M358",
+    "title": "Formation family 刀",
+    "chain": [
+      "刃",
+      "初",
+      "辺"
+    ],
+    "logic": "Bridge qua component 刀; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "刀",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "刃"
+    ],
+    "new_kanji": [
+      "初",
+      "辺"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M359",
+    "title": "Formation family 巾",
+    "chain": [
+      "制",
+      "希",
+      "帳",
+      "怖"
+    ],
+    "logic": "Bridge qua component 巾; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "巾",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "制"
+    ],
+    "new_kanji": [
+      "希",
+      "帳",
+      "怖"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M360",
+    "title": "Formation family ⻖",
+    "chain": [
+      "堕",
+      "阻",
+      "陣",
+      "陰",
+      "険",
+      "隅",
+      "隙",
+      "隠"
+    ],
+    "logic": "Bridge qua component ⻖; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⻖",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "堕"
+    ],
+    "new_kanji": [
+      "阻",
+      "陣",
+      "陰",
+      "険",
+      "隅",
+      "隙",
+      "隠"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M361",
+    "title": "Formation family 几",
+    "chain": [
+      "冗",
+      "飢"
+    ],
+    "logic": "Bridge qua component 几; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "几",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "冗"
+    ],
+    "new_kanji": [
+      "飢"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M362",
+    "title": "Formation family 忄",
+    "chain": [
+      "忙",
+      "快",
+      "恨",
+      "悩",
+      "慄",
+      "慨"
+    ],
+    "logic": "Bridge qua component 忄; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "忄",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "忙"
+    ],
+    "new_kanji": [
+      "快",
+      "恨",
+      "悩",
+      "慄",
+      "慨"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M363",
+    "title": "Formation family 彳",
+    "chain": [
+      "履",
+      "彼",
+      "御"
+    ],
+    "logic": "Bridge qua component 彳; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "彳",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "履"
+    ],
+    "new_kanji": [
+      "彼",
+      "御"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M364",
+    "title": "Formation family 山",
+    "chain": [
+      "両",
+      "峠",
+      "峡",
+      "島",
+      "崖"
+    ],
+    "logic": "Bridge qua component 山; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "山",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "両"
+    ],
+    "new_kanji": [
+      "峠",
+      "峡",
+      "島",
+      "崖"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M365",
+    "title": "Formation family 米",
+    "chain": [
+      "奥",
+      "料",
+      "歯",
+      "粗",
+      "迷"
+    ],
+    "logic": "Bridge qua component 米; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "米",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "奥"
+    ],
+    "new_kanji": [
+      "料",
+      "歯",
+      "粗",
+      "迷"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M366",
+    "title": "Formation family 𠂇",
+    "chain": [
+      "佐",
+      "左"
+    ],
+    "logic": "Bridge qua component 𠂇; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "𠂇",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "佐"
+    ],
+    "new_kanji": [
+      "左"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M367",
+    "title": "Formation family 止",
+    "chain": [
+      "企",
+      "祉"
+    ],
+    "logic": "Bridge qua component 止; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "止",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "企"
+    ],
+    "new_kanji": [
+      "祉"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M368",
+    "title": "Formation family 車",
+    "chain": [
+      "乾",
+      "幹",
+      "斬",
+      "範",
+      "軌",
+      "軒",
+      "軟",
+      "輩",
+      "連"
+    ],
+    "logic": "Bridge qua component 車; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "車",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "乾"
+    ],
+    "new_kanji": [
+      "幹",
+      "斬",
+      "範",
+      "軌",
+      "軒",
+      "軟",
+      "輩",
+      "連"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M369",
+    "title": "Formation family 艮",
+    "chain": [
+      "墾",
+      "即",
+      "既"
+    ],
+    "logic": "Bridge qua component 艮; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "艮",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "墾"
+    ],
+    "new_kanji": [
+      "即",
+      "既"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M370",
+    "title": "Formation family 辶",
+    "chain": [
+      "導",
+      "逓",
+      "通",
+      "遍"
+    ],
+    "logic": "Bridge qua component 辶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "辶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "導"
+    ],
+    "new_kanji": [
+      "逓",
+      "通",
+      "遍"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M371",
+    "title": "Formation family 斤",
+    "chain": [
+      "丘",
+      "匠",
+      "斥",
+      "祈"
+    ],
+    "logic": "Bridge qua component 斤; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "斤",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "丘"
+    ],
+    "new_kanji": [
+      "匠",
+      "斥",
+      "祈"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M372",
+    "title": "Formation family ⺈",
+    "chain": [
+      "争",
+      "角",
+      "触",
+      "象"
+    ],
+    "logic": "Bridge qua component ⺈; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⺈",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "争"
+    ],
+    "new_kanji": [
+      "角",
+      "触",
+      "象"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M373",
+    "title": "Formation family 釒",
+    "chain": [
+      "針",
+      "銭",
+      "鎌",
+      "鑑"
+    ],
+    "logic": "Bridge qua component 釒; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "釒",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "針"
+    ],
+    "new_kanji": [
+      "銭",
+      "鎌",
+      "鑑"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M374",
+    "title": "Formation family 士",
+    "chain": [
+      "仕",
+      "壮"
+    ],
+    "logic": "Bridge qua component 士; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "士",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仕"
+    ],
+    "new_kanji": [
+      "壮"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M375",
+    "title": "Formation family 子",
+    "chain": [
+      "享",
+      "乳",
+      "孔",
+      "孝",
+      "孤",
+      "猛",
+      "酵"
+    ],
+    "logic": "Bridge qua component 子; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "子",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "享"
+    ],
+    "new_kanji": [
+      "乳",
+      "孔",
+      "孝",
+      "孤",
+      "猛",
+      "酵"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M376",
+    "title": "Formation family 夕",
+    "chain": [
+      "例",
+      "多"
+    ],
+    "logic": "Bridge qua component 夕; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "夕",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "例"
+    ],
+    "new_kanji": [
+      "多"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M377",
+    "title": "Formation family ⺮",
+    "chain": [
+      "笑",
+      "第",
+      "築"
+    ],
+    "logic": "Bridge qua component ⺮; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⺮",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "笑"
+    ],
+    "new_kanji": [
+      "第",
+      "築"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M378",
+    "title": "Formation family 言",
+    "chain": [
+      "信",
+      "誉",
+      "謡"
+    ],
+    "logic": "Bridge qua component 言; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "言",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "信"
+    ],
+    "new_kanji": [
+      "誉",
+      "謡"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M379",
+    "title": "Formation family 工",
+    "chain": [
+      "佐",
+      "巧",
+      "虹"
+    ],
+    "logic": "Bridge qua component 工; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "工",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "佐"
+    ],
+    "new_kanji": [
+      "巧",
+      "虹"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M380",
+    "title": "Formation family 凵",
+    "chain": [
+      "出",
+      "凶",
+      "凸",
+      "凹"
+    ],
+    "logic": "Bridge qua component 凵; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "凵",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "出"
+    ],
+    "new_kanji": [
+      "凶",
+      "凸",
+      "凹"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M381",
+    "title": "Formation family 石",
+    "chain": [
+      "妬",
+      "硫"
+    ],
+    "logic": "Bridge qua component 石; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "石",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "妬"
+    ],
+    "new_kanji": [
+      "硫"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M382",
+    "title": "Formation family 卩",
+    "chain": [
+      "令",
+      "印",
+      "卵",
+      "卸"
+    ],
+    "logic": "Bridge qua component 卩; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "卩",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "令"
+    ],
+    "new_kanji": [
+      "印",
+      "卵",
+      "卸"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M383",
+    "title": "Formation family 虫",
+    "chain": [
+      "嵐",
+      "独",
+      "蛮"
+    ],
+    "logic": "Bridge qua component 虫; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "虫",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "嵐"
+    ],
+    "new_kanji": [
+      "独",
+      "蛮"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M384",
+    "title": "Formation family 皿",
+    "chain": [
+      "塩",
+      "監",
+      "艦"
+    ],
+    "logic": "Bridge qua component 皿; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "皿",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "塩"
+    ],
+    "new_kanji": [
+      "監",
+      "艦"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M385",
+    "title": "Formation family 欠",
+    "chain": [
+      "吹",
+      "欧"
+    ],
+    "logic": "Bridge qua component 欠; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "欠",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "吹"
+    ],
+    "new_kanji": [
+      "欧"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M386",
+    "title": "Formation family 酉",
+    "chain": [
+      "尊",
+      "酬",
+      "醸"
+    ],
+    "logic": "Bridge qua component 酉; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "酉",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "尊"
+    ],
+    "new_kanji": [
+      "酬",
+      "醸"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M387",
+    "title": "Formation family 水",
+    "chain": [
+      "尿",
+      "求",
+      "泰"
+    ],
+    "logic": "Bridge qua component 水; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "水",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "尿"
+    ],
+    "new_kanji": [
+      "求",
+      "泰"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M388",
+    "title": "Formation family 弓",
+    "chain": [
+      "弔",
+      "弥",
+      "弧",
+      "張"
+    ],
+    "logic": "Bridge qua component 弓; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "弓",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "弔"
+    ],
+    "new_kanji": [
+      "弥",
+      "弧",
+      "張"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M389",
+    "title": "Formation family 彡",
+    "chain": [
+      "修",
+      "珍"
+    ],
+    "logic": "Bridge qua component 彡; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "彡",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "修"
+    ],
+    "new_kanji": [
+      "珍"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M390",
+    "title": "Formation family 門",
+    "chain": [
+      "問",
+      "閉"
+    ],
+    "logic": "Bridge qua component 門; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "門",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "問"
+    ],
+    "new_kanji": [
+      "閉"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M391",
+    "title": "Formation family ⺍",
+    "chain": [
+      "労",
+      "猟"
+    ],
+    "logic": "Bridge qua component ⺍; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⺍",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "労"
+    ],
+    "new_kanji": [
+      "猟"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M392",
+    "title": "Formation family 己",
+    "chain": [
+      "包",
+      "巻"
+    ],
+    "logic": "Bridge qua component 己; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "己",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "包"
+    ],
+    "new_kanji": [
+      "巻"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M393",
+    "title": "Formation family ⻏",
+    "chain": [
+      "廊",
+      "那",
+      "邦",
+      "邪"
+    ],
+    "logic": "Bridge qua component ⻏; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⻏",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "廊"
+    ],
+    "new_kanji": [
+      "那",
+      "邦",
+      "邪"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M394",
+    "title": "Formation family 耳",
+    "chain": [
+      "厳",
+      "餌"
+    ],
+    "logic": "Bridge qua component 耳; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "耳",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "厳"
+    ],
+    "new_kanji": [
+      "餌"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M395",
+    "title": "Formation family 手",
+    "chain": [
+      "儀",
+      "承",
+      "挙"
+    ],
+    "logic": "Bridge qua component 手; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "手",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "儀"
+    ],
+    "new_kanji": [
+      "承",
+      "挙"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M396",
+    "title": "Formation family 礻",
+    "chain": [
+      "社",
+      "礼",
+      "神",
+      "祥"
+    ],
+    "logic": "Bridge qua component 礻; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "礻",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "社"
+    ],
+    "new_kanji": [
+      "礼",
+      "神",
+      "祥"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M397",
+    "title": "Formation family 𠃊",
+    "chain": [
+      "亡",
+      "世"
+    ],
+    "logic": "Bridge qua component 𠃊; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "𠃊",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "亡"
+    ],
+    "new_kanji": [
+      "世"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M398",
+    "title": "Formation family 龶",
+    "chain": [
+      "俵",
+      "毒"
+    ],
+    "logic": "Bridge qua component 龶; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "龶",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "俵"
+    ],
+    "new_kanji": [
+      "毒"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M399",
+    "title": "Formation family 雨",
+    "chain": [
+      "儒",
+      "震"
+    ],
+    "logic": "Bridge qua component 雨; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "雨",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "儒"
+    ],
+    "new_kanji": [
+      "震"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M400",
+    "title": "Formation family 业",
+    "chain": [
+      "並",
+      "虚"
+    ],
+    "logic": "Bridge qua component 业; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "业",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "並"
+    ],
+    "new_kanji": [
+      "虚"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M401",
+    "title": "Formation family 衤",
+    "chain": [
+      "初",
+      "被",
+      "裕"
+    ],
+    "logic": "Bridge qua component 衤; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "衤",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "初"
+    ],
+    "new_kanji": [
+      "被",
+      "裕"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M402",
+    "title": "Formation family 乂",
+    "chain": [
+      "対",
+      "区"
+    ],
+    "logic": "Bridge qua component 乂; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "乂",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "対"
+    ],
+    "new_kanji": [
+      "区"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M403",
+    "title": "Formation family 且",
+    "chain": [
+      "助",
+      "狙"
+    ],
+    "logic": "Bridge qua component 且; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "且",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "助"
+    ],
+    "new_kanji": [
+      "狙"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M404",
+    "title": "Formation family 舟",
+    "chain": [
+      "搬",
+      "艇"
+    ],
+    "logic": "Bridge qua component 舟; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "舟",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "搬"
+    ],
+    "new_kanji": [
+      "艇"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M405",
+    "title": "Formation family 龴",
+    "chain": [
+      "予",
+      "踊"
+    ],
+    "logic": "Bridge qua component 龴; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "龴",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "予"
+    ],
+    "new_kanji": [
+      "踊"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M406",
+    "title": "Formation family 虍",
+    "chain": [
+      "劇",
+      "虐"
+    ],
+    "logic": "Bridge qua component 虍; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "虍",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "劇"
+    ],
+    "new_kanji": [
+      "虐"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M407",
+    "title": "Formation family 金",
+    "chain": [
+      "鈴",
+      "鈍"
+    ],
+    "logic": "Bridge qua component 金; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "金",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "鈴"
+    ],
+    "new_kanji": [
+      "鈍"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M408",
+    "title": "Formation family 犭",
+    "chain": [
+      "狙",
+      "犯"
+    ],
+    "logic": "Bridge qua component 犭; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "犭",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "狙"
+    ],
+    "new_kanji": [
+      "犯"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M409",
+    "title": "Formation family 廴",
+    "chain": [
+      "健",
+      "廷"
+    ],
+    "logic": "Bridge qua component 廴; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "廴",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "健"
+    ],
+    "new_kanji": [
+      "廷"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M410",
+    "title": "Formation family 彐",
+    "chain": [
+      "婦",
+      "当"
+    ],
+    "logic": "Bridge qua component 彐; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "彐",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "婦"
+    ],
+    "new_kanji": [
+      "当"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M411",
+    "title": "Formation family ⻊",
+    "chain": [
+      "路",
+      "跡",
+      "跳"
+    ],
+    "logic": "Bridge qua component ⻊; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "⻊",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "路"
+    ],
+    "new_kanji": [
+      "跡",
+      "跳"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M412",
+    "title": "Formation family 巛",
+    "chain": [
+      "巡",
+      "州"
+    ],
+    "logic": "Bridge qua component 巛; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "巛",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "巡"
+    ],
+    "new_kanji": [
+      "州"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M413",
+    "title": "Formation family 𥫗",
+    "chain": [
+      "築",
+      "箋"
+    ],
+    "logic": "Bridge qua component 𥫗; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "𥫗",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "築"
+    ],
+    "new_kanji": [
+      "箋"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M414",
+    "title": "Formation family 豸",
+    "chain": [
+      "墾",
+      "貌"
+    ],
+    "logic": "Bridge qua component 豸; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "豸",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "墾"
+    ],
+    "new_kanji": [
+      "貌"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M415",
+    "title": "Formation family 鳥",
+    "chain": [
+      "鳴",
+      "鶴"
+    ],
+    "logic": "Bridge qua component 鳥; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "鳥",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "鳴"
+    ],
+    "new_kanji": [
+      "鶴"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M416",
+    "title": "Formation family 𤣩",
+    "chain": [
+      "珍",
+      "璃"
+    ],
+    "logic": "Bridge qua component 𤣩; cần causal audit trước khi thành story.",
+    "status": "PLANNED_REVIEW",
+    "component_seed": "𤣩",
+    "relation_class": "FORMATION_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "珍"
+    ],
+    "new_kanji": [
+      "璃"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "id": "M417",
+    "title": "Semantic family long",
+    "chain": [
+      "憬",
+      "久",
+      "長"
+    ],
+    "logic": "Bridge qua semantic gloss 'long'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "long",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "憬"
+    ],
+    "new_kanji": [
+      "久",
+      "長"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M418",
+    "title": "Semantic family mountain",
+    "chain": [
+      "峠",
+      "山"
+    ],
+    "logic": "Bridge qua semantic gloss 'mountain'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "mountain",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "峠"
+    ],
+    "new_kanji": [
+      "山"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M419",
+    "title": "Semantic family two",
+    "chain": [
+      "坪",
+      "二"
+    ],
+    "logic": "Bridge qua semantic gloss 'two'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "two",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "坪"
+    ],
+    "new_kanji": [
+      "二"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M420",
+    "title": "Semantic family give",
+    "chain": [
+      "呉",
+      "与"
+    ],
+    "logic": "Bridge qua semantic gloss 'give'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "give",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "呉"
+    ],
+    "new_kanji": [
+      "与"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M421",
+    "title": "Semantic family face",
+    "chain": [
+      "仰",
+      "面"
+    ],
+    "logic": "Bridge qua semantic gloss 'face'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "face",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "仰"
+    ],
+    "new_kanji": [
+      "面"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M422",
+    "title": "Semantic family name",
+    "chain": [
+      "名",
+      "氏"
+    ],
+    "logic": "Bridge qua semantic gloss 'name'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "name",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "名"
+    ],
+    "new_kanji": [
+      "氏"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M423",
+    "title": "Semantic family woman",
+    "chain": [
+      "婆",
+      "女"
+    ],
+    "logic": "Bridge qua semantic gloss 'woman'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "woman",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "婆"
+    ],
+    "new_kanji": [
+      "女"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M424",
+    "title": "Semantic family body",
+    "chain": [
+      "体",
+      "身"
+    ],
+    "logic": "Bridge qua semantic gloss 'body'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "body",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "体"
+    ],
+    "new_kanji": [
+      "身"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M425",
+    "title": "Semantic family counter",
+    "chain": [
+      "杯",
+      "冊"
+    ],
+    "logic": "Bridge qua semantic gloss 'counter'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "counter",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "杯"
+    ],
+    "new_kanji": [
+      "冊"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M426",
+    "title": "Semantic family genius",
+    "chain": [
+      "俊",
+      "才"
+    ],
+    "logic": "Bridge qua semantic gloss 'genius'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "genius",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "俊"
+    ],
+    "new_kanji": [
+      "才"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M427",
+    "title": "Semantic family small",
+    "chain": [
+      "鈴",
+      "小"
+    ],
+    "logic": "Bridge qua semantic gloss 'small'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "small",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "鈴"
+    ],
+    "new_kanji": [
+      "小"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M428",
+    "title": "Semantic family hair",
+    "chain": [
+      "髪",
+      "毛"
+    ],
+    "logic": "Bridge qua semantic gloss 'hair'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "hair",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "髪"
+    ],
+    "new_kanji": [
+      "毛"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M429",
+    "title": "Semantic family skin",
+    "chain": [
+      "膚",
+      "皮"
+    ],
+    "logic": "Bridge qua semantic gloss 'skin'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "skin",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "膚"
+    ],
+    "new_kanji": [
+      "皮"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M430",
+    "title": "Semantic family self",
+    "chain": [
+      "謙",
+      "己"
+    ],
+    "logic": "Bridge qua semantic gloss 'self'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "self",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "謙"
+    ],
+    "new_kanji": [
+      "己"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M431",
+    "title": "Semantic family stop",
+    "chain": [
+      "駐",
+      "止"
+    ],
+    "logic": "Bridge qua semantic gloss 'stop'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "stop",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "駐"
+    ],
+    "new_kanji": [
+      "止"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M432",
+    "title": "Semantic family red",
+    "chain": [
+      "紅",
+      "赤"
+    ],
+    "logic": "Bridge qua semantic gloss 'red'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "red",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "紅"
+    ],
+    "new_kanji": [
+      "赤"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M433",
+    "title": "Semantic family boat",
+    "chain": [
+      "船",
+      "舟"
+    ],
+    "logic": "Bridge qua semantic gloss 'boat'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "boat",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "船"
+    ],
+    "new_kanji": [
+      "舟"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M434",
+    "title": "Semantic family dry",
+    "chain": [
+      "乾",
+      "干"
+    ],
+    "logic": "Bridge qua semantic gloss 'dry'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "dry",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "乾"
+    ],
+    "new_kanji": [
+      "干"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M435",
+    "title": "Semantic family ward",
+    "chain": [
+      "区",
+      "丁"
+    ],
+    "logic": "Bridge qua semantic gloss 'ward'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "ward",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "区"
+    ],
+    "new_kanji": [
+      "丁"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M436",
+    "title": "Semantic family say",
+    "chain": [
+      "言",
+      "申"
+    ],
+    "logic": "Bridge qua semantic gloss 'say'; cần causal audit.",
+    "status": "PLANNED_REVIEW",
+    "semantic_seed": "say",
+    "relation_class": "SEMANTIC_BRIDGE",
+    "historical_claim": false,
+    "known_bridges": [
+      "言"
+    ],
+    "new_kanji": [
+      "申"
+    ],
+    "confidence": "LOW_MEDIUM"
+  },
+  {
+    "id": "M437",
+    "title": "Backlog bridge",
+    "chain": [
+      "一"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "一"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M438",
+    "title": "Backlog bridge",
+    "chain": [
+      "七"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "七"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M439",
+    "title": "Backlog bridge",
+    "chain": [
+      "万"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "万"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M440",
+    "title": "Backlog bridge",
+    "chain": [
+      "丈"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "丈"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M441",
+    "title": "Backlog bridge",
+    "chain": [
+      "三"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "三"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M442",
+    "title": "Backlog bridge",
+    "chain": [
+      "上"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "上"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M443",
+    "title": "Backlog bridge",
+    "chain": [
+      "下"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "下"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M444",
+    "title": "Backlog bridge",
+    "chain": [
+      "不"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "不"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M445",
+    "title": "Backlog bridge",
+    "chain": [
+      "且"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "且"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M446",
+    "title": "Backlog bridge",
+    "chain": [
+      "中"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "中"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M447",
+    "title": "Backlog bridge",
+    "chain": [
+      "乙"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "乙"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M448",
+    "title": "Backlog bridge",
+    "chain": [
+      "九"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "九"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M449",
+    "title": "Backlog bridge",
+    "chain": [
+      "了"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "了"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M450",
+    "title": "Backlog bridge",
+    "chain": [
+      "亜"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "亜"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M451",
+    "title": "Backlog bridge",
+    "chain": [
+      "兆"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "兆"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M452",
+    "title": "Backlog bridge",
+    "chain": [
+      "八"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "八"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M453",
+    "title": "Backlog bridge",
+    "chain": [
+      "六"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "六"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M454",
+    "title": "Backlog bridge",
+    "chain": [
+      "兼"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "兼"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M455",
+    "title": "Backlog bridge",
+    "chain": [
+      "円"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "円"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M456",
+    "title": "Backlog bridge",
+    "chain": [
+      "十"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "十"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M457",
+    "title": "Backlog bridge",
+    "chain": [
+      "千"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "千"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M458",
+    "title": "Backlog bridge",
+    "chain": [
+      "又"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "又"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M459",
+    "title": "Backlog bridge",
+    "chain": [
+      "士"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "士"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M460",
+    "title": "Backlog bridge",
+    "chain": [
+      "大"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "大"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M461",
+    "title": "Backlog bridge",
+    "chain": [
+      "央"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "央"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M462",
+    "title": "Backlog bridge",
+    "chain": [
+      "寒"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "寒"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M463",
+    "title": "Backlog bridge",
+    "chain": [
+      "寸"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "寸"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M464",
+    "title": "Backlog bridge",
+    "chain": [
+      "屯"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "屯"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M465",
+    "title": "Backlog bridge",
+    "chain": [
+      "巨"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "巨"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M466",
+    "title": "Backlog bridge",
+    "chain": [
+      "巾"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "巾"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M467",
+    "title": "Backlog bridge",
+    "chain": [
+      "弓"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "弓"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M468",
+    "title": "Backlog bridge",
+    "chain": [
+      "拶"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "拶"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M469",
+    "title": "Backlog bridge",
+    "chain": [
+      "斉"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "斉"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M470",
+    "title": "Backlog bridge",
+    "chain": [
+      "斗"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "斗"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M471",
+    "title": "Backlog bridge",
+    "chain": [
+      "斤"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "斤"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M472",
+    "title": "Backlog bridge",
+    "chain": [
+      "欠"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "欠"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M473",
+    "title": "Backlog bridge",
+    "chain": [
+      "母"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "母"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M474",
+    "title": "Backlog bridge",
+    "chain": [
+      "為"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "為"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M475",
+    "title": "Backlog bridge",
+    "chain": [
+      "爪"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "爪"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M476",
+    "title": "Backlog bridge",
+    "chain": [
+      "父"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "父"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M477",
+    "title": "Backlog bridge",
+    "chain": [
+      "片"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "片"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M478",
+    "title": "Backlog bridge",
+    "chain": [
+      "牙"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "牙"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M479",
+    "title": "Backlog bridge",
+    "chain": [
+      "牛"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "牛"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M480",
+    "title": "Backlog bridge",
+    "chain": [
+      "王"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "王"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M481",
+    "title": "Backlog bridge",
+    "chain": [
+      "瓦"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "瓦"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M482",
+    "title": "Backlog bridge",
+    "chain": [
+      "甘"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "甘"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M483",
+    "title": "Backlog bridge",
+    "chain": [
+      "矛"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "矛"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M484",
+    "title": "Backlog bridge",
+    "chain": [
+      "竹"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "竹"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M485",
+    "title": "Backlog bridge",
+    "chain": [
+      "缶"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "缶"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M486",
+    "title": "Backlog bridge",
+    "chain": [
+      "羊"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "羊"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M487",
+    "title": "Backlog bridge",
+    "chain": [
+      "臣"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "臣"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M488",
+    "title": "Backlog bridge",
+    "chain": [
+      "臼"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "臼"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M489",
+    "title": "Backlog bridge",
+    "chain": [
+      "虫"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "虫"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M490",
+    "title": "Backlog bridge",
+    "chain": [
+      "谷"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "谷"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M491",
+    "title": "Backlog bridge",
+    "chain": [
+      "非"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "非"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M492",
+    "title": "Backlog bridge",
+    "chain": [
+      "革"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "革"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M493",
+    "title": "Backlog bridge",
+    "chain": [
+      "鳥"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "鳥"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "id": "M494",
+    "title": "Backlog bridge",
+    "chain": [
+      "𠮟"
+    ],
+    "logic": "Coverage-safe backlog only; chưa đủ causal strength.",
+    "status": "BACKLOG",
+    "component_seed": null,
+    "relation_class": "BACKLOG",
+    "historical_claim": false,
+    "known_bridges": [],
+    "new_kanji": [
+      "𠮟"
+    ],
+    "confidence": "LOW"
+  }
+]

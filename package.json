@@ -6,7 +6,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "extract": "node scripts/extract.js",
+    "build:data": "node scripts/build-data.js",
+    "data": "npm run extract && npm run build:data"
   },
   "dependencies": {
     "express": "^4.19.2"
