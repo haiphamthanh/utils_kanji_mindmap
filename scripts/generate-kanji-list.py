@@ -305,43 +305,57 @@ def main():
             out += named_leaves(ch)
         return out
 
-    def components(char):
-        # Bản thân là bộ gốc -> coi như nguyên khối.
+    def decompose(char):
+        """Trả về (components, contained).
+
+        - components: các bộ thành phần cuối cùng của chữ.
+        - contained : các kanji trong list được tạo thành từ chính các bộ này
+                      (nút trung gian như 軍, 寺, 化, 交 + các bộ là kanji).
+        """
         if char in RAD:
-            return [char]
+            return [char], []
         t = trees.get(char)
         if not t:
-            return None
+            return None, []
 
         raw = []
+        inter = []
 
-        def push(x):
+        def add(x):
             if x:
                 raw.append(x)
 
+        def addi(x):
+            if x and x != char and x in charset and x not in inter:
+                inter.append(x)
+
         for n in t["children"]:
-            el = None if (not (n["original"] or n["element"]) or (n["original"] or n["element"]).startswith("CDP-")) \
-                else norm(n["original"] or n["element"])
+            name = n["original"] or n["element"]
+            el = None if (not name or name.startswith("CDP-")) else norm(name)
             if el and (el in RAD or not n["children"]):
-                push(el)
+                add(el)
+                addi(el)
             elif el is None:
                 for x in named_leaves(n):
-                    push(x)
+                    add(x)
+                    addi(x)
             else:
-                # không phải bộ -> bóc thêm 1 tầng nữa
+                # node không phải bộ -> đây là 1 chữ ghép (vd 軍, 寺, 化, 交)
+                addi(el)
                 for m in n["children"]:
                     for x in named_leaves(m):
-                        push(x)
+                        add(x)
+                        addi(x)
 
         # KanjiVG chỉ gom 1 mảnh -> không đủ cơ sở tách, giữ nguyên chữ.
         if len(raw) <= 1:
-            return [char]
+            return [char], []
 
         out = []
         for x in raw:
             if x not in out:
                 out.append(x)
-        return out or [char]
+        return (out or [char]), inter
 
     joyo = load_joyo(src["kanjidic2"])
     kdv = load_kdv(src["kdv_dir"])
@@ -351,6 +365,21 @@ def main():
     if os.path.exists(old_path):
         for c, v in json.load(open(old_path, encoding="utf-8"))["characters"].items():
             existing[c] = v
+
+    charset = set(c for c, _, _ in joyo)
+    decomp = {c: decompose(c) for c in charset}
+    comps_of = {c: (decomp[c][0] or [c]) for c in charset}
+    contains = {c: decomp[c][1] for c in charset}
+
+    def sc(x):
+        if x in strokes:
+            return strokes[x]
+        fe = existing.get(x)
+        if fe and fe.get("radical_stroke_count"):
+            return fe["radical_stroke_count"]
+        if x in kdv and kdv[x]["strokes"]:
+            return kdv[x]["strokes"]
+        return 0
 
     records = []
     missing_strokes = []
@@ -377,30 +406,16 @@ def main():
         if not meanings and char in FALLBACK_MEANINGS:
             meanings = list(FALLBACK_MEANINGS[char])
 
-        comps = components(char)
-        if comps is None:
-            comps = [char]
-
+        comps = comps_of[char]
         main_rad = canon.get(str(rnum)) if rnum else None
 
-        def sc(x):
-            if x in strokes:
-                return strokes[x]
-            fe = existing.get(x)
-            if fe and fe.get("radical_stroke_count"):
-                return fe["radical_stroke_count"]
-            if x in kdv and kdv[x]["strokes"]:
-                return kdv[x]["strokes"]
-            return 0
-
-        best = None
-        best_score = (-1, -1)
-        for x in comps:
-            score = (sc(x), 1 if x == main_rad else 0)
-            if score[0] > best_score[0] or (
-                score[0] == best_score[0] and score[1] > best_score[1]
-            ):
-                best, best_score = x, score
+        # biggest_component = kanji lớn nhất (nhiều nét nhất) ghép được từ các bộ của chữ.
+        cands = contains[char]
+        if cands:
+            best = max(cands, key=lambda x: (sc(x), len(comps_of.get(x, [])), 1 if x == main_rad else 0))
+        else:
+            # không ghép ra kanji nào -> lấy bộ lớn nhất (có thể ngoài list)
+            best = max(comps, key=lambda x: (sc(x), 1 if x == main_rad else 0)) if comps else char
         if best is None or sc(best) == 0:
             missing_strokes.append((char, comps))
 
@@ -415,6 +430,12 @@ def main():
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(records, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+    # Quan hệ "chứa" (chữ được ghép từ các bộ) để build-kanji-levels.py dùng lại.
+    contains_path = os.path.join(args.cache, "kanji-contains.json")
+    os.makedirs(args.cache, exist_ok=True)
+    json.dump(contains, open(contains_path, "w", encoding="utf-8"), ensure_ascii=False)
+
     print(f"[generate] {len(records)} chữ -> {os.path.relpath(OUT, ROOT)}")
     if missing_strokes:
         print(f"[generate] {len(missing_strokes)} chữ có component thiếu số nét:")
