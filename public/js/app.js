@@ -39,8 +39,8 @@ const dom = {
 const state = {
   data: null,
   center: null,
-  depth: 2,
-  layoutMode: "auto",
+  depth: 3,
+  layoutMode: "grid",
   jlpt: new Set(JLPT_LEVELS),
   pinnedId: null,
   path: [],
@@ -616,7 +616,7 @@ function hideEmpty() {
 
 function initTheme() {
   const saved = localStorage.getItem("kanji-theme");
-  if (saved) document.documentElement.dataset.theme = saved;
+  document.documentElement.dataset.theme = saved || "dark";
   dom.themeBtn.textContent =
     document.documentElement.dataset.theme === "dark" ? "☀" : "🌙";
 }
