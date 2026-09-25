@@ -359,19 +359,6 @@
     "biggest_component_id": 44
   },
   {
-    "id": 50,
-    "character": "気",
-    "character_name_vi": "Khí",
-    "meanings_vi": [
-      "khí, hơi"
-    ],
-    "components": [
-      "气",
-      "丿"
-    ],
-    "biggest_component": "气"
-  },
-  {
     "id": 51,
     "character": "水",
     "character_name_vi": "Thuỷ",
@@ -761,20 +748,6 @@
     "biggest_component_id": 116
   },
   {
-    "id": 126,
-    "character": "家",
-    "character_name_vi": "Cô gia",
-    "meanings_vi": [
-      "nhà",
-      "tiếng vợ gọi chồng"
-    ],
-    "components": [
-      "宀",
-      "豕"
-    ],
-    "biggest_component": "豕"
-  },
-  {
     "id": 130,
     "character": "工",
     "character_name_vi": "Công",
@@ -787,20 +760,6 @@
     ],
     "biggest_component": "工",
     "biggest_component_id": 130
-  },
-  {
-    "id": 133,
-    "character": "広",
-    "character_name_vi": "Khoát quảng",
-    "meanings_vi": [
-      "rộng lớn",
-      "rộng về phương Đông Tây (xem: mậu 袤)"
-    ],
-    "components": [
-      "广",
-      "厶"
-    ],
-    "biggest_component": "广"
   },
   {
     "id": 135,
@@ -816,21 +775,6 @@
     ],
     "biggest_component": "弓",
     "biggest_component_id": 135
-  },
-  {
-    "id": 142,
-    "character": "後",
-    "character_name_vi": "Hấu hậu",
-    "meanings_vi": [
-      "sau",
-      "phía sau"
-    ],
-    "components": [
-      "彳",
-      "幺",
-      "夂"
-    ],
-    "biggest_component": "彳"
   },
   {
     "id": 143,
@@ -890,20 +834,6 @@
     "biggest_component_id": 150
   },
   {
-    "id": 158,
-    "character": "書",
-    "character_name_vi": "Thư",
-    "meanings_vi": [
-      "sách",
-      "thư tín"
-    ],
-    "components": [
-      "聿",
-      "曰"
-    ],
-    "biggest_component": "聿"
-  },
-  {
     "id": 160,
     "character": "来",
     "character_name_vi": "Lai lãi",
@@ -928,32 +858,6 @@
     ],
     "biggest_component": "止",
     "biggest_component_id": 164
-  },
-  {
-    "id": 166,
-    "character": "母",
-    "character_name_vi": "Mô mẫu",
-    "meanings_vi": [
-      "mẹ",
-      "con cái, giống cái"
-    ],
-    "components": [
-      "毋"
-    ],
-    "biggest_component": "毋"
-  },
-  {
-    "id": 167,
-    "character": "毎",
-    "character_name_vi": "Mỗi",
-    "meanings_vi": [
-      "mỗi một"
-    ],
-    "components": [
-      "丿",
-      "毋"
-    ],
-    "biggest_component": "毋"
   },
   {
     "id": 168,
@@ -1325,19 +1229,6 @@
     "biggest_component_id": 236
   },
   {
-    "id": 238,
-    "character": "麦",
-    "character_name_vi": "Mạch",
-    "meanings_vi": [
-      "lúa tẻ"
-    ],
-    "components": [
-      "龶",
-      "夂"
-    ],
-    "biggest_component": "龶"
-  },
-  {
     "id": 242,
     "character": "世",
     "character_name_vi": "Thế",
@@ -1353,77 +1244,6 @@
     "biggest_component_id": 242
   },
   {
-    "id": 264,
-    "character": "区",
-    "character_name_vi": "Khu âu",
-    "meanings_vi": [
-      "khu vực, vùng",
-      "cái âu",
-      "âu (đơn vị đo khối lượng, bằng bốn đấu)",
-      "họ Âu"
-    ],
-    "components": [
-      "匸",
-      "丿"
-    ],
-    "biggest_component": "匸"
-  },
-  {
-    "id": 286,
-    "character": "定",
-    "character_name_vi": "Đính định",
-    "meanings_vi": [
-      "định",
-      "yên lặng"
-    ],
-    "components": [
-      "宀",
-      "疋"
-    ],
-    "biggest_component": "疋"
-  },
-  {
-    "id": 297,
-    "character": "州",
-    "character_name_vi": "Châu",
-    "meanings_vi": [
-      "châu (đơn vị hành chính)"
-    ],
-    "components": [
-      "丶",
-      "巛"
-    ],
-    "biggest_component": "巛"
-  },
-  {
-    "id": 305,
-    "character": "役",
-    "character_name_vi": "Dịch",
-    "meanings_vi": [
-      "đi thú ngoài biên thuỳ",
-      "việc quân"
-    ],
-    "components": [
-      "彳",
-      "殳"
-    ],
-    "biggest_component": "殳"
-  },
-  {
-    "id": 328,
-    "character": "曲",
-    "character_name_vi": "Khúc",
-    "meanings_vi": [
-      "cong queo",
-      "khúc, đoạn"
-    ],
-    "components": [
-      "曰",
-      "廾"
-    ],
-    "biggest_component": "曰"
-  },
-  {
     "id": 329,
     "character": "有",
     "character_name_vi": "Dựu Hữu Hựu",
@@ -1435,19 +1255,6 @@
     ],
     "biggest_component": "有",
     "biggest_component_id": 329
-  },
-  {
-    "id": 342,
-    "character": "死",
-    "character_name_vi": "Tử",
-    "meanings_vi": [
-      "chết"
-    ],
-    "components": [
-      "歹",
-      "匕"
-    ],
-    "biggest_component": "歹"
   },
   {
     "id": 368,
@@ -1530,34 +1337,6 @@
     "biggest_component_id": 412
   },
   {
-    "id": 417,
-    "character": "追",
-    "character_name_vi": "Truy đôi",
-    "meanings_vi": [
-      "đuổi theo, truy tìm",
-      "truy cứu",
-      "hồi tưởng, nhớ lại"
-    ],
-    "components": [
-      "丿",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 420,
-    "character": "進",
-    "character_name_vi": "Tiến tấn",
-    "meanings_vi": [
-      "đi lên, tiến lên"
-    ],
-    "components": [
-      "隹",
-      "辵"
-    ],
-    "biggest_component": "隹"
-  },
-  {
     "id": 435,
     "character": "面",
     "character_name_vi": "Diện miến",
@@ -1589,24 +1368,6 @@
     "biggest_component_id": 440
   },
   {
-    "id": 442,
-    "character": "争",
-    "character_name_vi": "Tranh Tránh",
-    "meanings_vi": [
-      "tranh giành",
-      "bàn luận",
-      "sai khác, khác biệt",
-      "khuyên bảo",
-      "nào, thế nào"
-    ],
-    "components": [
-      "勹",
-      "彐",
-      "亅"
-    ],
-    "biggest_component": "彐"
-  },
-  {
     "id": 464,
     "character": "共",
     "character_name_vi": "Cung cộng củng",
@@ -1622,39 +1383,6 @@
     "biggest_component_id": 464
   },
   {
-    "id": 483,
-    "character": "印",
-    "character_name_vi": "Ấn",
-    "meanings_vi": [
-      "in ấn",
-      "cái ấn"
-    ],
-    "components": [
-      "丿",
-      "丨",
-      "卩"
-    ],
-    "biggest_component": "卩"
-  },
-  {
-    "id": 494,
-    "character": "変",
-    "character_name_vi": "Biến",
-    "meanings_vi": [
-      "thay đổi, biến đổi",
-      "trờ thành, biến thành",
-      "bán lấy tiền",
-      "biến cố, rối loạn"
-    ],
-    "components": [
-      "亠",
-      "丿",
-      "亅",
-      "夂"
-    ],
-    "biggest_component": "夂"
-  },
-  {
     "id": 495,
     "character": "夫",
     "character_name_vi": "Phu phù",
@@ -1668,45 +1396,6 @@
     ],
     "biggest_component": "夫",
     "biggest_component_id": 495
-  },
-  {
-    "id": 517,
-    "character": "康",
-    "character_name_vi": "Khang khương",
-    "meanings_vi": [
-      "khoẻ mạnh"
-    ],
-    "components": [
-      "广",
-      "隶"
-    ],
-    "biggest_component": "隶"
-  },
-  {
-    "id": 518,
-    "character": "建",
-    "character_name_vi": "Kiến kiển",
-    "meanings_vi": [
-      "xây dựng"
-    ],
-    "components": [
-      "聿",
-      "廴"
-    ],
-    "biggest_component": "聿"
-  },
-  {
-    "id": 525,
-    "character": "成",
-    "character_name_vi": "Thành",
-    "meanings_vi": [
-      "làm xong, hoàn thành"
-    ],
-    "components": [
-      "勹",
-      "戈"
-    ],
-    "biggest_component": "戈"
   },
   {
     "id": 538,
@@ -1845,21 +1534,6 @@
     "biggest_component_id": 629
   },
   {
-    "id": 634,
-    "character": "順",
-    "character_name_vi": "Thuận",
-    "meanings_vi": [
-      "suôn sẻ",
-      "thuận theo, hàng phục",
-      "thuận, xuôi"
-    ],
-    "components": [
-      "巛",
-      "頁"
-    ],
-    "biggest_component": "頁"
-  },
-  {
     "id": 637,
     "character": "飛",
     "character_name_vi": "Phi",
@@ -1941,19 +1615,6 @@
     "biggest_component_id": 694
   },
   {
-    "id": 699,
-    "character": "弁",
-    "character_name_vi": "Biền biện bàn",
-    "meanings_vi": [
-      "mũ lớn của quan văn và quan võ"
-    ],
-    "components": [
-      "厶",
-      "廾"
-    ],
-    "biggest_component": "廾"
-  },
-  {
     "id": 718,
     "character": "支",
     "character_name_vi": "Chi",
@@ -2002,50 +1663,6 @@
     "biggest_component_id": 761
   },
   {
-    "id": 805,
-    "character": "象",
-    "character_name_vi": "Tương Tượng",
-    "meanings_vi": [
-      "hình dáng",
-      "giống như",
-      "con voi"
-    ],
-    "components": [
-      "勹",
-      "豕"
-    ],
-    "biggest_component": "豕"
-  },
-  {
-    "id": 820,
-    "character": "逆",
-    "character_name_vi": "Nghịch nghịnh",
-    "meanings_vi": [
-      "trái ngược"
-    ],
-    "components": [
-      "屮",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 824,
-    "character": "酸",
-    "character_name_vi": "Toan",
-    "meanings_vi": [
-      "vị chua",
-      "đau ê ẩm",
-      "axít"
-    ],
-    "components": [
-      "酉",
-      "允",
-      "夂"
-    ],
-    "biggest_component": "酉"
-  },
-  {
     "id": 832,
     "character": "非",
     "character_name_vi": "Phi phỉ",
@@ -2060,64 +1677,6 @@
     "biggest_component_id": 832
   },
   {
-    "id": 839,
-    "character": "亡",
-    "character_name_vi": "Vong vô",
-    "meanings_vi": [
-      "mất đi",
-      "chết, mất"
-    ],
-    "components": [
-      "亠",
-      "匚"
-    ],
-    "biggest_component": "亠"
-  },
-  {
-    "id": 848,
-    "character": "冊",
-    "character_name_vi": "Sách",
-    "meanings_vi": [
-      "quyển sách, sổ"
-    ],
-    "components": [
-      "冂",
-      "廾"
-    ],
-    "biggest_component": "廾"
-  },
-  {
-    "id": 849,
-    "character": "処",
-    "character_name_vi": "Xứ xử",
-    "meanings_vi": [
-      "nơi, chỗ",
-      "ở",
-      "xử sự",
-      "xử phạt"
-    ],
-    "components": [
-      "夂",
-      "几"
-    ],
-    "biggest_component": "夂"
-  },
-  {
-    "id": 857,
-    "character": "卵",
-    "character_name_vi": "Côn noãn",
-    "meanings_vi": [
-      "quả trứng",
-      "hột dái"
-    ],
-    "components": [
-      "丶",
-      "丿",
-      "卩"
-    ],
-    "biggest_component": "卩"
-  },
-  {
     "id": 880,
     "character": "寸",
     "character_name_vi": "Thốn",
@@ -2129,21 +1688,6 @@
     ],
     "biggest_component": "寸",
     "biggest_component_id": 880
-  },
-  {
-    "id": 888,
-    "character": "展",
-    "character_name_vi": "Triển",
-    "meanings_vi": [
-      "mở ra, trải ra",
-      "kéo dài",
-      "triển lãm, trưng bày"
-    ],
-    "components": [
-      "尸",
-      "廾"
-    ],
-    "biggest_component": "尸"
   },
   {
     "id": 890,
@@ -2185,46 +1729,6 @@
     "biggest_component_id": 893
   },
   {
-    "id": 898,
-    "character": "律",
-    "character_name_vi": "Luật",
-    "meanings_vi": [
-      "quy tắc, luật"
-    ],
-    "components": [
-      "彳",
-      "聿"
-    ],
-    "biggest_component": "聿"
-  },
-  {
-    "id": 899,
-    "character": "従",
-    "character_name_vi": "Tòng",
-    "meanings_vi": [
-      "đi theo"
-    ],
-    "components": [
-      "彳",
-      "疋"
-    ],
-    "biggest_component": "疋"
-  },
-  {
-    "id": 904,
-    "character": "我",
-    "character_name_vi": "Ngã",
-    "meanings_vi": [
-      "tôi, tao"
-    ],
-    "components": [
-      "丿",
-      "戈",
-      "亅"
-    ],
-    "biggest_component": "戈"
-  },
-  {
     "id": 931,
     "character": "段",
     "character_name_vi": "Đoàn đoán đoạn",
@@ -2251,19 +1755,6 @@
     ],
     "biggest_component": "片",
     "biggest_component_id": 942
-  },
-  {
-    "id": 953,
-    "character": "私",
-    "character_name_vi": "Tư",
-    "meanings_vi": [
-      "riêng, việc riêng, của riêng"
-    ],
-    "components": [
-      "禾",
-      "厶"
-    ],
-    "biggest_component": "禾"
   },
   {
     "id": 956,
@@ -2306,35 +1797,6 @@
     ],
     "biggest_component": "舌",
     "biggest_component_id": 982
-  },
-  {
-    "id": 1009,
-    "character": "退",
-    "character_name_vi": "Thoái thối",
-    "meanings_vi": [
-      "lui, lùi lại"
-    ],
-    "components": [
-      "艮",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 1012,
-    "character": "郷",
-    "character_name_vi": "Hương",
-    "meanings_vi": [
-      "làng",
-      "thôn quê, nông thôn",
-      "quê hương"
-    ],
-    "components": [
-      "彡",
-      "艮",
-      "邑"
-    ],
-    "biggest_component": "邑"
   },
   {
     "id": 1023,
@@ -2382,33 +1844,6 @@
     "biggest_component_id": 1028
   },
   {
-    "id": 1033,
-    "character": "丹",
-    "character_name_vi": "Đan Đơn",
-    "meanings_vi": [
-      "đỏ",
-      "thuốc viên"
-    ],
-    "components": [
-      "冂",
-      "丶"
-    ],
-    "biggest_component": "冂"
-  },
-  {
-    "id": 1035,
-    "character": "乏",
-    "character_name_vi": "Phạp",
-    "meanings_vi": [
-      "thiếu, không đủ"
-    ],
-    "components": [
-      "丿",
-      "丶"
-    ],
-    "biggest_component": "丿"
-  },
-  {
     "id": 1036,
     "character": "乙",
     "character_name_vi": "Ất",
@@ -2449,63 +1884,6 @@
     "biggest_component_id": 1040
   },
   {
-    "id": 1093,
-    "character": "充",
-    "character_name_vi": "Sung",
-    "meanings_vi": [
-      "đầy đủ",
-      "làm đầy"
-    ],
-    "components": [
-      "亠",
-      "允",
-      "儿"
-    ],
-    "biggest_component": "允"
-  },
-  {
-    "id": 1098,
-    "character": "冗",
-    "character_name_vi": "Nhũng",
-    "meanings_vi": [
-      "vô tích sự",
-      "phiền nhiễu"
-    ],
-    "components": [
-      "冖",
-      "几"
-    ],
-    "biggest_component": "冖"
-  },
-  {
-    "id": 1106,
-    "character": "凡",
-    "character_name_vi": "Hoàn phàm",
-    "meanings_vi": [
-      "thường, bình thường, tục",
-      "đại khái, chung"
-    ],
-    "components": [
-      "几",
-      "丶"
-    ],
-    "biggest_component": "几"
-  },
-  {
-    "id": 1107,
-    "character": "凶",
-    "character_name_vi": "Hung",
-    "meanings_vi": [
-      "hung ác, dữ tợn",
-      "sợ hãi"
-    ],
-    "components": [
-      "丿",
-      "凵"
-    ],
-    "biggest_component": "凵"
-  },
-  {
     "id": 1109,
     "character": "凹",
     "character_name_vi": "Ao",
@@ -2519,92 +1897,6 @@
     "biggest_component_id": 1109
   },
   {
-    "id": 1132,
-    "character": "勾",
-    "character_name_vi": "Câu Cấu",
-    "meanings_vi": [
-      "cong, móc",
-      "đánh dấu móc"
-    ],
-    "components": [
-      "勹",
-      "厶"
-    ],
-    "biggest_component": "勹"
-  },
-  {
-    "id": 1133,
-    "character": "匂",
-    "character_name_vi": "Cái",
-    "meanings_vi": [
-      "mùi hương",
-      "tỏa mùi"
-    ],
-    "components": [
-      "勹",
-      "匕"
-    ],
-    "biggest_component": "勹"
-  },
-  {
-    "id": 1135,
-    "character": "匹",
-    "character_name_vi": "Mộc thất",
-    "meanings_vi": [
-      "tấm (vải)",
-      "đơn lẻ"
-    ],
-    "components": [
-      "匸",
-      "儿"
-    ],
-    "biggest_component": "匸"
-  },
-  {
-    "id": 1137,
-    "character": "升",
-    "character_name_vi": "Thăng",
-    "meanings_vi": [
-      "bay lên",
-      "cái thưng",
-      "thưng, thăng (đơn vị đo)"
-    ],
-    "components": [
-      "丿",
-      "廾"
-    ],
-    "biggest_component": "廾"
-  },
-  {
-    "id": 1141,
-    "character": "即",
-    "character_name_vi": "Tức",
-    "meanings_vi": [
-      "tới gần",
-      "ngay, tức thì",
-      "chính là"
-    ],
-    "components": [
-      "艮",
-      "卩"
-    ],
-    "biggest_component": "艮"
-  },
-  {
-    "id": 1144,
-    "character": "厄",
-    "character_name_vi": "Ngoả ách",
-    "meanings_vi": [
-      "khốn ách",
-      "hẹp"
-    ],
-    "components": [
-      "厂",
-      "卩"
-    ],
-    "biggest_component": "厂"
-  },
-  {
     "id": 1146,
     "character": "又",
     "character_name_vi": "Hữu Hựu",
@@ -2616,60 +1908,6 @@
     ],
     "biggest_component": "又",
     "biggest_component_id": 1146
-  },
-  {
-    "id": 1276,
-    "character": "尼",
-    "character_name_vi": "Ni nê nật nặc nệ",
-    "meanings_vi": [
-      "nữ sư"
-    ],
-    "components": [
-      "尸",
-      "匕"
-    ],
-    "biggest_component": "尸"
-  },
-  {
-    "id": 1282,
-    "character": "屯",
-    "character_name_vi": "Truân Đồn",
-    "meanings_vi": [
-      "khó khăn, gian nan, truân chuyên",
-      "đồn bốt",
-      "đống đất"
-    ],
-    "components": [
-      "丿",
-      "屮"
-    ],
-    "biggest_component": "屮"
-  },
-  {
-    "id": 1292,
-    "character": "巡",
-    "character_name_vi": "Duyên tuần",
-    "meanings_vi": [
-      "đi lại xem xét",
-      "đi hết một vòng"
-    ],
-    "components": [
-      "巛",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 1294,
-    "character": "巨",
-    "character_name_vi": "Cự Há",
-    "meanings_vi": [
-      "lớn, to"
-    ],
-    "components": [
-      "匚"
-    ],
-    "biggest_component": "匚"
   },
   {
     "id": 1295,
@@ -2696,20 +1934,6 @@
     ],
     "biggest_component": "幻",
     "biggest_component_id": 1302
-  },
-  {
-    "id": 1386,
-    "character": "戒",
-    "character_name_vi": "Giới",
-    "meanings_vi": [
-      "phòng, tránh, cấm đoán",
-      "điều răn"
-    ],
-    "components": [
-      "戈",
-      "廾"
-    ],
-    "biggest_component": "戈"
   },
   {
     "id": 1470,
@@ -2742,19 +1966,6 @@
     ],
     "biggest_component": "斤",
     "biggest_component_id": 1472
-  },
-  {
-    "id": 1477,
-    "character": "既",
-    "character_name_vi": "Kí Ký",
-    "meanings_vi": [
-      "đã (đã ... lại còn ..., xem: vưu 尤)"
-    ],
-    "components": [
-      "艮",
-      "无"
-    ],
-    "biggest_component": "艮"
   },
   {
     "id": 1629,
@@ -2824,34 +2035,6 @@
     "biggest_component_id": 1660
   },
   {
-    "id": 1670,
-    "character": "疫",
-    "character_name_vi": "Dịch",
-    "meanings_vi": [
-      "bệnh ôn dịch, bệnh lây được"
-    ],
-    "components": [
-      "疒",
-      "殳"
-    ],
-    "biggest_component": "疒"
-  },
-  {
-    "id": 1674,
-    "character": "痕",
-    "character_name_vi": "Ngân ngấn",
-    "meanings_vi": [
-      "hoen ra (nước mắt)",
-      "vết sẹo",
-      "dấu vết"
-    ],
-    "components": [
-      "疒",
-      "艮"
-    ],
-    "biggest_component": "艮"
-  },
-  {
     "id": 1699,
     "character": "矛",
     "character_name_vi": "Mâu",
@@ -2863,35 +2046,6 @@
     ],
     "biggest_component": "矛",
     "biggest_component_id": 1699
-  },
-  {
-    "id": 1716,
-    "character": "秀",
-    "character_name_vi": "Tú",
-    "meanings_vi": [
-      "ra hoa, nở hoa",
-      "đẹp đẽ",
-      "giỏi, xuất sắc"
-    ],
-    "components": [
-      "禾",
-      "丿"
-    ],
-    "biggest_component": "禾"
-  },
-  {
-    "id": 1720,
-    "character": "稚",
-    "character_name_vi": "Trĩ",
-    "meanings_vi": [
-      "lúa non",
-      "trẻ con"
-    ],
-    "components": [
-      "禾",
-      "隹"
-    ],
-    "biggest_component": "隹"
   },
   {
     "id": 1734,
@@ -2946,93 +2100,6 @@
     "biggest_component_id": 1833
   },
   {
-    "id": 1841,
-    "character": "芝",
-    "character_name_vi": "Chi",
-    "meanings_vi": [
-      "một loại cỏ thơm"
-    ],
-    "components": [
-      "艸",
-      "丶"
-    ],
-    "biggest_component": "艸"
-  },
-  {
-    "id": 1846,
-    "character": "茂",
-    "character_name_vi": "Mậu",
-    "meanings_vi": [
-      "tươi tốt"
-    ],
-    "components": [
-      "艸",
-      "丿",
-      "戈"
-    ],
-    "biggest_component": "艸"
-  },
-  {
-    "id": 1851,
-    "character": "菌",
-    "character_name_vi": "Khuẩn",
-    "meanings_vi": [
-      "cây nấm",
-      "vi khuẩn"
-    ],
-    "components": [
-      "艸",
-      "囗",
-      "禾"
-    ],
-    "biggest_component": "艸"
-  },
-  {
-    "id": 1853,
-    "character": "華",
-    "character_name_vi": "Hoa hoá",
-    "meanings_vi": [
-      "đẹp",
-      "quầng trăng, quầng mặt trời",
-      "người Trung Quốc"
-    ],
-    "components": [
-      "艸",
-      "丨"
-    ],
-    "biggest_component": "艸"
-  },
-  {
-    "id": 1855,
-    "character": "葛",
-    "character_name_vi": "Cát",
-    "meanings_vi": [
-      "cây sắn dây",
-      "vải dệt bằng vỏ sắn dây",
-      "bối rối"
-    ],
-    "components": [
-      "艸",
-      "曷"
-    ],
-    "biggest_component": "曷"
-  },
-  {
-    "id": 1859,
-    "character": "蔑",
-    "character_name_vi": "Miệt",
-    "meanings_vi": [
-      "máu bẩn",
-      "tất (đi vào chân)"
-    ],
-    "components": [
-      "艸",
-      "网",
-      "戍"
-    ],
-    "biggest_component": "艸"
-  },
-  {
     "id": 1870,
     "character": "虐",
     "character_name_vi": "Ngược",
@@ -3044,20 +2111,6 @@
     ],
     "biggest_component": "虐",
     "biggest_component_id": 1870
-  },
-  {
-    "id": 1871,
-    "character": "虚",
-    "character_name_vi": "Hư Khư",
-    "meanings_vi": [
-      "không có thực",
-      "trống rỗng"
-    ],
-    "components": [
-      "虍",
-      "业"
-    ],
-    "biggest_component": "虍"
   },
   {
     "id": 1977,
@@ -3073,160 +2126,6 @@
     ],
     "biggest_component": "辛",
     "biggest_component_id": 1977
-  },
-  {
-    "id": 1982,
-    "character": "迎",
-    "character_name_vi": "Nghinh nghênh nghịnh",
-    "meanings_vi": [
-      "đón tiếp"
-    ],
-    "components": [
-      "卩",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 1987,
-    "character": "逐",
-    "character_name_vi": "Trục",
-    "meanings_vi": [
-      "đuổi đi",
-      "đuổi theo"
-    ],
-    "components": [
-      "豕",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 1991,
-    "character": "逮",
-    "character_name_vi": "Đãi đệ",
-    "meanings_vi": [
-      "theo kịp",
-      "đuổi"
-    ],
-    "components": [
-      "隶",
-      "辵"
-    ],
-    "biggest_component": "隶"
-  },
-  {
-    "id": 1993,
-    "character": "遂",
-    "character_name_vi": "Toại",
-    "meanings_vi": [
-      "bèn (trợ từ)"
-    ],
-    "components": [
-      "豕",
-      "辵"
-    ],
-    "biggest_component": "辵"
-  },
-  {
-    "id": 1997,
-    "character": "違",
-    "character_name_vi": "Vi vy",
-    "meanings_vi": [
-      "không theo, không nghe, không tuân, làm trái",
-      "xa nhau"
-    ],
-    "components": [
-      "韋",
-      "辵"
-    ],
-    "biggest_component": "韋"
-  },
-  {
-    "id": 2014,
-    "character": "酌",
-    "character_name_vi": "Chước",
-    "meanings_vi": [
-      "rót rượu, uống rượu"
-    ],
-    "components": [
-      "酉",
-      "勹",
-      "丶"
-    ],
-    "biggest_component": "酉"
-  },
-  {
-    "id": 2017,
-    "character": "酢",
-    "character_name_vi": "Thố tạc",
-    "meanings_vi": [
-      "khách rót rượu cho chủ"
-    ],
-    "components": [
-      "酉",
-      "丿"
-    ],
-    "biggest_component": "酉"
-  },
-  {
-    "id": 2073,
-    "character": "雄",
-    "character_name_vi": "Hùng",
-    "meanings_vi": [
-      "con chim trống",
-      "mạnh, khoẻ"
-    ],
-    "components": [
-      "丿",
-      "厶",
-      "隹"
-    ],
-    "biggest_component": "隹"
-  },
-  {
-    "id": 2075,
-    "character": "雇",
-    "character_name_vi": "Cố",
-    "meanings_vi": [
-      "(một loài chim)"
-    ],
-    "components": [
-      "戶",
-      "隹"
-    ],
-    "biggest_component": "隹"
-  },
-  {
-    "id": 2091,
-    "character": "頃",
-    "character_name_vi": "Khoảnh khuynh khuể",
-    "meanings_vi": [
-      "mảnh đất",
-      "phúc chốc, nhanh chóng",
-      "nửa bước chân"
-    ],
-    "components": [
-      "匕",
-      "頁"
-    ],
-    "biggest_component": "頁"
-  },
-  {
-    "id": 2093,
-    "character": "須",
-    "character_name_vi": "Tu",
-    "meanings_vi": [
-      "râu cằm",
-      "đợi",
-      "nên làm, cần thiết",
-      "chậm trễ"
-    ],
-    "components": [
-      "彡",
-      "頁"
-    ],
-    "biggest_component": "頁"
   },
   {
     "id": 2121,
@@ -3268,5 +2167,1486 @@
     ],
     "biggest_component": "鼓",
     "biggest_component_id": 2134
+  },
+  {
+    "id": 2137,
+    "character": "㐄",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "㐄"
+    ],
+    "biggest_component": "㐄",
+    "biggest_component_id": 2137
+  },
+  {
+    "id": 2138,
+    "character": "㐭",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "㐭"
+    ],
+    "biggest_component": "㐭",
+    "biggest_component_id": 2138
+  },
+  {
+    "id": 2140,
+    "character": "㳟",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "㳟"
+    ],
+    "biggest_component": "㳟",
+    "biggest_component_id": 2140
+  },
+  {
+    "id": 2141,
+    "character": "䏍",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "䏍"
+    ],
+    "biggest_component": "䏍",
+    "biggest_component_id": 2141
+  },
+  {
+    "id": 2142,
+    "character": "䒑",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "䒑"
+    ],
+    "biggest_component": "䒑",
+    "biggest_component_id": 2142
+  },
+  {
+    "id": 2143,
+    "character": "丂",
+    "character_name_vi": "Khảo",
+    "meanings_vi": [],
+    "components": [
+      "丂"
+    ],
+    "biggest_component": "丂",
+    "biggest_component_id": 2143
+  },
+  {
+    "id": 2145,
+    "character": "业",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "业"
+    ],
+    "biggest_component": "业",
+    "biggest_component_id": 2145
+  },
+  {
+    "id": 2147,
+    "character": "丨",
+    "character_name_vi": "Cổn",
+    "meanings_vi": [
+      "nét xổ",
+      "bộ cổn"
+    ],
+    "components": [
+      "丨"
+    ],
+    "biggest_component": "丨",
+    "biggest_component_id": 2147
+  },
+  {
+    "id": 2148,
+    "character": "丰",
+    "character_name_vi": "Phong",
+    "meanings_vi": [
+      "đầy",
+      "thịnh",
+      "được mùa",
+      "đẹp"
+    ],
+    "components": [
+      "丰"
+    ],
+    "biggest_component": "丰",
+    "biggest_component_id": 2148
+  },
+  {
+    "id": 2149,
+    "character": "丶",
+    "character_name_vi": "Chủ",
+    "meanings_vi": [
+      "dấu đánh để ghi nhớ hoặc phân biệt",
+      "nét chấm",
+      "bộ chủ"
+    ],
+    "components": [
+      "丶"
+    ],
+    "biggest_component": "丶",
+    "biggest_component_id": 2149
+  },
+  {
+    "id": 2150,
+    "character": "丿",
+    "character_name_vi": "Phiệt Thiên Triệt",
+    "meanings_vi": [
+      "nét phảy, nét phẩy",
+      "bộ triệt"
+    ],
+    "components": [
+      "丿"
+    ],
+    "biggest_component": "丿",
+    "biggest_component_id": 2150
+  },
+  {
+    "id": 2151,
+    "character": "乂",
+    "character_name_vi": "Nghệ",
+    "meanings_vi": [
+      "cắt cỏ",
+      "cai trị được dân yên",
+      "tài giỏi"
+    ],
+    "components": [
+      "乂"
+    ],
+    "biggest_component": "乂",
+    "biggest_component_id": 2151
+  },
+  {
+    "id": 2152,
+    "character": "乃",
+    "character_name_vi": "Nãi Ái",
+    "meanings_vi": [
+      "bèn (trợ từ)"
+    ],
+    "components": [
+      "乃"
+    ],
+    "biggest_component": "乃",
+    "biggest_component_id": 2152
+  },
+  {
+    "id": 2153,
+    "character": "乍",
+    "character_name_vi": "Sạ tác xạ",
+    "meanings_vi": [
+      "bất chợt, bỗng nhiên"
+    ],
+    "components": [
+      "乍"
+    ],
+    "biggest_component": "乍",
+    "biggest_component_id": 2153
+  },
+  {
+    "id": 2155,
+    "character": "亅",
+    "character_name_vi": "Quyết",
+    "meanings_vi": [
+      "nét xổ có móc",
+      "bộ quyết"
+    ],
+    "components": [
+      "亅"
+    ],
+    "biggest_component": "亅",
+    "biggest_component_id": 2155
+  },
+  {
+    "id": 2157,
+    "character": "亠",
+    "character_name_vi": "Đầu",
+    "meanings_vi": [
+      "bộ đầu"
+    ],
+    "components": [
+      "亠"
+    ],
+    "biggest_component": "亠",
+    "biggest_component_id": 2157
+  },
+  {
+    "id": 2161,
+    "character": "儿",
+    "character_name_vi": "Nhi nhân",
+    "meanings_vi": [
+      "đứa trẻ",
+      "con (từ xưng hô với cha mẹ)",
+      "người đang đứng, người đang đi"
+    ],
+    "components": [
+      "儿"
+    ],
+    "biggest_component": "儿",
+    "biggest_component_id": 2161
+  },
+  {
+    "id": 2166,
+    "character": "冂",
+    "character_name_vi": "Quynh",
+    "meanings_vi": [
+      "đất ở xa ngoài cõi nước",
+      "ngoài đồng"
+    ],
+    "components": [
+      "冂"
+    ],
+    "biggest_component": "冂",
+    "biggest_component_id": 2166
+  },
+  {
+    "id": 2167,
+    "character": "冋",
+    "character_name_vi": "Quynh",
+    "meanings_vi": [],
+    "components": [
+      "冋"
+    ],
+    "biggest_component": "冋",
+    "biggest_component_id": 2167
+  },
+  {
+    "id": 2168,
+    "character": "冖",
+    "character_name_vi": "Mịch",
+    "meanings_vi": [
+      "trùm khăn lên đầu",
+      "bộ mịch"
+    ],
+    "components": [
+      "冖"
+    ],
+    "biggest_component": "冖",
+    "biggest_component_id": 2168
+  },
+  {
+    "id": 2169,
+    "character": "冫",
+    "character_name_vi": "Băng",
+    "meanings_vi": [
+      "bộ băng"
+    ],
+    "components": [
+      "冫"
+    ],
+    "biggest_component": "冫",
+    "biggest_component_id": 2169
+  },
+  {
+    "id": 2170,
+    "character": "几",
+    "character_name_vi": "Cơ Ki Ky Kì Kỉ Kỷ Ỷ",
+    "meanings_vi": [
+      "hầu như, gần như",
+      "bao nhiêu",
+      "cái ghế tựa"
+    ],
+    "components": [
+      "几"
+    ],
+    "biggest_component": "几",
+    "biggest_component_id": 2170
+  },
+  {
+    "id": 2171,
+    "character": "凵",
+    "character_name_vi": "Khảm",
+    "meanings_vi": [
+      "há mồm"
+    ],
+    "components": [
+      "凵"
+    ],
+    "biggest_component": "凵",
+    "biggest_component_id": 2171
+  },
+  {
+    "id": 2173,
+    "character": "勹",
+    "character_name_vi": "Bao",
+    "meanings_vi": [
+      "bộ bao"
+    ],
+    "components": [
+      "勹"
+    ],
+    "biggest_component": "勹",
+    "biggest_component_id": 2173
+  },
+  {
+    "id": 2174,
+    "character": "勿",
+    "character_name_vi": "Vật",
+    "meanings_vi": [
+      "dừng lại",
+      "đừng, chớ"
+    ],
+    "components": [
+      "勿"
+    ],
+    "biggest_component": "勿",
+    "biggest_component_id": 2174
+  },
+  {
+    "id": 2175,
+    "character": "匕",
+    "character_name_vi": "Chuỷ Truỷ Tỷ",
+    "meanings_vi": [
+      "cái thìa, cái muôi",
+      "dao găm"
+    ],
+    "components": [
+      "匕"
+    ],
+    "biggest_component": "匕",
+    "biggest_component_id": 2175
+  },
+  {
+    "id": 2176,
+    "character": "匚",
+    "character_name_vi": "Phương",
+    "meanings_vi": [
+      "vật đựng đồ"
+    ],
+    "components": [
+      "匚"
+    ],
+    "biggest_component": "匚",
+    "biggest_component_id": 2176
+  },
+  {
+    "id": 2177,
+    "character": "匸",
+    "character_name_vi": "Hễ Hệ",
+    "meanings_vi": [
+      "che đậy"
+    ],
+    "components": [
+      "匸"
+    ],
+    "biggest_component": "匸",
+    "biggest_component_id": 2177
+  },
+  {
+    "id": 2180,
+    "character": "卜",
+    "character_name_vi": "Bặc Bốc",
+    "meanings_vi": [
+      "bói xem tốt xấu"
+    ],
+    "components": [
+      "卜"
+    ],
+    "biggest_component": "卜",
+    "biggest_component_id": 2180
+  },
+  {
+    "id": 2181,
+    "character": "卩",
+    "character_name_vi": "Tiết",
+    "meanings_vi": [
+      "bộ tiết"
+    ],
+    "components": [
+      "卩"
+    ],
+    "biggest_component": "卩",
+    "biggest_component_id": 2181
+  },
+  {
+    "id": 2183,
+    "character": "厂",
+    "character_name_vi": "Hán xưởng",
+    "meanings_vi": [
+      "chỗ sườn núi có thể ở được",
+      "cái xưởng"
+    ],
+    "components": [
+      "厂"
+    ],
+    "biggest_component": "厂",
+    "biggest_component_id": 2183
+  },
+  {
+    "id": 2184,
+    "character": "厶",
+    "character_name_vi": "Khư Mỗ",
+    "meanings_vi": [
+      "bộ khư"
+    ],
+    "components": [
+      "厶"
+    ],
+    "biggest_component": "厶",
+    "biggest_component_id": 2184
+  },
+  {
+    "id": 2185,
+    "character": "吅",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "吅"
+    ],
+    "biggest_component": "吅",
+    "biggest_component_id": 2185
+  },
+  {
+    "id": 2191,
+    "character": "喿",
+    "character_name_vi": "Táo",
+    "meanings_vi": [],
+    "components": [
+      "喿"
+    ],
+    "biggest_component": "喿",
+    "biggest_component_id": 2191
+  },
+  {
+    "id": 2192,
+    "character": "囗",
+    "character_name_vi": "Vi Vy",
+    "meanings_vi": [
+      "vây quanh"
+    ],
+    "components": [
+      "囗"
+    ],
+    "biggest_component": "囗",
+    "biggest_component_id": 2192
+  },
+  {
+    "id": 2194,
+    "character": "壬",
+    "character_name_vi": "Nhâm nhậm",
+    "meanings_vi": [
+      "Nhâm (ngôi thứ 9 hàng Can)",
+      "to lớn",
+      "gian nịnh"
+    ],
+    "components": [
+      "壬"
+    ],
+    "biggest_component": "壬",
+    "biggest_component_id": 2194
+  },
+  {
+    "id": 2195,
+    "character": "壴",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "壴"
+    ],
+    "biggest_component": "壴",
+    "biggest_component_id": 2195
+  },
+  {
+    "id": 2196,
+    "character": "夂",
+    "character_name_vi": "Tri Truy",
+    "meanings_vi": [
+      "bộ tri",
+      "bước chậm"
+    ],
+    "components": [
+      "夂"
+    ],
+    "biggest_component": "夂",
+    "biggest_component_id": 2196
+  },
+  {
+    "id": 2197,
+    "character": "夆",
+    "character_name_vi": "Phong Phùng",
+    "meanings_vi": [
+      "dẫn đi, dắt đi"
+    ],
+    "components": [
+      "夆"
+    ],
+    "biggest_component": "夆",
+    "biggest_component_id": 2197
+  },
+  {
+    "id": 2199,
+    "character": "夗",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "夗"
+    ],
+    "biggest_component": "夗",
+    "biggest_component_id": 2199
+  },
+  {
+    "id": 2201,
+    "character": "宀",
+    "character_name_vi": "Miên",
+    "meanings_vi": [
+      "lợp trùm nhà ngoài với nhà trong"
+    ],
+    "components": [
+      "宀"
+    ],
+    "biggest_component": "宀",
+    "biggest_component_id": 2201
+  },
+  {
+    "id": 2203,
+    "character": "尗",
+    "character_name_vi": "Thúc",
+    "meanings_vi": [],
+    "components": [
+      "尗"
+    ],
+    "biggest_component": "尗",
+    "biggest_component_id": 2203
+  },
+  {
+    "id": 2204,
+    "character": "尢",
+    "character_name_vi": "Ngột Uông",
+    "meanings_vi": [
+      "bộ ngột",
+      "kiễng chân",
+      "yếu đuối"
+    ],
+    "components": [
+      "尢"
+    ],
+    "biggest_component": "尢",
+    "biggest_component_id": 2204
+  },
+  {
+    "id": 2206,
+    "character": "尸",
+    "character_name_vi": "Thi",
+    "meanings_vi": [
+      "thây người chết"
+    ],
+    "components": [
+      "尸"
+    ],
+    "biggest_component": "尸",
+    "biggest_component_id": 2206
+  },
+  {
+    "id": 2208,
+    "character": "屮",
+    "character_name_vi": "Triệt",
+    "meanings_vi": [
+      "bộ triệt"
+    ],
+    "components": [
+      "屮"
+    ],
+    "biggest_component": "屮",
+    "biggest_component_id": 2208
+  },
+  {
+    "id": 2209,
+    "character": "屰",
+    "character_name_vi": "Kích Nghịch",
+    "meanings_vi": [],
+    "components": [
+      "屰"
+    ],
+    "biggest_component": "屰",
+    "biggest_component_id": 2209
+  },
+  {
+    "id": 2210,
+    "character": "巛",
+    "character_name_vi": "Khôn Xuyên",
+    "meanings_vi": [
+      "dòng nước, sông",
+      "cánh đồng"
+    ],
+    "components": [
+      "巛"
+    ],
+    "biggest_component": "巛",
+    "biggest_component_id": 2210
+  },
+  {
+    "id": 2213,
+    "character": "幺",
+    "character_name_vi": "Yêu",
+    "meanings_vi": [
+      "nhỏ bé"
+    ],
+    "components": [
+      "幺"
+    ],
+    "biggest_component": "幺",
+    "biggest_component_id": 2213
+  },
+  {
+    "id": 2214,
+    "character": "广",
+    "character_name_vi": "Nghiễm Quáng Quảng Yểm",
+    "meanings_vi": [
+      "mái nhà",
+      "rộng lớn",
+      "rộng về phương Đông Tây (xem: mậu 袤)"
+    ],
+    "components": [
+      "广"
+    ],
+    "biggest_component": "广",
+    "biggest_component_id": 2214
+  },
+  {
+    "id": 2215,
+    "character": "廴",
+    "character_name_vi": "Dẫn",
+    "meanings_vi": [
+      "bước dài"
+    ],
+    "components": [
+      "廴"
+    ],
+    "biggest_component": "廴",
+    "biggest_component_id": 2215
+  },
+  {
+    "id": 2216,
+    "character": "廾",
+    "character_name_vi": "Củng nhập trấp",
+    "meanings_vi": [
+      "chắp tay"
+    ],
+    "components": [
+      "廾"
+    ],
+    "biggest_component": "廾",
+    "biggest_component_id": 2216
+  },
+  {
+    "id": 2217,
+    "character": "廿",
+    "character_name_vi": "Chấp Nhập Trấp",
+    "meanings_vi": [
+      "hai mươi, 20"
+    ],
+    "components": [
+      "廿"
+    ],
+    "biggest_component": "廿",
+    "biggest_component_id": 2217
+  },
+  {
+    "id": 2218,
+    "character": "弋",
+    "character_name_vi": "Dặc",
+    "meanings_vi": [
+      "chiếm lấy"
+    ],
+    "components": [
+      "弋"
+    ],
+    "biggest_component": "弋",
+    "biggest_component_id": 2218
+  },
+  {
+    "id": 2219,
+    "character": "彐",
+    "character_name_vi": "Ký Kệ Tuyết",
+    "meanings_vi": [
+      "đầu con nhím (dím)"
+    ],
+    "components": [
+      "彐"
+    ],
+    "biggest_component": "彐",
+    "biggest_component_id": 2219
+  },
+  {
+    "id": 2220,
+    "character": "彡",
+    "character_name_vi": "Sam Tiệm",
+    "meanings_vi": [
+      "lông dài"
+    ],
+    "components": [
+      "彡"
+    ],
+    "biggest_component": "彡",
+    "biggest_component_id": 2220
+  },
+  {
+    "id": 2221,
+    "character": "彳",
+    "character_name_vi": "Sách xích",
+    "meanings_vi": [
+      "bước chân trái"
+    ],
+    "components": [
+      "彳"
+    ],
+    "biggest_component": "彳",
+    "biggest_component_id": 2221
+  },
+  {
+    "id": 2222,
+    "character": "戈",
+    "character_name_vi": "Qua",
+    "meanings_vi": [
+      "cái qua, cái mác (binh khí)"
+    ],
+    "components": [
+      "戈"
+    ],
+    "biggest_component": "戈",
+    "biggest_component_id": 2222
+  },
+  {
+    "id": 2225,
+    "character": "戶",
+    "character_name_vi": "Hộ",
+    "meanings_vi": [],
+    "components": [
+      "戶"
+    ],
+    "biggest_component": "戶",
+    "biggest_component_id": 2225
+  },
+  {
+    "id": 2226,
+    "character": "攴",
+    "character_name_vi": "Phác Phốc Phộc",
+    "meanings_vi": [
+      "đánh khẽ"
+    ],
+    "components": [
+      "攴"
+    ],
+    "biggest_component": "攴",
+    "biggest_component_id": 2226
+  },
+  {
+    "id": 2229,
+    "character": "无",
+    "character_name_vi": "Mô Vô",
+    "meanings_vi": [
+      "không có"
+    ],
+    "components": [
+      "无"
+    ],
+    "biggest_component": "无",
+    "biggest_component_id": 2229
+  },
+  {
+    "id": 2231,
+    "character": "曰",
+    "character_name_vi": "Viết",
+    "meanings_vi": [
+      "nói rằng"
+    ],
+    "components": [
+      "曰"
+    ],
+    "biggest_component": "曰",
+    "biggest_component_id": 2231
+  },
+  {
+    "id": 2233,
+    "character": "歹",
+    "character_name_vi": "Ngạt Đãi",
+    "meanings_vi": [
+      "xương tàn",
+      "việc xấu, tồi, trái, bậy"
+    ],
+    "components": [
+      "歹"
+    ],
+    "biggest_component": "歹",
+    "biggest_component_id": 2233
+  },
+  {
+    "id": 2234,
+    "character": "殳",
+    "character_name_vi": "Thù",
+    "meanings_vi": [
+      "thù (binh khí)"
+    ],
+    "components": [
+      "殳"
+    ],
+    "biggest_component": "殳",
+    "biggest_component_id": 2234
+  },
+  {
+    "id": 2235,
+    "character": "毋",
+    "character_name_vi": "Mưu Vô",
+    "meanings_vi": [
+      "chớ, đừng"
+    ],
+    "components": [
+      "毋"
+    ],
+    "biggest_component": "毋",
+    "biggest_component_id": 2235
+  },
+  {
+    "id": 2236,
+    "character": "气",
+    "character_name_vi": "Khí Khất",
+    "meanings_vi": [
+      "khí, hơi"
+    ],
+    "components": [
+      "气"
+    ],
+    "biggest_component": "气",
+    "biggest_component_id": 2236
+  },
+  {
+    "id": 2237,
+    "character": "爻",
+    "character_name_vi": "Hào",
+    "meanings_vi": [
+      "hào (trong king Dịch, một quái có 6 hào)"
+    ],
+    "components": [
+      "爻"
+    ],
+    "biggest_component": "爻",
+    "biggest_component_id": 2237
+  },
+  {
+    "id": 2238,
+    "character": "爿",
+    "character_name_vi": "Bản Tường",
+    "meanings_vi": [
+      "tấm ván gỗ"
+    ],
+    "components": [
+      "爿"
+    ],
+    "biggest_component": "爿",
+    "biggest_component_id": 2238
+  },
+  {
+    "id": 2239,
+    "character": "瓜",
+    "character_name_vi": "Qua",
+    "meanings_vi": [
+      "cây dưa"
+    ],
+    "components": [
+      "瓜"
+    ],
+    "biggest_component": "瓜",
+    "biggest_component_id": 2239
+  },
+  {
+    "id": 2241,
+    "character": "电",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "电"
+    ],
+    "biggest_component": "电",
+    "biggest_component_id": 2241
+  },
+  {
+    "id": 2242,
+    "character": "疋",
+    "character_name_vi": "Nhã Sơ Thất",
+    "meanings_vi": [
+      "chân"
+    ],
+    "components": [
+      "疋"
+    ],
+    "biggest_component": "疋",
+    "biggest_component_id": 2242
+  },
+  {
+    "id": 2243,
+    "character": "疒",
+    "character_name_vi": "Nạch",
+    "meanings_vi": [
+      "bộ nạch"
+    ],
+    "components": [
+      "疒"
+    ],
+    "biggest_component": "疒",
+    "biggest_component_id": 2243
+  },
+  {
+    "id": 2244,
+    "character": "癶",
+    "character_name_vi": "Bát",
+    "meanings_vi": [
+      "gạt ra, đạp"
+    ],
+    "components": [
+      "癶"
+    ],
+    "biggest_component": "癶",
+    "biggest_component_id": 2244
+  },
+  {
+    "id": 2245,
+    "character": "禸",
+    "character_name_vi": "Nhụ Nhựu",
+    "meanings_vi": [
+      "vết chân thú"
+    ],
+    "components": [
+      "禸"
+    ],
+    "biggest_component": "禸",
+    "biggest_component_id": 2245
+  },
+  {
+    "id": 2247,
+    "character": "禾",
+    "character_name_vi": "Hoà",
+    "meanings_vi": [
+      "lúa, mạ"
+    ],
+    "components": [
+      "禾"
+    ],
+    "biggest_component": "禾",
+    "biggest_component_id": 2247
+  },
+  {
+    "id": 2248,
+    "character": "网",
+    "character_name_vi": "Võng",
+    "meanings_vi": [
+      "cái lưới",
+      "vu khống, lừa"
+    ],
+    "components": [
+      "网"
+    ],
+    "biggest_component": "网",
+    "biggest_component_id": 2248
+  },
+  {
+    "id": 2249,
+    "character": "而",
+    "character_name_vi": "Nhi Năng",
+    "meanings_vi": [
+      "và, rồi",
+      "thế mà",
+      "lông má",
+      "xe tang, xe đưa đám"
+    ],
+    "components": [
+      "而"
+    ],
+    "biggest_component": "而",
+    "biggest_component_id": 2249
+  },
+  {
+    "id": 2250,
+    "character": "耒",
+    "character_name_vi": "Lỗi",
+    "meanings_vi": [
+      "cái cày"
+    ],
+    "components": [
+      "耒"
+    ],
+    "biggest_component": "耒",
+    "biggest_component_id": 2250
+  },
+  {
+    "id": 2252,
+    "character": "聿",
+    "character_name_vi": "Duật",
+    "meanings_vi": [
+      "bèn, bui",
+      "cái bút"
+    ],
+    "components": [
+      "聿"
+    ],
+    "biggest_component": "聿",
+    "biggest_component_id": 2252
+  },
+  {
+    "id": 2253,
+    "character": "舛",
+    "character_name_vi": "Suyễn Xuyễn",
+    "meanings_vi": [
+      "ngang trái",
+      "lẫn lộn"
+    ],
+    "components": [
+      "舛"
+    ],
+    "biggest_component": "舛",
+    "biggest_component_id": 2253
+  },
+  {
+    "id": 2254,
+    "character": "艮",
+    "character_name_vi": "Cấn",
+    "meanings_vi": [
+      "quẻ Cấn (phúc uyển) trong Kinh Dịch (chỉ có vạch trên liền, tượng Sơn (núi), tượng trưng cho con trai út, hành Thổ, tuổi Sửu, hướng Đông và Bắc)"
+    ],
+    "components": [
+      "艮"
+    ],
+    "biggest_component": "艮",
+    "biggest_component_id": 2254
+  },
+  {
+    "id": 2255,
+    "character": "艸",
+    "character_name_vi": "Thảo",
+    "meanings_vi": [
+      "bộ thảo"
+    ],
+    "components": [
+      "艸"
+    ],
+    "biggest_component": "艸",
+    "biggest_component_id": 2255
+  },
+  {
+    "id": 2256,
+    "character": "艹",
+    "character_name_vi": "Thảo",
+    "meanings_vi": [
+      "bộ thảo"
+    ],
+    "components": [
+      "艹"
+    ],
+    "biggest_component": "艹",
+    "biggest_component_id": 2256
+  },
+  {
+    "id": 2258,
+    "character": "虍",
+    "character_name_vi": "Hô",
+    "meanings_vi": [
+      "vằn con hổ"
+    ],
+    "components": [
+      "虍"
+    ],
+    "biggest_component": "虍",
+    "biggest_component_id": 2258
+  },
+  {
+    "id": 2259,
+    "character": "襾",
+    "character_name_vi": "Á",
+    "meanings_vi": [
+      "che, chùm lên"
+    ],
+    "components": [
+      "襾"
+    ],
+    "biggest_component": "襾",
+    "biggest_component_id": 2259
+  },
+  {
+    "id": 2260,
+    "character": "豕",
+    "character_name_vi": "Thỉ",
+    "meanings_vi": [
+      "con lợn, con heo"
+    ],
+    "components": [
+      "豕"
+    ],
+    "biggest_component": "豕",
+    "biggest_component_id": 2260
+  },
+  {
+    "id": 2261,
+    "character": "豸",
+    "character_name_vi": "Trãi Trĩ Trại",
+    "meanings_vi": [
+      "loài bò sát không có chân",
+      "giải được, trừ được",
+      "con dê thần"
+    ],
+    "components": [
+      "豸"
+    ],
+    "biggest_component": "豸",
+    "biggest_component_id": 2261
+  },
+  {
+    "id": 2262,
+    "character": "辰",
+    "character_name_vi": "Thìn thần",
+    "meanings_vi": [
+      "Thìn (ngôi thứ 5 của hàng Chi)"
+    ],
+    "components": [
+      "辰"
+    ],
+    "biggest_component": "辰",
+    "biggest_component_id": 2262
+  },
+  {
+    "id": 2263,
+    "character": "辵",
+    "character_name_vi": "Sước",
+    "meanings_vi": [
+      "bộ sước"
+    ],
+    "components": [
+      "辵"
+    ],
+    "biggest_component": "辵",
+    "biggest_component_id": 2263
+  },
+  {
+    "id": 2264,
+    "character": "邑",
+    "character_name_vi": "Ấp",
+    "meanings_vi": [
+      "vùng đất nhỏ"
+    ],
+    "components": [
+      "邑"
+    ],
+    "biggest_component": "邑",
+    "biggest_component_id": 2264
+  },
+  {
+    "id": 2265,
+    "character": "酉",
+    "character_name_vi": "Dậu",
+    "meanings_vi": [
+      "Dậu (ngôi thứ 10 hàng Chi)"
+    ],
+    "components": [
+      "酉"
+    ],
+    "biggest_component": "酉",
+    "biggest_component_id": 2265
+  },
+  {
+    "id": 2267,
+    "character": "釆",
+    "character_name_vi": "Biện",
+    "meanings_vi": [
+      "phân biệt"
+    ],
+    "components": [
+      "釆"
+    ],
+    "biggest_component": "釆",
+    "biggest_component_id": 2267
+  },
+  {
+    "id": 2269,
+    "character": "隶",
+    "character_name_vi": "Lệ Đãi",
+    "meanings_vi": [
+      "phụ thuộc",
+      "lối chữ lệ"
+    ],
+    "components": [
+      "隶"
+    ],
+    "biggest_component": "隶",
+    "biggest_component_id": 2269
+  },
+  {
+    "id": 2270,
+    "character": "隹",
+    "character_name_vi": "Chuy",
+    "meanings_vi": [
+      "chim đuôi ngắn"
+    ],
+    "components": [
+      "隹"
+    ],
+    "biggest_component": "隹",
+    "biggest_component_id": 2270
+  },
+  {
+    "id": 2272,
+    "character": "韋",
+    "character_name_vi": "Vi Vy",
+    "meanings_vi": [
+      "da đã thuộc"
+    ],
+    "components": [
+      "韋"
+    ],
+    "biggest_component": "韋",
+    "biggest_component_id": 2272
+  },
+  {
+    "id": 2273,
+    "character": "頁",
+    "character_name_vi": "Hiệt",
+    "meanings_vi": [
+      "tờ giấy, trang giấy"
+    ],
+    "components": [
+      "頁"
+    ],
+    "biggest_component": "頁",
+    "biggest_component_id": 2273
+  },
+  {
+    "id": 2274,
+    "character": "髟",
+    "character_name_vi": "Bưu Sam Tiêu",
+    "meanings_vi": [
+      "tóc dài lượt thượt"
+    ],
+    "components": [
+      "髟"
+    ],
+    "biggest_component": "髟",
+    "biggest_component_id": 2274
+  },
+  {
+    "id": 2275,
+    "character": "鬯",
+    "character_name_vi": "Sưởng",
+    "meanings_vi": [
+      "rượu nếp"
+    ],
+    "components": [
+      "鬯"
+    ],
+    "biggest_component": "鬯",
+    "biggest_component_id": 2275
+  },
+  {
+    "id": 2276,
+    "character": "鬲",
+    "character_name_vi": "Cách Lịch",
+    "meanings_vi": [
+      "nước Cách",
+      "một đồ để đựng giống cái đỉnh"
+    ],
+    "components": [
+      "鬲"
+    ],
+    "biggest_component": "鬲",
+    "biggest_component_id": 2276
+  },
+  {
+    "id": 2277,
+    "character": "麥",
+    "character_name_vi": "Mạch",
+    "meanings_vi": [
+      "lúa tẻ"
+    ],
+    "components": [
+      "麥"
+    ],
+    "biggest_component": "麥",
+    "biggest_component_id": 2277
+  },
+  {
+    "id": 2278,
+    "character": "黃",
+    "character_name_vi": "Hoàng Huỳnh",
+    "meanings_vi": [
+      "vàng, màu vàng"
+    ],
+    "components": [
+      "黃"
+    ],
+    "biggest_component": "黃",
+    "biggest_component_id": 2278
+  },
+  {
+    "id": 2279,
+    "character": "鼠",
+    "character_name_vi": "Thử",
+    "meanings_vi": [
+      "con chuột"
+    ],
+    "components": [
+      "鼠"
+    ],
+    "biggest_component": "鼠",
+    "biggest_component_id": 2279
+  },
+  {
+    "id": 2280,
+    "character": "齊",
+    "character_name_vi": "Trai Tê Tư Tế Tề Tễ",
+    "meanings_vi": [
+      "đều, không so le",
+      "nước Tề, đất Tề"
+    ],
+    "components": [
+      "齊"
+    ],
+    "biggest_component": "齊",
+    "biggest_component_id": 2280
+  },
+  {
+    "id": 2281,
+    "character": "齒",
+    "character_name_vi": "Xỉ",
+    "meanings_vi": [
+      "răng",
+      "tuổi tác"
+    ],
+    "components": [
+      "齒"
+    ],
+    "biggest_component": "齒",
+    "biggest_component_id": 2281
+  },
+  {
+    "id": 2282,
+    "character": "龍",
+    "character_name_vi": "Long Lũng Sủng",
+    "meanings_vi": [
+      "con rồng"
+    ],
+    "components": [
+      "龍"
+    ],
+    "biggest_component": "龍",
+    "biggest_component_id": 2282
+  },
+  {
+    "id": 2283,
+    "character": "龴",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "龴"
+    ],
+    "biggest_component": "龴",
+    "biggest_component_id": 2283
+  },
+  {
+    "id": 2284,
+    "character": "龶",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "龶"
+    ],
+    "biggest_component": "龶",
+    "biggest_component_id": 2284
+  },
+  {
+    "id": 2285,
+    "character": "龷",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "龷"
+    ],
+    "biggest_component": "龷",
+    "biggest_component_id": 2285
+  },
+  {
+    "id": 2286,
+    "character": "龹",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "龹"
+    ],
+    "biggest_component": "龹",
+    "biggest_component_id": 2286
+  },
+  {
+    "id": 2287,
+    "character": "𠂇",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𠂇"
+    ],
+    "biggest_component": "𠂇",
+    "biggest_component_id": 2287
+  },
+  {
+    "id": 2288,
+    "character": "𠂉",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𠂉"
+    ],
+    "biggest_component": "𠂉",
+    "biggest_component_id": 2288
+  },
+  {
+    "id": 2289,
+    "character": "𠔉",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𠔉"
+    ],
+    "biggest_component": "𠔉",
+    "biggest_component_id": 2289
+  },
+  {
+    "id": 2290,
+    "character": "𠦝",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𠦝"
+    ],
+    "biggest_component": "𠦝",
+    "biggest_component_id": 2290
+  },
+  {
+    "id": 2291,
+    "character": "𡗗",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𡗗"
+    ],
+    "biggest_component": "𡗗",
+    "biggest_component_id": 2291
+  },
+  {
+    "id": 2292,
+    "character": "𡰪",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𡰪"
+    ],
+    "biggest_component": "𡰪",
+    "biggest_component_id": 2292
+  },
+  {
+    "id": 2293,
+    "character": "𢆉",
+    "character_name_vi": null,
+    "meanings_vi": [],
+    "components": [
+      "𢆉"
+    ],
+    "biggest_component": "𢆉",
+    "biggest_component_id": 2293
   }
 ]

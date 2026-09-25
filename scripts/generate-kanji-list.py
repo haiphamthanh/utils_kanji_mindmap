@@ -361,12 +361,27 @@ def main():
     kdv = load_kdv(src["kdv_dir"])
 
     existing = {}
+    radname = {}
     old_path = os.path.join(ROOT, "data", "kanji-source.json")
     if os.path.exists(old_path):
-        for c, v in json.load(open(old_path, encoding="utf-8"))["characters"].items():
-            existing[c] = v
+        olds = json.load(open(old_path, encoding="utf-8"))
+        existing = olds.get("characters", {})
+        for f in olds.get("families", []):
+            if f.get("component"):
+                radname[f["component"]] = f.get("radical_name_vi")
 
-    charset = set(c for c, _, _ in joyo)
+    joyo_chars = set(c for c, _, _ in joyo)
+
+    # Bóc lần 1 với 2136 để tìm các bộ/thành phần còn thiếu.
+    charset = joyo_chars
+    decomp = {c: decompose(c) for c in charset}
+    missing = sorted(
+        {x for c in charset for x in (decomp[c][0] or [])} - charset,
+        key=ord,
+    )
+
+    # Mở rộng list rồi bóc lại (contained tính cả các bộ vừa thêm vào).
+    charset = joyo_chars | set(missing)
     decomp = {c: decompose(c) for c in charset}
     comps_of = {c: (decomp[c][0] or [c]) for c in charset}
     contains = {c: decomp[c][1] for c in charset}
@@ -381,9 +396,11 @@ def main():
             return kdv[x]["strokes"]
         return 0
 
+    items = sorted(joyo, key=lambda x: (x[1], ord(x[0]))) + [(c, None, None) for c in missing]
+
     records = []
     missing_strokes = []
-    for i, (char, grade, rnum) in enumerate(sorted(joyo, key=lambda x: (x[1], ord(x[0])))):
+    for i, (char, grade, rnum) in enumerate(items):
         if args.limit and i >= args.limit:
             break
 
@@ -395,7 +412,7 @@ def main():
         elif e and e["han_viet"]:
             name_vi = title_vi(e["han_viet"])
         else:
-            name_vi = None
+            name_vi = radname.get(char)
 
         if old and old.get("meanings_vi"):
             meanings = list(old["meanings_vi"])
