@@ -509,6 +509,11 @@ button {
   filter: drop-shadow(0 4px 10px rgba(36, 52, 71, 0.22));
 }
 
+.kanji-node.pinned circle {
+  stroke-width: 4;
+  filter: drop-shadow(0 0 6px var(--jlpt, var(--accent)));
+}
+
 .kanji-node.center circle {
   fill: var(--jlpt, var(--accent));
   stroke: var(--jlpt, var(--accent));

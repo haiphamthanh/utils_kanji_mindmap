@@ -42,10 +42,13 @@ const state = {
   depth: 2,
   layoutMode: "auto",
   jlpt: new Set(JLPT_LEVELS),
+  pinnedId: null,
   path: [],
   rendered: null,
   layout: null,
 };
+
+let nodeClickTimer = null;
 
 const viewport = createViewport(dom.svg, dom.viewport);
 
@@ -108,6 +111,8 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   }
   hideEmpty();
 
+  const pinned = state.pinnedId;
+
   const graph = buildGraph(state.center, {
     depth: state.depth,
     data: state.data,
@@ -124,6 +129,15 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   bindNodeEvents(state.rendered);
 
+  // Giữ lại ghim tô sáng nếu node vẫn còn sau khi render.
+  if (pinned && state.rendered.byId.has(pinned)) {
+    state.pinnedId = pinned;
+    applyFocus(pinned);
+    markPinned(pinned);
+  } else {
+    state.pinnedId = null;
+  }
+
   if (animate) {
     playEnter(state.rendered);
   } else {
@@ -133,7 +147,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   if (fit) fitToContent();
 
-  renderDetailPanel(state.center);
+  renderDetailPanel(state.pinnedId || state.center);
   renderBreadcrumb();
   renderStatus(graph, layout);
 
@@ -142,6 +156,9 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
 function setCenter(id, { mode = "navigate", animate = true } = {}) {
   if (!state.data.kanji[id]) return;
+
+  state.pinnedId = null;
+  clearFocus();
 
   if (mode === "reset") {
     state.path = [id];
@@ -183,21 +200,51 @@ function bindNodeEvents({ nodeEls }) {
   for (const el of nodeEls) {
     const id = el.dataset.id;
 
-    el.addEventListener("click", () => {
-      if (viewport.consumeClickSuppressed()) return;
-      if (id === state.center) return;
-      setCenter(id, { mode: "navigate" });
-    });
-
     el.addEventListener("mouseenter", () => {
+      if (state.pinnedId) {
+        showTooltip(el, state.data.kanji[id]);
+        return;
+      }
       applyFocus(id);
       showTooltip(el, state.data.kanji[id]);
     });
 
     el.addEventListener("mouseleave", () => {
-      clearFocus();
       hideTooltip();
+      if (state.pinnedId) return;
+      clearFocus();
     });
+  }
+}
+
+// Click/dblclick bắt ở SVG (hit-test theo toạ độ) để không phụ thuộc target.
+function nodeFromEvent(e) {
+  for (const el of [e.target, document.elementFromPoint(e.clientX, e.clientY)]) {
+    if (el && el.closest) {
+      const node = el.closest(".kanji-node");
+      if (node) return node;
+    }
+  }
+  return null;
+}
+
+function pinFocus(id) {
+  state.pinnedId = id;
+  applyFocus(id);
+  markPinned(id);
+  renderDetailPanel(id);
+}
+
+function unpinFocus() {
+  if (!state.pinnedId) return;
+  state.pinnedId = null;
+  clearFocus();
+  renderDetailPanel(state.center);
+}
+
+function markPinned(id) {
+  for (const node of dom.nodes.children) {
+    node.classList.toggle("pinned", node.dataset.id === id);
   }
 }
 
@@ -223,7 +270,9 @@ function applyFocus(id) {
 function clearFocus() {
   dom.svg.classList.remove("focusing");
   for (const edge of dom.edges.children) edge.classList.remove("highlight");
-  for (const node of dom.nodes.children) node.classList.remove("related");
+  for (const node of dom.nodes.children) {
+    node.classList.remove("related", "pinned");
+  }
 }
 
 function showTooltip(el, entry) {
@@ -419,6 +468,29 @@ function wireToolbar() {
       hideSuggestions();
     }
   });
+
+  // Click node: ghim tô sáng. Double-click: điều hướng. Click nền: bỏ ghim.
+  dom.svg.addEventListener("click", (e) => {
+    if (viewport.consumeClickSuppressed()) return;
+    clearTimeout(nodeClickTimer);
+    const node = nodeFromEvent(e);
+    if (!node) {
+      unpinFocus();
+      return;
+    }
+    if (e.detail > 1) return; // để dblclick xử lý
+    const id = node.dataset.id;
+    nodeClickTimer = setTimeout(() => pinFocus(id), 240);
+  });
+
+  dom.svg.addEventListener("dblclick", (e) => {
+    clearTimeout(nodeClickTimer);
+    const node = nodeFromEvent(e);
+    if (!node) return;
+    const id = node.dataset.id;
+    if (id === state.center) return;
+    setCenter(id, { mode: "navigate" });
+  });
 }
 
 function buildJlptChips() {
@@ -568,6 +640,7 @@ function wireKeyboard() {
     } else if (e.key === "Escape") {
       hideSuggestions();
       hideTooltip();
+      unpinFocus();
       if (typing) dom.search.blur();
     } else if ((e.key === "+" || e.key === "=") && !typing) {
       viewport.zoomBy(1.18);

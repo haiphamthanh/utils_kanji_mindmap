@@ -81,7 +81,7 @@ export function createViewport(svg, viewport) {
     startTx = tx;
     startTy = ty;
     suppressClick = false;
-    svg.setPointerCapture(e.pointerId);
+    // Không capture ở đây: capture sẽ làm click của node bị chuyển sang SVG.
   });
 
   svg.addEventListener("pointermove", (e) => {
@@ -91,6 +91,11 @@ export function createViewport(svg, viewport) {
     if (!moved && Math.hypot(dx, dy) > DRAG_THRESHOLD) {
       moved = true;
       svg.classList.add("grabbing");
+      try {
+        svg.setPointerCapture(e.pointerId);
+      } catch (_) {
+        /* ignore */
+      }
     }
     if (moved) {
       tx = startTx + dx;
@@ -99,11 +104,18 @@ export function createViewport(svg, viewport) {
     }
   });
 
-  function endDrag() {
+  function endDrag(e) {
     if (!dragging) return;
     dragging = false;
     svg.classList.remove("grabbing");
     suppressClick = moved;
+    if (e && svg.hasPointerCapture && svg.hasPointerCapture(e.pointerId)) {
+      try {
+        svg.releasePointerCapture(e.pointerId);
+      } catch (_) {
+        /* ignore */
+      }
+    }
   }
 
   svg.addEventListener("pointerup", endDrag);
