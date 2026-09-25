@@ -1,17 +1,25 @@
-// layout.js — radial tidy-tree layout theo cấp dữ liệu.
+// layout.js — chọn layout thích ứng theo số node.
 //
-// Center ở giữa. Cấp 1 (bộ phận) toả lên trên, cấp cao hơn toả xuống dưới
-// (hoặc cả vòng tròn khi chỉ có 1 hướng). Mỗi cấp = 1 vòng bán kính riêng.
-// Node cha căn giữa theo góc của các con nên các đường nối không cắt nhau.
+//   tree    : 1 cấp 1 hàng, dễ đọc, hợp graph nhỏ.
+//   radial  : hướng tâm, hợp graph nhiều node.
+//   compact : radial với cung/vành nhỏ hơn cho graph rất lớn.
+//
+// mode: "auto" (theo số node) | "tree" | "radial".
 
 const CENTER_R = 42;
 const NODE_R = 27;
-const MIN_ARC = 86; // cung tối thiểu giữa 2 node cùng vòng
-const RING_GAP = 124; // khoảng cách bán kính giữa 2 vòng
-const MIN_R1 = 120; // bán kính tối thiểu của vòng 1
+
+const GAP_X = 96;
+const GAP_Y = 150;
+
+const RING_NORMAL = { arc: 86, gap: 124, r1: 120 };
+const RING_COMPACT = { arc: 64, gap: 96, r1: 108 };
 const TWO_PI = Math.PI * 2;
 
-export function computeLayout(graph) {
+const TREE_MAX = 24; // <= số này dùng tree
+const COMPACT_MIN = 150; // > số này dùng radial compact
+
+export function computeLayout(graph, { mode = "auto" } = {}) {
   const radius = { center: CENTER_R, node: NODE_R };
 
   if (!graph.nodes.length) {
@@ -20,10 +28,42 @@ export function computeLayout(graph) {
       edges: [],
       center: null,
       radius,
+      mode: "empty",
       bounds: { minX: -1, maxX: 1, minY: -1, maxY: 1 },
     };
   }
 
+  const { center, upRoots, downRoots } = prepare(graph);
+  const resolved = resolveMode(graph, mode);
+  const compact = graph.nodes.length > COMPACT_MIN;
+
+  let label;
+  if (resolved === "tree") {
+    layoutTree(upRoots, downRoots, center);
+    label = "tree";
+  } else {
+    layoutRadial(graph, upRoots, downRoots, center, compact ? RING_COMPACT : RING_NORMAL);
+    label = compact ? "radial-compact" : "radial";
+  }
+
+  return {
+    nodes: graph.nodes,
+    edges: graph.edges,
+    center,
+    radius,
+    mode: label,
+    bounds: computeBounds(graph),
+  };
+}
+
+// -------------------------------------------------------------
+
+function resolveMode(graph, mode) {
+  if (mode === "tree" || mode === "radial") return mode;
+  return graph.nodes.length <= TREE_MAX ? "tree" : "radial";
+}
+
+function prepare(graph) {
   const byId = new Map(graph.nodes.map((n) => [n.id, n]));
   for (const node of graph.nodes) {
     node.isCenter = node.id === graph.root;
@@ -31,8 +71,6 @@ export function computeLayout(graph) {
   }
 
   const center = byId.get(graph.root);
-
-  // Dựng cây theo con trỏ parent (luôn hướng về center).
   for (const node of graph.nodes) {
     if (node.isCenter) continue;
     const parent = byId.get(node.parent);
@@ -44,6 +82,68 @@ export function computeLayout(graph) {
   const downRoots = center.children.filter((n) => n.dataLevel > Lc);
   center.children = [];
 
+  return { center, upRoots, downRoots };
+}
+
+function computeBounds(graph) {
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  for (const node of graph.nodes) {
+    const r = node.isCenter ? CENTER_R : NODE_R;
+    minX = Math.min(minX, node.x - r);
+    maxX = Math.max(maxX, node.x + r);
+    minY = Math.min(minY, node.y - r);
+    maxY = Math.max(maxY, node.y + r);
+  }
+  return { minX, maxX, minY, maxY };
+}
+
+// ---- tree (top-down, 1 cấp 1 hàng) --------------------------
+
+function layoutTree(upRoots, downRoots, center) {
+  const forest = (roots) => {
+    let cursor = 0;
+    const walk = (node, depth) => {
+      node._depth = depth;
+      if (!node.children.length) {
+        node._x = cursor;
+        cursor += GAP_X;
+        return;
+      }
+      for (const child of node.children) walk(child, depth + 1);
+      const first = node.children[0];
+      const last = node.children[node.children.length - 1];
+      node._x = (first._x + last._x) / 2;
+    };
+    for (const root of roots) walk(root, 1);
+  };
+
+  const rootsCenter = (roots) =>
+    roots.length ? (roots[0]._x + roots[roots.length - 1]._x) / 2 : 0;
+
+  const apply = (node, dir, originX) => {
+    node.x = node._x - originX;
+    node.y = dir * node._depth * GAP_Y;
+    for (const child of node.children) apply(child, dir, originX);
+  };
+
+  forest(upRoots);
+  const upOrigin = rootsCenter(upRoots);
+  forest(downRoots);
+  const downOrigin = rootsCenter(downRoots);
+
+  for (const node of upRoots) apply(node, -1, upOrigin);
+  for (const node of downRoots) apply(node, 1, downOrigin);
+
+  center.x = 0;
+  center.y = 0;
+}
+
+// ---- radial (tidy rings) ------------------------------------
+
+function layoutRadial(graph, upRoots, downRoots, center, ring) {
   const countLeaves = (node) => {
     if (node._leaves == null) {
       node._leaves = node.children.length
@@ -58,7 +158,6 @@ export function computeLayout(graph) {
   const downLeaves = sumLeaves(downRoots);
   const totalLeaves = upLeaves + downLeaves;
 
-  // Chia góc: cả 2 hướng -> mỗi hướng một nửa (trên/dưới) theo tỉ lệ lá.
   let upSector = null;
   let downSector = null;
   if (upLeaves && downLeaves) {
@@ -101,7 +200,7 @@ export function computeLayout(graph) {
   assign(upRoots, upSector);
   assign(downRoots, downSector);
 
-  // Bán kính từng vòng: đủ rộng để không chồng node, và tăng dần.
+  // Bán kính từng vòng: đủ rộng để không chồng node và tăng dần.
   const depthNodes = new Map();
   for (const node of graph.nodes) {
     if (!node._depth) continue;
@@ -115,48 +214,31 @@ export function computeLayout(graph) {
   for (let d = 1; d <= maxDepth; d++) {
     const nodes = depthNodes.get(d) || [];
     const minWidth = nodes.reduce((m, n) => Math.min(m, n._width), Infinity);
-    const required = MIN_ARC / Math.max(minWidth, 1e-6);
-    const minR = d === 1 ? MIN_R1 : prevR + RING_GAP;
+    const required = ring.arc / Math.max(minWidth, 1e-6);
+    const minR = d === 1 ? ring.r1 : prevR + ring.gap;
     const r = Math.max(minR, required);
     radii.set(d, r);
     prevR = r;
   }
 
-  for (const node of graph.nodes) {
-    if (node.isCenter) {
-      node.x = 0;
-      node.y = 0;
-      continue;
-    }
-    const r = radii.get(node._depth) || MIN_R1;
+  applyRadial(center, upRoots, radii, ring.r1);
+  applyRadial(center, downRoots, radii, ring.r1);
+}
+
+function applyRadial(center, roots, radii, fallbackR) {
+  const walk = (node) => {
+    const r = radii.get(node._depth) || fallbackR;
     node.x = Math.cos(node._angle) * r;
     node.y = Math.sin(node._angle) * r;
-  }
-
-  // Bounds cho fit-to-view.
-  let minX = Infinity;
-  let maxX = -Infinity;
-  let minY = Infinity;
-  let maxY = -Infinity;
-  for (const node of graph.nodes) {
-    const r = node.isCenter ? CENTER_R : NODE_R;
-    minX = Math.min(minX, node.x - r);
-    maxX = Math.max(maxX, node.x + r);
-    minY = Math.min(minY, node.y - r);
-    maxY = Math.max(maxY, node.y + r);
-  }
-
-  return {
-    nodes: graph.nodes,
-    edges: graph.edges,
-    center,
-    radius,
-    bounds: { minX, maxX, minY, maxY },
+    for (const child of node.children) walk(child);
   };
+  for (const root of roots) walk(root);
+  center.x = 0;
+  center.y = 0;
 }
 
 /**
- * Straight radial connector between two positioned nodes.
+ * Straight connector between two positioned nodes.
  */
 export function edgePath(a, b) {
   return `M ${a.x} ${a.y} L ${b.x} ${b.y}`;

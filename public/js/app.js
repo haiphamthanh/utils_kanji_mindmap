@@ -22,6 +22,7 @@ const dom = {
   createBtn: document.getElementById("createBtn"),
   jlptFilters: document.getElementById("jlptFilters"),
   depthSelect: document.getElementById("depthSelect"),
+  layoutSelect: document.getElementById("layoutSelect"),
   zoomOut: document.getElementById("zoomOut"),
   zoomIn: document.getElementById("zoomIn"),
   zoomRange: document.getElementById("zoomRange"),
@@ -39,6 +40,7 @@ const state = {
   data: null,
   center: null,
   depth: 2,
+  layoutMode: "auto",
   jlpt: new Set(JLPT_LEVELS),
   path: [],
   rendered: null,
@@ -116,8 +118,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
     await playExit(dom);
   }
 
-  const size = getSize();
-  const layout = computeLayout(graph, size);
+  const layout = computeLayout(graph, { mode: state.layoutMode });
   state.layout = layout;
   state.rendered = renderGraph(layout, state.data, dom);
 
@@ -134,7 +135,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   renderDetailPanel(state.center);
   renderBreadcrumb();
-  renderStatus(graph);
+  renderStatus(graph, layout);
 
   if (push) updateURL(state.center);
 }
@@ -172,14 +173,6 @@ function fitToContent() {
   const cx = (b.minX + b.maxX) / 2;
   const cy = (b.minY + b.maxY) / 2;
   viewport.setTransform(scale, rect.width / 2 - scale * cx, rect.height / 2 - scale * cy);
-}
-
-function getSize() {
-  const rect = dom.svg.getBoundingClientRect();
-  return {
-    width: rect.width || window.innerWidth,
-    height: rect.height || window.innerHeight * 0.7,
-  };
 }
 
 // =============================================================
@@ -406,6 +399,11 @@ function wireToolbar() {
     if (state.center) renderCurrent({ animate: true, fit: true, push: false });
   });
 
+  dom.layoutSelect.addEventListener("change", () => {
+    state.layoutMode = dom.layoutSelect.value;
+    if (state.center) renderCurrent({ animate: false, fit: true, push: false });
+  });
+
   dom.zoomIn.addEventListener("click", () => viewport.zoomBy(1.18));
   dom.zoomOut.addEventListener("click", () => viewport.zoomBy(1 / 1.18));
   dom.fitBtn.addEventListener("click", fitToContent);
@@ -513,12 +511,19 @@ function hideSuggestions() {
 // Misc
 // =============================================================
 
-function renderStatus(graph) {
+const LAYOUT_LABELS = {
+  tree: "Cây",
+  radial: "Hướng tâm",
+  "radial-compact": "Hướng tâm gọn",
+};
+
+function renderStatus(graph, layout) {
   const count = graph.nodes.length;
   const edges = graph.edges.length;
   const levels = graph.levels && graph.levels.length ? graph.levels.join("→") : "—";
   const jlpt = JLPT_LEVELS.filter((l) => state.jlpt.has(l)).join(" ") || "—";
-  dom.status.textContent = `${count} Hán tự · ${edges} quan hệ · Cấp ${levels} · ${jlpt}`;
+  const mode = layout ? LAYOUT_LABELS[layout.mode] || layout.mode : "—";
+  dom.status.textContent = `${count} Hán tự · ${edges} quan hệ · Cấp ${levels} · ${jlpt} · ${mode}`;
 }
 
 function updateURL(id) {
