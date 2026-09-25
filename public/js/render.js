@@ -4,14 +4,16 @@ import { edgePath } from "./layout.js";
 
 const NS = "http://www.w3.org/2000/svg";
 
-export const LEVEL_COLORS = {
-  1: "#22b573",
-  2: "#2778d8",
-  3: "#7c4dcc",
+export const JLPT_COLORS = {
+  N5: "#22b573",
+  N4: "#2778d8",
+  N3: "#7c4dcc",
+  N2: "#e5a817",
+  N1: "#d94b4b",
 };
 
-export function levelColor(level) {
-  return LEVEL_COLORS[level] || "#8aa0b8";
+export function jlptColor(jlpt) {
+  return JLPT_COLORS[jlpt] || "#8aa0b8";
 }
 
 /**
@@ -43,14 +45,13 @@ export function renderGraph(layout, data, dom) {
   const nodeEls = [];
   for (const node of layout.nodes) {
     const entry = data.kanji[node.id] || {};
-    const lv = data.level[node.id] && data.level[node.id].level;
-    const isCenter = node.level === 0;
+    const isCenter = node.isCenter;
 
     const g = document.createElementNS(NS, "g");
     g.setAttribute("class", `kanji-node${isCenter ? " center" : ""}`);
     g.setAttribute("transform", `translate(${node.x} ${node.y})`);
     g.dataset.id = node.id;
-    g.style.setProperty("--jlpt", levelColor(lv));
+    g.style.setProperty("--jlpt", jlptColor(entry.jlpt));
 
     const inner = document.createElementNS(NS, "g");
     inner.setAttribute("class", "node-inner");
@@ -96,11 +97,11 @@ export function renderDetail(entry, data) {
       : "";
 
   return `
-    <div class="detail-head" style="--jlpt:${levelColor(lv)}">
+    <div class="detail-head" style="--jlpt:${jlptColor(entry.jlpt)}">
       <div class="detail-char">${entry.character}</div>
       <div class="detail-title">
-        <span class="detail-badge">Cấp ${lv ?? "—"}</span>
         ${entry.jlpt ? `<span class="detail-badge">${entry.jlpt}</span>` : ""}
+        <span class="detail-badge">Cấp ${lv ?? "—"}</span>
         <span class="detail-sub">${entry.chosen_name || ""}</span>
       </div>
     </div>
@@ -135,7 +136,7 @@ export function renderDetail(entry, data) {
 
     <div class="detail-section">
       <h3>Quan hệ</h3>
-      <div class="detail-sub">Bóc thành phần: ${downCount} · Đi lên: ${upCount}</div>
+      <div class="detail-sub">Chữ chứa nó: ${upCount} · Bộ phận cấp dưới: ${downCount}</div>
     </div>
 
     <div class="detail-actions">

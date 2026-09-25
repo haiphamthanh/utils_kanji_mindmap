@@ -3,11 +3,11 @@
 import { loadData, searchKanji } from "./data.js";
 import { buildGraph } from "./graph.js";
 import { computeLayout } from "./layout.js";
-import { renderGraph, renderDetail, levelColor } from "./render.js";
+import { renderGraph, renderDetail, jlptColor } from "./render.js";
 import { playEnter, playExit } from "./animation.js";
 import { createViewport } from "./interaction.js";
 
-const LEVELS = [1, 2, 3];
+const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 const DEFAULT_KANJI = "車";
 
 const dom = {
@@ -20,7 +20,6 @@ const dom = {
   clearSearch: document.getElementById("clearSearch"),
   suggestions: document.getElementById("suggestions"),
   createBtn: document.getElementById("createBtn"),
-  reverseToggle: document.getElementById("reverseToggle"),
   jlptFilters: document.getElementById("jlptFilters"),
   depthSelect: document.getElementById("depthSelect"),
   zoomOut: document.getElementById("zoomOut"),
@@ -40,8 +39,7 @@ const state = {
   data: null,
   center: null,
   depth: 2,
-  reverse: false,
-  levels: new Set(LEVELS),
+  jlpt: new Set(JLPT_LEVELS),
   path: [],
   rendered: null,
   layout: null,
@@ -57,7 +55,7 @@ init();
 
 async function init() {
   initTheme();
-  buildLevelChips();
+  buildJlptChips();
   wireToolbar();
   wireKeyboard();
   viewport.onChange(({ scale }) => {
@@ -110,9 +108,8 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   const graph = buildGraph(state.center, {
     depth: state.depth,
-    direction: state.reverse ? "reverse" : "children",
     data: state.data,
-    levels: state.levels,
+    jlpt: state.jlpt,
   });
 
   if (animate && state.rendered) {
@@ -247,9 +244,9 @@ function showTooltip(el, entry) {
   dom.tooltip.innerHTML = `
     <div class="tooltip-char">
       ${entry.character}
-      <span class="detail-badge" style="--jlpt:${levelColor(lv)}">Cấp ${lv ?? "—"}</span>
+      ${entry.jlpt ? `<span class="detail-badge" style="--jlpt:${jlptColor(entry.jlpt)}">${entry.jlpt}</span>` : ""}
     </div>
-    <div class="tooltip-reading">${entry.chosen_name || "—"}${entry.jlpt ? ` · ${entry.jlpt}` : ""}</div>
+    <div class="tooltip-reading">${entry.chosen_name || "—"}${lv ? ` · Cấp ${lv}` : ""}</div>
     <div class="tooltip-meaning">${vi.join(", ") || "—"}</div>
   `;
   dom.tooltip.style.left = `${rect.left - areaRect.left + rect.width / 2}px`;
@@ -337,7 +334,7 @@ function openHistoryMenu() {
       const item = document.createElement("button");
       item.className = "history-item";
       item.textContent = id;
-      item.style.setProperty("--jlpt", levelColor(state.data.level[id]?.level));
+      item.style.setProperty("--jlpt", jlptColor(state.data.kanji[id]?.jlpt));
       item.addEventListener("click", () => {
         setCenter(id, { mode: "reset" });
         menu.remove();
@@ -404,11 +401,6 @@ function wireToolbar() {
 
   dom.createBtn.addEventListener("click", createFromSearch);
 
-  dom.reverseToggle.addEventListener("change", () => {
-    state.reverse = dom.reverseToggle.checked;
-    if (state.center) renderCurrent({ animate: true, fit: true, push: false });
-  });
-
   dom.depthSelect.addEventListener("change", () => {
     state.depth = Number(dom.depthSelect.value);
     if (state.center) renderCurrent({ animate: true, fit: true, push: false });
@@ -431,18 +423,18 @@ function wireToolbar() {
   });
 }
 
-function buildLevelChips() {
+function buildJlptChips() {
   dom.jlptFilters.replaceChildren();
-  for (const level of LEVELS) {
+  for (const level of JLPT_LEVELS) {
     const chip = document.createElement("button");
     chip.className = "jlpt-chip active";
-    chip.style.setProperty("--jlpt", levelColor(level));
-    chip.dataset.level = level;
-    chip.innerHTML = `<span class="check">✓</span>Cấp ${level}`;
+    chip.style.setProperty("--jlpt", jlptColor(level));
+    chip.dataset.jlpt = level;
+    chip.innerHTML = `<span class="check">✓</span>${level}`;
     chip.addEventListener("click", () => {
-      if (state.levels.has(level)) state.levels.delete(level);
-      else state.levels.add(level);
-      chip.classList.toggle("active", state.levels.has(level));
+      if (state.jlpt.has(level)) state.jlpt.delete(level);
+      else state.jlpt.add(level);
+      chip.classList.toggle("active", state.jlpt.has(level));
       if (state.center) renderCurrent({ animate: false, fit: true, push: false });
     });
     dom.jlptFilters.appendChild(chip);
@@ -494,9 +486,9 @@ function showSuggestions(query) {
       const li = document.createElement("li");
       li.dataset.id = entry.character;
       li.innerHTML = `
-        <span class="sug-char" style="--jlpt:${levelColor(lv)}">${entry.character}</span>
+        <span class="sug-char" style="--jlpt:${jlptColor(entry.jlpt)}">${entry.character}</span>
         <span class="sug-meta">
-          <span class="sug-reading">${entry.chosen_name || "—"} · Cấp ${lv ?? "—"}${entry.jlpt ? ` · ${entry.jlpt}` : ""}</span>
+          <span class="sug-reading">${entry.chosen_name || "—"}${entry.jlpt ? ` · ${entry.jlpt}` : ""}${lv ? ` · Cấp ${lv}` : ""}</span>
           <span class="sug-meaning">${vi.join(", ")}</span>
         </span>
       `;
@@ -524,8 +516,9 @@ function hideSuggestions() {
 function renderStatus(graph) {
   const count = graph.nodes.length;
   const edges = graph.edges.length;
-  const dir = graph.direction === "reverse" ? "đảo ngược" : "mở rộng";
-  dom.status.textContent = `${count} Hán tự · ${edges} quan hệ · ${dir}`;
+  const levels = graph.levels && graph.levels.length ? graph.levels.join("→") : "—";
+  const jlpt = JLPT_LEVELS.filter((l) => state.jlpt.has(l)).join(" ") || "—";
+  dom.status.textContent = `${count} Hán tự · ${edges} quan hệ · Cấp ${levels} · ${jlpt}`;
 }
 
 function updateURL(id) {
