@@ -383,7 +383,29 @@ def main():
     # Mở rộng list rồi bóc lại (contained tính cả các bộ vừa thêm vào).
     charset = joyo_chars | set(missing)
     decomp = {c: decompose(c) for c in charset}
-    comps_of = {c: (decomp[c][0] or [c]) for c in charset}
+
+    def base_name(char):
+        old = existing.get(char)
+        e = kdv.get(char)
+        if old and old.get("han_viet"):
+            return old["han_viet"]
+        if e and e["han_viet"]:
+            return title_vi(e["han_viet"])
+        return radname.get(char)
+
+    def first_word(s):
+        return s.split()[0] if s else None
+
+    # Bỏ các entry không có character_name_vi.
+    kept = {c for c in charset if first_word(base_name(c))}
+
+    # Bóc lại chỉ với các chữ được giữ.
+    charset = kept
+    decomp = {c: decompose(c) for c in charset}
+    comps_of = {
+        c: ([x for x in (decomp[c][0] or []) if x in charset] or [c])
+        for c in charset
+    }
     contains = {c: decomp[c][1] for c in charset}
 
     def sc(x):
@@ -396,7 +418,8 @@ def main():
             return kdv[x]["strokes"]
         return 0
 
-    items = sorted(joyo, key=lambda x: (x[1], ord(x[0]))) + [(c, None, None) for c in missing]
+    items = [x for x in sorted(joyo, key=lambda x: (x[1], ord(x[0]))) if x[0] in kept]
+    items += [(c, None, None) for c in missing if c in kept]
 
     records = []
     missing_strokes = []
@@ -404,16 +427,10 @@ def main():
         if args.limit and i >= args.limit:
             break
 
+        name_vi = base_name(char)
+
         old = existing.get(char)
         e = kdv.get(char)
-
-        if old and old.get("han_viet"):
-            name_vi = old["han_viet"]
-        elif e and e["han_viet"]:
-            name_vi = title_vi(e["han_viet"])
-        else:
-            name_vi = radname.get(char)
-
         if old and old.get("meanings_vi"):
             meanings = list(old["meanings_vi"])
         else:
@@ -426,12 +443,10 @@ def main():
         comps = comps_of[char]
         main_rad = canon.get(str(rnum)) if rnum else None
 
-        # biggest_component = kanji lớn nhất (nhiều nét nhất) ghép được từ các bộ của chữ.
         cands = contains[char]
         if cands:
             best = max(cands, key=lambda x: (sc(x), len(comps_of.get(x, [])), 1 if x == main_rad else 0))
         else:
-            # không ghép ra kanji nào -> lấy bộ lớn nhất (có thể ngoài list)
             best = max(comps, key=lambda x: (sc(x), 1 if x == main_rad else 0)) if comps else char
         if best is None or sc(best) == 0:
             missing_strokes.append((char, comps))

@@ -39,7 +39,7 @@
       "一"
     ],
     "biggest_component": "卜",
-    "biggest_component_id": 2180
+    "biggest_component_id": 2174
   },
   {
     "id": 5,
@@ -54,7 +54,7 @@
       "卜"
     ],
     "biggest_component": "卜",
-    "biggest_component_id": 2180
+    "biggest_component_id": 2174
   },
   {
     "id": 6,
@@ -187,7 +187,7 @@
       "八"
     ],
     "biggest_component": "囗",
-    "biggest_component_id": 2192
+    "biggest_component_id": 2185
   },
   {
     "id": 28,
@@ -323,7 +323,7 @@
       "丿"
     ],
     "biggest_component": "气",
-    "biggest_component_id": 2236
+    "biggest_component_id": 2227
   },
   {
     "id": 58,
@@ -380,11 +380,10 @@
       "xanh, màu xanh"
     ],
     "components": [
-      "龶",
       "月"
     ],
-    "biggest_component": "龶",
-    "biggest_component_id": 2284
+    "biggest_component": "月",
+    "biggest_component_id": 42
   },
   {
     "id": 83,
@@ -458,7 +457,7 @@
       "丿"
     ],
     "biggest_component": "乍",
-    "biggest_component_id": 2153
+    "biggest_component_id": 2147
   },
   {
     "id": 90,
@@ -521,7 +520,7 @@
       "人"
     ],
     "biggest_component": "冂",
-    "biggest_component_id": 2166
+    "biggest_component_id": 2160
   },
   {
     "id": 97,
@@ -625,7 +624,6 @@
       "bạn bè"
     ],
     "components": [
-      "𠂇",
       "又"
     ],
     "biggest_component": "又",
@@ -707,7 +705,7 @@
       "口"
     ],
     "biggest_component": "囗",
-    "biggest_component_id": 2192
+    "biggest_component_id": 2185
   },
   {
     "id": 111,
@@ -722,7 +720,7 @@
       "小"
     ],
     "biggest_component": "囗",
-    "biggest_component_id": 2192
+    "biggest_component_id": 2185
   },
   {
     "id": 112,
@@ -884,7 +882,7 @@
       "豕"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 127,
@@ -977,7 +975,7 @@
       "厶"
     ],
     "biggest_component": "广",
-    "biggest_component_id": 2214
+    "biggest_component_id": 2205
   },
   {
     "id": 136,
@@ -1055,7 +1053,7 @@
       "彐"
     ],
     "biggest_component": "彐",
-    "biggest_component_id": 2219
+    "biggest_component_id": 2210
   },
   {
     "id": 142,
@@ -1071,7 +1069,7 @@
       "夂"
     ],
     "biggest_component": "彳",
-    "biggest_component_id": 2221
+    "biggest_component_id": 2212
   },
   {
     "id": 144,
@@ -1164,7 +1162,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 158,
@@ -1179,7 +1177,7 @@
       "曰"
     ],
     "biggest_component": "聿",
-    "biggest_component_id": 2252
+    "biggest_component_id": 2242
   },
   {
     "id": 161,
@@ -1222,7 +1220,7 @@
       "毋"
     ],
     "biggest_component": "毋",
-    "biggest_component_id": 2235
+    "biggest_component_id": 2226
   },
   {
     "id": 167,
@@ -1236,7 +1234,7 @@
       "毋"
     ],
     "biggest_component": "毋",
-    "biggest_component_id": 2235
+    "biggest_component_id": 2226
   },
   {
     "id": 170,
@@ -1298,7 +1296,7 @@
       "田"
     ],
     "biggest_component": "釆",
-    "biggest_component_id": 2267
+    "biggest_component_id": 2257
   },
   {
     "id": 180,
@@ -1357,7 +1355,7 @@
       "火"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 185,
@@ -1375,7 +1373,7 @@
       "斗"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 187,
@@ -1482,7 +1480,7 @@
       "木"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 204,
@@ -1572,7 +1570,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 216,
@@ -1582,12 +1580,11 @@
       "xuyên qua"
     ],
     "components": [
-      "龴",
       "用",
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 218,
@@ -1619,7 +1616,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 224,
@@ -1678,7 +1675,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 229,
@@ -1694,7 +1691,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 237,
@@ -1718,11 +1715,10 @@
       "lúa tẻ"
     ],
     "components": [
-      "龶",
       "夂"
     ],
-    "biggest_component": "龶",
-    "biggest_component_id": 2284
+    "biggest_component": "夂",
+    "biggest_component_id": 2188
   },
   {
     "id": 240,
@@ -1791,11 +1787,10 @@
       "cho"
     ],
     "components": [
-      "龴",
       "亅"
     ],
-    "biggest_component": "龴",
-    "biggest_component_id": 2283
+    "biggest_component": "了",
+    "biggest_component_id": 1040
   },
   {
     "id": 247,
@@ -1843,7 +1838,7 @@
       "弋"
     ],
     "biggest_component": "弋",
-    "biggest_component_id": 2218
+    "biggest_component_id": 2209
   },
   {
     "id": 254,
@@ -1917,7 +1912,7 @@
       "刀"
     ],
     "biggest_component": "歹",
-    "biggest_component_id": 2233
+    "biggest_component_id": 2224
   },
   {
     "id": 263,
@@ -1931,7 +1926,7 @@
       "匕"
     ],
     "biggest_component": "匕",
-    "biggest_component_id": 2175
+    "biggest_component_id": 2169
   },
   {
     "id": 264,
@@ -1948,7 +1943,7 @@
       "丿"
     ],
     "biggest_component": "匸",
-    "biggest_component_id": 2177
+    "biggest_component_id": 2171
   },
   {
     "id": 265,
@@ -2108,7 +2103,7 @@
       "口"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 276,
@@ -2202,7 +2197,7 @@
       "女"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 284,
@@ -2217,7 +2212,7 @@
       "寸"
     ],
     "biggest_component": "宀",
-    "biggest_component_id": 2201
+    "biggest_component_id": 2192
   },
   {
     "id": 285,
@@ -2234,7 +2229,7 @@
       "女"
     ],
     "biggest_component": "宀",
-    "biggest_component_id": 2201
+    "biggest_component_id": 2192
   },
   {
     "id": 286,
@@ -2249,7 +2244,7 @@
       "疋"
     ],
     "biggest_component": "疋",
-    "biggest_component_id": 2242
+    "biggest_component_id": 2232
   },
   {
     "id": 292,
@@ -2324,7 +2319,7 @@
       "巛"
     ],
     "biggest_component": "巛",
-    "biggest_component_id": 2210
+    "biggest_component_id": 2201
   },
   {
     "id": 298,
@@ -2365,11 +2360,10 @@
     ],
     "components": [
       "土",
-      "䒑",
       "干"
     ],
-    "biggest_component": "𢆉",
-    "biggest_component_id": 2293
+    "biggest_component": "干",
+    "biggest_component_id": 893
   },
   {
     "id": 301,
@@ -2386,7 +2380,7 @@
       "又"
     ],
     "biggest_component": "廿",
-    "biggest_component_id": 2217
+    "biggest_component_id": 2208
   },
   {
     "id": 302,
@@ -2414,7 +2408,7 @@
       "工"
     ],
     "biggest_component": "弋",
-    "biggest_component_id": 2218
+    "biggest_component_id": 2209
   },
   {
     "id": 305,
@@ -2429,7 +2423,7 @@
       "殳"
     ],
     "biggest_component": "殳",
-    "biggest_component_id": 2234
+    "biggest_component_id": 2225
   },
   {
     "id": 307,
@@ -2505,7 +2499,7 @@
       "斤"
     ],
     "biggest_component": "戶",
-    "biggest_component_id": 2225
+    "biggest_component_id": 2216
   },
   {
     "id": 316,
@@ -2535,7 +2529,7 @@
       "攴"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
     "id": 322,
@@ -2548,7 +2542,6 @@
     ],
     "components": [
       "方",
-      "𠂉",
       "人"
     ],
     "biggest_component": "方",
@@ -2563,7 +2556,6 @@
     ],
     "components": [
       "方",
-      "𠂉",
       "矢"
     ],
     "biggest_component": "矢",
@@ -2616,7 +2608,7 @@
       "廾"
     ],
     "biggest_component": "曰",
-    "biggest_component_id": 2231
+    "biggest_component_id": 2222
   },
   {
     "id": 330,
@@ -2648,7 +2640,7 @@
       "艮"
     ],
     "biggest_component": "艮",
-    "biggest_component_id": 2254
+    "biggest_component_id": 2244
   },
   {
     "id": 336,
@@ -2693,7 +2685,7 @@
       "黃"
     ],
     "biggest_component": "黃",
-    "biggest_component_id": 2278
+    "biggest_component_id": 2268
   },
   {
     "id": 340,
@@ -2738,7 +2730,7 @@
       "匕"
     ],
     "biggest_component": "歹",
-    "biggest_component_id": 2233
+    "biggest_component_id": 2224
   },
   {
     "id": 343,
@@ -2867,7 +2859,7 @@
       "夫"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 359,
@@ -2941,7 +2933,7 @@
       "八"
     ],
     "biggest_component": "癶",
-    "biggest_component_id": 2244
+    "biggest_component_id": 2234
   },
   {
     "id": 367,
@@ -3186,7 +3178,7 @@
       "木"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 404,
@@ -3269,7 +3261,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 420,
@@ -3283,7 +3275,7 @@
       "辵"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 421,
@@ -3294,12 +3286,11 @@
     ],
     "components": [
       "方",
-      "𠂉",
       "子",
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 423,
@@ -3315,7 +3306,7 @@
       "邑"
     ],
     "biggest_component": "邑",
-    "biggest_component_id": 2264
+    "biggest_component_id": 2254
   },
   {
     "id": 425,
@@ -3332,7 +3323,7 @@
       "己"
     ],
     "biggest_component": "酉",
-    "biggest_component_id": 2265
+    "biggest_component_id": 2255
   },
   {
     "id": 426,
@@ -3346,7 +3337,7 @@
       "酉"
     ],
     "biggest_component": "酉",
-    "biggest_component_id": 2265
+    "biggest_component_id": 2255
   },
   {
     "id": 429,
@@ -3375,7 +3366,7 @@
       "木"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 437,
@@ -3425,7 +3416,7 @@
       "亅"
     ],
     "biggest_component": "彐",
-    "biggest_component_id": 2219
+    "biggest_component_id": 2210
   },
   {
     "id": 443,
@@ -3440,7 +3431,7 @@
       "廾"
     ],
     "biggest_component": "廾",
-    "biggest_component_id": 2216
+    "biggest_component_id": 2207
   },
   {
     "id": 444,
@@ -3467,8 +3458,7 @@
     ],
     "components": [
       "人",
-      "一",
-      "龴"
+      "一"
     ],
     "biggest_component": "人",
     "biggest_component_id": 10
@@ -3647,7 +3637,7 @@
       "刀"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 471,
@@ -3663,7 +3653,7 @@
       "刀"
     ],
     "biggest_component": "尸",
-    "biggest_component_id": 2206
+    "biggest_component_id": 2197
   },
   {
     "id": 472,
@@ -3774,7 +3764,7 @@
       "卩"
     ],
     "biggest_component": "卩",
-    "biggest_component_id": 2181
+    "biggest_component_id": 2175
   },
   {
     "id": 484,
@@ -3862,7 +3852,6 @@
     ],
     "components": [
       "土",
-      "𠂉",
       "口",
       "皿"
     ],
@@ -3929,7 +3918,7 @@
       "子"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 503,
@@ -3943,7 +3932,7 @@
       "口"
     ],
     "biggest_component": "宀",
-    "biggest_component_id": 2201
+    "biggest_component_id": 2192
   },
   {
     "id": 504,
@@ -3955,11 +3944,10 @@
     ],
     "components": [
       "宀",
-      "龶",
       "口"
     ],
-    "biggest_component": "龶",
-    "biggest_component_id": 2284
+    "biggest_component": "宀",
+    "biggest_component_id": 2192
   },
   {
     "id": 505,
@@ -4056,7 +4044,7 @@
       "巾"
     ],
     "biggest_component": "廿",
-    "biggest_component_id": 2217
+    "biggest_component_id": 2208
   },
   {
     "id": 515,
@@ -4086,7 +4074,7 @@
       "隶"
     ],
     "biggest_component": "隶",
-    "biggest_component_id": 2269
+    "biggest_component_id": 2259
   },
   {
     "id": 518,
@@ -4100,7 +4088,7 @@
       "廴"
     ],
     "biggest_component": "聿",
-    "biggest_component_id": 2252
+    "biggest_component_id": 2242
   },
   {
     "id": 519,
@@ -4116,7 +4104,7 @@
       "土"
     ],
     "biggest_component": "彳",
-    "biggest_component_id": 2221
+    "biggest_component_id": 2212
   },
   {
     "id": 520,
@@ -4150,7 +4138,7 @@
       "心"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 522,
@@ -4196,7 +4184,7 @@
       "戈"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
     "id": 527,
@@ -4242,7 +4230,7 @@
       "攴"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
     "id": 530,
@@ -4273,7 +4261,7 @@
       "攴"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
     "id": 532,
@@ -4305,7 +4293,7 @@
       "丿"
     ],
     "biggest_component": "乍",
-    "biggest_component_id": 2153
+    "biggest_component_id": 2147
   },
   {
     "id": 540,
@@ -4470,7 +4458,7 @@
       "玄"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 568,
@@ -4595,7 +4583,7 @@
       "示"
     ],
     "biggest_component": "襾",
-    "biggest_component_id": 2259
+    "biggest_component_id": 2249
   },
   {
     "id": 590,
@@ -4641,7 +4629,7 @@
       "牙"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 607,
@@ -4656,7 +4644,7 @@
       "女"
     ],
     "biggest_component": "襾",
-    "biggest_component_id": 2259
+    "biggest_component_id": 2249
   },
   {
     "id": 608,
@@ -4684,12 +4672,11 @@
       "xem, quan sát"
     ],
     "components": [
-      "𠂉",
       "隹",
       "見"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 610,
@@ -4751,7 +4738,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 621,
@@ -4765,7 +4752,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 622,
@@ -4780,7 +4767,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 623,
@@ -4795,7 +4782,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 626,
@@ -4874,7 +4861,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 636,
@@ -4889,7 +4876,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 639,
@@ -4969,7 +4956,7 @@
       "士"
     ],
     "biggest_component": "壬",
-    "biggest_component_id": 2194
+    "biggest_component_id": 2187
   },
   {
     "id": 649,
@@ -5001,7 +4988,7 @@
       "襾"
     ],
     "biggest_component": "襾",
-    "biggest_component_id": 2259
+    "biggest_component_id": 2249
   },
   {
     "id": 655,
@@ -5020,7 +5007,7 @@
       "用"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 657,
@@ -5177,7 +5164,7 @@
       "大"
     ],
     "biggest_component": "囗",
-    "biggest_component_id": 2192
+    "biggest_component_id": 2185
   },
   {
     "id": 673,
@@ -5193,7 +5180,7 @@
       "寸"
     ],
     "biggest_component": "囗",
-    "biggest_component_id": 2192
+    "biggest_component_id": 2185
   },
   {
     "id": 675,
@@ -5270,7 +5257,7 @@
       "土"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 686,
@@ -5288,7 +5275,7 @@
       "夕"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 687,
@@ -5366,7 +5353,7 @@
       "廾"
     ],
     "biggest_component": "廾",
-    "biggest_component_id": 2216
+    "biggest_component_id": 2207
   },
   {
     "id": 700,
@@ -5539,8 +5526,8 @@
       "共",
       "水"
     ],
-    "biggest_component": "㳟",
-    "biggest_component_id": 2140
+    "biggest_component": "共",
+    "biggest_component_id": 464
   },
   {
     "id": 726,
@@ -5632,7 +5619,7 @@
       "殳"
     ],
     "biggest_component": "殳",
-    "biggest_component_id": 2234
+    "biggest_component_id": 2225
   },
   {
     "id": 738,
@@ -5782,7 +5769,7 @@
       "艮"
     ],
     "biggest_component": "艮",
-    "biggest_component_id": 2254
+    "biggest_component_id": 2244
   },
   {
     "id": 759,
@@ -5813,7 +5800,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 770,
@@ -6017,7 +6004,7 @@
       "韋"
     ],
     "biggest_component": "韋",
-    "biggest_component_id": 2272
+    "biggest_component_id": 2262
   },
   {
     "id": 794,
@@ -6099,7 +6086,7 @@
       "豕"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 806,
@@ -6124,7 +6111,6 @@
       "trách mắng"
     ],
     "components": [
-      "龶",
       "貝"
     ],
     "biggest_component": "貝",
@@ -6194,7 +6180,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 819,
@@ -6211,7 +6197,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 820,
@@ -6225,7 +6211,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 822,
@@ -6242,7 +6228,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 827,
@@ -6301,11 +6287,10 @@
     ],
     "components": [
       "八",
-      "一",
-      "业"
+      "一"
     ],
-    "biggest_component": "业",
-    "biggest_component_id": 2145
+    "biggest_component": "八",
+    "biggest_component_id": 14
   },
   {
     "id": 837,
@@ -6354,7 +6339,7 @@
       "匚"
     ],
     "biggest_component": "亠",
-    "biggest_component_id": 2157
+    "biggest_component_id": 2151
   },
   {
     "id": 840,
@@ -6414,7 +6399,7 @@
       "廾"
     ],
     "biggest_component": "廾",
-    "biggest_component_id": 2216
+    "biggest_component_id": 2207
   },
   {
     "id": 849,
@@ -6431,7 +6416,7 @@
       "几"
     ],
     "biggest_component": "夂",
-    "biggest_component_id": 2196
+    "biggest_component_id": 2188
   },
   {
     "id": 850,
@@ -6445,8 +6430,8 @@
       "大",
       "刀"
     ],
-    "biggest_component": "𠔉",
-    "biggest_component_id": 2289
+    "biggest_component": "大",
+    "biggest_component_id": 27
   },
   {
     "id": 851,
@@ -6478,7 +6463,7 @@
       "刀"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 859,
@@ -6573,7 +6558,7 @@
       "一"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
     "id": 869,
@@ -6589,7 +6574,7 @@
       "田"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 871,
@@ -6635,7 +6620,7 @@
       "亅"
     ],
     "biggest_component": "宀",
-    "biggest_component_id": 2201
+    "biggest_component_id": 2192
   },
   {
     "id": 875,
@@ -6696,7 +6681,7 @@
       "寸"
     ],
     "biggest_component": "爿",
-    "biggest_component_id": 2238
+    "biggest_component_id": 2229
   },
   {
     "id": 886,
@@ -6710,7 +6695,7 @@
       "八"
     ],
     "biggest_component": "尸",
-    "biggest_component_id": 2206
+    "biggest_component_id": 2197
   },
   {
     "id": 888,
@@ -6726,7 +6711,7 @@
       "廾"
     ],
     "biggest_component": "尸",
-    "biggest_component_id": 2206
+    "biggest_component_id": 2197
   },
   {
     "id": 891,
@@ -6742,8 +6727,8 @@
       "大",
       "己"
     ],
-    "biggest_component": "𠔉",
-    "biggest_component_id": 2289
+    "biggest_component": "己",
+    "biggest_component_id": 890
   },
   {
     "id": 892,
@@ -6760,7 +6745,7 @@
       "巾"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 894,
@@ -6774,7 +6759,7 @@
       "力"
     ],
     "biggest_component": "幺",
-    "biggest_component_id": 2213
+    "biggest_component_id": 2204
   },
   {
     "id": 898,
@@ -6788,7 +6773,7 @@
       "聿"
     ],
     "biggest_component": "聿",
-    "biggest_component_id": 2252
+    "biggest_component_id": 2242
   },
   {
     "id": 899,
@@ -6802,7 +6787,7 @@
       "疋"
     ],
     "biggest_component": "疋",
-    "biggest_component_id": 2242
+    "biggest_component_id": 2232
   },
   {
     "id": 903,
@@ -6818,7 +6803,7 @@
       "心"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 904,
@@ -6833,7 +6818,7 @@
       "亅"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
     "id": 905,
@@ -6883,7 +6868,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 920,
@@ -6898,7 +6883,7 @@
       "大"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 921,
@@ -6961,7 +6946,7 @@
       "大"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 928,
@@ -6973,11 +6958,10 @@
     ],
     "components": [
       "木",
-      "𠂉",
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 929,
@@ -6988,11 +6972,10 @@
     ],
     "components": [
       "木",
-      "壴",
       "寸"
     ],
-    "biggest_component": "壴",
-    "biggest_component_id": 2195
+    "biggest_component": "木",
+    "biggest_component_id": 43
   },
   {
     "id": 930,
@@ -7081,7 +7064,7 @@
       "齊"
     ],
     "biggest_component": "齊",
-    "biggest_component_id": 2280
+    "biggest_component_id": 2270
   },
   {
     "id": 940,
@@ -7139,11 +7122,10 @@
     "components": [
       "匕",
       "矢",
-      "龴",
       "疋"
     ],
     "biggest_component": "疋",
-    "biggest_component_id": 2242
+    "biggest_component_id": 2232
   },
   {
     "id": 946,
@@ -7155,11 +7137,10 @@
     ],
     "components": [
       "疒",
-      "龴",
       "用"
     ],
     "biggest_component": "疒",
-    "biggest_component_id": 2243
+    "biggest_component_id": 2233
   },
   {
     "id": 947,
@@ -7204,7 +7185,7 @@
       "玄"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 953,
@@ -7218,7 +7199,7 @@
       "厶"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 955,
@@ -7234,7 +7215,7 @@
       "殳"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 957,
@@ -7409,7 +7390,7 @@
       "口"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 986,
@@ -7427,7 +7408,7 @@
       "臣"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 988,
@@ -7497,7 +7478,6 @@
     ],
     "components": [
       "臣",
-      "𠂉",
       "見"
     ],
     "biggest_component": "見",
@@ -7547,7 +7527,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1012,
@@ -7564,7 +7544,7 @@
       "邑"
     ],
     "biggest_component": "邑",
-    "biggest_component_id": 2264
+    "biggest_component_id": 2254
   },
   {
     "id": 1013,
@@ -7608,8 +7588,7 @@
     ],
     "components": [
       "阜",
-      "夂",
-      "㐄"
+      "夂"
     ],
     "biggest_component": "阜",
     "biggest_component_id": 629
@@ -7644,7 +7623,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1027,
@@ -7660,7 +7639,7 @@
       "丿"
     ],
     "biggest_component": "乂",
-    "biggest_component_id": 2151
+    "biggest_component_id": 2145
   },
   {
     "id": 1029,
@@ -7705,7 +7684,7 @@
       "丶"
     ],
     "biggest_component": "冂",
-    "biggest_component_id": 2166
+    "biggest_component_id": 2160
   },
   {
     "id": 1035,
@@ -7719,7 +7698,7 @@
       "丶"
     ],
     "biggest_component": "丿",
-    "biggest_component_id": 2150
+    "biggest_component_id": 2144
   },
   {
     "id": 1039,
@@ -7732,8 +7711,8 @@
       "勹",
       "日"
     ],
-    "biggest_component": "电",
-    "biggest_component_id": 2241
+    "biggest_component": "日",
+    "biggest_component_id": 40
   },
   {
     "id": 1041,
@@ -7747,7 +7726,7 @@
       "彐"
     ],
     "biggest_component": "彐",
-    "biggest_component_id": 2219
+    "biggest_component_id": 2210
   },
   {
     "id": 1042,
@@ -7885,7 +7864,7 @@
       "戈"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
     "id": 1052,
@@ -7945,7 +7924,7 @@
       "又"
     ],
     "biggest_component": "彐",
-    "biggest_component_id": 2219
+    "biggest_component_id": 2210
   },
   {
     "id": 1065,
@@ -7985,11 +7964,10 @@
     ],
     "components": [
       "人",
-      "大",
-      "电"
+      "大"
     ],
-    "biggest_component": "电",
-    "biggest_component_id": 2241
+    "biggest_component": "大",
+    "biggest_component_id": 27
   },
   {
     "id": 1073,
@@ -8018,7 +7996,7 @@
       "韋"
     ],
     "biggest_component": "韋",
-    "biggest_component_id": 2272
+    "biggest_component_id": 2262
   },
   {
     "id": 1077,
@@ -8067,7 +8045,7 @@
       "木"
     ],
     "biggest_component": "舛",
-    "biggest_component_id": 2253
+    "biggest_component_id": 2243
   },
   {
     "id": 1082,
@@ -8083,7 +8061,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1088,
@@ -8113,7 +8091,7 @@
       "八"
     ],
     "biggest_component": "勹",
-    "biggest_component_id": 2173
+    "biggest_component_id": 2167
   },
   {
     "id": 1096,
@@ -8129,7 +8107,7 @@
       "丨"
     ],
     "biggest_component": "彐",
-    "biggest_component_id": 2219
+    "biggest_component_id": 2210
   },
   {
     "id": 1097,
@@ -8160,7 +8138,7 @@
       "几"
     ],
     "biggest_component": "冖",
-    "biggest_component_id": 2168
+    "biggest_component_id": 2162
   },
   {
     "id": 1103,
@@ -8175,7 +8153,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1106,
@@ -8190,7 +8168,7 @@
       "丶"
     ],
     "biggest_component": "几",
-    "biggest_component_id": 2170
+    "biggest_component_id": 2164
   },
   {
     "id": 1107,
@@ -8205,7 +8183,7 @@
       "凵"
     ],
     "biggest_component": "凵",
-    "biggest_component_id": 2171
+    "biggest_component_id": 2165
   },
   {
     "id": 1108,
@@ -8219,7 +8197,7 @@
       "凵"
     ],
     "biggest_component": "凵",
-    "biggest_component_id": 2171
+    "biggest_component_id": 2165
   },
   {
     "id": 1110,
@@ -8355,7 +8333,7 @@
       "刀"
     ],
     "biggest_component": "齊",
-    "biggest_component_id": 2280
+    "biggest_component_id": 2270
   },
   {
     "id": 1124,
@@ -8419,7 +8397,7 @@
       "力"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1130,
@@ -8429,12 +8407,11 @@
       "cố hết sức, chăm chỉ, cần cù"
     ],
     "components": [
-      "𠂉",
       "隹",
       "力"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1132,
@@ -8449,7 +8426,7 @@
       "厶"
     ],
     "biggest_component": "勹",
-    "biggest_component_id": 2173
+    "biggest_component_id": 2167
   },
   {
     "id": 1133,
@@ -8464,7 +8441,7 @@
       "匕"
     ],
     "biggest_component": "勹",
-    "biggest_component_id": 2173
+    "biggest_component_id": 2167
   },
   {
     "id": 1134,
@@ -8494,7 +8471,7 @@
       "儿"
     ],
     "biggest_component": "匸",
-    "biggest_component_id": 2177
+    "biggest_component_id": 2171
   },
   {
     "id": 1137,
@@ -8510,7 +8487,7 @@
       "廾"
     ],
     "biggest_component": "廾",
-    "biggest_component_id": 2216
+    "biggest_component_id": 2207
   },
   {
     "id": 1138,
@@ -8557,7 +8534,7 @@
       "卩"
     ],
     "biggest_component": "艮",
-    "biggest_component_id": 2254
+    "biggest_component_id": 2244
   },
   {
     "id": 1144,
@@ -8572,7 +8549,7 @@
       "卩"
     ],
     "biggest_component": "厂",
-    "biggest_component_id": 2183
+    "biggest_component_id": 2177
   },
   {
     "id": 1145,
@@ -8777,7 +8754,7 @@
       "口"
     ],
     "biggest_component": "辰",
-    "biggest_component_id": 2262
+    "biggest_component_id": 2252
   },
   {
     "id": 1171,
@@ -8807,7 +8784,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1176,
@@ -8858,7 +8835,7 @@
       "夫"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1187,
@@ -8886,7 +8863,7 @@
       "人"
     ],
     "biggest_component": "囗",
-    "biggest_component_id": 2192
+    "biggest_component_id": 2185
   },
   {
     "id": 1190,
@@ -8979,7 +8956,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1204,
@@ -9024,7 +9001,7 @@
       "土"
     ],
     "biggest_component": "屰",
-    "biggest_component_id": 2209
+    "biggest_component_id": 2200
   },
   {
     "id": 1209,
@@ -9040,7 +9017,7 @@
       "豕"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 1216,
@@ -9055,7 +9032,7 @@
       "土"
     ],
     "biggest_component": "豸",
-    "biggest_component_id": 2261
+    "biggest_component_id": 2251
   },
   {
     "id": 1217,
@@ -9067,7 +9044,6 @@
       "sao Bích (một trong Nhị thập bát tú)"
     ],
     "components": [
-      "𡰪",
       "辛",
       "土"
     ],
@@ -9088,7 +9064,7 @@
       "衣"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1221,
@@ -9103,7 +9079,7 @@
       "士"
     ],
     "biggest_component": "爿",
-    "biggest_component_id": 2238
+    "biggest_component_id": 2229
   },
   {
     "id": 1222,
@@ -9134,12 +9110,11 @@
       "(tên người, tổ tiên của nhà Thương của Trung Quốc cổ đại)"
     ],
     "components": [
-      "龶",
       "刀",
       "大"
     ],
-    "biggest_component": "龶",
-    "biggest_component_id": 2284
+    "biggest_component": "大",
+    "biggest_component_id": 27
   },
   {
     "id": 1227,
@@ -9174,7 +9149,7 @@
       "寸"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1230,
@@ -9233,7 +9208,7 @@
       "士"
     ],
     "biggest_component": "壬",
-    "biggest_component_id": 2194
+    "biggest_component_id": 2187
   },
   {
     "id": 1237,
@@ -9332,7 +9307,7 @@
       "辰"
     ],
     "biggest_component": "辰",
-    "biggest_component_id": 2262
+    "biggest_component_id": 2252
   },
   {
     "id": 1248,
@@ -9364,7 +9339,7 @@
       "月"
     ],
     "biggest_component": "疋",
-    "biggest_component_id": 2242
+    "biggest_component_id": 2232
   },
   {
     "id": 1256,
@@ -9398,7 +9373,7 @@
       "瓜"
     ],
     "biggest_component": "瓜",
-    "biggest_component_id": 2239
+    "biggest_component_id": 2230
   },
   {
     "id": 1258,
@@ -9412,8 +9387,8 @@
       "夕",
       "卩"
     ],
-    "biggest_component": "夗",
-    "biggest_component_id": 2199
+    "biggest_component": "宀",
+    "biggest_component_id": 2192
   },
   {
     "id": 1260,
@@ -9477,7 +9452,7 @@
       "又"
     ],
     "biggest_component": "爿",
-    "biggest_component_id": 2238
+    "biggest_component_id": 2229
   },
   {
     "id": 1269,
@@ -9541,7 +9516,7 @@
       "口"
     ],
     "biggest_component": "冋",
-    "biggest_component_id": 2167
+    "biggest_component_id": 2161
   },
   {
     "id": 1276,
@@ -9555,7 +9530,7 @@
       "匕"
     ],
     "biggest_component": "尸",
-    "biggest_component_id": 2206
+    "biggest_component_id": 2197
   },
   {
     "id": 1278,
@@ -9600,7 +9575,7 @@
       "屮"
     ],
     "biggest_component": "屮",
-    "biggest_component_id": 2208
+    "biggest_component_id": 2199
   },
   {
     "id": 1287,
@@ -9616,7 +9591,7 @@
       "丰"
     ],
     "biggest_component": "夆",
-    "biggest_component_id": 2197
+    "biggest_component_id": 2189
   },
   {
     "id": 1290,
@@ -9661,7 +9636,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1293,
@@ -9688,7 +9663,7 @@
       "匚"
     ],
     "biggest_component": "匚",
-    "biggest_component_id": 2176
+    "biggest_component_id": 2170
   },
   {
     "id": 1297,
@@ -9752,7 +9727,7 @@
       "巾"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
     "id": 1303,
@@ -9769,7 +9744,7 @@
       "幺"
     ],
     "biggest_component": "幺",
-    "biggest_component_id": 2213
+    "biggest_component_id": 2204
   },
   {
     "id": 1305,
@@ -9799,7 +9774,7 @@
       "火"
     ],
     "biggest_component": "廿",
-    "biggest_component_id": 2217
+    "biggest_component_id": 2208
   },
   {
     "id": 1307,
@@ -9832,7 +9807,7 @@
       "廴"
     ],
     "biggest_component": "壬",
-    "biggest_component_id": 2194
+    "biggest_component_id": 2187
   },
   {
     "id": 1312,
@@ -9865,7 +9840,7 @@
       "廾"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
     "id": 1314,
@@ -9880,7 +9855,7 @@
       "二"
     ],
     "biggest_component": "弋",
-    "biggest_component_id": 2218
+    "biggest_component_id": 2209
   },
   {
     "id": 1315,
@@ -9941,7 +9916,7 @@
       "瓜"
     ],
     "biggest_component": "瓜",
-    "biggest_component_id": 2239
+    "biggest_component_id": 2230
   },
   {
     "id": 1325,
@@ -10018,8 +9993,8 @@
       "卩",
       "心"
     ],
-    "biggest_component": "夗",
-    "biggest_component_id": 2199
+    "biggest_component": "心",
+    "biggest_component_id": 143
   },
   {
     "id": 1340,
@@ -10063,7 +10038,7 @@
       "艮"
     ],
     "biggest_component": "艮",
-    "biggest_component_id": 2254
+    "biggest_component_id": 2244
   },
   {
     "id": 1347,
@@ -10139,7 +10114,7 @@
       "木"
     ],
     "biggest_component": "襾",
-    "biggest_component_id": 2259
+    "biggest_component_id": 2249
   },
   {
     "id": 1365,
@@ -10154,7 +10129,7 @@
       "心"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1368,
@@ -10170,7 +10145,7 @@
       "心"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1369,
@@ -10187,7 +10162,7 @@
       "又"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1373,
@@ -10217,7 +10192,7 @@
       "心"
     ],
     "biggest_component": "豸",
-    "biggest_component_id": 2261
+    "biggest_component_id": 2251
   },
   {
     "id": 1383,
@@ -10234,7 +10209,7 @@
       "衣"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1386,
@@ -10249,7 +10224,7 @@
       "廾"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
     "id": 1390,
@@ -10266,7 +10241,7 @@
       "大"
     ],
     "biggest_component": "戶",
-    "biggest_component_id": 2225
+    "biggest_component_id": 2216
   },
   {
     "id": 1391,
@@ -10280,7 +10255,7 @@
       "方"
     ],
     "biggest_component": "戶",
-    "biggest_component_id": 2225
+    "biggest_component_id": 2216
   },
   {
     "id": 1392,
@@ -10580,7 +10555,7 @@
       "辰"
     ],
     "biggest_component": "辰",
-    "biggest_component_id": 2262
+    "biggest_component_id": 2252
   },
   {
     "id": 1428,
@@ -10678,7 +10653,7 @@
       "乃"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1451,
@@ -10738,7 +10713,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1463,
@@ -10752,7 +10727,7 @@
       "攴"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
     "id": 1465,
@@ -10796,7 +10771,7 @@
       "示"
     ],
     "biggest_component": "齊",
-    "biggest_component_id": 2280
+    "biggest_component_id": 2270
   },
   {
     "id": 1469,
@@ -10852,11 +10827,10 @@
     ],
     "components": [
       "方",
-      "𠂉",
       "疋"
     ],
     "biggest_component": "疋",
-    "biggest_component_id": 2242
+    "biggest_component_id": 2232
   },
   {
     "id": 1477,
@@ -10870,7 +10844,7 @@
       "无"
     ],
     "biggest_component": "艮",
-    "biggest_component_id": 2254
+    "biggest_component_id": 2244
   },
   {
     "id": 1478,
@@ -10976,7 +10950,7 @@
       "疋"
     ],
     "biggest_component": "疋",
-    "biggest_component_id": 2242
+    "biggest_component_id": 2232
   },
   {
     "id": 1487,
@@ -11020,7 +10994,7 @@
       "丿"
     ],
     "biggest_component": "曰",
-    "biggest_component_id": 2231
+    "biggest_component_id": 2222
   },
   {
     "id": 1496,
@@ -11050,7 +11024,7 @@
       "曰"
     ],
     "biggest_component": "曰",
-    "biggest_component_id": 2231
+    "biggest_component_id": 2222
   },
   {
     "id": 1499,
@@ -11254,7 +11228,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1532,
@@ -11296,12 +11270,11 @@
       "vui vẻ, mừng"
     ],
     "components": [
-      "𠂉",
       "隹",
       "欠"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1545,
@@ -11317,7 +11290,7 @@
       "殳"
     ],
     "biggest_component": "殳",
-    "biggest_component_id": 2234
+    "biggest_component_id": 2225
   },
   {
     "id": 1546,
@@ -11499,7 +11472,7 @@
       "聿"
     ],
     "biggest_component": "聿",
-    "biggest_component_id": 2252
+    "biggest_component_id": 2242
   },
   {
     "id": 1570,
@@ -11635,11 +11608,10 @@
     ],
     "components": [
       "水",
-      "日",
-      "业"
+      "日"
     ],
-    "biggest_component": "业",
-    "biggest_component_id": 2145
+    "biggest_component": "水",
+    "biggest_component_id": 51
   },
   {
     "id": 1597,
@@ -11669,7 +11641,7 @@
       "龍"
     ],
     "biggest_component": "龍",
-    "biggest_component_id": 2282
+    "biggest_component_id": 2272
   },
   {
     "id": 1602,
@@ -11718,7 +11690,7 @@
       "大"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1605,
@@ -11734,7 +11706,7 @@
       "又"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1609,
@@ -11767,7 +11739,7 @@
       "虫"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1615,
@@ -11782,7 +11754,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1617,
@@ -11857,7 +11829,7 @@
       "火"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1624,
@@ -11873,7 +11845,7 @@
       "土"
     ],
     "biggest_component": "襾",
-    "biggest_component_id": 2259
+    "biggest_component_id": 2249
   },
   {
     "id": 1625,
@@ -11887,7 +11859,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 1630,
@@ -11904,7 +11876,7 @@
       "寸"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1631,
@@ -11920,7 +11892,7 @@
       "爻"
     ],
     "biggest_component": "爻",
-    "biggest_component_id": 2237
+    "biggest_component_id": 2228
   },
   {
     "id": 1633,
@@ -11980,7 +11952,7 @@
       "鼠"
     ],
     "biggest_component": "鼠",
-    "biggest_component_id": 2279
+    "biggest_component_id": 2269
   },
   {
     "id": 1644,
@@ -12051,7 +12023,6 @@
       "ngọc bích"
     ],
     "components": [
-      "𡰪",
       "辛",
       "玉"
     ],
@@ -12072,7 +12043,7 @@
       "衣"
     ],
     "biggest_component": "网",
-    "biggest_component_id": 2248
+    "biggest_component_id": 2238
   },
   {
     "id": 1657,
@@ -12179,7 +12150,7 @@
       "殳"
     ],
     "biggest_component": "疒",
-    "biggest_component_id": 2243
+    "biggest_component_id": 2233
   },
   {
     "id": 1671,
@@ -12193,7 +12164,7 @@
       "皮"
     ],
     "biggest_component": "疒",
-    "biggest_component_id": 2243
+    "biggest_component_id": 2233
   },
   {
     "id": 1672,
@@ -12207,7 +12178,7 @@
       "矢"
     ],
     "biggest_component": "疒",
-    "biggest_component_id": 2243
+    "biggest_component_id": 2233
   },
   {
     "id": 1674,
@@ -12223,7 +12194,7 @@
       "艮"
     ],
     "biggest_component": "艮",
-    "biggest_component_id": 2254
+    "biggest_component_id": 2244
   },
   {
     "id": 1675,
@@ -12253,7 +12224,7 @@
       "小"
     ],
     "biggest_component": "疒",
-    "biggest_component_id": 2243
+    "biggest_component_id": 2233
   },
   {
     "id": 1682,
@@ -12264,7 +12235,6 @@
     ],
     "components": [
       "疒",
-      "𡰪",
       "辛"
     ],
     "biggest_component": "辛",
@@ -12296,7 +12266,6 @@
     ],
     "components": [
       "臣",
-      "𠂉",
       "皿"
     ],
     "biggest_component": "臣",
@@ -12376,7 +12345,7 @@
       "舛"
     ],
     "biggest_component": "舛",
-    "biggest_component_id": 2253
+    "biggest_component_id": 2243
   },
   {
     "id": 1697,
@@ -12499,7 +12468,7 @@
       "丿"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 1719,
@@ -12514,7 +12483,7 @@
       "小"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 1720,
@@ -12529,7 +12498,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1724,
@@ -12560,7 +12529,7 @@
       "心"
     ],
     "biggest_component": "禾",
-    "biggest_component_id": 2247
+    "biggest_component_id": 2237
   },
   {
     "id": 1728,
@@ -12636,7 +12605,7 @@
       "而"
     ],
     "biggest_component": "而",
-    "biggest_component_id": 2249
+    "biggest_component_id": 2239
   },
   {
     "id": 1739,
@@ -12694,7 +12663,7 @@
       "龍"
     ],
     "biggest_component": "龍",
-    "biggest_component_id": 2282
+    "biggest_component_id": 2272
   },
   {
     "id": 1747,
@@ -12724,7 +12693,7 @@
       "米"
     ],
     "biggest_component": "聿",
-    "biggest_component_id": 2252
+    "biggest_component_id": 2242
   },
   {
     "id": 1751,
@@ -12878,7 +12847,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1770,
@@ -12908,7 +12877,7 @@
       "韋"
     ],
     "biggest_component": "韋",
-    "biggest_component_id": 2272
+    "biggest_component_id": 2262
   },
   {
     "id": 1776,
@@ -12924,7 +12893,7 @@
       "豕"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 1778,
@@ -12939,7 +12908,7 @@
       "辵"
     ],
     "biggest_component": "夆",
-    "biggest_component_id": 2197
+    "biggest_component_id": 2189
   },
   {
     "id": 1780,
@@ -12951,7 +12920,6 @@
     "components": [
       "糸",
       "土",
-      "业",
       "戈"
     ],
     "biggest_component": "糸",
@@ -13048,7 +13016,7 @@
       "寸"
     ],
     "biggest_component": "而",
-    "biggest_component_id": 2249
+    "biggest_component_id": 2239
   },
   {
     "id": 1795,
@@ -13065,7 +13033,7 @@
       "毛"
     ],
     "biggest_component": "耒",
-    "biggest_component_id": 2250
+    "biggest_component_id": 2240
   },
   {
     "id": 1796,
@@ -13314,11 +13282,10 @@
     ],
     "components": [
       "肉",
-      "壴",
       "彡"
     ],
-    "biggest_component": "壴",
-    "biggest_component_id": 2195
+    "biggest_component": "肉",
+    "biggest_component_id": 197
   },
   {
     "id": 1828,
@@ -13365,7 +13332,7 @@
       "舛"
     ],
     "biggest_component": "舛",
-    "biggest_component_id": 2253
+    "biggest_component_id": 2243
   },
   {
     "id": 1834,
@@ -13426,7 +13393,7 @@
       "亅"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1841,
@@ -13440,7 +13407,7 @@
       "丶"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1842,
@@ -13455,7 +13422,7 @@
       "心"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1843,
@@ -13469,7 +13436,7 @@
       "方"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1844,
@@ -13486,7 +13453,7 @@
       "田"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1846,
@@ -13501,7 +13468,7 @@
       "戈"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1847,
@@ -13517,7 +13484,7 @@
       "土"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1850,
@@ -13532,7 +13499,7 @@
       "米"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1851,
@@ -13548,7 +13515,7 @@
       "禾"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1853,
@@ -13564,7 +13531,7 @@
       "丨"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1860,
@@ -13580,7 +13547,7 @@
       "攴"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1862,
@@ -13598,7 +13565,7 @@
       "火"
     ],
     "biggest_component": "艸",
-    "biggest_component_id": 2255
+    "biggest_component_id": 2245
   },
   {
     "id": 1868,
@@ -13613,7 +13580,7 @@
       "喿"
     ],
     "biggest_component": "喿",
-    "biggest_component_id": 2191
+    "biggest_component_id": 2184
   },
   {
     "id": 1869,
@@ -13627,7 +13594,7 @@
       "八"
     ],
     "biggest_component": "虍",
-    "biggest_component_id": 2258
+    "biggest_component_id": 2248
   },
   {
     "id": 1871,
@@ -13638,11 +13605,10 @@
       "trống rỗng"
     ],
     "components": [
-      "虍",
-      "业"
+      "虍"
     ],
     "biggest_component": "虍",
-    "biggest_component_id": 2258
+    "biggest_component_id": 2248
   },
   {
     "id": 1874,
@@ -13716,7 +13682,7 @@
       "丰"
     ],
     "biggest_component": "夆",
-    "biggest_component_id": 2197
+    "biggest_component_id": 2189
   },
   {
     "id": 1881,
@@ -13732,7 +13698,7 @@
       "虫"
     ],
     "biggest_component": "鬲",
-    "biggest_component_id": 2276
+    "biggest_component_id": 2266
   },
   {
     "id": 1883,
@@ -13828,7 +13794,7 @@
       "衣"
     ],
     "biggest_component": "龍",
-    "biggest_component_id": 2282
+    "biggest_component_id": 2272
   },
   {
     "id": 1898,
@@ -13979,7 +13945,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1930,
@@ -14010,7 +13976,7 @@
       "豕"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 1935,
@@ -14028,7 +13994,7 @@
       "豕"
     ],
     "biggest_component": "豕",
-    "biggest_component_id": 2260
+    "biggest_component_id": 2250
   },
   {
     "id": 1936,
@@ -14043,7 +14009,7 @@
       "儿"
     ],
     "biggest_component": "豸",
-    "biggest_component_id": 2261
+    "biggest_component_id": 2251
   },
   {
     "id": 1937,
@@ -14209,7 +14175,6 @@
     ],
     "components": [
       "足",
-      "龴",
       "用"
     ],
     "biggest_component": "足",
@@ -14245,7 +14210,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 1969,
@@ -14325,7 +14290,7 @@
       "寸"
     ],
     "biggest_component": "辰",
-    "biggest_component_id": 2262
+    "biggest_component_id": 2252
   },
   {
     "id": 1980,
@@ -14340,7 +14305,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1981,
@@ -14355,7 +14320,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1982,
@@ -14369,7 +14334,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1983,
@@ -14384,7 +14349,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1987,
@@ -14399,7 +14364,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1988,
@@ -14415,7 +14380,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1991,
@@ -14430,7 +14395,7 @@
       "辵"
     ],
     "biggest_component": "隶",
-    "biggest_component_id": 2269
+    "biggest_component_id": 2259
   },
   {
     "id": 1993,
@@ -14444,7 +14409,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1994,
@@ -14460,7 +14425,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1995,
@@ -14475,7 +14440,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 1997,
@@ -14490,7 +14455,7 @@
       "辵"
     ],
     "biggest_component": "韋",
-    "biggest_component_id": 2272
+    "biggest_component_id": 2262
   },
   {
     "id": 1999,
@@ -14505,7 +14470,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 2004,
@@ -14522,7 +14487,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 2005,
@@ -14533,12 +14498,11 @@
       "phòng"
     ],
     "components": [
-      "𡰪",
       "辛",
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 2006,
@@ -14556,7 +14520,7 @@
       "辵"
     ],
     "biggest_component": "辵",
-    "biggest_component_id": 2263
+    "biggest_component_id": 2253
   },
   {
     "id": 2007,
@@ -14573,7 +14537,7 @@
       "邑"
     ],
     "biggest_component": "邑",
-    "biggest_component_id": 2264
+    "biggest_component_id": 2254
   },
   {
     "id": 2009,
@@ -14587,7 +14551,7 @@
       "邑"
     ],
     "biggest_component": "邑",
-    "biggest_component_id": 2264
+    "biggest_component_id": 2254
   },
   {
     "id": 2010,
@@ -14603,7 +14567,7 @@
       "邑"
     ],
     "biggest_component": "邑",
-    "biggest_component_id": 2264
+    "biggest_component_id": 2254
   },
   {
     "id": 2012,
@@ -14618,7 +14582,7 @@
       "邑"
     ],
     "biggest_component": "邑",
-    "biggest_component_id": 2264
+    "biggest_component_id": 2254
   },
   {
     "id": 2014,
@@ -14633,7 +14597,7 @@
       "丶"
     ],
     "biggest_component": "酉",
-    "biggest_component_id": 2265
+    "biggest_component_id": 2255
   },
   {
     "id": 2015,
@@ -14647,7 +14611,7 @@
       "寸"
     ],
     "biggest_component": "酉",
-    "biggest_component_id": 2265
+    "biggest_component_id": 2255
   },
   {
     "id": 2017,
@@ -14661,7 +14625,7 @@
       "丿"
     ],
     "biggest_component": "酉",
-    "biggest_component_id": 2265
+    "biggest_component_id": 2255
   },
   {
     "id": 2023,
@@ -14966,7 +14930,7 @@
       "鬲"
     ],
     "biggest_component": "鬲",
-    "biggest_component_id": 2276
+    "biggest_component_id": 2266
   },
   {
     "id": 2068,
@@ -15030,7 +14994,7 @@
       "隶"
     ],
     "biggest_component": "隶",
-    "biggest_component_id": 2269
+    "biggest_component_id": 2259
   },
   {
     "id": 2072,
@@ -15045,7 +15009,7 @@
       "又"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 2073,
@@ -15061,7 +15025,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 2074,
@@ -15076,7 +15040,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 2075,
@@ -15090,7 +15054,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 2076,
@@ -15105,7 +15069,7 @@
       "隹"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   },
   {
     "id": 2080,
@@ -15161,8 +15125,7 @@
     ],
     "components": [
       "雨",
-      "一",
-      "业"
+      "一"
     ],
     "biggest_component": "雨",
     "biggest_component_id": 78
@@ -15181,7 +15144,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 2092,
@@ -15197,7 +15160,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 2093,
@@ -15214,7 +15177,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 2100,
@@ -15229,7 +15192,7 @@
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 2101,
@@ -15241,11 +15204,10 @@
     ],
     "components": [
       "日",
-      "业",
       "頁"
     ],
     "biggest_component": "頁",
-    "biggest_component_id": 2273
+    "biggest_component_id": 2263
   },
   {
     "id": 2103,
@@ -15272,7 +15234,6 @@
     ],
     "components": [
       "食",
-      "𠂉",
       "巾"
     ],
     "biggest_component": "食",
@@ -15320,7 +15281,6 @@
     ],
     "components": [
       "肉",
-      "龹",
       "馬"
     ],
     "biggest_component": "馬",
@@ -15374,7 +15334,7 @@
       "彡"
     ],
     "biggest_component": "鬯",
-    "biggest_component_id": 2275
+    "biggest_component_id": 2265
   },
   {
     "id": 2123,
@@ -15478,10 +15438,10 @@
       "面"
     ],
     "biggest_component": "麥",
-    "biggest_component_id": 2277
+    "biggest_component_id": 2267
   },
   {
-    "id": 2139,
+    "id": 2137,
     "character": "㓁",
     "character_name_vi": "Võng",
     "meanings_vi": [],
@@ -15490,10 +15450,10 @@
       "八"
     ],
     "biggest_component": "冖",
-    "biggest_component_id": 2168
+    "biggest_component_id": 2162
   },
   {
-    "id": 2146,
+    "id": 2140,
     "character": "丞",
     "character_name_vi": "Chưng Chửng Thừa",
     "meanings_vi": [
@@ -15508,7 +15468,7 @@
     "biggest_component_id": 51
   },
   {
-    "id": 2154,
+    "id": 2148,
     "character": "也",
     "character_name_vi": "Dã Giã Giả",
     "meanings_vi": [
@@ -15520,10 +15480,10 @@
       "乙"
     ],
     "biggest_component": "丨",
-    "biggest_component_id": 2147
+    "biggest_component_id": 2141
   },
   {
-    "id": 2156,
+    "id": 2150,
     "character": "云",
     "character_name_vi": "Vân",
     "meanings_vi": [
@@ -15539,7 +15499,7 @@
     "biggest_component_id": 8
   },
   {
-    "id": 2158,
+    "id": 2152,
     "character": "亦",
     "character_name_vi": "Diệc",
     "meanings_vi": [
@@ -15551,10 +15511,10 @@
       "亅"
     ],
     "biggest_component": "亠",
-    "biggest_component_id": 2157
+    "biggest_component_id": 2151
   },
   {
-    "id": 2159,
+    "id": 2153,
     "character": "从",
     "character_name_vi": "Thung Tung Tòng Tùng Túng Tụng",
     "meanings_vi": [
@@ -15568,7 +15528,7 @@
     "biggest_component_id": 10
   },
   {
-    "id": 2162,
+    "id": 2156,
     "character": "兀",
     "character_name_vi": "Ngoạt Ngột Ô",
     "meanings_vi": [
@@ -15582,7 +15542,7 @@
     "biggest_component_id": 14
   },
   {
-    "id": 2163,
+    "id": 2157,
     "character": "允",
     "character_name_vi": "Doãn Duẫn",
     "meanings_vi": [
@@ -15594,10 +15554,10 @@
       "儿"
     ],
     "biggest_component": "厶",
-    "biggest_component_id": 2184
+    "biggest_component_id": 2178
   },
   {
-    "id": 2164,
+    "id": 2158,
     "character": "兪",
     "character_name_vi": "Du",
     "meanings_vi": [
@@ -15613,7 +15573,7 @@
     "biggest_component_id": 42
   },
   {
-    "id": 2165,
+    "id": 2159,
     "character": "其",
     "character_name_vi": "Cơ ki ky kì kí ký kỳ",
     "meanings_vi": [
@@ -15627,7 +15587,7 @@
     "biggest_component_id": 1660
   },
   {
-    "id": 2172,
+    "id": 2166,
     "character": "劵",
     "character_name_vi": "Quyển",
     "meanings_vi": [],
@@ -15640,7 +15600,7 @@
     "biggest_component_id": 8
   },
   {
-    "id": 2178,
+    "id": 2172,
     "character": "卅",
     "character_name_vi": "Táp Tạp",
     "meanings_vi": [
@@ -15651,10 +15611,10 @@
       "巛"
     ],
     "biggest_component": "廾",
-    "biggest_component_id": 2216
+    "biggest_component_id": 2207
   },
   {
-    "id": 2179,
+    "id": 2173,
     "character": "卉",
     "character_name_vi": "Huỷ",
     "meanings_vi": [
@@ -15665,10 +15625,10 @@
       "廾"
     ],
     "biggest_component": "廾",
-    "biggest_component_id": 2216
+    "biggest_component_id": 2207
   },
   {
-    "id": 2182,
+    "id": 2176,
     "character": "卯",
     "character_name_vi": "Mão Mẹo",
     "meanings_vi": [
@@ -15679,10 +15639,10 @@
       "卩"
     ],
     "biggest_component": "卩",
-    "biggest_component_id": 2181
+    "biggest_component_id": 2175
   },
   {
-    "id": 2186,
+    "id": 2179,
     "character": "吊",
     "character_name_vi": "Điếu",
     "meanings_vi": [
@@ -15697,7 +15657,7 @@
     "biggest_component_id": 21
   },
   {
-    "id": 2187,
+    "id": 2180,
     "character": "呆",
     "character_name_vi": "Bảo Ngai Ngốc",
     "meanings_vi": [
@@ -15711,7 +15671,7 @@
     "biggest_component_id": 43
   },
   {
-    "id": 2193,
+    "id": 2186,
     "character": "圭",
     "character_name_vi": "Khuê",
     "meanings_vi": [
@@ -15725,7 +15685,7 @@
     "biggest_component_id": 25
   },
   {
-    "id": 2198,
+    "id": 2190,
     "character": "复",
     "character_name_vi": "Phú Phúc Phục Phức",
     "meanings_vi": [
@@ -15736,7 +15696,6 @@
       "kép, ghép, phức"
     ],
     "components": [
-      "𠂉",
       "日",
       "夂"
     ],
@@ -15744,7 +15703,7 @@
     "biggest_component_id": 40
   },
   {
-    "id": 2200,
+    "id": 2191,
     "character": "夭",
     "character_name_vi": "Yêu Yểu",
     "meanings_vi": [
@@ -15760,7 +15719,7 @@
     "biggest_component_id": 27
   },
   {
-    "id": 2205,
+    "id": 2196,
     "character": "尤",
     "character_name_vi": "Vưu",
     "meanings_vi": [
@@ -15773,10 +15732,10 @@
       "丶"
     ],
     "biggest_component": "尢",
-    "biggest_component_id": 2204
+    "biggest_component_id": 2195
   },
   {
-    "id": 2207,
+    "id": 2198,
     "character": "尹",
     "character_name_vi": "Doãn Duẫn",
     "meanings_vi": [
@@ -15789,10 +15748,10 @@
       "尸"
     ],
     "biggest_component": "彐",
-    "biggest_component_id": 2219
+    "biggest_component_id": 2210
   },
   {
-    "id": 2211,
+    "id": 2202,
     "character": "幵",
     "character_name_vi": "Kiên",
     "meanings_vi": [],
@@ -15803,7 +15762,7 @@
     "biggest_component_id": 893
   },
   {
-    "id": 2212,
+    "id": 2203,
     "character": "并",
     "character_name_vi": "Bình Bính Phanh Tinh Tính Tỉnh Tịnh",
     "meanings_vi": [
@@ -15821,7 +15780,7 @@
     "biggest_component_id": 893
   },
   {
-    "id": 2223,
+    "id": 2214,
     "character": "戌",
     "character_name_vi": "Tuất",
     "meanings_vi": [
@@ -15833,10 +15792,10 @@
       "一"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
-    "id": 2224,
+    "id": 2215,
     "character": "戍",
     "character_name_vi": "Thú",
     "meanings_vi": [
@@ -15848,24 +15807,23 @@
       "一"
     ],
     "biggest_component": "戈",
-    "biggest_component_id": 2222
+    "biggest_component_id": 2213
   },
   {
-    "id": 2227,
+    "id": 2218,
     "character": "攵",
     "character_name_vi": "Phác phốc phộc truy",
     "meanings_vi": [
       "đánh khẽ"
     ],
     "components": [
-      "𠂉",
       "丿"
     ],
-    "biggest_component": "𠂉",
-    "biggest_component_id": 2288
+    "biggest_component": "乂",
+    "biggest_component_id": 2145
   },
   {
-    "id": 2228,
+    "id": 2219,
     "character": "攸",
     "character_name_vi": "Du",
     "meanings_vi": [
@@ -15877,10 +15835,10 @@
       "攴"
     ],
     "biggest_component": "攴",
-    "biggest_component_id": 2226
+    "biggest_component_id": 2217
   },
   {
-    "id": 2232,
+    "id": 2223,
     "character": "曷",
     "character_name_vi": "Hạt Át",
     "meanings_vi": [
@@ -15892,10 +15850,10 @@
       "匕"
     ],
     "biggest_component": "曰",
-    "biggest_component_id": 2231
+    "biggest_component_id": 2222
   },
   {
-    "id": 2240,
+    "id": 2231,
     "character": "甫",
     "character_name_vi": "Phủ",
     "meanings_vi": [
@@ -15909,7 +15867,7 @@
     "biggest_component_id": 177
   },
   {
-    "id": 2246,
+    "id": 2236,
     "character": "禹",
     "character_name_vi": "Vũ",
     "meanings_vi": [
@@ -15924,7 +15882,7 @@
     "biggest_component_id": 71
   },
   {
-    "id": 2251,
+    "id": 2241,
     "character": "聶",
     "character_name_vi": "Chiệp Nhiếp Niếp Triệp",
     "meanings_vi": [
@@ -15938,7 +15896,7 @@
     "biggest_component_id": 68
   },
   {
-    "id": 2266,
+    "id": 2256,
     "character": "酋",
     "character_name_vi": "Tù",
     "meanings_vi": [
@@ -15950,10 +15908,10 @@
       "酉"
     ],
     "biggest_component": "酉",
-    "biggest_component_id": 2265
+    "biggest_component_id": 2255
   },
   {
-    "id": 2268,
+    "id": 2258,
     "character": "陏",
     "character_name_vi": "Tuỳ Đoạ",
     "meanings_vi": [
@@ -15968,7 +15926,7 @@
     "biggest_component_id": 629
   },
   {
-    "id": 2271,
+    "id": 2261,
     "character": "隼",
     "character_name_vi": "Chuẩn",
     "meanings_vi": [
@@ -15979,6 +15937,6 @@
       "十"
     ],
     "biggest_component": "隹",
-    "biggest_component_id": 2270
+    "biggest_component_id": 2260
   }
 ]
