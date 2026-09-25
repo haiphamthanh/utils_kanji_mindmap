@@ -1,6 +1,6 @@
 // interaction.js — zoom / pan viewport controller.
 
-const MIN_SCALE = 0.25;
+const MIN_SCALE = 0.05;
 const MAX_SCALE = 3;
 const DRAG_THRESHOLD = 5; // px — below this a pointer gesture is a click
 
