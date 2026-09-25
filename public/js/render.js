@@ -33,7 +33,7 @@ export function renderGraph(layout, data, dom) {
     if (!a || !b) continue;
 
     const path = document.createElementNS(NS, "path");
-    path.setAttribute("d", edgePath(a, b, layout.radius));
+    path.setAttribute("d", edgePath(a, b));
     path.setAttribute("class", `edge edge-type-${edge.type}`);
     path.setAttribute("pathLength", "1");
     path.dataset.source = edge.source;
