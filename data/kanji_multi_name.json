@@ -1,0 +1,9118 @@
+[
+  {
+    "id": 3,
+    "character": "三",
+    "character_name_vi": "Tam Tám Tạm",
+    "readings": [
+      "Tam",
+      "Tám",
+      "Tạm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 4,
+    "character": "上",
+    "character_name_vi": "Thướng Thượng",
+    "readings": [
+      "Thướng",
+      "Thượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 5,
+    "character": "下",
+    "character_name_vi": "Há Hạ",
+    "readings": [
+      "Há",
+      "Hạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 6,
+    "character": "中",
+    "character_name_vi": "Trung trúng",
+    "readings": [
+      "Trung",
+      "trúng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 7,
+    "character": "九",
+    "character_name_vi": "Cưu Cửu",
+    "readings": [
+      "Cưu",
+      "Cửu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 10,
+    "character": "人",
+    "character_name_vi": "Nhân nhơn",
+    "readings": [
+      "Nhân",
+      "nhơn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 11,
+    "character": "休",
+    "character_name_vi": "Hu hưu",
+    "readings": [
+      "Hu",
+      "hưu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 12,
+    "character": "先",
+    "character_name_vi": "Tiên tiến",
+    "readings": [
+      "Tiên",
+      "tiến"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 17,
+    "character": "出",
+    "character_name_vi": "Xuý Xuất Xích",
+    "readings": [
+      "Xuý",
+      "Xuất",
+      "Xích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 25,
+    "character": "土",
+    "character_name_vi": "Thổ đỗ độ",
+    "readings": [
+      "Thổ",
+      "đỗ",
+      "độ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 27,
+    "character": "大",
+    "character_name_vi": "Thái đại",
+    "readings": [
+      "Thái",
+      "đại"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 29,
+    "character": "女",
+    "character_name_vi": "Nhữ nứ nữ nự",
+    "readings": [
+      "Nhữ",
+      "nứ",
+      "nữ",
+      "nự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 30,
+    "character": "子",
+    "character_name_vi": "Tí tý tử",
+    "readings": [
+      "Tí",
+      "tý",
+      "tử"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 34,
+    "character": "山",
+    "character_name_vi": "San sơn",
+    "readings": [
+      "San",
+      "sơn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 36,
+    "character": "左",
+    "character_name_vi": "Tá tả",
+    "readings": [
+      "Tá",
+      "tả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 39,
+    "character": "文",
+    "character_name_vi": "Văn vấn",
+    "readings": [
+      "Văn",
+      "vấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 40,
+    "character": "日",
+    "character_name_vi": "Nhật nhựt",
+    "readings": [
+      "Nhật",
+      "nhựt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 44,
+    "character": "本",
+    "character_name_vi": "Bôn bản bổn",
+    "readings": [
+      "Bôn",
+      "bản",
+      "bổn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 47,
+    "character": "校",
+    "character_name_vi": "Giáo hiệu hào",
+    "readings": [
+      "Giáo",
+      "hiệu",
+      "hào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 49,
+    "character": "正",
+    "character_name_vi": "Chinh chánh chính",
+    "readings": [
+      "Chinh",
+      "chánh",
+      "chính"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 54,
+    "character": "玉",
+    "character_name_vi": "Ngọc túc",
+    "readings": [
+      "Ngọc",
+      "túc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 55,
+    "character": "王",
+    "character_name_vi": "Vương vượng",
+    "readings": [
+      "Vương",
+      "vượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 56,
+    "character": "生",
+    "character_name_vi": "Sanh sinh",
+    "readings": [
+      "Sanh",
+      "sinh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 59,
+    "character": "町",
+    "character_name_vi": "Đinh đỉnh",
+    "readings": [
+      "Đinh",
+      "đỉnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 61,
+    "character": "百",
+    "character_name_vi": "Bá bách mạch",
+    "readings": [
+      "Bá",
+      "bách",
+      "mạch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 63,
+    "character": "石",
+    "character_name_vi": "Thạch đạn",
+    "readings": [
+      "Thạch",
+      "đạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 64,
+    "character": "空",
+    "character_name_vi": "Không khống khổng",
+    "readings": [
+      "Không",
+      "khống",
+      "khổng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 70,
+    "character": "草",
+    "character_name_vi": "Thảo tạo",
+    "readings": [
+      "Thảo",
+      "tạo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 71,
+    "character": "虫",
+    "character_name_vi": "Huỷ Trùng",
+    "readings": [
+      "Huỷ",
+      "Trùng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 72,
+    "character": "見",
+    "character_name_vi": "Hiện kiến",
+    "readings": [
+      "Hiện",
+      "kiến"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 74,
+    "character": "赤",
+    "character_name_vi": "Thích Xích",
+    "readings": [
+      "Thích",
+      "Xích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 75,
+    "character": "足",
+    "character_name_vi": "Tú túc",
+    "readings": [
+      "Tú",
+      "túc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 78,
+    "character": "雨",
+    "character_name_vi": "Vú vũ vụ",
+    "readings": [
+      "Vú",
+      "vũ",
+      "vụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 80,
+    "character": "音",
+    "character_name_vi": "Âm ấm",
+    "readings": [
+      "Âm",
+      "ấm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 81,
+    "character": "万",
+    "character_name_vi": "Mặc Vạn",
+    "readings": [
+      "Mặc",
+      "Vạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 84,
+    "character": "京",
+    "character_name_vi": "Kinh nguyên",
+    "readings": [
+      "Kinh",
+      "nguyên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 86,
+    "character": "会",
+    "character_name_vi": "Cối hội",
+    "readings": [
+      "Cối",
+      "hội"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 87,
+    "character": "体",
+    "character_name_vi": "Bổn thể",
+    "readings": [
+      "Bổn",
+      "thể"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 89,
+    "character": "作",
+    "character_name_vi": "Tá tác",
+    "readings": [
+      "Tá",
+      "tác"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 91,
+    "character": "兄",
+    "character_name_vi": "Huynh huống",
+    "readings": [
+      "Huynh",
+      "huống"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 94,
+    "character": "内",
+    "character_name_vi": "Nạp nội",
+    "readings": [
+      "Nạp",
+      "nội"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 97,
+    "character": "分",
+    "character_name_vi": "Phân phần phận",
+    "readings": [
+      "Phân",
+      "phần",
+      "phận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 98,
+    "character": "切",
+    "character_name_vi": "Thiết thế",
+    "readings": [
+      "Thiết",
+      "thế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 99,
+    "character": "前",
+    "character_name_vi": "Tiền tiễn",
+    "readings": [
+      "Tiền",
+      "tiễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 100,
+    "character": "北",
+    "character_name_vi": "Bắc Bối Bội",
+    "readings": [
+      "Bắc",
+      "Bối",
+      "Bội"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 103,
+    "character": "南",
+    "character_name_vi": "Na nam",
+    "readings": [
+      "Na",
+      "nam"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 104,
+    "character": "原",
+    "character_name_vi": "Nguyên nguyện",
+    "readings": [
+      "Nguyên",
+      "nguyện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 107,
+    "character": "台",
+    "character_name_vi": "Di thai đài",
+    "readings": [
+      "Di",
+      "thai",
+      "đài"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 108,
+    "character": "合",
+    "character_name_vi": "Cáp hiệp hạp hợp",
+    "readings": [
+      "Cáp",
+      "hiệp",
+      "hạp",
+      "hợp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 110,
+    "character": "回",
+    "character_name_vi": "Hối hồi",
+    "readings": [
+      "Hối",
+      "hồi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 115,
+    "character": "場",
+    "character_name_vi": "Tràng trường",
+    "readings": [
+      "Tràng",
+      "trường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 118,
+    "character": "夏",
+    "character_name_vi": "Giá giạ hạ",
+    "readings": [
+      "Giá",
+      "giạ",
+      "hạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 121,
+    "character": "夜",
+    "character_name_vi": "Dạ dịch",
+    "readings": [
+      "Dạ",
+      "dịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 126,
+    "character": "家",
+    "character_name_vi": "Cô gia",
+    "readings": [
+      "Cô",
+      "gia"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 128,
+    "character": "少",
+    "character_name_vi": "Thiếu thiểu",
+    "readings": [
+      "Thiếu",
+      "thiểu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 133,
+    "character": "広",
+    "character_name_vi": "Khoát quảng",
+    "readings": [
+      "Khoát",
+      "quảng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 136,
+    "character": "引",
+    "character_name_vi": "Dấn Dẫn",
+    "readings": [
+      "Dấn",
+      "Dẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 137,
+    "character": "弟",
+    "character_name_vi": "Đễ Đệ",
+    "readings": [
+      "Đễ",
+      "Đệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 139,
+    "character": "強",
+    "character_name_vi": "Cường Cưỡng",
+    "readings": [
+      "Cường",
+      "Cưỡng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 140,
+    "character": "当",
+    "character_name_vi": "Đang Đáng Đương",
+    "readings": [
+      "Đang",
+      "Đáng",
+      "Đương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 142,
+    "character": "後",
+    "character_name_vi": "Hấu hậu",
+    "readings": [
+      "Hấu",
+      "hậu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 144,
+    "character": "思",
+    "character_name_vi": "Tai tư tứ",
+    "readings": [
+      "Tai",
+      "tư",
+      "tứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 147,
+    "character": "教",
+    "character_name_vi": "Giao giáo",
+    "readings": [
+      "Giao",
+      "giáo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 148,
+    "character": "数",
+    "character_name_vi": "Sác số sổ xúc",
+    "readings": [
+      "Sác",
+      "số",
+      "sổ",
+      "xúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 150,
+    "character": "方",
+    "character_name_vi": "Bàng phương",
+    "readings": [
+      "Bàng",
+      "phương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 155,
+    "character": "時",
+    "character_name_vi": "Thì thời",
+    "readings": [
+      "Thì",
+      "thời"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 159,
+    "character": "朝",
+    "character_name_vi": "Triêu Triều Trào",
+    "readings": [
+      "Triêu",
+      "Triều",
+      "Trào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 160,
+    "character": "来",
+    "character_name_vi": "Lai lãi",
+    "readings": [
+      "Lai",
+      "lãi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 164,
+    "character": "止",
+    "character_name_vi": "Chi chỉ",
+    "readings": [
+      "Chi",
+      "chỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 166,
+    "character": "母",
+    "character_name_vi": "Mô mẫu",
+    "readings": [
+      "Mô",
+      "mẫu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 168,
+    "character": "毛",
+    "character_name_vi": "Mao Mô",
+    "readings": [
+      "Mao",
+      "Mô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 170,
+    "character": "汽",
+    "character_name_vi": "Hất khí ất",
+    "readings": [
+      "Hất",
+      "khí",
+      "ất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 171,
+    "character": "活",
+    "character_name_vi": "Hoạt quạt",
+    "readings": [
+      "Hoạt",
+      "quạt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 174,
+    "character": "父",
+    "character_name_vi": "Phụ Phủ",
+    "readings": [
+      "Phụ",
+      "Phủ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 176,
+    "character": "理",
+    "character_name_vi": "Lí lý",
+    "readings": [
+      "Lí",
+      "lý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 178,
+    "character": "画",
+    "character_name_vi": "Hoạ hoạch",
+    "readings": [
+      "Hoạ",
+      "hoạch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 179,
+    "character": "番",
+    "character_name_vi": "Ba bà phan phiên",
+    "readings": [
+      "Ba",
+      "bà",
+      "phan",
+      "phiên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 180,
+    "character": "直",
+    "character_name_vi": "Trị trực",
+    "readings": [
+      "Trị",
+      "trực"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 181,
+    "character": "矢",
+    "character_name_vi": "Thi thỉ",
+    "readings": [
+      "Thi",
+      "thỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 182,
+    "character": "知",
+    "character_name_vi": "Tri trí",
+    "readings": [
+      "Tri",
+      "trí"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 184,
+    "character": "秋",
+    "character_name_vi": "Thu thâu",
+    "readings": [
+      "Thu",
+      "thâu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 196,
+    "character": "聞",
+    "character_name_vi": "Văn vấn vặn",
+    "readings": [
+      "Văn",
+      "vấn",
+      "vặn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 197,
+    "character": "肉",
+    "character_name_vi": "Nhụ nhục nậu",
+    "readings": [
+      "Nhụ",
+      "nhục",
+      "nậu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 202,
+    "character": "行",
+    "character_name_vi": "Hàng hành hãng hạng hạnh",
+    "readings": [
+      "Hàng",
+      "hành",
+      "hãng",
+      "hạng",
+      "hạnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 203,
+    "character": "西",
+    "character_name_vi": "Tây tê",
+    "readings": [
+      "Tây",
+      "tê"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 204,
+    "character": "親",
+    "character_name_vi": "Thân thấn",
+    "readings": [
+      "Thân",
+      "thấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 205,
+    "character": "角",
+    "character_name_vi": "Cốc giác giốc lộc",
+    "readings": [
+      "Cốc",
+      "giác",
+      "giốc",
+      "lộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 206,
+    "character": "言",
+    "character_name_vi": "Ngân ngôn",
+    "readings": [
+      "Ngân",
+      "ngôn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 207,
+    "character": "計",
+    "character_name_vi": "Kê kế",
+    "readings": [
+      "Kê",
+      "kế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 208,
+    "character": "記",
+    "character_name_vi": "Kí ký",
+    "readings": [
+      "Kí",
+      "ký"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 210,
+    "character": "語",
+    "character_name_vi": "Ngứ ngữ ngự",
+    "readings": [
+      "Ngứ",
+      "ngữ",
+      "ngự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 211,
+    "character": "読",
+    "character_name_vi": "Đậu độc",
+    "readings": [
+      "Đậu",
+      "độc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 212,
+    "character": "谷",
+    "character_name_vi": "Cốc dục lộc",
+    "readings": [
+      "Cốc",
+      "dục",
+      "lộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 215,
+    "character": "近",
+    "character_name_vi": "Cấn cận ký",
+    "readings": [
+      "Cấn",
+      "cận",
+      "ký"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 218,
+    "character": "道",
+    "character_name_vi": "Đáo đạo",
+    "readings": [
+      "Đáo",
+      "đạo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 219,
+    "character": "遠",
+    "character_name_vi": "Viến viển viễn",
+    "readings": [
+      "Viến",
+      "viển",
+      "viễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 220,
+    "character": "里",
+    "character_name_vi": "Lí lý",
+    "readings": [
+      "Lí",
+      "lý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 222,
+    "character": "長",
+    "character_name_vi": "Tràng Trướng Trường Trưởng Trượng",
+    "readings": [
+      "Tràng",
+      "Trướng",
+      "Trường",
+      "Trưởng",
+      "Trượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 224,
+    "character": "間",
+    "character_name_vi": "Gian gián nhàn",
+    "readings": [
+      "Gian",
+      "gián",
+      "nhàn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 230,
+    "character": "風",
+    "character_name_vi": "Phong phóng phúng",
+    "readings": [
+      "Phong",
+      "phóng",
+      "phúng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 231,
+    "character": "食",
+    "character_name_vi": "Thực tự",
+    "readings": [
+      "Thực",
+      "tự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 232,
+    "character": "首",
+    "character_name_vi": "Thú thủ",
+    "readings": [
+      "Thú",
+      "thủ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 237,
+    "character": "鳴",
+    "character_name_vi": "Minh ô",
+    "readings": [
+      "Minh",
+      "ô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 239,
+    "character": "黄",
+    "character_name_vi": "Hoàng Huỳnh",
+    "readings": [
+      "Hoàng",
+      "Huỳnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 241,
+    "character": "丁",
+    "character_name_vi": "Chênh Tranh Trành Đinh",
+    "readings": [
+      "Chênh",
+      "Tranh",
+      "Trành",
+      "Đinh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 243,
+    "character": "両",
+    "character_name_vi": "Lưỡng Lượng Lạng",
+    "readings": [
+      "Lưỡng",
+      "Lượng",
+      "Lạng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 244,
+    "character": "主",
+    "character_name_vi": "Chúa chủ",
+    "readings": [
+      "Chúa",
+      "chủ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 245,
+    "character": "乗",
+    "character_name_vi": "Thặng Thừa",
+    "readings": [
+      "Thặng",
+      "Thừa"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 246,
+    "character": "予",
+    "character_name_vi": "Dư dữ",
+    "readings": [
+      "Dư",
+      "dữ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 249,
+    "character": "他",
+    "character_name_vi": "Tha đà",
+    "readings": [
+      "Tha",
+      "đà"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 251,
+    "character": "住",
+    "character_name_vi": "Trú trụ",
+    "readings": [
+      "Trú",
+      "trụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 252,
+    "character": "使",
+    "character_name_vi": "Sứ sử",
+    "readings": [
+      "Sứ",
+      "sử"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 260,
+    "character": "勉",
+    "character_name_vi": "Miễn mẫn",
+    "readings": [
+      "Miễn",
+      "mẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 262,
+    "character": "勝",
+    "character_name_vi": "Thăng thắng",
+    "readings": [
+      "Thăng",
+      "thắng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 263,
+    "character": "化",
+    "character_name_vi": "Hoa hoá",
+    "readings": [
+      "Hoa",
+      "hoá"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 264,
+    "character": "区",
+    "character_name_vi": "Khu âu",
+    "readings": [
+      "Khu",
+      "âu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 265,
+    "character": "医",
+    "character_name_vi": "Y ế",
+    "readings": [
+      "Y",
+      "ế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 266,
+    "character": "去",
+    "character_name_vi": "Khu khứ khử",
+    "readings": [
+      "Khu",
+      "khứ",
+      "khử"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 267,
+    "character": "反",
+    "character_name_vi": "Phiên phiến phản",
+    "readings": [
+      "Phiên",
+      "phiến",
+      "phản"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 268,
+    "character": "取",
+    "character_name_vi": "Thủ tụ",
+    "readings": [
+      "Thủ",
+      "tụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 269,
+    "character": "受",
+    "character_name_vi": "Thâu thọ thụ",
+    "readings": [
+      "Thâu",
+      "thọ",
+      "thụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 270,
+    "character": "号",
+    "character_name_vi": "Hiệu hào",
+    "readings": [
+      "Hiệu",
+      "hào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 271,
+    "character": "向",
+    "character_name_vi": "Hướng hưởng",
+    "readings": [
+      "Hướng",
+      "hưởng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 275,
+    "character": "和",
+    "character_name_vi": "Hoà hoạ hồ",
+    "readings": [
+      "Hoà",
+      "hoạ",
+      "hồ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 277,
+    "character": "員",
+    "character_name_vi": "Viên vân",
+    "readings": [
+      "Viên",
+      "vân"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 280,
+    "character": "坂",
+    "character_name_vi": "Bản phản",
+    "readings": [
+      "Bản",
+      "phản"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 282,
+    "character": "始",
+    "character_name_vi": "Thuỷ thí thỉ",
+    "readings": [
+      "Thuỷ",
+      "thí",
+      "thỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 283,
+    "character": "委",
+    "character_name_vi": "Uy uỷ",
+    "readings": [
+      "Uy",
+      "uỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 284,
+    "character": "守",
+    "character_name_vi": "Thú thủ",
+    "readings": [
+      "Thú",
+      "thủ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 285,
+    "character": "安",
+    "character_name_vi": "An yên",
+    "readings": [
+      "An",
+      "yên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 286,
+    "character": "定",
+    "character_name_vi": "Đính định",
+    "readings": [
+      "Đính",
+      "định"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 287,
+    "character": "実",
+    "character_name_vi": "Chí thật thực",
+    "readings": [
+      "Chí",
+      "thật",
+      "thực"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 290,
+    "character": "宿",
+    "character_name_vi": "Tú túc",
+    "readings": [
+      "Tú",
+      "túc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 299,
+    "character": "平",
+    "character_name_vi": "Biền bình",
+    "readings": [
+      "Biền",
+      "bình"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 301,
+    "character": "度",
+    "character_name_vi": "Đạc độ",
+    "readings": [
+      "Đạc",
+      "độ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 303,
+    "character": "庭",
+    "character_name_vi": "Thính đình",
+    "readings": [
+      "Thính",
+      "đình"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 312,
+    "character": "意",
+    "character_name_vi": "Y ý",
+    "readings": [
+      "Y",
+      "ý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 313,
+    "character": "感",
+    "character_name_vi": "Cảm hám",
+    "readings": [
+      "Cảm",
+      "hám"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 315,
+    "character": "打",
+    "character_name_vi": "Tá đả",
+    "readings": [
+      "Tá",
+      "đả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 316,
+    "character": "投",
+    "character_name_vi": "Đầu đậu",
+    "readings": [
+      "Đầu",
+      "đậu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 317,
+    "character": "拾",
+    "character_name_vi": "Kiệp thiệp thập",
+    "readings": [
+      "Kiệp",
+      "thiệp",
+      "thập"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 320,
+    "character": "放",
+    "character_name_vi": "Phóng phương phỏng",
+    "readings": [
+      "Phóng",
+      "phương",
+      "phỏng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 323,
+    "character": "族",
+    "character_name_vi": "Thấu tấu tộc",
+    "readings": [
+      "Thấu",
+      "tấu",
+      "tộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 324,
+    "character": "昔",
+    "character_name_vi": "Thác thố tích tịch",
+    "readings": [
+      "Thác",
+      "thố",
+      "tích",
+      "tịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 325,
+    "character": "昭",
+    "character_name_vi": "Chiêu thiều",
+    "readings": [
+      "Chiêu",
+      "thiều"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 327,
+    "character": "暗",
+    "character_name_vi": "Ám âm",
+    "readings": [
+      "Ám",
+      "âm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 329,
+    "character": "有",
+    "character_name_vi": "Dựu Hữu Hựu",
+    "readings": [
+      "Dựu",
+      "Hữu",
+      "Hựu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 331,
+    "character": "期",
+    "character_name_vi": "Cơ ki ky kì kỳ",
+    "readings": [
+      "Cơ",
+      "ki",
+      "ky",
+      "kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 333,
+    "character": "柱",
+    "character_name_vi": "Trú trụ",
+    "readings": [
+      "Trú",
+      "trụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 335,
+    "character": "植",
+    "character_name_vi": "Thực trĩ trị",
+    "readings": [
+      "Thực",
+      "trĩ",
+      "trị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 338,
+    "character": "横",
+    "character_name_vi": "Hoành hoạnh quáng",
+    "readings": [
+      "Hoành",
+      "hoạnh",
+      "quáng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 339,
+    "character": "橋",
+    "character_name_vi": "Cao khiêu kiếu kiều kiểu",
+    "readings": [
+      "Cao",
+      "khiêu",
+      "kiếu",
+      "kiều",
+      "kiểu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 340,
+    "character": "次",
+    "character_name_vi": "Thứ tư",
+    "readings": [
+      "Thứ",
+      "tư"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 344,
+    "character": "決",
+    "character_name_vi": "Huyết khuyết quyết",
+    "readings": [
+      "Huyết",
+      "khuyết",
+      "quyết"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 353,
+    "character": "温",
+    "character_name_vi": "Uẩn ôn",
+    "readings": [
+      "Uẩn",
+      "ôn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 354,
+    "character": "港",
+    "character_name_vi": "Cảng hống",
+    "readings": [
+      "Cảng",
+      "hống"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 356,
+    "character": "湯",
+    "character_name_vi": "Sương thang thãng",
+    "readings": [
+      "Sương",
+      "thang",
+      "thãng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 361,
+    "character": "由",
+    "character_name_vi": "Do yêu",
+    "readings": [
+      "Do",
+      "yêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 364,
+    "character": "畑",
+    "character_name_vi": "Hatake (chữ Nhật, không có âm Hán–Việt)",
+    "readings": [
+      "Hatake",
+      "(chữ",
+      "Nhật,",
+      "không",
+      "có",
+      "âm",
+      "Hán–Việt)"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 369,
+    "character": "皿",
+    "character_name_vi": "Mãnh mẫn",
+    "readings": [
+      "Mãnh",
+      "mẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 370,
+    "character": "相",
+    "character_name_vi": "Tương tướng",
+    "readings": [
+      "Tương",
+      "tướng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 373,
+    "character": "着",
+    "character_name_vi": "Hồ Trước Trứ Trữ",
+    "readings": [
+      "Hồ",
+      "Trước",
+      "Trứ",
+      "Trữ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 375,
+    "character": "研",
+    "character_name_vi": "Nghiên nghiễn",
+    "readings": [
+      "Nghiên",
+      "nghiễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 378,
+    "character": "祭",
+    "character_name_vi": "Sái tế",
+    "readings": [
+      "Sái",
+      "tế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 380,
+    "character": "秒",
+    "character_name_vi": "Miểu miễu",
+    "readings": [
+      "Miểu",
+      "miễu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 388,
+    "character": "箱",
+    "character_name_vi": "Sương tương",
+    "readings": [
+      "Sương",
+      "tương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 393,
+    "character": "羊",
+    "character_name_vi": "Dương tường",
+    "readings": [
+      "Dương",
+      "tường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 394,
+    "character": "美",
+    "character_name_vi": "Mĩ Mỹ",
+    "readings": [
+      "Mĩ",
+      "Mỹ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 398,
+    "character": "苦",
+    "character_name_vi": "Cổ khổ",
+    "readings": [
+      "Cổ",
+      "khổ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 399,
+    "character": "荷",
+    "character_name_vi": "Hà hạ",
+    "readings": [
+      "Hà",
+      "hạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 401,
+    "character": "葉",
+    "character_name_vi": "Diếp diệp",
+    "readings": [
+      "Diếp",
+      "diệp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 406,
+    "character": "調",
+    "character_name_vi": "Điều điệu",
+    "readings": [
+      "Điều",
+      "điệu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 410,
+    "character": "起",
+    "character_name_vi": "Khỉ khởi",
+    "readings": [
+      "Khỉ",
+      "khởi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 411,
+    "character": "路",
+    "character_name_vi": "Lạc lộ",
+    "readings": [
+      "Lạc",
+      "lộ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 412,
+    "character": "身",
+    "character_name_vi": "Quyên Thân",
+    "readings": [
+      "Quyên",
+      "Thân"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 414,
+    "character": "軽",
+    "character_name_vi": "Chí khánh khinh",
+    "readings": [
+      "Chí",
+      "khánh",
+      "khinh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 416,
+    "character": "返",
+    "character_name_vi": "Phiên phản",
+    "readings": [
+      "Phiên",
+      "phản"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 417,
+    "character": "追",
+    "character_name_vi": "Truy đôi",
+    "readings": [
+      "Truy",
+      "đôi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 420,
+    "character": "進",
+    "character_name_vi": "Tiến tấn",
+    "readings": [
+      "Tiến",
+      "tấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 423,
+    "character": "部",
+    "character_name_vi": "Bẫu bộ",
+    "readings": [
+      "Bẫu",
+      "bộ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 427,
+    "character": "重",
+    "character_name_vi": "Trùng trọng",
+    "readings": [
+      "Trùng",
+      "trọng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 435,
+    "character": "面",
+    "character_name_vi": "Diện miến",
+    "readings": [
+      "Diện",
+      "miến"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 436,
+    "character": "題",
+    "character_name_vi": "Đề đệ",
+    "readings": [
+      "Đề",
+      "đệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 437,
+    "character": "飲",
+    "character_name_vi": "Ấm ẩm",
+    "readings": [
+      "Ấm",
+      "ẩm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 440,
+    "character": "鼻",
+    "character_name_vi": "Tì tị tỵ",
+    "readings": [
+      "Tì",
+      "tị",
+      "tỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 441,
+    "character": "不",
+    "character_name_vi": "Bưu Bất Bỉ Phi Phu Phầu Phủ",
+    "readings": [
+      "Bưu",
+      "Bất",
+      "Bỉ",
+      "Phi",
+      "Phu",
+      "Phầu",
+      "Phủ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 442,
+    "character": "争",
+    "character_name_vi": "Tranh Tránh",
+    "readings": [
+      "Tranh",
+      "Tránh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 443,
+    "character": "井",
+    "character_name_vi": "Tĩnh Tỉnh Đán",
+    "readings": [
+      "Tĩnh",
+      "Tỉnh",
+      "Đán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 444,
+    "character": "付",
+    "character_name_vi": "Phó phụ",
+    "readings": [
+      "Phó",
+      "phụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 445,
+    "character": "令",
+    "character_name_vi": "Linh lệnh lịnh",
+    "readings": [
+      "Linh",
+      "lệnh",
+      "lịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 448,
+    "character": "伝",
+    "character_name_vi": "Truyền truyện",
+    "readings": [
+      "Truyền",
+      "truyện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 454,
+    "character": "信",
+    "character_name_vi": "Thân tín",
+    "readings": [
+      "Thân",
+      "tín"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 455,
+    "character": "倉",
+    "character_name_vi": "Sảng thương thảng xương",
+    "readings": [
+      "Sảng",
+      "thương",
+      "thảng",
+      "xương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 464,
+    "character": "共",
+    "character_name_vi": "Cung cộng củng",
+    "readings": [
+      "Cung",
+      "cộng",
+      "củng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 471,
+    "character": "刷",
+    "character_name_vi": "Loát xoát",
+    "readings": [
+      "Loát",
+      "xoát"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 472,
+    "character": "副",
+    "character_name_vi": "Phó phốc phức",
+    "readings": [
+      "Phó",
+      "phốc",
+      "phức"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 479,
+    "character": "卒",
+    "character_name_vi": "Thốt tuất tốt",
+    "readings": [
+      "Thốt",
+      "tuất",
+      "tốt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 481,
+    "character": "単",
+    "character_name_vi": "Đan đơn thiền",
+    "readings": [
+      "Đan",
+      "đơn",
+      "thiền"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 484,
+    "character": "参",
+    "character_name_vi": "Sam sâm tam tham xam",
+    "readings": [
+      "Sam",
+      "sâm",
+      "tam",
+      "tham",
+      "xam"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 485,
+    "character": "司",
+    "character_name_vi": "Ti ty tư",
+    "readings": [
+      "Ti",
+      "ty",
+      "tư"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 487,
+    "character": "周",
+    "character_name_vi": "Chu châu",
+    "readings": [
+      "Chu",
+      "châu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 491,
+    "character": "城",
+    "character_name_vi": "Giàm thành",
+    "readings": [
+      "Giàm",
+      "thành"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 495,
+    "character": "夫",
+    "character_name_vi": "Phu phù",
+    "readings": [
+      "Phu",
+      "phù"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 498,
+    "character": "好",
+    "character_name_vi": "Hiếu hảo",
+    "readings": [
+      "Hiếu",
+      "hảo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 499,
+    "character": "媛",
+    "character_name_vi": "Viên Viện",
+    "readings": [
+      "Viên",
+      "Viện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 501,
+    "character": "孫",
+    "character_name_vi": "Tôn tốn",
+    "readings": [
+      "Tôn",
+      "tốn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 504,
+    "character": "害",
+    "character_name_vi": "Hại hạt",
+    "readings": [
+      "Hại",
+      "hạt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 507,
+    "character": "岐",
+    "character_name_vi": "Kì kỳ",
+    "readings": [
+      "Kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 509,
+    "character": "崎",
+    "character_name_vi": "Khi kỳ",
+    "readings": [
+      "Khi",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 511,
+    "character": "差",
+    "character_name_vi": "Sai si soa sái ta tha",
+    "readings": [
+      "Sai",
+      "si",
+      "soa",
+      "sái",
+      "ta",
+      "tha"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 512,
+    "character": "希",
+    "character_name_vi": "Hi hy",
+    "readings": [
+      "Hi",
+      "hy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 514,
+    "character": "帯",
+    "character_name_vi": "Đái đới",
+    "readings": [
+      "Đái",
+      "đới"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 517,
+    "character": "康",
+    "character_name_vi": "Khang khương",
+    "readings": [
+      "Khang",
+      "khương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 518,
+    "character": "建",
+    "character_name_vi": "Kiến kiển",
+    "readings": [
+      "Kiến",
+      "kiển"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 527,
+    "character": "折",
+    "character_name_vi": "Chiết đề",
+    "readings": [
+      "Chiết",
+      "đề"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 531,
+    "character": "散",
+    "character_name_vi": "Tán Tản",
+    "readings": [
+      "Tán",
+      "Tản"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 532,
+    "character": "料",
+    "character_name_vi": "Liêu liệu",
+    "readings": [
+      "Liêu",
+      "liệu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 533,
+    "character": "旗",
+    "character_name_vi": "Kì kỳ",
+    "readings": [
+      "Kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 535,
+    "character": "景",
+    "character_name_vi": "Cảnh ảnh",
+    "readings": [
+      "Cảnh",
+      "ảnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 538,
+    "character": "未",
+    "character_name_vi": "Mùi vị",
+    "readings": [
+      "Mùi",
+      "vị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 542,
+    "character": "束",
+    "character_name_vi": "Thú thúc",
+    "readings": [
+      "Thú",
+      "thúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 543,
+    "character": "松",
+    "character_name_vi": "Tung tông tùng",
+    "readings": [
+      "Tung",
+      "tông",
+      "tùng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 552,
+    "character": "標",
+    "character_name_vi": "Phiêu tiêu",
+    "readings": [
+      "Phiêu",
+      "tiêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 553,
+    "character": "機",
+    "character_name_vi": "Cơ ki ky",
+    "readings": [
+      "Cơ",
+      "ki",
+      "ky"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 556,
+    "character": "氏",
+    "character_name_vi": "Chi thị",
+    "readings": [
+      "Chi",
+      "thị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 557,
+    "character": "民",
+    "character_name_vi": "Dân Miên",
+    "readings": [
+      "Dân",
+      "Miên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 559,
+    "character": "沖",
+    "character_name_vi": "Trùng xung",
+    "readings": [
+      "Trùng",
+      "xung"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 560,
+    "character": "治",
+    "character_name_vi": "Trì trị",
+    "readings": [
+      "Trì",
+      "trị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 563,
+    "character": "浅",
+    "character_name_vi": "Thiển tiên",
+    "readings": [
+      "Thiển",
+      "tiên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 565,
+    "character": "清",
+    "character_name_vi": "Sảnh thanh",
+    "readings": [
+      "Sảnh",
+      "thanh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 566,
+    "character": "満",
+    "character_name_vi": "Mãn muộn",
+    "readings": [
+      "Mãn",
+      "muộn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 570,
+    "character": "灯",
+    "character_name_vi": "Đinh đăng",
+    "readings": [
+      "Đinh",
+      "đăng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 571,
+    "character": "無",
+    "character_name_vi": "Mô vô",
+    "readings": [
+      "Mô",
+      "vô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 580,
+    "character": "的",
+    "character_name_vi": "Đích để",
+    "readings": [
+      "Đích",
+      "để"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 581,
+    "character": "省",
+    "character_name_vi": "Sảnh tiển tỉnh",
+    "readings": [
+      "Sảnh",
+      "tiển",
+      "tỉnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 582,
+    "character": "祝",
+    "character_name_vi": "Chú chúc",
+    "readings": [
+      "Chú",
+      "chúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 583,
+    "character": "票",
+    "character_name_vi": "Phiêu phiếu tiêu",
+    "readings": [
+      "Phiêu",
+      "phiếu",
+      "tiêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 584,
+    "character": "種",
+    "character_name_vi": "Chúng chủng",
+    "readings": [
+      "Chúng",
+      "chủng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 585,
+    "character": "積",
+    "character_name_vi": "Tích tý",
+    "readings": [
+      "Tích",
+      "tý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 589,
+    "character": "節",
+    "character_name_vi": "Tiết tiệt",
+    "readings": [
+      "Tiết",
+      "tiệt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 590,
+    "character": "約",
+    "character_name_vi": "Yêu ước",
+    "readings": [
+      "Yêu",
+      "ước"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 591,
+    "character": "結",
+    "character_name_vi": "Kế kết",
+    "readings": [
+      "Kế",
+      "kết"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 594,
+    "character": "縄",
+    "character_name_vi": "Mẫn Thằng",
+    "readings": [
+      "Mẫn",
+      "Thằng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 603,
+    "character": "茨",
+    "character_name_vi": "Tì Từ Tỳ",
+    "readings": [
+      "Tì",
+      "Từ",
+      "Tỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 606,
+    "character": "衣",
+    "character_name_vi": "Y ý",
+    "readings": [
+      "Y",
+      "ý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 607,
+    "character": "要",
+    "character_name_vi": "Yêu Yếu",
+    "readings": [
+      "Yêu",
+      "Yếu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 608,
+    "character": "覚",
+    "character_name_vi": "Giác giáo",
+    "readings": [
+      "Giác",
+      "giáo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 609,
+    "character": "観",
+    "character_name_vi": "Quan quán",
+    "readings": [
+      "Quan",
+      "quán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 612,
+    "character": "説",
+    "character_name_vi": "Duyệt thuyết thuế",
+    "readings": [
+      "Duyệt",
+      "thuyết",
+      "thuế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 621,
+    "character": "連",
+    "character_name_vi": "Liên liễn",
+    "readings": [
+      "Liên",
+      "liễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 623,
+    "character": "選",
+    "character_name_vi": "Soát toán toản tuyến tuyển",
+    "readings": [
+      "Soát",
+      "toán",
+      "toản",
+      "tuyến",
+      "tuyển"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 625,
+    "character": "量",
+    "character_name_vi": "Lương lường lượng",
+    "readings": [
+      "Lương",
+      "lường",
+      "lượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 627,
+    "character": "鏡",
+    "character_name_vi": "Cảnh kính",
+    "readings": [
+      "Cảnh",
+      "kính"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 630,
+    "character": "阪",
+    "character_name_vi": "Bản phản",
+    "readings": [
+      "Bản",
+      "phản"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 632,
+    "character": "隊",
+    "character_name_vi": "Toại truỵ đội",
+    "readings": [
+      "Toại",
+      "truỵ",
+      "đội"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 633,
+    "character": "静",
+    "character_name_vi": "Tĩnh tịnh",
+    "readings": [
+      "Tĩnh",
+      "tịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 638,
+    "character": "飯",
+    "character_name_vi": "Phãn phạn",
+    "readings": [
+      "Phãn",
+      "phạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 639,
+    "character": "養",
+    "character_name_vi": "Dường dưỡng dượng dạng",
+    "readings": [
+      "Dường",
+      "dưỡng",
+      "dượng",
+      "dạng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 645,
+    "character": "仮",
+    "character_name_vi": "Giá giả",
+    "readings": [
+      "Giá",
+      "giả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 647,
+    "character": "任",
+    "character_name_vi": "Nhiệm nhâm nhậm",
+    "readings": [
+      "Nhiệm",
+      "nhâm",
+      "nhậm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 648,
+    "character": "似",
+    "character_name_vi": "Tự tựa",
+    "readings": [
+      "Tự",
+      "tựa"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 649,
+    "character": "余",
+    "character_name_vi": "Dư Xà",
+    "readings": [
+      "Dư",
+      "Xà"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 656,
+    "character": "像",
+    "character_name_vi": "Tương tượng",
+    "readings": [
+      "Tương",
+      "tượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 658,
+    "character": "刊",
+    "character_name_vi": "Khan san",
+    "readings": [
+      "Khan",
+      "san"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 663,
+    "character": "務",
+    "character_name_vi": "Vũ vụ",
+    "readings": [
+      "Vũ",
+      "vụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 666,
+    "character": "句",
+    "character_name_vi": "Câu cú cấu",
+    "readings": [
+      "Câu",
+      "cú",
+      "cấu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 667,
+    "character": "可",
+    "character_name_vi": "Khả khắc",
+    "readings": [
+      "Khả",
+      "khắc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 669,
+    "character": "告",
+    "character_name_vi": "Cáo cốc",
+    "readings": [
+      "Cáo",
+      "cốc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 670,
+    "character": "喜",
+    "character_name_vi": "Hi hí hý hỉ hỷ",
+    "readings": [
+      "Hi",
+      "hí",
+      "hý",
+      "hỉ",
+      "hỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 671,
+    "character": "営",
+    "character_name_vi": "Dinh doanh",
+    "readings": [
+      "Dinh",
+      "doanh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 675,
+    "character": "圧",
+    "character_name_vi": "Áp yểm yếp",
+    "readings": [
+      "Áp",
+      "yểm",
+      "yếp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 677,
+    "character": "均",
+    "character_name_vi": "Quân vận",
+    "readings": [
+      "Quân",
+      "vận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 680,
+    "character": "堂",
+    "character_name_vi": "Đàng đường",
+    "readings": [
+      "Đàng",
+      "đường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 686,
+    "character": "夢",
+    "character_name_vi": "Mông mộng",
+    "readings": [
+      "Mông",
+      "mộng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 687,
+    "character": "妻",
+    "character_name_vi": "Thê thế",
+    "readings": [
+      "Thê",
+      "thế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 689,
+    "character": "容",
+    "character_name_vi": "Dong dung",
+    "readings": [
+      "Dong",
+      "dung"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 690,
+    "character": "寄",
+    "character_name_vi": "Kí ký",
+    "readings": [
+      "Kí",
+      "ký"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 692,
+    "character": "居",
+    "character_name_vi": "Cư ky kí ký",
+    "readings": [
+      "Cư",
+      "ky",
+      "kí",
+      "ký"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 693,
+    "character": "属",
+    "character_name_vi": "Chú chúc thuộc",
+    "readings": [
+      "Chú",
+      "chúc",
+      "thuộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 697,
+    "character": "幹",
+    "character_name_vi": "Can Cán Hàn",
+    "readings": [
+      "Can",
+      "Cán",
+      "Hàn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 699,
+    "character": "弁",
+    "character_name_vi": "Biền biện bàn",
+    "readings": [
+      "Biền",
+      "biện",
+      "bàn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 700,
+    "character": "張",
+    "character_name_vi": "Trương Trướng",
+    "readings": [
+      "Trương",
+      "Trướng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 703,
+    "character": "復",
+    "character_name_vi": "Phú phúc phục",
+    "readings": [
+      "Phú",
+      "phúc",
+      "phục"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 711,
+    "character": "技",
+    "character_name_vi": "Kĩ kỹ",
+    "readings": [
+      "Kĩ",
+      "kỹ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 712,
+    "character": "招",
+    "character_name_vi": "Chiêu kiêu kiều thiêu thiều",
+    "readings": [
+      "Chiêu",
+      "kiêu",
+      "kiều",
+      "thiêu",
+      "thiều"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 713,
+    "character": "授",
+    "character_name_vi": "Thọ thụ",
+    "readings": [
+      "Thọ",
+      "thụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 714,
+    "character": "採",
+    "character_name_vi": "Thái thải",
+    "readings": [
+      "Thái",
+      "thải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 716,
+    "character": "提",
+    "character_name_vi": "Thì đề để",
+    "readings": [
+      "Thì",
+      "đề",
+      "để"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 719,
+    "character": "政",
+    "character_name_vi": "Chinh chánh chính",
+    "readings": [
+      "Chinh",
+      "chánh",
+      "chính"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 722,
+    "character": "断",
+    "character_name_vi": "Đoán đoạn",
+    "readings": [
+      "Đoán",
+      "đoạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 724,
+    "character": "易",
+    "character_name_vi": "Dị dịch",
+    "readings": [
+      "Dị",
+      "dịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 725,
+    "character": "暴",
+    "character_name_vi": "Bão bạo bộc",
+    "readings": [
+      "Bão",
+      "bạo",
+      "bộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 726,
+    "character": "条",
+    "character_name_vi": "Thiêu điêu điều",
+    "readings": [
+      "Thiêu",
+      "điêu",
+      "điều"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 727,
+    "character": "枝",
+    "character_name_vi": "Chi kì kỳ",
+    "readings": [
+      "Chi",
+      "kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 729,
+    "character": "格",
+    "character_name_vi": "Các cách",
+    "readings": [
+      "Các",
+      "cách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 733,
+    "character": "武",
+    "character_name_vi": "Võ vũ",
+    "readings": [
+      "Võ",
+      "vũ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 735,
+    "character": "殺",
+    "character_name_vi": "Sái sát tát ái",
+    "readings": [
+      "Sái",
+      "sát",
+      "tát",
+      "ái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 736,
+    "character": "毒",
+    "character_name_vi": "Đại đốc độc",
+    "readings": [
+      "Đại",
+      "đốc",
+      "độc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 737,
+    "character": "比",
+    "character_name_vi": "Bì bí bỉ tỉ tỵ tỷ",
+    "readings": [
+      "Bì",
+      "bí",
+      "bỉ",
+      "tỉ",
+      "tỵ",
+      "tỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 738,
+    "character": "永",
+    "character_name_vi": "Vĩnh vịnh",
+    "readings": [
+      "Vĩnh",
+      "vịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 741,
+    "character": "混",
+    "character_name_vi": "Côn cổn hồn hỗn",
+    "readings": [
+      "Côn",
+      "cổn",
+      "hồn",
+      "hỗn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 744,
+    "character": "準",
+    "character_name_vi": "Chuyết chuẩn",
+    "readings": [
+      "Chuyết",
+      "chuẩn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 753,
+    "character": "率",
+    "character_name_vi": "Luật lô soát suý suất",
+    "readings": [
+      "Luật",
+      "lô",
+      "soát",
+      "suý",
+      "suất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 758,
+    "character": "眼",
+    "character_name_vi": "Nhãn nhẫn",
+    "readings": [
+      "Nhãn",
+      "nhẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 761,
+    "character": "示",
+    "character_name_vi": "Kì kỳ thị",
+    "readings": [
+      "Kì",
+      "kỳ",
+      "thị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 763,
+    "character": "禁",
+    "character_name_vi": "Câm cấm cầm",
+    "readings": [
+      "Câm",
+      "cấm",
+      "cầm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 764,
+    "character": "移",
+    "character_name_vi": "Di dị sỉ xỉ",
+    "readings": [
+      "Di",
+      "dị",
+      "sỉ",
+      "xỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 766,
+    "character": "税",
+    "character_name_vi": "Thoát thuế thối",
+    "readings": [
+      "Thoát",
+      "thuế",
+      "thối"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 770,
+    "character": "紀",
+    "character_name_vi": "Kỉ kỷ",
+    "readings": [
+      "Kỉ",
+      "kỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 779,
+    "character": "織",
+    "character_name_vi": "Chí chức xí",
+    "readings": [
+      "Chí",
+      "chức",
+      "xí"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 783,
+    "character": "職",
+    "character_name_vi": "Chức dặc xí",
+    "readings": [
+      "Chức",
+      "dặc",
+      "xí"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 785,
+    "character": "能",
+    "character_name_vi": "Nai năng nại",
+    "readings": [
+      "Nai",
+      "năng",
+      "nại"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 787,
+    "character": "興",
+    "character_name_vi": "Hưng hứng",
+    "readings": [
+      "Hưng",
+      "hứng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 790,
+    "character": "術",
+    "character_name_vi": "Thuật toại",
+    "readings": [
+      "Thuật",
+      "toại"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 795,
+    "character": "解",
+    "character_name_vi": "Giái giải giới",
+    "readings": [
+      "Giái",
+      "giải",
+      "giới"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 797,
+    "character": "許",
+    "character_name_vi": "Hổ hứa hử",
+    "readings": [
+      "Hổ",
+      "hứa",
+      "hử"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 802,
+    "character": "識",
+    "character_name_vi": "Chí thức",
+    "readings": [
+      "Chí",
+      "thức"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 804,
+    "character": "豊",
+    "character_name_vi": "Lễ phong",
+    "readings": [
+      "Lễ",
+      "phong"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 805,
+    "character": "象",
+    "character_name_vi": "Tương Tượng",
+    "readings": [
+      "Tương",
+      "Tượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 808,
+    "character": "責",
+    "character_name_vi": "Trách trái",
+    "readings": [
+      "Trách",
+      "trái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 810,
+    "character": "貸",
+    "character_name_vi": "Thải thắc",
+    "readings": [
+      "Thải",
+      "thắc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 811,
+    "character": "費",
+    "character_name_vi": "Bí bỉ phí phất phỉ",
+    "readings": [
+      "Bí",
+      "bỉ",
+      "phí",
+      "phất",
+      "phỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 816,
+    "character": "質",
+    "character_name_vi": "Chí chất",
+    "readings": [
+      "Chí",
+      "chất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 817,
+    "character": "輸",
+    "character_name_vi": "Du thâu thú",
+    "readings": [
+      "Du",
+      "thâu",
+      "thú"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 820,
+    "character": "逆",
+    "character_name_vi": "Nghịch nghịnh",
+    "readings": [
+      "Nghịch",
+      "nghịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 821,
+    "character": "造",
+    "character_name_vi": "Tháo tạo",
+    "readings": [
+      "Tháo",
+      "tạo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 822,
+    "character": "過",
+    "character_name_vi": "Qua quá",
+    "readings": [
+      "Qua",
+      "quá"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 823,
+    "character": "適",
+    "character_name_vi": "Quát thích trích đích địch",
+    "readings": [
+      "Quát",
+      "thích",
+      "trích",
+      "đích",
+      "địch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 825,
+    "character": "鉱",
+    "character_name_vi": "Khoáng quáng",
+    "readings": [
+      "Khoáng",
+      "quáng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 832,
+    "character": "非",
+    "character_name_vi": "Phi phỉ",
+    "readings": [
+      "Phi",
+      "phỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 833,
+    "character": "領",
+    "character_name_vi": "Lãnh lĩnh",
+    "readings": [
+      "Lãnh",
+      "lĩnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 836,
+    "character": "並",
+    "character_name_vi": "Bính Tinh Tính Tịnh",
+    "readings": [
+      "Bính",
+      "Tinh",
+      "Tính",
+      "Tịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 839,
+    "character": "亡",
+    "character_name_vi": "Vong vô",
+    "readings": [
+      "Vong",
+      "vô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 840,
+    "character": "仁",
+    "character_name_vi": "Nhân nhơn",
+    "readings": [
+      "Nhân",
+      "nhơn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 841,
+    "character": "供",
+    "character_name_vi": "Cung cúng",
+    "readings": [
+      "Cung",
+      "cúng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 842,
+    "character": "俳",
+    "character_name_vi": "Bài bồi",
+    "readings": [
+      "Bài",
+      "bồi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 844,
+    "character": "値",
+    "character_name_vi": "Trị trực",
+    "readings": [
+      "Trị",
+      "trực"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 849,
+    "character": "処",
+    "character_name_vi": "Xứ xử",
+    "readings": [
+      "Xứ",
+      "xử"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 851,
+    "character": "刻",
+    "character_name_vi": "Hặc khắc",
+    "readings": [
+      "Hặc",
+      "khắc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 853,
+    "character": "創",
+    "character_name_vi": "Sang sáng",
+    "readings": [
+      "Sang",
+      "sáng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 856,
+    "character": "危",
+    "character_name_vi": "Nguy Quỵ",
+    "readings": [
+      "Nguy",
+      "Quỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 857,
+    "character": "卵",
+    "character_name_vi": "Côn noãn",
+    "readings": [
+      "Côn",
+      "noãn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 860,
+    "character": "后",
+    "character_name_vi": "Hấu hậu",
+    "readings": [
+      "Hấu",
+      "hậu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 861,
+    "character": "否",
+    "character_name_vi": "Bĩ bỉ phầu phủ",
+    "readings": [
+      "Bĩ",
+      "bỉ",
+      "phầu",
+      "phủ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 863,
+    "character": "呼",
+    "character_name_vi": "Hao há hô",
+    "readings": [
+      "Hao",
+      "há",
+      "hô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 864,
+    "character": "善",
+    "character_name_vi": "Thiến thiện",
+    "readings": [
+      "Thiến",
+      "thiện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 868,
+    "character": "奏",
+    "character_name_vi": "Thấu tấu",
+    "readings": [
+      "Thấu",
+      "tấu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 875,
+    "character": "宗",
+    "character_name_vi": "Tôn tông",
+    "readings": [
+      "Tôn",
+      "tông"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 877,
+    "character": "宝",
+    "character_name_vi": "Bảo bửu",
+    "readings": [
+      "Bảo",
+      "bửu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 882,
+    "character": "射",
+    "character_name_vi": "Dạ dịch xạ",
+    "readings": [
+      "Dạ",
+      "dịch",
+      "xạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 883,
+    "character": "将",
+    "character_name_vi": "Thương tương tướng",
+    "readings": [
+      "Thương",
+      "tương",
+      "tướng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 886,
+    "character": "尺",
+    "character_name_vi": "Chỉ xích",
+    "readings": [
+      "Chỉ",
+      "xích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 890,
+    "character": "己",
+    "character_name_vi": "Kỉ kỷ",
+    "readings": [
+      "Kỉ",
+      "kỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 892,
+    "character": "幕",
+    "character_name_vi": "Mán mô mạc mạn mộ",
+    "readings": [
+      "Mán",
+      "mô",
+      "mạc",
+      "mạn",
+      "mộ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 893,
+    "character": "干",
+    "character_name_vi": "Can cán",
+    "readings": [
+      "Can",
+      "cán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 894,
+    "character": "幼",
+    "character_name_vi": "Yếu ấu",
+    "readings": [
+      "Yếu",
+      "ấu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 895,
+    "character": "庁",
+    "character_name_vi": "Sảnh thính",
+    "readings": [
+      "Sảnh",
+      "thính"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 896,
+    "character": "座",
+    "character_name_vi": "Toà toạ",
+    "readings": [
+      "Toà",
+      "toạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 897,
+    "character": "延",
+    "character_name_vi": "Diên duyên",
+    "readings": [
+      "Diên",
+      "duyên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 900,
+    "character": "忘",
+    "character_name_vi": "Vong vô vương",
+    "readings": [
+      "Vong",
+      "vô",
+      "vương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 906,
+    "character": "承",
+    "character_name_vi": "Chửng thừa tặng",
+    "readings": [
+      "Chửng",
+      "thừa",
+      "tặng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 907,
+    "character": "担",
+    "character_name_vi": "Đam đãn đảm",
+    "readings": [
+      "Đam",
+      "đãn",
+      "đảm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 909,
+    "character": "拡",
+    "character_name_vi": "Khoác khoách khoáng khoắc khuếch",
+    "readings": [
+      "Khoác",
+      "khoách",
+      "khoáng",
+      "khoắc",
+      "khuếch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 911,
+    "character": "探",
+    "character_name_vi": "Tham thám",
+    "readings": [
+      "Tham",
+      "thám"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 912,
+    "character": "推",
+    "character_name_vi": "Suy thôi",
+    "readings": [
+      "Suy",
+      "thôi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 914,
+    "character": "操",
+    "character_name_vi": "Thao tháo",
+    "readings": [
+      "Thao",
+      "tháo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 919,
+    "character": "暖",
+    "character_name_vi": "Huyên noãn",
+    "readings": [
+      "Huyên",
+      "noãn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 922,
+    "character": "机",
+    "character_name_vi": "Cơ ki ky kì kỷ",
+    "readings": [
+      "Cơ",
+      "ki",
+      "ky",
+      "kì",
+      "kỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 925,
+    "character": "株",
+    "character_name_vi": "Chu châu",
+    "readings": [
+      "Chu",
+      "châu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 929,
+    "character": "樹",
+    "character_name_vi": "Thọ thụ",
+    "readings": [
+      "Thọ",
+      "thụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 931,
+    "character": "段",
+    "character_name_vi": "Đoàn đoán đoạn",
+    "readings": [
+      "Đoàn",
+      "đoán",
+      "đoạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 932,
+    "character": "沿",
+    "character_name_vi": "Diên duyên",
+    "readings": [
+      "Diên",
+      "duyên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 933,
+    "character": "泉",
+    "character_name_vi": "Toàn tuyền",
+    "readings": [
+      "Toàn",
+      "tuyền"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 934,
+    "character": "洗",
+    "character_name_vi": "Tiển tẩy",
+    "readings": [
+      "Tiển",
+      "tẩy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 935,
+    "character": "派",
+    "character_name_vi": "Ba phái",
+    "readings": [
+      "Ba",
+      "phái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 938,
+    "character": "潮",
+    "character_name_vi": "Triều trào",
+    "readings": [
+      "Triều",
+      "trào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 939,
+    "character": "激",
+    "character_name_vi": "Khích kích",
+    "readings": [
+      "Khích",
+      "kích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 940,
+    "character": "灰",
+    "character_name_vi": "Hôi khôi",
+    "readings": [
+      "Hôi",
+      "khôi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 944,
+    "character": "異",
+    "character_name_vi": "Di dị",
+    "readings": [
+      "Di",
+      "dị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 945,
+    "character": "疑",
+    "character_name_vi": "Nghi Nghĩ Ngưng Ngật",
+    "readings": [
+      "Nghi",
+      "Nghĩ",
+      "Ngưng",
+      "Ngật"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 948,
+    "character": "盛",
+    "character_name_vi": "Thành thình thạnh thịnh",
+    "readings": [
+      "Thành",
+      "thình",
+      "thạnh",
+      "thịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 950,
+    "character": "看",
+    "character_name_vi": "Khan khán",
+    "readings": [
+      "Khan",
+      "khán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 963,
+    "character": "紅",
+    "character_name_vi": "Công hồng",
+    "readings": [
+      "Công",
+      "hồng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 965,
+    "character": "純",
+    "character_name_vi": "Chuẩn thuần truy tuyền đồn",
+    "readings": [
+      "Chuẩn",
+      "thuần",
+      "truy",
+      "tuyền",
+      "đồn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 969,
+    "character": "署",
+    "character_name_vi": "Thử thự",
+    "readings": [
+      "Thử",
+      "thự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 972,
+    "character": "肺",
+    "character_name_vi": "Bái phế",
+    "readings": [
+      "Bái",
+      "phế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 973,
+    "character": "胃",
+    "character_name_vi": "Trụ vị",
+    "readings": [
+      "Trụ",
+      "vị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 974,
+    "character": "背",
+    "character_name_vi": "Bắc bối bội",
+    "readings": [
+      "Bắc",
+      "bối",
+      "bội"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 977,
+    "character": "腸",
+    "character_name_vi": "Tràng trường",
+    "readings": [
+      "Tràng",
+      "trường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 980,
+    "character": "臨",
+    "character_name_vi": "Lâm lấm lậm",
+    "readings": [
+      "Lâm",
+      "lấm",
+      "lậm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 983,
+    "character": "若",
+    "character_name_vi": "Nhã nhược",
+    "readings": [
+      "Nhã",
+      "nhược"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 984,
+    "character": "著",
+    "character_name_vi": "Trước trứ trữ",
+    "readings": [
+      "Trước",
+      "trứ",
+      "trữ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 987,
+    "character": "蚕",
+    "character_name_vi": "Tàm tằm",
+    "readings": [
+      "Tàm",
+      "tằm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 991,
+    "character": "裏",
+    "character_name_vi": "Lí lý",
+    "readings": [
+      "Lí",
+      "lý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 996,
+    "character": "訪",
+    "character_name_vi": "Phóng phỏng",
+    "readings": [
+      "Phóng",
+      "phỏng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1004,
+    "character": "論",
+    "character_name_vi": "Luân luận",
+    "readings": [
+      "Luân",
+      "luận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1005,
+    "character": "諸",
+    "character_name_vi": "Chư gia",
+    "readings": [
+      "Chư",
+      "gia"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1008,
+    "character": "賃",
+    "character_name_vi": "Nhấm nhẫm",
+    "readings": [
+      "Nhấm",
+      "nhẫm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1009,
+    "character": "退",
+    "character_name_vi": "Thoái thối",
+    "readings": [
+      "Thoái",
+      "thối"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1010,
+    "character": "遺",
+    "character_name_vi": "Di dị",
+    "readings": [
+      "Di",
+      "dị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1013,
+    "character": "針",
+    "character_name_vi": "Châm trâm",
+    "readings": [
+      "Châm",
+      "trâm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1018,
+    "character": "降",
+    "character_name_vi": "Giáng hàng",
+    "readings": [
+      "Giáng",
+      "hàng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1021,
+    "character": "障",
+    "character_name_vi": "Chương chướng",
+    "readings": [
+      "Chương",
+      "chướng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1022,
+    "character": "難",
+    "character_name_vi": "Na nan nạn",
+    "readings": [
+      "Na",
+      "nan",
+      "nạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1023,
+    "character": "革",
+    "character_name_vi": "Cách Cức",
+    "readings": [
+      "Cách",
+      "Cức"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1024,
+    "character": "頂",
+    "character_name_vi": "Đính đỉnh",
+    "readings": [
+      "Đính",
+      "đỉnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1028,
+    "character": "与",
+    "character_name_vi": "Dư Dữ Dự",
+    "readings": [
+      "Dư",
+      "Dữ",
+      "Dự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1029,
+    "character": "且",
+    "character_name_vi": "Thư thả tồ",
+    "readings": [
+      "Thư",
+      "thả",
+      "tồ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1030,
+    "character": "丘",
+    "character_name_vi": "Khiêu Khâu",
+    "readings": [
+      "Khiêu",
+      "Khâu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1032,
+    "character": "串",
+    "character_name_vi": "Quán Xuyến",
+    "readings": [
+      "Quán",
+      "Xuyến"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1033,
+    "character": "丹",
+    "character_name_vi": "Đan Đơn",
+    "readings": [
+      "Đan",
+      "Đơn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1034,
+    "character": "丼",
+    "character_name_vi": "Tỉnh Đảm",
+    "readings": [
+      "Tỉnh",
+      "Đảm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1037,
+    "character": "乞",
+    "character_name_vi": "Khí Khất",
+    "readings": [
+      "Khí",
+      "Khất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1038,
+    "character": "乾",
+    "character_name_vi": "Can Càn Kiền",
+    "readings": [
+      "Can",
+      "Càn",
+      "Kiền"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1040,
+    "character": "了",
+    "character_name_vi": "Liễu Liệu",
+    "readings": [
+      "Liễu",
+      "Liệu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1042,
+    "character": "亜",
+    "character_name_vi": "A Á",
+    "readings": [
+      "A",
+      "Á"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1047,
+    "character": "仰",
+    "character_name_vi": "Ngang ngưỡng nhạng",
+    "readings": [
+      "Ngang",
+      "ngưỡng",
+      "nhạng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1049,
+    "character": "伎",
+    "character_name_vi": "Ky kĩ kỹ",
+    "readings": [
+      "Ky",
+      "kĩ",
+      "kỹ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1050,
+    "character": "伏",
+    "character_name_vi": "Bặc phu phúc phục",
+    "readings": [
+      "Bặc",
+      "phu",
+      "phúc",
+      "phục"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1052,
+    "character": "伯",
+    "character_name_vi": "Bá bách",
+    "readings": [
+      "Bá",
+      "bách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1053,
+    "character": "伴",
+    "character_name_vi": "Bạn phán",
+    "readings": [
+      "Bạn",
+      "phán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1055,
+    "character": "伺",
+    "character_name_vi": "Tí tý tứ",
+    "readings": [
+      "Tí",
+      "tý",
+      "tứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1056,
+    "character": "但",
+    "character_name_vi": "Đán đãn",
+    "readings": [
+      "Đán",
+      "đãn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1060,
+    "character": "依",
+    "character_name_vi": "Y ỷ",
+    "readings": [
+      "Y",
+      "ỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1061,
+    "character": "侮",
+    "character_name_vi": "Hối vũ",
+    "readings": [
+      "Hối",
+      "vũ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1062,
+    "character": "侯",
+    "character_name_vi": "Hầu hậu",
+    "readings": [
+      "Hầu",
+      "hậu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1063,
+    "character": "侵",
+    "character_name_vi": "Thẩm tẩm xâm",
+    "readings": [
+      "Thẩm",
+      "tẩm",
+      "xâm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1070,
+    "character": "倒",
+    "character_name_vi": "Đáo đảo",
+    "readings": [
+      "Đáo",
+      "đảo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1071,
+    "character": "倣",
+    "character_name_vi": "Phóng phảng phỏng",
+    "readings": [
+      "Phóng",
+      "phảng",
+      "phỏng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1079,
+    "character": "傍",
+    "character_name_vi": "Bàng bạng",
+    "readings": [
+      "Bàng",
+      "bạng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1081,
+    "character": "傘",
+    "character_name_vi": "Tán Tản",
+    "readings": [
+      "Tán",
+      "Tản"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1086,
+    "character": "僅",
+    "character_name_vi": "Cẩn Cận",
+    "readings": [
+      "Cẩn",
+      "Cận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1091,
+    "character": "儒",
+    "character_name_vi": "Nho nhu",
+    "readings": [
+      "Nho",
+      "nhu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1095,
+    "character": "免",
+    "character_name_vi": "Miễn vấn",
+    "readings": [
+      "Miễn",
+      "vấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1097,
+    "character": "冒",
+    "character_name_vi": "Mạo mặc",
+    "readings": [
+      "Mạo",
+      "mặc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1099,
+    "character": "冠",
+    "character_name_vi": "Quan quán",
+    "readings": [
+      "Quan",
+      "quán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1103,
+    "character": "准",
+    "character_name_vi": "Chuyết chuẩn",
+    "readings": [
+      "Chuyết",
+      "chuẩn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1104,
+    "character": "凍",
+    "character_name_vi": "Đông đống",
+    "readings": [
+      "Đông",
+      "đống"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1106,
+    "character": "凡",
+    "character_name_vi": "Hoàn phàm",
+    "readings": [
+      "Hoàn",
+      "phàm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1110,
+    "character": "刃",
+    "character_name_vi": "Nhẫn nhận",
+    "readings": [
+      "Nhẫn",
+      "nhận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1115,
+    "character": "刺",
+    "character_name_vi": "Thích thứ",
+    "readings": [
+      "Thích",
+      "thứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1116,
+    "character": "削",
+    "character_name_vi": "Sảo tước",
+    "readings": [
+      "Sảo",
+      "tước"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1118,
+    "character": "剛",
+    "character_name_vi": "Cang cương",
+    "readings": [
+      "Cang",
+      "cương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1119,
+    "character": "剝",
+    "character_name_vi": "Bác Phốc",
+    "readings": [
+      "Bác",
+      "Phốc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1122,
+    "character": "剰",
+    "character_name_vi": "Thặng thừa",
+    "readings": [
+      "Thặng",
+      "thừa"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1132,
+    "character": "勾",
+    "character_name_vi": "Câu Cấu",
+    "readings": [
+      "Câu",
+      "Cấu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1135,
+    "character": "匹",
+    "character_name_vi": "Mộc thất",
+    "readings": [
+      "Mộc",
+      "thất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1138,
+    "character": "卑",
+    "character_name_vi": "Ti Ty",
+    "readings": [
+      "Ti",
+      "Ty"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1140,
+    "character": "占",
+    "character_name_vi": "Chiêm chiếm",
+    "readings": [
+      "Chiêm",
+      "chiếm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1142,
+    "character": "却",
+    "character_name_vi": "Khước ngang tức",
+    "readings": [
+      "Khước",
+      "ngang",
+      "tức"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1144,
+    "character": "厄",
+    "character_name_vi": "Ngoả ách",
+    "readings": [
+      "Ngoả",
+      "ách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1145,
+    "character": "厘",
+    "character_name_vi": "Hi li ly triền",
+    "readings": [
+      "Hi",
+      "li",
+      "ly",
+      "triền"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1146,
+    "character": "又",
+    "character_name_vi": "Hữu Hựu",
+    "readings": [
+      "Hữu",
+      "Hựu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1152,
+    "character": "召",
+    "character_name_vi": "Chiêu thiệu triệu",
+    "readings": [
+      "Chiêu",
+      "thiệu",
+      "triệu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1157,
+    "character": "含",
+    "character_name_vi": "Hàm hám",
+    "readings": [
+      "Hàm",
+      "hám"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1158,
+    "character": "吹",
+    "character_name_vi": "Xuy xuý",
+    "readings": [
+      "Xuy",
+      "xuý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1159,
+    "character": "呂",
+    "character_name_vi": "Lã lữ",
+    "readings": [
+      "Lã",
+      "lữ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1164,
+    "character": "咽",
+    "character_name_vi": "Yên Yến Yết Ân Ế",
+    "readings": [
+      "Yên",
+      "Yến",
+      "Yết",
+      "Ân",
+      "Ế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1167,
+    "character": "哺",
+    "character_name_vi": "Bu Bô Bộ",
+    "readings": [
+      "Bu",
+      "Bô",
+      "Bộ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1168,
+    "character": "唄",
+    "character_name_vi": "Bái bại bối",
+    "readings": [
+      "Bái",
+      "bại",
+      "bối"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1170,
+    "character": "唇",
+    "character_name_vi": "Chấn thần",
+    "readings": [
+      "Chấn",
+      "thần"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1172,
+    "character": "唯",
+    "character_name_vi": "Duy duỵ",
+    "readings": [
+      "Duy",
+      "duỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1174,
+    "character": "啓",
+    "character_name_vi": "Khải khởi",
+    "readings": [
+      "Khải",
+      "khởi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1177,
+    "character": "喝",
+    "character_name_vi": "Hát hạt ái ới",
+    "readings": [
+      "Hát",
+      "hạt",
+      "ái",
+      "ới"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1179,
+    "character": "喪",
+    "character_name_vi": "Tang táng",
+    "readings": [
+      "Tang",
+      "táng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1186,
+    "character": "噴",
+    "character_name_vi": "Phôn phún",
+    "readings": [
+      "Phôn",
+      "phún"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1189,
+    "character": "圏",
+    "character_name_vi": "Khuyên quyển",
+    "readings": [
+      "Khuyên",
+      "quyển"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1190,
+    "character": "坊",
+    "character_name_vi": "Phòng phường",
+    "readings": [
+      "Phòng",
+      "phường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1194,
+    "character": "埋",
+    "character_name_vi": "Mai man",
+    "readings": [
+      "Mai",
+      "man"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1196,
+    "character": "培",
+    "character_name_vi": "Bẫu bậu bồi",
+    "readings": [
+      "Bẫu",
+      "bậu",
+      "bồi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1199,
+    "character": "堆",
+    "character_name_vi": "Đôi Đồi",
+    "readings": [
+      "Đôi",
+      "Đồi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1200,
+    "character": "堕",
+    "character_name_vi": "Huy đoạ",
+    "readings": [
+      "Huy",
+      "đoạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1201,
+    "character": "堤",
+    "character_name_vi": "Đê đề",
+    "readings": [
+      "Đê",
+      "đề"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1204,
+    "character": "塁",
+    "character_name_vi": "Lỗi luật luỹ",
+    "readings": [
+      "Lỗi",
+      "luật",
+      "luỹ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1207,
+    "character": "塔",
+    "character_name_vi": "Tháp đáp",
+    "readings": [
+      "Tháp",
+      "đáp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1208,
+    "character": "塗",
+    "character_name_vi": "Trà đồ độ",
+    "readings": [
+      "Trà",
+      "đồ",
+      "độ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1209,
+    "character": "塚",
+    "character_name_vi": "Trũng trủng",
+    "readings": [
+      "Trũng",
+      "trủng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1210,
+    "character": "塞",
+    "character_name_vi": "Tái Tắc",
+    "readings": [
+      "Tái",
+      "Tắc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1211,
+    "character": "塡",
+    "character_name_vi": "Chấn Trấn Trần Điền Điễn",
+    "readings": [
+      "Chấn",
+      "Trấn",
+      "Trần",
+      "Điền",
+      "Điễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1215,
+    "character": "墳",
+    "character_name_vi": "Bổn phần phẫn",
+    "readings": [
+      "Bổn",
+      "phần",
+      "phẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1219,
+    "character": "壊",
+    "character_name_vi": "Bôi bùi hoại khôi nhưỡng phôi",
+    "readings": [
+      "Bôi",
+      "bùi",
+      "hoại",
+      "khôi",
+      "nhưỡng",
+      "phôi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1221,
+    "character": "壮",
+    "character_name_vi": "Trang tráng",
+    "readings": [
+      "Trang",
+      "tráng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1223,
+    "character": "奇",
+    "character_name_vi": "Cơ kì kỳ",
+    "readings": [
+      "Cơ",
+      "kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1224,
+    "character": "奉",
+    "character_name_vi": "Bổng phụng",
+    "readings": [
+      "Bổng",
+      "phụng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1225,
+    "character": "契",
+    "character_name_vi": "Khiết khất khế tiết",
+    "readings": [
+      "Khiết",
+      "khất",
+      "khế",
+      "tiết"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1226,
+    "character": "奔",
+    "character_name_vi": "Bôn phẫn",
+    "readings": [
+      "Bôn",
+      "phẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1227,
+    "character": "奥",
+    "character_name_vi": "Áo úc",
+    "readings": [
+      "Áo",
+      "úc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1232,
+    "character": "妃",
+    "character_name_vi": "Phi phối",
+    "readings": [
+      "Phi",
+      "phối"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1233,
+    "character": "妄",
+    "character_name_vi": "Vong vô vọng",
+    "readings": [
+      "Vong",
+      "vô",
+      "vọng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1234,
+    "character": "妊",
+    "character_name_vi": "Nhâm nhậm",
+    "readings": [
+      "Nhâm",
+      "nhậm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1238,
+    "character": "妨",
+    "character_name_vi": "Phương phướng",
+    "readings": [
+      "Phương",
+      "phướng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1243,
+    "character": "威",
+    "character_name_vi": "Oai uy",
+    "readings": [
+      "Oai",
+      "uy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1258,
+    "character": "宛",
+    "character_name_vi": "Uyên Uyển",
+    "readings": [
+      "Uyên",
+      "Uyển"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1267,
+    "character": "寧",
+    "character_name_vi": "Ninh trữ",
+    "readings": [
+      "Ninh",
+      "trữ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1272,
+    "character": "尉",
+    "character_name_vi": "Uý uất",
+    "readings": [
+      "Uý",
+      "uất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1275,
+    "character": "尻",
+    "character_name_vi": "Cừu khào",
+    "readings": [
+      "Cừu",
+      "khào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1276,
+    "character": "尼",
+    "character_name_vi": "Ni nê nật nặc nệ",
+    "readings": [
+      "Ni",
+      "nê",
+      "nật",
+      "nặc",
+      "nệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1277,
+    "character": "尽",
+    "character_name_vi": "Tần tẫn tận",
+    "readings": [
+      "Tần",
+      "tẫn",
+      "tận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1279,
+    "character": "尿",
+    "character_name_vi": "Niếu niệu tuy",
+    "readings": [
+      "Niếu",
+      "niệu",
+      "tuy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1280,
+    "character": "屈",
+    "character_name_vi": "Khuất quật",
+    "readings": [
+      "Khuất",
+      "quật"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1281,
+    "character": "履",
+    "character_name_vi": "Lí Lý",
+    "readings": [
+      "Lí",
+      "Lý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1282,
+    "character": "屯",
+    "character_name_vi": "Truân Đồn",
+    "readings": [
+      "Truân",
+      "Đồn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1285,
+    "character": "峠",
+    "character_name_vi": "Ca khải sá tạp",
+    "readings": [
+      "Ca",
+      "khải",
+      "sá",
+      "tạp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1286,
+    "character": "峡",
+    "character_name_vi": "Giáp hiệp hạp",
+    "readings": [
+      "Giáp",
+      "hiệp",
+      "hạp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1292,
+    "character": "巡",
+    "character_name_vi": "Duyên tuần",
+    "readings": [
+      "Duyên",
+      "tuần"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1294,
+    "character": "巨",
+    "character_name_vi": "Cự Há",
+    "readings": [
+      "Cự",
+      "Há"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1296,
+    "character": "帆",
+    "character_name_vi": "Phàm phâm",
+    "readings": [
+      "Phàm",
+      "phâm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1298,
+    "character": "帥",
+    "character_name_vi": "Soái Suý Suất",
+    "readings": [
+      "Soái",
+      "Suý",
+      "Suất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1300,
+    "character": "幅",
+    "character_name_vi": "Bức phúc",
+    "readings": [
+      "Bức",
+      "phúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1302,
+    "character": "幻",
+    "character_name_vi": "Huyễn ảo",
+    "readings": [
+      "Huyễn",
+      "ảo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1304,
+    "character": "幾",
+    "character_name_vi": "Cơ khởi ki ky kí ký kỉ kỳ kỷ",
+    "readings": [
+      "Cơ",
+      "khởi",
+      "ki",
+      "ky",
+      "kí",
+      "ký",
+      "kỉ",
+      "kỳ",
+      "kỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1307,
+    "character": "庸",
+    "character_name_vi": "Dong Dung",
+    "readings": [
+      "Dong",
+      "Dung"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1313,
+    "character": "弊",
+    "character_name_vi": "Tiết tế tệ",
+    "readings": [
+      "Tiết",
+      "tế",
+      "tệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1315,
+    "character": "弔",
+    "character_name_vi": "Điếu Đích",
+    "readings": [
+      "Điếu",
+      "Đích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1316,
+    "character": "弥",
+    "character_name_vi": "Di My",
+    "readings": [
+      "Di",
+      "My"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1318,
+    "character": "弧",
+    "character_name_vi": "Hồ O Ô",
+    "readings": [
+      "Hồ",
+      "O",
+      "Ô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1319,
+    "character": "弾",
+    "character_name_vi": "Đàn Đạn",
+    "readings": [
+      "Đàn",
+      "Đạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1320,
+    "character": "彙",
+    "character_name_vi": "Vị Vựng",
+    "readings": [
+      "Vị",
+      "Vựng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1321,
+    "character": "彩",
+    "character_name_vi": "Thái thải thể",
+    "readings": [
+      "Thái",
+      "thải",
+      "thể"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1326,
+    "character": "征",
+    "character_name_vi": "Chinh trưng",
+    "readings": [
+      "Chinh",
+      "trưng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1328,
+    "character": "御",
+    "character_name_vi": "Ngữ ngự nhạ",
+    "readings": [
+      "Ngữ",
+      "ngự",
+      "nhạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1330,
+    "character": "微",
+    "character_name_vi": "Vi vy",
+    "readings": [
+      "Vi",
+      "vy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1331,
+    "character": "徴",
+    "character_name_vi": "Chuỷ trưng trừng",
+    "readings": [
+      "Chuỷ",
+      "trưng",
+      "trừng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1333,
+    "character": "忌",
+    "character_name_vi": "Kí ký kị kỵ",
+    "readings": [
+      "Kí",
+      "ký",
+      "kị",
+      "kỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1337,
+    "character": "怖",
+    "character_name_vi": "Bố phố",
+    "readings": [
+      "Bố",
+      "phố"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1339,
+    "character": "怨",
+    "character_name_vi": "Oán Uẩn",
+    "readings": [
+      "Oán",
+      "Uẩn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1342,
+    "character": "恐",
+    "character_name_vi": "Khúng khủng",
+    "readings": [
+      "Khúng",
+      "khủng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1343,
+    "character": "恒",
+    "character_name_vi": "Căng cắng hằng",
+    "readings": [
+      "Căng",
+      "cắng",
+      "hằng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1344,
+    "character": "恣",
+    "character_name_vi": "Thư Tứ",
+    "readings": [
+      "Thư",
+      "Tứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1349,
+    "character": "悔",
+    "character_name_vi": "Hối hổi",
+    "readings": [
+      "Hối",
+      "hổi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1355,
+    "character": "悼",
+    "character_name_vi": "Nạo điệu",
+    "readings": [
+      "Nạo",
+      "điệu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1360,
+    "character": "惰",
+    "character_name_vi": "Noạ đoạ",
+    "readings": [
+      "Noạ",
+      "đoạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1362,
+    "character": "愉",
+    "character_name_vi": "Du thâu",
+    "readings": [
+      "Du",
+      "thâu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1365,
+    "character": "慈",
+    "character_name_vi": "Tư từ",
+    "readings": [
+      "Tư",
+      "từ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1366,
+    "character": "慌",
+    "character_name_vi": "Hoang hoảng",
+    "readings": [
+      "Hoang",
+      "hoảng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1371,
+    "character": "慮",
+    "character_name_vi": "Lư lục lự",
+    "readings": [
+      "Lư",
+      "lục",
+      "lự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1372,
+    "character": "慰",
+    "character_name_vi": "Uý uỷ",
+    "readings": [
+      "Uý",
+      "uỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1373,
+    "character": "慶",
+    "character_name_vi": "Khanh khánh khương",
+    "readings": [
+      "Khanh",
+      "khánh",
+      "khương"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1376,
+    "character": "憤",
+    "character_name_vi": "Phấn phẫn",
+    "readings": [
+      "Phấn",
+      "phẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1377,
+    "character": "憧",
+    "character_name_vi": "Sung tráng xung",
+    "readings": [
+      "Sung",
+      "tráng",
+      "xung"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1381,
+    "character": "憾",
+    "character_name_vi": "Hám đảm",
+    "readings": [
+      "Hám",
+      "đảm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1383,
+    "character": "懐",
+    "character_name_vi": "Hoài phó phụ",
+    "readings": [
+      "Hoài",
+      "phó",
+      "phụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1387,
+    "character": "戚",
+    "character_name_vi": "Thích Xúc",
+    "readings": [
+      "Thích",
+      "Xúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1388,
+    "character": "戯",
+    "character_name_vi": "Hí Hý",
+    "readings": [
+      "Hí",
+      "Hý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1389,
+    "character": "戴",
+    "character_name_vi": "Đái Đới",
+    "readings": [
+      "Đái",
+      "Đới"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1390,
+    "character": "戻",
+    "character_name_vi": "Lệ liệt lư",
+    "readings": [
+      "Lệ",
+      "liệt",
+      "lư"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1391,
+    "character": "房",
+    "character_name_vi": "Bàng phòng",
+    "readings": [
+      "Bàng",
+      "phòng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1392,
+    "character": "扇",
+    "character_name_vi": "Phiến thiên",
+    "readings": [
+      "Phiến",
+      "thiên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1394,
+    "character": "払",
+    "character_name_vi": "Bật phất",
+    "readings": [
+      "Bật",
+      "phất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1395,
+    "character": "扱",
+    "character_name_vi": "Hấp tháp tráp",
+    "readings": [
+      "Hấp",
+      "tháp",
+      "tráp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1396,
+    "character": "扶",
+    "character_name_vi": "Bồ phù",
+    "readings": [
+      "Bồ",
+      "phù"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1398,
+    "character": "把",
+    "character_name_vi": "Bà bá bả",
+    "readings": [
+      "Bà",
+      "bá",
+      "bả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1401,
+    "character": "抜",
+    "character_name_vi": "Bạt bội",
+    "readings": [
+      "Bạt",
+      "bội"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1403,
+    "character": "披",
+    "character_name_vi": "Bia Phi",
+    "readings": [
+      "Bia",
+      "Phi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1404,
+    "character": "抱",
+    "character_name_vi": "Bào bão",
+    "readings": [
+      "Bào",
+      "bão"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1405,
+    "character": "抵",
+    "character_name_vi": "Chỉ để",
+    "readings": [
+      "Chỉ",
+      "để"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1410,
+    "character": "拍",
+    "character_name_vi": "Bác phách",
+    "readings": [
+      "Bác",
+      "phách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1412,
+    "character": "拒",
+    "character_name_vi": "Củ cự",
+    "readings": [
+      "Củ",
+      "cự"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1413,
+    "character": "拓",
+    "character_name_vi": "Chích thác tháp",
+    "readings": [
+      "Chích",
+      "thác",
+      "tháp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1414,
+    "character": "拘",
+    "character_name_vi": "Câu cù",
+    "readings": [
+      "Câu",
+      "cù"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1417,
+    "character": "括",
+    "character_name_vi": "Hoạt quát",
+    "readings": [
+      "Hoạt",
+      "quát"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1422,
+    "character": "挑",
+    "character_name_vi": "Khiêu Thao Thiêu Thiểu",
+    "readings": [
+      "Khiêu",
+      "Thao",
+      "Thiêu",
+      "Thiểu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1423,
+    "character": "挟",
+    "character_name_vi": "Hiệp Tiệp",
+    "readings": [
+      "Hiệp",
+      "Tiệp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1424,
+    "character": "挨",
+    "character_name_vi": "Ai Ải",
+    "readings": [
+      "Ai",
+      "Ải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1426,
+    "character": "振",
+    "character_name_vi": "Chân chấn chẩn",
+    "readings": [
+      "Chân",
+      "chấn",
+      "chẩn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1427,
+    "character": "挿",
+    "character_name_vi": "Sáp Tháp Tráp",
+    "readings": [
+      "Sáp",
+      "Tháp",
+      "Tráp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1429,
+    "character": "捕",
+    "character_name_vi": "Bổ bộ",
+    "readings": [
+      "Bổ",
+      "bộ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1431,
+    "character": "捜",
+    "character_name_vi": "Sảo sưu tiêu",
+    "readings": [
+      "Sảo",
+      "sưu",
+      "tiêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1432,
+    "character": "据",
+    "character_name_vi": "Cư cứ",
+    "readings": [
+      "Cư",
+      "cứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1433,
+    "character": "捻",
+    "character_name_vi": "Nhiên Niêm Niễn Niệm Niệp Nẫm",
+    "readings": [
+      "Nhiên",
+      "Niêm",
+      "Niễn",
+      "Niệm",
+      "Niệp",
+      "Nẫm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1434,
+    "character": "掃",
+    "character_name_vi": "Táo tảo",
+    "readings": [
+      "Táo",
+      "tảo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1439,
+    "character": "控",
+    "character_name_vi": "Khoang khống",
+    "readings": [
+      "Khoang",
+      "khống"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1440,
+    "character": "措",
+    "character_name_vi": "Thố trách",
+    "readings": [
+      "Thố",
+      "trách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1441,
+    "character": "掲",
+    "character_name_vi": "Khế yết",
+    "readings": [
+      "Khế",
+      "yết"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1445,
+    "character": "握",
+    "character_name_vi": "Ác ốc",
+    "readings": [
+      "Ác",
+      "ốc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1446,
+    "character": "援",
+    "character_name_vi": "Viên viện",
+    "readings": [
+      "Viên",
+      "viện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1447,
+    "character": "揺",
+    "character_name_vi": "Dao diêu",
+    "readings": [
+      "Dao",
+      "diêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1448,
+    "character": "搬",
+    "character_name_vi": "Ban bàn",
+    "readings": [
+      "Ban",
+      "bàn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1449,
+    "character": "搭",
+    "character_name_vi": "Tháp đáp",
+    "readings": [
+      "Tháp",
+      "đáp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1459,
+    "character": "撲",
+    "character_name_vi": "Bạc phác phốc",
+    "readings": [
+      "Bạc",
+      "phác",
+      "phốc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1460,
+    "character": "擁",
+    "character_name_vi": "Ung ủng",
+    "readings": [
+      "Ung",
+      "ủng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1470,
+    "character": "斗",
+    "character_name_vi": "Đấu đẩu ẩu",
+    "readings": [
+      "Đấu",
+      "đẩu",
+      "ẩu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1471,
+    "character": "斜",
+    "character_name_vi": "Gia tà",
+    "readings": [
+      "Gia",
+      "tà"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1472,
+    "character": "斤",
+    "character_name_vi": "Cân cấn",
+    "readings": [
+      "Cân",
+      "cấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1475,
+    "character": "施",
+    "character_name_vi": "Di dị thi thí thỉ",
+    "readings": [
+      "Di",
+      "dị",
+      "thi",
+      "thí",
+      "thỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1476,
+    "character": "旋",
+    "character_name_vi": "Toàn Tuyền",
+    "readings": [
+      "Toàn",
+      "Tuyền"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1477,
+    "character": "既",
+    "character_name_vi": "Kí Ký",
+    "readings": [
+      "Kí",
+      "Ký"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1480,
+    "character": "旬",
+    "character_name_vi": "Quyên quân tuần",
+    "readings": [
+      "Quyên",
+      "quân",
+      "tuần"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1484,
+    "character": "昧",
+    "character_name_vi": "Muội Mạt",
+    "readings": [
+      "Muội",
+      "Mạt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1489,
+    "character": "暇",
+    "character_name_vi": "Hạ xuyết",
+    "readings": [
+      "Hạ",
+      "xuyết"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1494,
+    "character": "更",
+    "character_name_vi": "Canh cánh",
+    "readings": [
+      "Canh",
+      "cánh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1499,
+    "character": "朱",
+    "character_name_vi": "Chu châu",
+    "readings": [
+      "Chu",
+      "châu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1500,
+    "character": "朴",
+    "character_name_vi": "Phu phác",
+    "readings": [
+      "Phu",
+      "phác"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1502,
+    "character": "杉",
+    "character_name_vi": "Am sam",
+    "readings": [
+      "Am",
+      "sam"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1505,
+    "character": "枕",
+    "character_name_vi": "Chấm Chẩm",
+    "readings": [
+      "Chấm",
+      "Chẩm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1514,
+    "character": "柵",
+    "character_name_vi": "San Sách",
+    "readings": [
+      "San",
+      "Sách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1515,
+    "character": "柿",
+    "character_name_vi": "Sĩ Thị",
+    "readings": [
+      "Sĩ",
+      "Thị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1516,
+    "character": "栓",
+    "character_name_vi": "Thuyên Xuyên",
+    "readings": [
+      "Thuyên",
+      "Xuyên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1517,
+    "character": "核",
+    "character_name_vi": "Hạch hạt hồ",
+    "readings": [
+      "Hạch",
+      "hạt",
+      "hồ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1518,
+    "character": "栽",
+    "character_name_vi": "Tài tải",
+    "readings": [
+      "Tài",
+      "tải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1519,
+    "character": "桁",
+    "character_name_vi": "Hàng Hành Hãng",
+    "readings": [
+      "Hàng",
+      "Hành",
+      "Hãng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1522,
+    "character": "桟",
+    "character_name_vi": "Chăn Sạn Trản Trăn Xiễn",
+    "readings": [
+      "Chăn",
+      "Sạn",
+      "Trản",
+      "Trăn",
+      "Xiễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1523,
+    "character": "梗",
+    "character_name_vi": "Cánh Cạnh Ngạnh",
+    "readings": [
+      "Cánh",
+      "Cạnh",
+      "Ngạnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1525,
+    "character": "棋",
+    "character_name_vi": "Ky kì kí ký kỳ",
+    "readings": [
+      "Ky",
+      "kì",
+      "kí",
+      "ký",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1526,
+    "character": "棚",
+    "character_name_vi": "Bành Bằng",
+    "readings": [
+      "Bành",
+      "Bằng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1528,
+    "character": "棺",
+    "character_name_vi": "Quan quán",
+    "readings": [
+      "Quan",
+      "quán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1529,
+    "character": "椅",
+    "character_name_vi": "Kỷ Y Ỷ",
+    "readings": [
+      "Kỷ",
+      "Y",
+      "Ỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1530,
+    "character": "椎",
+    "character_name_vi": "Chuy chuỳ truỳ",
+    "readings": [
+      "Chuy",
+      "chuỳ",
+      "truỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1531,
+    "character": "楷",
+    "character_name_vi": "Giai Khải",
+    "readings": [
+      "Giai",
+      "Khải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1533,
+    "character": "概",
+    "character_name_vi": "Hị khái",
+    "readings": [
+      "Hị",
+      "khái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1536,
+    "character": "欧",
+    "character_name_vi": "Âu ẩu",
+    "readings": [
+      "Âu",
+      "ẩu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1541,
+    "character": "殉",
+    "character_name_vi": "Tuẫn tuận",
+    "readings": [
+      "Tuẫn",
+      "tuận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1543,
+    "character": "殖",
+    "character_name_vi": "Sự thực",
+    "readings": [
+      "Sự",
+      "thực"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1544,
+    "character": "殴",
+    "character_name_vi": "Ấu ẩu",
+    "readings": [
+      "Ấu",
+      "ẩu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1546,
+    "character": "殿",
+    "character_name_vi": "Điến điện đán",
+    "readings": [
+      "Điến",
+      "điện",
+      "đán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1549,
+    "character": "汁",
+    "character_name_vi": "Chấp hiệp trấp",
+    "readings": [
+      "Chấp",
+      "hiệp",
+      "trấp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1550,
+    "character": "汎",
+    "character_name_vi": "Phiếm Phùng Phạp",
+    "readings": [
+      "Phiếm",
+      "Phùng",
+      "Phạp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1551,
+    "character": "汗",
+    "character_name_vi": "Hàn hãn hạn",
+    "readings": [
+      "Hàn",
+      "hãn",
+      "hạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1552,
+    "character": "汚",
+    "character_name_vi": "Ô ố",
+    "readings": [
+      "Ô",
+      "ố"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1554,
+    "character": "汰",
+    "character_name_vi": "Thái Thải",
+    "readings": [
+      "Thái",
+      "Thải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1556,
+    "character": "沈",
+    "character_name_vi": "Thẩm trấm trầm",
+    "readings": [
+      "Thẩm",
+      "trấm",
+      "trầm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1557,
+    "character": "沙",
+    "character_name_vi": "Sa sá",
+    "readings": [
+      "Sa",
+      "sá"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1559,
+    "character": "沢",
+    "character_name_vi": "Dịch thích trạch",
+    "readings": [
+      "Dịch",
+      "thích",
+      "trạch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1560,
+    "character": "沸",
+    "character_name_vi": "Phí phất",
+    "readings": [
+      "Phí",
+      "phất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1563,
+    "character": "泊",
+    "character_name_vi": "Bạc phách",
+    "readings": [
+      "Bạc",
+      "phách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1565,
+    "character": "泡",
+    "character_name_vi": "Bào phao pháo",
+    "readings": [
+      "Bào",
+      "phao",
+      "pháo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1566,
+    "character": "泥",
+    "character_name_vi": "Nê nễ nệ",
+    "readings": [
+      "Nê",
+      "nễ",
+      "nệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1568,
+    "character": "洞",
+    "character_name_vi": "Đỗng động",
+    "readings": [
+      "Đỗng",
+      "động"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1572,
+    "character": "浜",
+    "character_name_vi": "Banh binh",
+    "readings": [
+      "Banh",
+      "binh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1573,
+    "character": "浦",
+    "character_name_vi": "Phố phổ",
+    "readings": [
+      "Phố",
+      "phổ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1574,
+    "character": "浪",
+    "character_name_vi": "Lang lãng",
+    "readings": [
+      "Lang",
+      "lãng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1576,
+    "character": "浸",
+    "character_name_vi": "Thâm tẩm",
+    "readings": [
+      "Thâm",
+      "tẩm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1577,
+    "character": "涙",
+    "character_name_vi": "Lệ luỵ",
+    "readings": [
+      "Lệ",
+      "luỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1579,
+    "character": "涼",
+    "character_name_vi": "Lương lượng",
+    "readings": [
+      "Lương",
+      "lượng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1581,
+    "character": "淡",
+    "character_name_vi": "Đàm đạm",
+    "readings": [
+      "Đàm",
+      "đạm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1584,
+    "character": "渇",
+    "character_name_vi": "Hạt khát kiệt",
+    "readings": [
+      "Hạt",
+      "khát",
+      "kiệt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1587,
+    "character": "渓",
+    "character_name_vi": "Hoát khê",
+    "readings": [
+      "Hoát",
+      "khê"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1589,
+    "character": "渦",
+    "character_name_vi": "Oa Qua",
+    "readings": [
+      "Oa",
+      "Qua"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1592,
+    "character": "湿",
+    "character_name_vi": "Chập thấp",
+    "readings": [
+      "Chập",
+      "thấp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1594,
+    "character": "溶",
+    "character_name_vi": "Dong dung",
+    "readings": [
+      "Dong",
+      "dung"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1595,
+    "character": "溺",
+    "character_name_vi": "Niệu Nịch",
+    "readings": [
+      "Niệu",
+      "Nịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1597,
+    "character": "滑",
+    "character_name_vi": "Cốt hoạt",
+    "readings": [
+      "Cốt",
+      "hoạt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1600,
+    "character": "滴",
+    "character_name_vi": "Chích trích tích",
+    "readings": [
+      "Chích",
+      "trích",
+      "tích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1601,
+    "character": "漂",
+    "character_name_vi": "Phiêu phiếu xiếu",
+    "readings": [
+      "Phiêu",
+      "phiếu",
+      "xiếu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1602,
+    "character": "漆",
+    "character_name_vi": "Thế tất",
+    "readings": [
+      "Thế",
+      "tất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1603,
+    "character": "漏",
+    "character_name_vi": "Lâu lậu",
+    "readings": [
+      "Lâu",
+      "lậu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1605,
+    "character": "漫",
+    "character_name_vi": "Man mạn",
+    "readings": [
+      "Man",
+      "mạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1606,
+    "character": "漬",
+    "character_name_vi": "Tí Tý",
+    "readings": [
+      "Tí",
+      "Tý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1607,
+    "character": "漸",
+    "character_name_vi": "Tiêm tiềm tiệm",
+    "readings": [
+      "Tiêm",
+      "tiềm",
+      "tiệm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1612,
+    "character": "濁",
+    "character_name_vi": "Trạc trọc",
+    "readings": [
+      "Trạc",
+      "trọc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1614,
+    "character": "濫",
+    "character_name_vi": "Cãm hạm lam lãm lạm",
+    "readings": [
+      "Cãm",
+      "hạm",
+      "lam",
+      "lãm",
+      "lạm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1615,
+    "character": "濯",
+    "character_name_vi": "Trạc trạo",
+    "readings": [
+      "Trạc",
+      "trạo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1617,
+    "character": "炉",
+    "character_name_vi": "Lô lư",
+    "readings": [
+      "Lô",
+      "lư"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1618,
+    "character": "炊",
+    "character_name_vi": "Xuy xuý",
+    "readings": [
+      "Xuy",
+      "xuý"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1619,
+    "character": "炎",
+    "character_name_vi": "Diễm viêm đàm",
+    "readings": [
+      "Diễm",
+      "viêm",
+      "đàm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1620,
+    "character": "為",
+    "character_name_vi": "Vi Vy Vị",
+    "readings": [
+      "Vi",
+      "Vy",
+      "Vị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1622,
+    "character": "焦",
+    "character_name_vi": "Tiêu tiều",
+    "readings": [
+      "Tiêu",
+      "tiều"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1623,
+    "character": "煎",
+    "character_name_vi": "Tiên Tiễn",
+    "readings": [
+      "Tiên",
+      "Tiễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1628,
+    "character": "爆",
+    "character_name_vi": "Bạc bạo bộc",
+    "readings": [
+      "Bạc",
+      "bạo",
+      "bộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1640,
+    "character": "猟",
+    "character_name_vi": "Liệp lạp",
+    "readings": [
+      "Liệp",
+      "lạp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1643,
+    "character": "猶",
+    "character_name_vi": "Do dứu",
+    "readings": [
+      "Do",
+      "dứu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1654,
+    "character": "璃",
+    "character_name_vi": "Li Ly Lê",
+    "readings": [
+      "Li",
+      "Ly",
+      "Lê"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1657,
+    "character": "璽",
+    "character_name_vi": "Tỉ Tỷ",
+    "readings": [
+      "Tỉ",
+      "Tỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1658,
+    "character": "瓦",
+    "character_name_vi": "Ngoá Ngoã",
+    "readings": [
+      "Ngoá",
+      "Ngoã"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1665,
+    "character": "畜",
+    "character_name_vi": "Húc súc",
+    "readings": [
+      "Húc",
+      "súc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1668,
+    "character": "畿",
+    "character_name_vi": "Kì Kỳ",
+    "readings": [
+      "Kì",
+      "Kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1669,
+    "character": "疎",
+    "character_name_vi": "Sơ sớ",
+    "readings": [
+      "Sơ",
+      "sớ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1673,
+    "character": "症",
+    "character_name_vi": "Chứng trưng",
+    "readings": [
+      "Chứng",
+      "trưng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1674,
+    "character": "痕",
+    "character_name_vi": "Ngân ngấn",
+    "readings": [
+      "Ngân",
+      "ngấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1682,
+    "character": "癖",
+    "character_name_vi": "Phích tích",
+    "readings": [
+      "Phích",
+      "tích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1686,
+    "character": "監",
+    "character_name_vi": "Giam giám",
+    "readings": [
+      "Giam",
+      "giám"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1688,
+    "character": "盲",
+    "character_name_vi": "Manh vọng",
+    "readings": [
+      "Manh",
+      "vọng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1689,
+    "character": "盾",
+    "character_name_vi": "My thuẫn",
+    "readings": [
+      "My",
+      "thuẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1690,
+    "character": "眉",
+    "character_name_vi": "Mi my",
+    "readings": [
+      "Mi",
+      "my"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1692,
+    "character": "眺",
+    "character_name_vi": "Diểu thiếu",
+    "readings": [
+      "Diểu",
+      "thiếu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1697,
+    "character": "瞭",
+    "character_name_vi": "Liêu liễu liệu",
+    "readings": [
+      "Liêu",
+      "liễu",
+      "liệu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1706,
+    "character": "碁",
+    "character_name_vi": "Kì kỳ",
+    "readings": [
+      "Kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1708,
+    "character": "磨",
+    "character_name_vi": "Ma Má",
+    "readings": [
+      "Ma",
+      "Má"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1709,
+    "character": "礁",
+    "character_name_vi": "Tiêu tiều",
+    "readings": [
+      "Tiêu",
+      "tiều"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1711,
+    "character": "祈",
+    "character_name_vi": "Kì kỳ",
+    "readings": [
+      "Kì",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1714,
+    "character": "禅",
+    "character_name_vi": "Thiền thiện",
+    "readings": [
+      "Thiền",
+      "thiện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1718,
+    "character": "秩",
+    "character_name_vi": "Dật trật",
+    "readings": [
+      "Dật",
+      "trật"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1719,
+    "character": "称",
+    "character_name_vi": "Xưng xứng",
+    "readings": [
+      "Xưng",
+      "xứng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1723,
+    "character": "稽",
+    "character_name_vi": "Khể Kê",
+    "readings": [
+      "Khể",
+      "Kê"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1725,
+    "character": "穂",
+    "character_name_vi": "Toại tuệ",
+    "readings": [
+      "Toại",
+      "tuệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1728,
+    "character": "突",
+    "character_name_vi": "Gia đột",
+    "readings": [
+      "Gia",
+      "đột"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1730,
+    "character": "窒",
+    "character_name_vi": "Chất trất",
+    "readings": [
+      "Chất",
+      "trất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1733,
+    "character": "窯",
+    "character_name_vi": "Dao Diêu",
+    "readings": [
+      "Dao",
+      "Diêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1736,
+    "character": "符",
+    "character_name_vi": "Bồ phù",
+    "readings": [
+      "Bồ",
+      "phù"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1737,
+    "character": "筒",
+    "character_name_vi": "Đồng động",
+    "readings": [
+      "Đồng",
+      "động"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1740,
+    "character": "箸",
+    "character_name_vi": "Trợ Trứ",
+    "readings": [
+      "Trợ",
+      "Trứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1743,
+    "character": "簿",
+    "character_name_vi": "Bạ bạc bộ",
+    "readings": [
+      "Bạ",
+      "bạc",
+      "bộ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1744,
+    "character": "籍",
+    "character_name_vi": "Tạ tịch",
+    "readings": [
+      "Tạ",
+      "tịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1745,
+    "character": "籠",
+    "character_name_vi": "Lung Lộng",
+    "readings": [
+      "Lung",
+      "Lộng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1748,
+    "character": "粗",
+    "character_name_vi": "Thô thố",
+    "readings": [
+      "Thô",
+      "thố"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1753,
+    "character": "糾",
+    "character_name_vi": "Củ kiểu",
+    "readings": [
+      "Củ",
+      "kiểu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1754,
+    "character": "紋",
+    "character_name_vi": "Văn vấn",
+    "readings": [
+      "Văn",
+      "vấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1757,
+    "character": "索",
+    "character_name_vi": "Sách tác",
+    "readings": [
+      "Sách",
+      "tác"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1759,
+    "character": "累",
+    "character_name_vi": "Loã luy luỵ luỹ",
+    "readings": [
+      "Loã",
+      "luy",
+      "luỵ",
+      "luỹ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1763,
+    "character": "絞",
+    "character_name_vi": "Giảo hào",
+    "readings": [
+      "Giảo",
+      "hào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1772,
+    "character": "締",
+    "character_name_vi": "Đế đề",
+    "readings": [
+      "Đế",
+      "đề"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1774,
+    "character": "緯",
+    "character_name_vi": "Vĩ vị",
+    "readings": [
+      "Vĩ",
+      "vị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1777,
+    "character": "縛",
+    "character_name_vi": "Phược phọc",
+    "readings": [
+      "Phược",
+      "phọc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1778,
+    "character": "縫",
+    "character_name_vi": "Phùng phúng",
+    "readings": [
+      "Phùng",
+      "phúng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1779,
+    "character": "繁",
+    "character_name_vi": "Bà bàn phiền phồn",
+    "readings": [
+      "Bà",
+      "bàn",
+      "phiền",
+      "phồn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1783,
+    "character": "繰",
+    "character_name_vi": "Sào tao tảo",
+    "readings": [
+      "Sào",
+      "tao",
+      "tảo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1784,
+    "character": "缶",
+    "character_name_vi": "Phũ Phẫu Phữu",
+    "readings": [
+      "Phũ",
+      "Phẫu",
+      "Phữu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1787,
+    "character": "罷",
+    "character_name_vi": "Bãi Bì",
+    "readings": [
+      "Bãi",
+      "Bì"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1790,
+    "character": "羨",
+    "character_name_vi": "Diên Tiễn Tiện",
+    "readings": [
+      "Diên",
+      "Tiễn",
+      "Tiện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1794,
+    "character": "耐",
+    "character_name_vi": "Năng nại",
+    "readings": [
+      "Năng",
+      "nại"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1795,
+    "character": "耗",
+    "character_name_vi": "Hao Háo Mao Mạo",
+    "readings": [
+      "Hao",
+      "Háo",
+      "Mao",
+      "Mạo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1798,
+    "character": "肖",
+    "character_name_vi": "Tiêu tiếu",
+    "readings": [
+      "Tiêu",
+      "tiếu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1799,
+    "character": "肘",
+    "character_name_vi": "Chửu Trửu",
+    "readings": [
+      "Chửu",
+      "Trửu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1803,
+    "character": "肩",
+    "character_name_vi": "Khiên kiên",
+    "readings": [
+      "Khiên",
+      "kiên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1805,
+    "character": "肯",
+    "character_name_vi": "Khải khẳng",
+    "readings": [
+      "Khải",
+      "khẳng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1806,
+    "character": "胆",
+    "character_name_vi": "Đàn đảm",
+    "readings": [
+      "Đàn",
+      "đảm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1810,
+    "character": "脂",
+    "character_name_vi": "Chi chỉ",
+    "readings": [
+      "Chi",
+      "chỉ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1815,
+    "character": "脱",
+    "character_name_vi": "Thoát đoái",
+    "readings": [
+      "Thoát",
+      "đoái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1817,
+    "character": "腐",
+    "character_name_vi": "Hủ phụ",
+    "readings": [
+      "Hủ",
+      "phụ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1818,
+    "character": "腕",
+    "character_name_vi": "Oản uyển",
+    "readings": [
+      "Oản",
+      "uyển"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1819,
+    "character": "腫",
+    "character_name_vi": "Thũng Trũng",
+    "readings": [
+      "Thũng",
+      "Trũng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1823,
+    "character": "膜",
+    "character_name_vi": "Mô mạc",
+    "readings": [
+      "Mô",
+      "mạc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1828,
+    "character": "臭",
+    "character_name_vi": "Khứu xú",
+    "readings": [
+      "Khứu",
+      "xú"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1833,
+    "character": "舟",
+    "character_name_vi": "Chu châu",
+    "readings": [
+      "Chu",
+      "châu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1834,
+    "character": "般",
+    "character_name_vi": "Ban bàn bát",
+    "readings": [
+      "Ban",
+      "bàn",
+      "bát"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1835,
+    "character": "舶",
+    "character_name_vi": "Bạc bạch",
+    "readings": [
+      "Bạc",
+      "bạch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1840,
+    "character": "芋",
+    "character_name_vi": "Dụ hu vu",
+    "readings": [
+      "Dụ",
+      "hu",
+      "vu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1845,
+    "character": "苛",
+    "character_name_vi": "Ha hà kha",
+    "readings": [
+      "Ha",
+      "hà",
+      "kha"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1853,
+    "character": "華",
+    "character_name_vi": "Hoa hoá",
+    "readings": [
+      "Hoa",
+      "hoá"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1854,
+    "character": "萎",
+    "character_name_vi": "Nuy Uy Uỷ",
+    "readings": [
+      "Nuy",
+      "Uy",
+      "Uỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1858,
+    "character": "蓋",
+    "character_name_vi": "Cái Hạp",
+    "readings": [
+      "Cái",
+      "Hạp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1860,
+    "character": "蔽",
+    "character_name_vi": "Phất Tế",
+    "readings": [
+      "Phất",
+      "Tế"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1861,
+    "character": "薄",
+    "character_name_vi": "Bác bạc",
+    "readings": [
+      "Bác",
+      "bạc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1862,
+    "character": "薦",
+    "character_name_vi": "Tiến trãi tấn",
+    "readings": [
+      "Tiến",
+      "trãi",
+      "tấn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1867,
+    "character": "藩",
+    "character_name_vi": "Phan phiên",
+    "readings": [
+      "Phan",
+      "phiên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1871,
+    "character": "虚",
+    "character_name_vi": "Hư Khư",
+    "readings": [
+      "Hư",
+      "Khư"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1874,
+    "character": "虹",
+    "character_name_vi": "Hống hồng",
+    "readings": [
+      "Hống",
+      "hồng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1876,
+    "character": "蛇",
+    "character_name_vi": "Di sá xà",
+    "readings": [
+      "Di",
+      "sá",
+      "xà"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1881,
+    "character": "融",
+    "character_name_vi": "Dong Dung",
+    "readings": [
+      "Dong",
+      "Dung"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1883,
+    "character": "衡",
+    "character_name_vi": "Hoành hành",
+    "readings": [
+      "Hoành",
+      "hành"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1884,
+    "character": "衰",
+    "character_name_vi": "Suy Suý Thoa Thôi",
+    "readings": [
+      "Suy",
+      "Suý",
+      "Thoa",
+      "Thôi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1885,
+    "character": "衷",
+    "character_name_vi": "Chung Trung Trúng",
+    "readings": [
+      "Chung",
+      "Trung",
+      "Trúng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1888,
+    "character": "被",
+    "character_name_vi": "Bí bị phi",
+    "readings": [
+      "Bí",
+      "bị",
+      "phi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1891,
+    "character": "裸",
+    "character_name_vi": "Khoã khoả loã loả quán",
+    "readings": [
+      "Khoã",
+      "khoả",
+      "loã",
+      "loả",
+      "quán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1892,
+    "character": "裾",
+    "character_name_vi": "Cư Cứ",
+    "readings": [
+      "Cư",
+      "Cứ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1893,
+    "character": "褐",
+    "character_name_vi": "Cát Hạt",
+    "readings": [
+      "Cát",
+      "Hạt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1894,
+    "character": "褒",
+    "character_name_vi": "Bao Bầu",
+    "readings": [
+      "Bao",
+      "Bầu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1897,
+    "character": "覆",
+    "character_name_vi": "Phú Phúc",
+    "readings": [
+      "Phú",
+      "Phúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1898,
+    "character": "覇",
+    "character_name_vi": "Bá Phách",
+    "readings": [
+      "Bá",
+      "Phách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1913,
+    "character": "詳",
+    "character_name_vi": "Dương tường",
+    "readings": [
+      "Dương",
+      "tường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1914,
+    "character": "誇",
+    "character_name_vi": "Khoa khoả",
+    "readings": [
+      "Khoa",
+      "khoả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1919,
+    "character": "請",
+    "character_name_vi": "Thỉnh tình tính",
+    "readings": [
+      "Thỉnh",
+      "tình",
+      "tính"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1920,
+    "character": "諦",
+    "character_name_vi": "Đế Đề",
+    "readings": [
+      "Đế",
+      "Đề"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1923,
+    "character": "諮",
+    "character_name_vi": "Ti ty tư",
+    "readings": [
+      "Ti",
+      "ty",
+      "tư"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1929,
+    "character": "謙",
+    "character_name_vi": "Khiêm khiểm khiệm",
+    "readings": [
+      "Khiêm",
+      "khiểm",
+      "khiệm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1932,
+    "character": "譜",
+    "character_name_vi": "Phả phổ",
+    "readings": [
+      "Phả",
+      "phổ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1934,
+    "character": "豚",
+    "character_name_vi": "Đồn độn",
+    "readings": [
+      "Đồn",
+      "độn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1936,
+    "character": "貌",
+    "character_name_vi": "Mạc Mạo Mộc",
+    "readings": [
+      "Mạc",
+      "Mạo",
+      "Mộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1939,
+    "character": "販",
+    "character_name_vi": "Phiến phán",
+    "readings": [
+      "Phiến",
+      "phán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1941,
+    "character": "貫",
+    "character_name_vi": "Oan quán",
+    "readings": [
+      "Oan",
+      "quán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1946,
+    "character": "賓",
+    "character_name_vi": "Thấn tân",
+    "readings": [
+      "Thấn",
+      "tân"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1949,
+    "character": "賢",
+    "character_name_vi": "Hiền hiện",
+    "readings": [
+      "Hiền",
+      "hiện"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1957,
+    "character": "越",
+    "character_name_vi": "Hoạt việt",
+    "readings": [
+      "Hoạt",
+      "việt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1958,
+    "character": "趣",
+    "character_name_vi": "Thú xúc",
+    "readings": [
+      "Thú",
+      "xúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1961,
+    "character": "跳",
+    "character_name_vi": "Khiêu đào",
+    "readings": [
+      "Khiêu",
+      "đào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1966,
+    "character": "蹴",
+    "character_name_vi": "Thúc Xúc",
+    "readings": [
+      "Thúc",
+      "Xúc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1967,
+    "character": "躍",
+    "character_name_vi": "Dược thích",
+    "readings": [
+      "Dược",
+      "thích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1969,
+    "character": "軒",
+    "character_name_vi": "Hiên hiến",
+    "readings": [
+      "Hiên",
+      "hiến"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1972,
+    "character": "較",
+    "character_name_vi": "Giác giáo giảo giếu",
+    "readings": [
+      "Giác",
+      "giáo",
+      "giảo",
+      "giếu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1973,
+    "character": "載",
+    "character_name_vi": "Tái tại tải",
+    "readings": [
+      "Tái",
+      "tại",
+      "tải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1982,
+    "character": "迎",
+    "character_name_vi": "Nghinh nghênh nghịnh",
+    "readings": [
+      "Nghinh",
+      "nghênh",
+      "nghịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1983,
+    "character": "迫",
+    "character_name_vi": "Bài bách",
+    "readings": [
+      "Bài",
+      "bách"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1984,
+    "character": "迭",
+    "character_name_vi": "Tuyển điệt",
+    "readings": [
+      "Tuyển",
+      "điệt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1988,
+    "character": "逓",
+    "character_name_vi": "Đái đệ",
+    "readings": [
+      "Đái",
+      "đệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1991,
+    "character": "逮",
+    "character_name_vi": "Đãi đệ",
+    "readings": [
+      "Đãi",
+      "đệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 1997,
+    "character": "違",
+    "character_name_vi": "Vi vy",
+    "readings": [
+      "Vi",
+      "vy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2000,
+    "character": "遣",
+    "character_name_vi": "Khiển khán",
+    "readings": [
+      "Khiển",
+      "khán"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2005,
+    "character": "避",
+    "character_name_vi": "Tị Tỵ",
+    "readings": [
+      "Tị",
+      "Tỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2006,
+    "character": "還",
+    "character_name_vi": "Hoàn toàn",
+    "readings": [
+      "Hoàn",
+      "toàn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2007,
+    "character": "那",
+    "character_name_vi": "Na Ná Nả",
+    "readings": [
+      "Na",
+      "Ná",
+      "Nả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2009,
+    "character": "邪",
+    "character_name_vi": "Da tà từ",
+    "readings": [
+      "Da",
+      "tà",
+      "từ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2015,
+    "character": "酎",
+    "character_name_vi": "Trửu Trữu",
+    "readings": [
+      "Trửu",
+      "Trữu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2017,
+    "character": "酢",
+    "character_name_vi": "Thố tạc",
+    "readings": [
+      "Thố",
+      "tạc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2020,
+    "character": "酵",
+    "character_name_vi": "Diếu giáo",
+    "readings": [
+      "Diếu",
+      "giáo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2022,
+    "character": "醒",
+    "character_name_vi": "Tinh Tỉnh",
+    "readings": [
+      "Tinh",
+      "Tỉnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2025,
+    "character": "采",
+    "character_name_vi": "Thái thải",
+    "readings": [
+      "Thái",
+      "thải"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2026,
+    "character": "釈",
+    "character_name_vi": "Dịch thích",
+    "readings": [
+      "Dịch",
+      "thích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2031,
+    "character": "鉛",
+    "character_name_vi": "Diên duyên",
+    "readings": [
+      "Diên",
+      "duyên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2035,
+    "character": "鋭",
+    "character_name_vi": "Duệ nhuệ đoái",
+    "readings": [
+      "Duệ",
+      "nhuệ",
+      "đoái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2041,
+    "character": "錯",
+    "character_name_vi": "Thác thố",
+    "readings": [
+      "Thác",
+      "thố"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2043,
+    "character": "鍛",
+    "character_name_vi": "Thuyến đoàn đoán đoạn",
+    "readings": [
+      "Thuyến",
+      "đoàn",
+      "đoán",
+      "đoạn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2053,
+    "character": "闇",
+    "character_name_vi": "Am Yểm Ám",
+    "readings": [
+      "Am",
+      "Yểm",
+      "Ám"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2060,
+    "character": "陰",
+    "character_name_vi": "Uẩn ám âm ấm",
+    "readings": [
+      "Uẩn",
+      "ám",
+      "âm",
+      "ấm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2061,
+    "character": "陳",
+    "character_name_vi": "Trần trận",
+    "readings": [
+      "Trần",
+      "trận"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2063,
+    "character": "陶",
+    "character_name_vi": "Dao giao đào",
+    "readings": [
+      "Dao",
+      "giao",
+      "đào"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2074,
+    "character": "雅",
+    "character_name_vi": "Nha nhã",
+    "readings": [
+      "Nha",
+      "nhã"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2077,
+    "character": "離",
+    "character_name_vi": "Li Ly Lệ",
+    "readings": [
+      "Li",
+      "Ly",
+      "Lệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2080,
+    "character": "雷",
+    "character_name_vi": "Lôi lỗi",
+    "readings": [
+      "Lôi",
+      "lỗi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2081,
+    "character": "需",
+    "character_name_vi": "Nhu nhuyễn noạ tu",
+    "readings": [
+      "Nhu",
+      "nhuyễn",
+      "noạ",
+      "tu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2082,
+    "character": "震",
+    "character_name_vi": "Chấn thần",
+    "readings": [
+      "Chấn",
+      "thần"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2091,
+    "character": "頃",
+    "character_name_vi": "Khoảnh khuynh khuể",
+    "readings": [
+      "Khoảnh",
+      "khuynh",
+      "khuể"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2095,
+    "character": "頒",
+    "character_name_vi": "Ban phân phần",
+    "readings": [
+      "Ban",
+      "phân",
+      "phần"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2103,
+    "character": "飢",
+    "character_name_vi": "Cơ ky",
+    "readings": [
+      "Cơ",
+      "ky"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2107,
+    "character": "餌",
+    "character_name_vi": "Nhĩ Nhị",
+    "readings": [
+      "Nhĩ",
+      "Nhị"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2108,
+    "character": "餓",
+    "character_name_vi": "Ngã ngạ",
+    "readings": [
+      "Ngã",
+      "ngạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2113,
+    "character": "騎",
+    "character_name_vi": "Kị kỵ",
+    "readings": [
+      "Kị",
+      "kỵ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2120,
+    "character": "鬱",
+    "character_name_vi": "Uất Úc",
+    "readings": [
+      "Uất",
+      "Úc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2125,
+    "character": "鮮",
+    "character_name_vi": "Tiên tiển",
+    "readings": [
+      "Tiên",
+      "tiển"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2126,
+    "character": "鯨",
+    "character_name_vi": "Canh kình",
+    "readings": [
+      "Canh",
+      "kình"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2130,
+    "character": "麗",
+    "character_name_vi": "Ly Lệ",
+    "readings": [
+      "Ly",
+      "Lệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2139,
+    "character": "丗",
+    "character_name_vi": "Thế Táp",
+    "readings": [
+      "Thế",
+      "Táp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2140,
+    "character": "丞",
+    "character_name_vi": "Chưng Chửng Thừa",
+    "readings": [
+      "Chưng",
+      "Chửng",
+      "Thừa"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2144,
+    "character": "丿",
+    "character_name_vi": "Phiệt Thiên Triệt",
+    "readings": [
+      "Phiệt",
+      "Thiên",
+      "Triệt"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2146,
+    "character": "乃",
+    "character_name_vi": "Nãi Ái",
+    "readings": [
+      "Nãi",
+      "Ái"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2147,
+    "character": "乍",
+    "character_name_vi": "Sạ tác xạ",
+    "readings": [
+      "Sạ",
+      "tác",
+      "xạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2148,
+    "character": "也",
+    "character_name_vi": "Dã Giã Giả",
+    "readings": [
+      "Dã",
+      "Giã",
+      "Giả"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2153,
+    "character": "从",
+    "character_name_vi": "Thung Tung Tòng Tùng Túng Tụng",
+    "readings": [
+      "Thung",
+      "Tung",
+      "Tòng",
+      "Tùng",
+      "Túng",
+      "Tụng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2154,
+    "character": "佰",
+    "character_name_vi": "Bách Mạch",
+    "readings": [
+      "Bách",
+      "Mạch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2155,
+    "character": "儿",
+    "character_name_vi": "Nhi nhân",
+    "readings": [
+      "Nhi",
+      "nhân"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2156,
+    "character": "兀",
+    "character_name_vi": "Ngoạt Ngột Ô",
+    "readings": [
+      "Ngoạt",
+      "Ngột",
+      "Ô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2157,
+    "character": "允",
+    "character_name_vi": "Doãn Duẫn",
+    "readings": [
+      "Doãn",
+      "Duẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2159,
+    "character": "其",
+    "character_name_vi": "Cơ ki ky kì kí ký kỳ",
+    "readings": [
+      "Cơ",
+      "ki",
+      "ky",
+      "kì",
+      "kí",
+      "ký",
+      "kỳ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2164,
+    "character": "几",
+    "character_name_vi": "Cơ Ki Ky Kì Kỉ Kỷ Ỷ",
+    "readings": [
+      "Cơ",
+      "Ki",
+      "Ky",
+      "Kì",
+      "Kỉ",
+      "Kỷ",
+      "Ỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2169,
+    "character": "匕",
+    "character_name_vi": "Chuỷ Truỷ Tỷ",
+    "readings": [
+      "Chuỷ",
+      "Truỷ",
+      "Tỷ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2171,
+    "character": "匸",
+    "character_name_vi": "Hễ Hệ",
+    "readings": [
+      "Hễ",
+      "Hệ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2172,
+    "character": "卅",
+    "character_name_vi": "Táp Tạp",
+    "readings": [
+      "Táp",
+      "Tạp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2174,
+    "character": "卜",
+    "character_name_vi": "Bặc Bốc",
+    "readings": [
+      "Bặc",
+      "Bốc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2176,
+    "character": "卯",
+    "character_name_vi": "Mão Mẹo",
+    "readings": [
+      "Mão",
+      "Mẹo"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2177,
+    "character": "厂",
+    "character_name_vi": "Hán xưởng",
+    "readings": [
+      "Hán",
+      "xưởng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2178,
+    "character": "厶",
+    "character_name_vi": "Khư Mỗ",
+    "readings": [
+      "Khư",
+      "Mỗ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2180,
+    "character": "呆",
+    "character_name_vi": "Bảo Ngai Ngốc",
+    "readings": [
+      "Bảo",
+      "Ngai",
+      "Ngốc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2182,
+    "character": "咸",
+    "character_name_vi": "Giảm Hàm Hám",
+    "readings": [
+      "Giảm",
+      "Hàm",
+      "Hám"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2185,
+    "character": "囗",
+    "character_name_vi": "Vi Vy",
+    "readings": [
+      "Vi",
+      "Vy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2187,
+    "character": "壬",
+    "character_name_vi": "Nhâm nhậm",
+    "readings": [
+      "Nhâm",
+      "nhậm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2188,
+    "character": "夂",
+    "character_name_vi": "Tri Truy",
+    "readings": [
+      "Tri",
+      "Truy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2189,
+    "character": "夆",
+    "character_name_vi": "Phong Phùng",
+    "readings": [
+      "Phong",
+      "Phùng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2190,
+    "character": "复",
+    "character_name_vi": "Phú Phúc Phục Phức",
+    "readings": [
+      "Phú",
+      "Phúc",
+      "Phục",
+      "Phức"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2191,
+    "character": "夭",
+    "character_name_vi": "Yêu Yểu",
+    "readings": [
+      "Yêu",
+      "Yểu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2195,
+    "character": "尢",
+    "character_name_vi": "Ngột Uông",
+    "readings": [
+      "Ngột",
+      "Uông"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2198,
+    "character": "尹",
+    "character_name_vi": "Doãn Duẫn",
+    "readings": [
+      "Doãn",
+      "Duẫn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2200,
+    "character": "屰",
+    "character_name_vi": "Kích Nghịch",
+    "readings": [
+      "Kích",
+      "Nghịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2201,
+    "character": "巛",
+    "character_name_vi": "Khôn Xuyên",
+    "readings": [
+      "Khôn",
+      "Xuyên"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2203,
+    "character": "并",
+    "character_name_vi": "Bình Bính Phanh Tinh Tính Tỉnh Tịnh",
+    "readings": [
+      "Bình",
+      "Bính",
+      "Phanh",
+      "Tinh",
+      "Tính",
+      "Tỉnh",
+      "Tịnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2205,
+    "character": "广",
+    "character_name_vi": "Nghiễm Quáng Quảng Yểm",
+    "readings": [
+      "Nghiễm",
+      "Quáng",
+      "Quảng",
+      "Yểm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2207,
+    "character": "廾",
+    "character_name_vi": "Củng nhập trấp",
+    "readings": [
+      "Củng",
+      "nhập",
+      "trấp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2208,
+    "character": "廿",
+    "character_name_vi": "Chấp Nhập Trấp",
+    "readings": [
+      "Chấp",
+      "Nhập",
+      "Trấp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2210,
+    "character": "彐",
+    "character_name_vi": "Ký Kệ Tuyết",
+    "readings": [
+      "Ký",
+      "Kệ",
+      "Tuyết"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2211,
+    "character": "彡",
+    "character_name_vi": "Sam Tiệm",
+    "readings": [
+      "Sam",
+      "Tiệm"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2212,
+    "character": "彳",
+    "character_name_vi": "Sách xích",
+    "readings": [
+      "Sách",
+      "xích"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2217,
+    "character": "攴",
+    "character_name_vi": "Phác Phốc Phộc",
+    "readings": [
+      "Phác",
+      "Phốc",
+      "Phộc"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2218,
+    "character": "攵",
+    "character_name_vi": "Phác phốc phộc truy",
+    "readings": [
+      "Phác",
+      "phốc",
+      "phộc",
+      "truy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2220,
+    "character": "无",
+    "character_name_vi": "Mô Vô",
+    "readings": [
+      "Mô",
+      "Vô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2223,
+    "character": "曷",
+    "character_name_vi": "Hạt Át",
+    "readings": [
+      "Hạt",
+      "Át"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2224,
+    "character": "歹",
+    "character_name_vi": "Ngạt Đãi",
+    "readings": [
+      "Ngạt",
+      "Đãi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2226,
+    "character": "毋",
+    "character_name_vi": "Mưu Vô",
+    "readings": [
+      "Mưu",
+      "Vô"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2227,
+    "character": "气",
+    "character_name_vi": "Khí Khất",
+    "readings": [
+      "Khí",
+      "Khất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2229,
+    "character": "爿",
+    "character_name_vi": "Bản Tường",
+    "readings": [
+      "Bản",
+      "Tường"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2232,
+    "character": "疋",
+    "character_name_vi": "Nhã Sơ Thất",
+    "readings": [
+      "Nhã",
+      "Sơ",
+      "Thất"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2235,
+    "character": "禸",
+    "character_name_vi": "Nhụ Nhựu",
+    "readings": [
+      "Nhụ",
+      "Nhựu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2239,
+    "character": "而",
+    "character_name_vi": "Nhi Năng",
+    "readings": [
+      "Nhi",
+      "Năng"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2241,
+    "character": "聶",
+    "character_name_vi": "Chiệp Nhiếp Niếp Triệp",
+    "readings": [
+      "Chiệp",
+      "Nhiếp",
+      "Niếp",
+      "Triệp"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2243,
+    "character": "舛",
+    "character_name_vi": "Suyễn Xuyễn",
+    "readings": [
+      "Suyễn",
+      "Xuyễn"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2251,
+    "character": "豸",
+    "character_name_vi": "Trãi Trĩ Trại",
+    "readings": [
+      "Trãi",
+      "Trĩ",
+      "Trại"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2252,
+    "character": "辰",
+    "character_name_vi": "Thìn thần",
+    "readings": [
+      "Thìn",
+      "thần"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2258,
+    "character": "陏",
+    "character_name_vi": "Tuỳ Đoạ",
+    "readings": [
+      "Tuỳ",
+      "Đoạ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2259,
+    "character": "隶",
+    "character_name_vi": "Lệ Đãi",
+    "readings": [
+      "Lệ",
+      "Đãi"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2262,
+    "character": "韋",
+    "character_name_vi": "Vi Vy",
+    "readings": [
+      "Vi",
+      "Vy"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2264,
+    "character": "髟",
+    "character_name_vi": "Bưu Sam Tiêu",
+    "readings": [
+      "Bưu",
+      "Sam",
+      "Tiêu"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2266,
+    "character": "鬲",
+    "character_name_vi": "Cách Lịch",
+    "readings": [
+      "Cách",
+      "Lịch"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2268,
+    "character": "黃",
+    "character_name_vi": "Hoàng Huỳnh",
+    "readings": [
+      "Hoàng",
+      "Huỳnh"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2270,
+    "character": "齊",
+    "character_name_vi": "Trai Tê Tư Tế Tề Tễ",
+    "readings": [
+      "Trai",
+      "Tê",
+      "Tư",
+      "Tế",
+      "Tề",
+      "Tễ"
+    ],
+    "chosen_name": null
+  },
+  {
+    "id": 2272,
+    "character": "龍",
+    "character_name_vi": "Long Lũng Sủng",
+    "readings": [
+      "Long",
+      "Lũng",
+      "Sủng"
+    ],
+    "chosen_name": null
+  }
+]
