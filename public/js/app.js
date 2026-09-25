@@ -39,6 +39,8 @@ const dom = {
   listClose: document.getElementById("listClose"),
   listSearch: document.getElementById("listSearch"),
   listLevels: document.getElementById("listLevels"),
+  listFav: document.getElementById("listFav"),
+  listLearned: document.getElementById("listLearned"),
   listBody: document.getElementById("listBody"),
 };
 
@@ -51,6 +53,8 @@ const state = {
   layoutMode: "grid",
   jlpt: new Set(JLPT_LEVELS),
   listLevels: new Set(JLPT_LEVELS),
+  listFavOnly: false,
+  listLearnedOnly: false,
   learned: new Set(),
   favorites: new Set(),
   pinnedId: null,
@@ -533,6 +537,16 @@ function wireToolbar() {
     if (e.target.dataset.close) closeList();
   });
   dom.listSearch.addEventListener("input", renderList);
+  dom.listFav.addEventListener("click", () => {
+    state.listFavOnly = !state.listFavOnly;
+    dom.listFav.classList.toggle("active", state.listFavOnly);
+    renderList();
+  });
+  dom.listLearned.addEventListener("click", () => {
+    state.listLearnedOnly = !state.listLearnedOnly;
+    dom.listLearned.classList.toggle("active", state.listLearnedOnly);
+    renderList();
+  });
   dom.listBody.addEventListener("click", (e) => {
     const item = e.target.closest(".list-item");
     if (!item) return;
@@ -615,6 +629,8 @@ function buildListLevelChips() {
 function openList() {
   dom.listModal.hidden = false;
   buildListLevelChips();
+  dom.listFav.classList.toggle("active", state.listFavOnly);
+  dom.listLearned.classList.toggle("active", state.listLearnedOnly);
   renderList();
   dom.listSearch.focus();
 }
@@ -634,6 +650,8 @@ function renderList() {
   let total = 0;
   for (const entry of base) {
     if (!state.listLevels.has(entry.jlpt)) continue;
+    if (state.listFavOnly && !state.favorites.has(entry.character)) continue;
+    if (state.listLearnedOnly && !state.learned.has(entry.character)) continue;
     const bucket = groups.get(entry.jlpt);
     if (!bucket) continue;
     bucket.push(entry);

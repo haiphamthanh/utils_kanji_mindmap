@@ -1000,6 +1000,38 @@ button {
   padding: 0 16px 10px;
 }
 
+.list-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 0 16px 10px;
+}
+
+.mark-toggle {
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 2px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 13px;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.mark-toggle:hover {
+  background: var(--accent-soft);
+}
+
+.mark-toggle.active {
+  border-color: #e5a817;
+  color: #e5a817;
+}
+
+#listLearned.active {
+  border-color: #8aa0b8;
+  color: #8aa0b8;
+}
+
 .list-body {
   flex: 1;
   min-height: 0;
