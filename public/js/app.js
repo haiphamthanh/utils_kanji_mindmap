@@ -512,9 +512,9 @@ function hideSuggestions() {
 // =============================================================
 
 const LAYOUT_LABELS = {
-  tree: "Cây",
   radial: "Hướng tâm",
   "radial-compact": "Hướng tâm gọn",
+  grid: "Lưới",
 };
 
 function renderStatus(graph, layout) {

@@ -1,27 +1,31 @@
-// layout.js — chọn layout thích ứng theo số node.
+// layout.js — bố cục theo cấp dữ liệu.
 //
-//   tree    : 1 cấp 1 hàng, dễ đọc, hợp graph nhỏ.
-//   radial  : hướng tâm, hợp graph nhiều node.
-//   compact : radial với cung/vành nhỏ hơn cho graph rất lớn.
+//   radial : hướng tâm (tidy rings); tự dùng bản compact khi nhiều node.
+//   grid   : lưới gọn theo cấp, hợp vài trăm node.
 //
-// mode: "auto" (theo số node) | "tree" | "radial".
+// mode: "auto" | "radial" | "grid".
+// auto: <= 150 node -> radial, > 150 -> grid.
 
 const CENTER_R = 42;
 const NODE_R = 27;
 
-const GAP_X = 96;
-const GAP_Y = 150;
+// grid
+const GRID_X = 92;
+const GRID_Y = 90;
+const GRID_BAND = 64;
+const GRID_COLS = 16;
 
+// radial
 const RING_NORMAL = { arc: 86, gap: 124, r1: 120 };
 const RING_COMPACT = { arc: 64, gap: 96, r1: 108 };
 const TWO_PI = Math.PI * 2;
 
-const TREE_MAX = 24; // <= số này dùng tree
-const COMPACT_MIN = 150; // > số này dùng radial compact
+const COMPACT_MIN = 150;
+
+const MODES = ["radial", "grid"];
 
 export function computeLayout(graph, { mode = "auto" } = {}) {
   const radius = { center: CENTER_R, node: NODE_R };
-
   if (!graph.nodes.length) {
     return {
       nodes: [],
@@ -36,13 +40,18 @@ export function computeLayout(graph, { mode = "auto" } = {}) {
   const { center, upRoots, downRoots } = prepare(graph);
   const resolved = resolveMode(graph, mode);
   const compact = graph.nodes.length > COMPACT_MIN;
+  let label = resolved;
 
-  let label;
-  if (resolved === "tree") {
-    layoutTree(upRoots, downRoots, center);
-    label = "tree";
+  if (resolved === "grid") {
+    layoutGrid(graph, center);
   } else {
-    layoutRadial(graph, upRoots, downRoots, center, compact ? RING_COMPACT : RING_NORMAL);
+    layoutRadial(
+      graph,
+      upRoots,
+      downRoots,
+      center,
+      compact ? RING_COMPACT : RING_NORMAL
+    );
     label = compact ? "radial-compact" : "radial";
   }
 
@@ -59,8 +68,8 @@ export function computeLayout(graph, { mode = "auto" } = {}) {
 // -------------------------------------------------------------
 
 function resolveMode(graph, mode) {
-  if (mode === "tree" || mode === "radial") return mode;
-  return graph.nodes.length <= TREE_MAX ? "tree" : "radial";
+  if (mode !== "auto" && MODES.includes(mode)) return mode;
+  return graph.nodes.length > COMPACT_MIN ? "grid" : "radial";
 }
 
 function prepare(graph) {
@@ -100,45 +109,42 @@ function computeBounds(graph) {
   return { minX, maxX, minY, maxY };
 }
 
-// ---- tree (top-down, 1 cấp 1 hàng) --------------------------
+// ---- grid (bands by level) ----------------------------------
 
-function layoutTree(upRoots, downRoots, center) {
-  const forest = (roots) => {
-    let cursor = 0;
-    const walk = (node, depth) => {
-      node._depth = depth;
-      if (!node.children.length) {
-        node._x = cursor;
-        cursor += GAP_X;
-        return;
-      }
-      for (const child of node.children) walk(child, depth + 1);
-      const first = node.children[0];
-      const last = node.children[node.children.length - 1];
-      node._x = (first._x + last._x) / 2;
-    };
-    for (const root of roots) walk(root, 1);
-  };
+function layoutGrid(graph, center) {
+  const levels = [...new Set(graph.nodes.map((n) => n.dataLevel))].sort(
+    (a, b) => a - b
+  );
+  const byLevel = new Map(levels.map((l) => [l, []]));
+  for (const node of graph.nodes) byLevel.get(node.dataLevel).push(node);
 
-  const rootsCenter = (roots) =>
-    roots.length ? (roots[0]._x + roots[roots.length - 1]._x) / 2 : 0;
+  const xOf = new Map();
+  let y = 0;
 
-  const apply = (node, dir, originX) => {
-    node.x = node._x - originX;
-    node.y = dir * node._depth * GAP_Y;
-    for (const child of node.children) apply(child, dir, originX);
-  };
+  for (const lv of levels) {
+    const list = byLevel.get(lv).slice();
+    list.sort((a, b) => {
+      const pa = a.isCenter ? 0 : xOf.get(a.parent) ?? 0;
+      const pb = b.isCenter ? 0 : xOf.get(b.parent) ?? 0;
+      return pa - pb;
+    });
 
-  forest(upRoots);
-  const upOrigin = rootsCenter(upRoots);
-  forest(downRoots);
-  const downOrigin = rootsCenter(downRoots);
+    const cols = Math.min(list.length, GRID_COLS);
+    const rows = Math.ceil(list.length / cols);
+    for (let i = 0; i < list.length; i++) {
+      const row = Math.floor(i / cols);
+      const col = i % cols;
+      const rowCount = Math.min(cols, list.length - row * cols);
+      const x = (col - (rowCount - 1) / 2) * GRID_X;
+      list[i].x = x;
+      list[i].y = y + row * GRID_Y;
+      xOf.set(list[i].id, x);
+    }
+    y += rows * GRID_Y + GRID_BAND;
+  }
 
-  for (const node of upRoots) apply(node, -1, upOrigin);
-  for (const node of downRoots) apply(node, 1, downOrigin);
-
-  center.x = 0;
-  center.y = 0;
+  const shift = center.y || 0;
+  for (const node of graph.nodes) node.y -= shift;
 }
 
 // ---- radial (tidy rings) ------------------------------------
@@ -221,18 +227,15 @@ function layoutRadial(graph, upRoots, downRoots, center, ring) {
     prevR = r;
   }
 
-  applyRadial(center, upRoots, radii, ring.r1);
-  applyRadial(center, downRoots, radii, ring.r1);
-}
-
-function applyRadial(center, roots, radii, fallbackR) {
-  const walk = (node) => {
-    const r = radii.get(node._depth) || fallbackR;
+  const walkApply = (node) => {
+    const r = radii.get(node._depth) || ring.r1;
     node.x = Math.cos(node._angle) * r;
     node.y = Math.sin(node._angle) * r;
-    for (const child of node.children) walk(child);
+    for (const child of node.children) walkApply(child);
   };
-  for (const root of roots) walk(root);
+  for (const root of upRoots) walkApply(root);
+  for (const root of downRoots) walkApply(root);
+
   center.x = 0;
   center.y = 0;
 }
