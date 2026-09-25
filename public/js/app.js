@@ -2,7 +2,7 @@
 
 import { loadData, searchKanji } from "./data.js";
 import { buildGraph } from "./graph.js";
-import { computeLayout } from "./layout.js";
+import { computeLayout, edgePath } from "./layout.js";
 import { renderGraph, renderDetail, jlptColor } from "./render.js";
 import { playEnter, playExit } from "./animation.js";
 import { createViewport } from "./interaction.js";
@@ -64,6 +64,8 @@ const state = {
 };
 
 let nodeClickTimer = null;
+let posAnim = null;
+let currentPositions = new Map();
 
 const viewport = createViewport(dom.svg, dom.viewport);
 
@@ -128,6 +130,9 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   }
   hideEmpty();
 
+  cancelAnimationFrame(posAnim);
+  posAnim = null;
+
   const pinned = state.pinnedId;
 
   const graph = buildGraph(state.center, {
@@ -146,6 +151,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
     learned: state.learned,
     favorites: state.favorites,
   });
+  currentPositions = layoutPositions();
 
   bindNodeEvents(state.rendered);
 
@@ -154,6 +160,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
     state.pinnedId = pinned;
     applyFocus(pinned);
     markPinned(pinned);
+    applyPositions(focusPositions(pinned));
   } else {
     state.pinnedId = null;
   }
@@ -253,6 +260,7 @@ function pinFocus(id) {
   applyFocus(id);
   markPinned(id);
   renderDetailPanel(id);
+  animatePositions(focusPositions(id));
 }
 
 function unpinFocus() {
@@ -260,6 +268,7 @@ function unpinFocus() {
   state.pinnedId = null;
   clearFocus();
   renderDetailPanel(state.center);
+  animatePositions(layoutPositions());
 }
 
 function markPinned(id) {
@@ -268,16 +277,128 @@ function markPinned(id) {
   }
 }
 
-function applyFocus(id) {
+// Tập node liên quan tới id (dựa trên các cạnh).
+function relatedSet(id) {
   const related = new Set([id, state.center]);
+  for (const edge of dom.edges.children) {
+    if (edge.dataset.source === id || edge.dataset.target === id) {
+      related.add(edge.dataset.source);
+      related.add(edge.dataset.target);
+    }
+  }
+  return related;
+}
+
+// Vị trí rút ngắn: kéo các node liên quan về phía node được ghim.
+function focusPositions(pinnedId) {
+  if (!state.layout) return null;
+  const pin = state.layout.nodes.find((n) => n.id === pinnedId);
+  if (!pin) return null;
+
+  const related = relatedSet(pinnedId);
+  const factor = 0.55;
+  const MIN = 64;
+  const pos = new Map();
+
+  for (const n of state.layout.nodes) {
+    if (n.id !== pinnedId && related.has(n.id)) {
+      pos.set(n.id, {
+        x: pin.x + (n.x - pin.x) * factor,
+        y: pin.y + (n.y - pin.y) * factor,
+      });
+    } else {
+      pos.set(n.id, { x: n.x, y: n.y });
+    }
+  }
+
+  // Đẩy các node liên quan ra để không chồng nhau (giữ node ghim cố định).
+  const ids = [...related];
+  for (let iter = 0; iter < 6; iter++) {
+    let moved = false;
+    for (let i = 0; i < ids.length; i++) {
+      for (let j = i + 1; j < ids.length; j++) {
+        const a = ids[i];
+        const b = ids[j];
+        const pa = pos.get(a);
+        const pb = pos.get(b);
+        const dx = pb.x - pa.x;
+        const dy = pb.y - pa.y;
+        const d = Math.hypot(dx, dy) || 0.001;
+        if (d >= MIN) continue;
+        const push = (MIN - d) / 2;
+        const ux = dx / d;
+        const uy = dy / d;
+        if (a === pinnedId) {
+          pb.x += ux * 2 * push;
+          pb.y += uy * 2 * push;
+        } else if (b === pinnedId) {
+          pa.x -= ux * 2 * push;
+          pa.y -= uy * 2 * push;
+        } else {
+          pa.x -= ux * push;
+          pa.y -= uy * push;
+          pb.x += ux * push;
+          pb.y += uy * push;
+        }
+        moved = true;
+      }
+    }
+    if (!moved) break;
+  }
+
+  return pos;
+}
+
+function applyPositions(pos) {
+  if (!pos || !state.rendered) return;
+  for (const el of state.rendered.nodeEls) {
+    const p = pos.get(el.dataset.id);
+    if (p) el.setAttribute("transform", `translate(${p.x} ${p.y})`);
+  }
+  for (const path of state.rendered.edgeEls) {
+    const a = pos.get(path.dataset.source);
+    const b = pos.get(path.dataset.target);
+    if (a && b) path.setAttribute("d", edgePath(a, b));
+  }
+  currentPositions = new Map(pos);
+}
+
+function layoutPositions() {
+  const pos = new Map();
+  if (state.layout) {
+    for (const n of state.layout.nodes) pos.set(n.id, { x: n.x, y: n.y });
+  }
+  return pos;
+}
+
+// Nội suy vị trí từ currentPositions -> target cho mượt.
+function animatePositions(target) {
+  if (!target) return;
+  cancelAnimationFrame(posAnim);
+  const from = new Map(currentPositions);
+  const t0 = performance.now();
+  const duration = 260;
+
+  const step = (t) => {
+    const k = Math.min(1, (t - t0) / duration);
+    const e = 1 - Math.pow(1 - k, 3);
+    const pos = new Map();
+    for (const [id, f] of from) {
+      const g = target.get(id) || f;
+      pos.set(id, { x: f.x + (g.x - f.x) * e, y: f.y + (g.y - f.y) * e });
+    }
+    applyPositions(pos);
+    if (k < 1) posAnim = requestAnimationFrame(step);
+  };
+  posAnim = requestAnimationFrame(step);
+}
+
+function applyFocus(id) {
+  const related = relatedSet(id);
 
   for (const edge of dom.edges.children) {
     const touches = edge.dataset.source === id || edge.dataset.target === id;
     edge.classList.toggle("highlight", touches);
-    if (touches) {
-      related.add(edge.dataset.source);
-      related.add(edge.dataset.target);
-    }
   }
 
   for (const node of dom.nodes.children) {
