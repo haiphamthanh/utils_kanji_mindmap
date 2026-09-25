@@ -107,6 +107,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
     return;
   }
   hideEmpty();
+  enforceDepthLimit();
 
   const graph = buildGraph(state.center, {
     depth: state.depth,
@@ -138,6 +139,38 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   renderStatus(graph, layout);
 
   if (push) updateURL(state.center);
+}
+
+// =============================================================
+// Depth limit: chỉ cho độ sâu 3 khi quanh center có <= 30 node
+// =============================================================
+
+const MAX_SURROUND = 30;
+
+function surroundingCount() {
+  if (!state.data || !state.center) return 0;
+  const probe = buildGraph(state.center, {
+    depth: 2,
+    data: state.data,
+    jlpt: state.jlpt,
+  });
+  return Math.max(0, probe.nodes.length - 1);
+}
+
+function enforceDepthLimit() {
+  const count = surroundingCount();
+  const blocked = count > MAX_SURROUND;
+  const opt3 = dom.depthSelect.querySelector('option[value="3"]');
+  if (opt3) opt3.disabled = blocked;
+
+  dom.depthSelect.title = blocked
+    ? `Có ${count} node quanh center (> ${MAX_SURROUND}) nên không chọn được độ sâu 3`
+    : "Số cấp độ hiển thị";
+
+  if (blocked && state.depth === 3) {
+    state.depth = 2;
+    dom.depthSelect.value = "2";
+  }
 }
 
 function setCenter(id, { mode = "navigate", animate = true } = {}) {
