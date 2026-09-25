@@ -661,12 +661,62 @@ button {
 
 .detail-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: 20px;
 }
 
-.detail-actions button {
-  flex: 1;
+.detail-actions .mark-btn {
+  flex: 1 1 auto;
+  padding: 10px 14px;
+  border-radius: 11px;
+  background: var(--bg-soft);
+  color: var(--text);
+  font-weight: 600;
+  transition: background 0.12s, color 0.12s, transform 0.12s var(--ease-out);
+}
+
+.detail-actions .mark-btn:hover {
+  background: var(--accent-soft);
+}
+
+.detail-actions .mark-btn.is-on {
+  background: #8aa0b8;
+  color: #fff;
+}
+
+.detail-actions .fav-btn {
+  flex: 0 0 44px;
+  padding: 10px 0;
+  border-radius: 11px;
+  background: var(--bg-soft);
+  color: #e5a817;
+  font-size: 18px;
+  line-height: 1;
+  transition: background 0.12s, color 0.12s, transform 0.12s var(--ease-out);
+}
+
+.detail-actions .fav-btn:hover {
+  background: var(--accent-soft);
+}
+
+.detail-actions .fav-btn.is-on {
+  background: #e5a817;
+  color: #fff;
+}
+
+.detail-actions .primary-btn {
+  flex: 1 1 100%;
+}
+
+.fav-star {
+  fill: #e5a817;
+  pointer-events: none;
+  user-select: none;
+}
+
+.list-item .li-fav {
+  color: #e5a817;
 }
 
 /* ============================================================

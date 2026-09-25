@@ -51,6 +51,8 @@ const state = {
   layoutMode: "grid",
   jlpt: new Set(JLPT_LEVELS),
   listLevels: new Set(JLPT_LEVELS),
+  learned: new Set(),
+  favorites: new Set(),
   pinnedId: null,
   path: [],
   rendered: null,
@@ -83,6 +85,8 @@ async function init() {
     showEmpty("Không tải được dữ liệu Kanji.");
     return;
   }
+
+  await loadMarks();
 
   const params = new URLSearchParams(location.search);
   const initial = params.get("kanji") || DEFAULT_KANJI;
@@ -134,7 +138,10 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   const layout = computeLayout(graph, { mode: state.layoutMode });
   state.layout = layout;
-  state.rendered = renderGraph(layout, state.data, dom);
+  state.rendered = renderGraph(layout, state.data, dom, {
+    learned: state.learned,
+    favorites: state.favorites,
+  });
 
   bindNodeEvents(state.rendered);
 
@@ -316,17 +323,65 @@ function hideTooltip() {
 function renderDetailPanel(id) {
   const entry = state.data.kanji[id];
   if (!entry) return;
-  dom.detailPanel.innerHTML = renderDetail(entry, state.data);
+  dom.detailPanel.innerHTML = renderDetail(entry, state.data, {
+    learned: state.learned,
+    favorites: state.favorites,
+  });
   dom.detailPanel.hidden = false;
 
-  const btn = dom.detailPanel.querySelector("[data-action='copy']");
-  if (btn) {
-    btn.addEventListener("click", () => {
+  const copyBtn = dom.detailPanel.querySelector("[data-action='copy']");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", () => {
       const url = `${location.origin}${location.pathname}?kanji=${encodeURIComponent(id)}`;
       navigator.clipboard?.writeText(url);
-      btn.textContent = "Đã sao chép!";
-      setTimeout(() => (btn.textContent = "Sao chép liên kết"), 1200);
+      copyBtn.textContent = "Đã sao chép!";
+      setTimeout(() => (copyBtn.textContent = "Sao chép liên kết"), 1200);
     });
+  }
+
+  const learnedBtn = dom.detailPanel.querySelector("[data-action='learned']");
+  if (learnedBtn) {
+    learnedBtn.addEventListener("click", () => toggleMark("learned", id));
+  }
+
+  const favBtn = dom.detailPanel.querySelector("[data-action='favorite']");
+  if (favBtn) {
+    favBtn.addEventListener("click", () => toggleMark("favorites", id));
+  }
+}
+
+// =============================================================
+// Marks: đã nhớ / yêu thích (lưu server-side)
+// =============================================================
+
+async function loadMarks() {
+  try {
+    const res = await fetch("/api/marks");
+    if (!res.ok) return;
+    const marks = await res.json();
+    state.learned = new Set(marks.learned || []);
+    state.favorites = new Set(marks.favorites || []);
+  } catch (_) {
+    /* offline: giữ rỗng */
+  }
+}
+
+async function toggleMark(kind, id) {
+  const set = kind === "learned" ? state.learned : state.favorites;
+  const value = !set.has(id);
+  if (value) set.add(id);
+  else set.delete(id);
+
+  renderCurrent({ animate: false, fit: false, push: false });
+
+  try {
+    await fetch(`/api/marks/${kind}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ character: id, value }),
+    });
+  } catch (err) {
+    console.error("Không lưu được đánh dấu", err);
   }
 }
 
@@ -594,11 +649,13 @@ function renderList() {
     for (const entry of items) {
       if (shown >= MAX_LIST) break;
       const meaning = (entry.meanings_vi || []).slice(0, 2).join(", ");
+      const learned = state.learned.has(entry.character);
+      const fav = state.favorites.has(entry.character);
       html += `
-        <button class="list-item" data-id="${entry.character}">
-          <span class="li-char" style="--jlpt:${jlptColor(entry.jlpt)}">${entry.character}</span>
+        <button class="list-item${learned ? " learned" : ""}" data-id="${entry.character}">
+          <span class="li-char" style="--jlpt:${learned ? "#8aa0b8" : jlptColor(entry.jlpt)}">${entry.character}</span>
           <span class="li-meta">
-            <span class="li-name">${entry.chosen_name || "—"}</span>
+            <span class="li-name">${entry.chosen_name || "—"}${fav ? ' <span class="li-fav">★</span>' : ""}</span>
             <span class="li-meaning">${meaning || "—"}</span>
           </span>
         </button>`;

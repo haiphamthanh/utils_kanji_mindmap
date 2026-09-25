@@ -16,11 +16,16 @@ export function jlptColor(jlpt) {
   return JLPT_COLORS[jlpt] || "#8aa0b8";
 }
 
+export const LEARNED_COLOR = "#8aa0b8";
+
 /**
  * Draw the graph into the SVG groups. Returns element lists for animation
  * and a position map for hit-testing / highlighting.
  */
-export function renderGraph(layout, data, dom) {
+export function renderGraph(layout, data, dom, marks = {}) {
+  const learned = marks.learned || new Set();
+  const favorites = marks.favorites || new Set();
+
   dom.edges.replaceChildren();
   dom.nodes.replaceChildren();
 
@@ -46,12 +51,20 @@ export function renderGraph(layout, data, dom) {
   for (const node of layout.nodes) {
     const entry = data.kanji[node.id] || {};
     const isCenter = node.isCenter;
+    const isLearned = learned.has(node.id);
+    const isFav = favorites.has(node.id);
 
     const g = document.createElementNS(NS, "g");
-    g.setAttribute("class", `kanji-node${isCenter ? " center" : ""}`);
+    g.setAttribute(
+      "class",
+      `kanji-node${isCenter ? " center" : ""}${isLearned ? " learned" : ""}`
+    );
     g.setAttribute("transform", `translate(${node.x} ${node.y})`);
     g.dataset.id = node.id;
-    g.style.setProperty("--jlpt", jlptColor(entry.jlpt));
+    g.style.setProperty(
+      "--jlpt",
+      isLearned ? LEARNED_COLOR : jlptColor(entry.jlpt)
+    );
 
     const inner = document.createElementNS(NS, "g");
     inner.setAttribute("class", "node-inner");
@@ -67,6 +80,20 @@ export function renderGraph(layout, data, dom) {
 
     inner.append(circle, text);
     g.appendChild(inner);
+
+    if (isFav) {
+      const r = isCenter ? layout.radius.center : layout.radius.node;
+      const star = document.createElementNS(NS, "text");
+      star.setAttribute("class", "fav-star");
+      star.setAttribute("x", r * 0.72);
+      star.setAttribute("y", -r * 0.72);
+      star.setAttribute("text-anchor", "middle");
+      star.setAttribute("dominant-baseline", "central");
+      star.setAttribute("font-size", isCenter ? 20 : 16);
+      star.textContent = "★";
+      g.appendChild(star);
+    }
+
     dom.nodes.appendChild(g);
     nodeEls.push(g);
   }
@@ -77,7 +104,7 @@ export function renderGraph(layout, data, dom) {
 /**
  * Fill the detail panel for a kanji entry.
  */
-export function renderDetail(entry, data) {
+export function renderDetail(entry, data, marks = {}) {
   if (!entry) return "";
 
   const ch = entry.character;
@@ -86,6 +113,8 @@ export function renderDetail(entry, data) {
   const components = entry.components || [];
   const upCount = (data.upAdj.get(ch) || []).length;
   const downCount = (data.downAdj.get(ch) || []).length;
+  const learned = marks.learned ? marks.learned.has(ch) : false;
+  const fav = marks.favorites ? marks.favorites.has(ch) : false;
 
   const componentTags = components
     .map((c) => `<span class="tag">${c}</span>`)
@@ -97,11 +126,12 @@ export function renderDetail(entry, data) {
       : "";
 
   return `
-    <div class="detail-head" style="--jlpt:${jlptColor(entry.jlpt)}">
+    <div class="detail-head" style="--jlpt:${learned ? LEARNED_COLOR : jlptColor(entry.jlpt)}">
       <div class="detail-char">${entry.character}</div>
       <div class="detail-title">
         ${entry.jlpt ? `<span class="detail-badge">${entry.jlpt}</span>` : ""}
         <span class="detail-badge">Cấp ${lv ?? "—"}</span>
+        ${learned ? `<span class="detail-badge">Đã nhớ</span>` : ""}
         <span class="detail-sub">${entry.chosen_name || ""}</span>
       </div>
     </div>
@@ -140,6 +170,12 @@ export function renderDetail(entry, data) {
     </div>
 
     <div class="detail-actions">
+      <button class="mark-btn${learned ? " is-on" : ""}" data-action="learned">
+        ${learned ? "✓ Đã nhớ" : "Đánh dấu đã nhớ"}
+      </button>
+      <button class="fav-btn${fav ? " is-on" : ""}" data-action="favorite" title="Yêu thích">
+        ${fav ? "★" : "☆"}
+      </button>
       <button class="primary-btn" data-action="copy">Sao chép liên kết</button>
     </div>
   `;
