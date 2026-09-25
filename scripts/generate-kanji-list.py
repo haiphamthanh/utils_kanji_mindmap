@@ -37,6 +37,19 @@ URLS = {
                       "r20250816/kanjivg-20250816.xml.gz",
     "Unihan.zip": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
     "CJKRadicals.txt": "https://www.unicode.org/Public/17.0.0/ucd/CJKRadicals.txt",
+    # JLPT (2 nguồn độc lập, khớp nhau 100% ở phần giao)
+    "anchor_jlpt.json": "https://raw.githubusercontent.com/AnchorI/jlpt-kanji-dictionary/main/jlpt-kanji.json",
+    "openjlpt_n5.json": "https://raw.githubusercontent.com/evanclan/OpenJLPT/main/data/json/kanji/n5.json",
+    "openjlpt_n4.json": "https://raw.githubusercontent.com/evanclan/OpenJLPT/main/data/json/kanji/n4.json",
+    "openjlpt_n3.json": "https://raw.githubusercontent.com/evanclan/OpenJLPT/main/data/json/kanji/n3.json",
+    "openjlpt_n2.json": "https://raw.githubusercontent.com/evanclan/OpenJLPT/main/data/json/kanji/n2.json",
+    "openjlpt_n1.json": "https://raw.githubusercontent.com/evanclan/OpenJLPT/main/data/json/kanji/n1.json",
+}
+
+# Biến thể -> chữ dùng để tra JLPT.
+JLPT_VARIANTS = {
+    "𠮟": "叱",  # 𠮟 (Jōyō 2010) = 叱
+    "剝": "剥",
 }
 
 # Chuẩn hóa các dạng bộ/viết tắt không nằm trong bảng tự động.
@@ -128,6 +141,11 @@ def ensure_sources(cache):
     files["unihan"] = os.path.join(unihan_dir, "Unihan_IRGSources.txt")
 
     files["cjkradicals"] = paths["CJKRadicals.txt"]
+
+    # JLPT sources
+    files["anchor_jlpt.json"] = paths["anchor_jlpt.json"]
+    for lv in ("n5", "n4", "n3", "n2", "n1"):
+        files[f"openjlpt_{lv}.json"] = paths[f"openjlpt_{lv}.json"]
     return files
 
 
@@ -257,6 +275,25 @@ def clean_meanings(meanings):
         if m and m not in out:
             out.append(m)
     return out
+
+
+def load_jlpt(paths):
+    """JLPT N5..N1 từ OpenJLPT + AnchorI (2 nguồn khớp nhau ở phần giao)."""
+    jlpt = {}
+    for lv in ("n5", "n4", "n3", "n2", "n1"):
+        p = paths.get(f"openjlpt_{lv}.json")
+        if p and os.path.exists(p):
+            for e in json.load(open(p, encoding="utf-8")):
+                ch = e.get("character")
+                if ch and ch not in jlpt:
+                    jlpt[ch] = e.get("level")
+    p = paths.get("anchor_jlpt.json")
+    if p and os.path.exists(p):
+        for e in json.load(open(p, encoding="utf-8")):
+            ch = e.get("kanji") or e.get("utf")
+            if ch:
+                jlpt[ch] = e.get("jlpt") or jlpt.get(ch)
+    return jlpt
 
 
 def main():
@@ -460,6 +497,18 @@ def main():
             "biggest_component": best,
         })
 
+    # JLPT N5..N1; bộ/phụ kiện không có JLPT -> "Rad"; còn lại null.
+    jlpt_map = load_jlpt(src)
+    for r in records:
+        ch = r["character"]
+        found = jlpt_map.get(ch) or jlpt_map.get(JLPT_VARIANTS.get(ch, ch))
+        if found:
+            r["jlpt"] = found
+        elif ch not in joyo_chars:
+            r["jlpt"] = "Rad"
+        else:
+            r["jlpt"] = None
+
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(records, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
@@ -469,6 +518,11 @@ def main():
     json.dump(contains, open(contains_path, "w", encoding="utf-8"), ensure_ascii=False)
 
     print(f"[generate] {len(records)} chữ -> {os.path.relpath(OUT, ROOT)}")
+    dist = {}
+    for r in records:
+        key = r["jlpt"] or "—"
+        dist[key] = dist.get(key, 0) + 1
+    print("[generate] JLPT:", " ".join(f"{k}={dist[k]}" for k in sorted(dist)))
     if missing_strokes:
         print(f"[generate] {len(missing_strokes)} chữ có component thiếu số nét:")
         for c, comps in missing_strokes[:20]:

@@ -1,28 +1,28 @@
-// graph.js — turn the dataset into a small, renderable subgraph.
+// graph.js — turn data/final/level.json into a small, renderable subgraph.
 
 /**
- * buildGraph walks the relation graph from a root kanji.
+ * buildGraph walks the level graph from a root kanji.
  *
- * @param {string} root            literal of the center kanji
+ * @param {string} root            character of the center kanji
  * @param {object} opts
  * @param {number} opts.depth      how many levels to expand
  * @param {"children"|"reverse"} opts.direction
- *        children = kanji that CONTAIN root (default)
- *        reverse  = components that MAKE UP root
- * @param {object} opts.data       loaded dataset (kanji, outAdj, inAdj)
- * @param {Set<string>} opts.jlpt  active JLPT levels
+ *        children = đi lên chữ phức tạp hơn (level1 -> level2 -> level3)
+ *        reverse  = bóc thành phần đơn giản hơn (level3 -> level2 -> level1)
+ * @param {object} opts.data       loaded dataset (kanji, level, upAdj, downAdj)
+ * @param {Set<number>} opts.levels  cấp độ đang bật (1,2,3)
  * @returns {{root:string, nodes:Array, edges:Array, direction:string}}
  */
 export function buildGraph(root, opts) {
-  const { depth, direction, data, jlpt } = opts;
-  const { kanji, outAdj, inAdj } = data;
+  const { depth, direction, data, levels } = opts;
+  const adj = direction === "reverse" ? data.downAdj : data.upAdj;
 
   const nodes = new Map();
   nodes.set(root, { id: root, level: 0 });
 
   const edges = [];
   const edgeKeys = new Set();
-  const visited = new Set([root]); // cycle guard (see idea #29)
+  const visited = new Set([root]); // cycle guard
 
   let frontier = [root];
 
@@ -30,18 +30,16 @@ export function buildGraph(root, opts) {
     const next = [];
 
     for (const id of frontier) {
-      const list =
-        direction === "reverse"
-          ? inAdj.get(id) || []
-          : outAdj.get(id) || [];
+      const list = adj.get(id) || [];
 
-      for (const edge of list) {
-        const other = direction === "reverse" ? edge.from : edge.to;
+      for (const other of list) {
         if (visited.has(other)) continue;
 
-        const entry = kanji[other];
+        const entry = data.kanji[other];
         if (!entry) continue;
-        if (jlpt && !jlpt.has(entry.jlpt)) continue;
+
+        const otherLevel = data.level[other] && data.level[other].level;
+        if (levels && otherLevel && !levels.has(otherLevel)) continue;
 
         const key = `${id}->${other}`;
         if (edgeKeys.has(key)) continue;
@@ -52,8 +50,8 @@ export function buildGraph(root, opts) {
         edges.push({
           source: id,
           target: other,
-          type: edge.type || "component",
-          position: edge.position || null,
+          type: direction === "reverse" ? "component" : "expand",
+          position: null,
         });
         next.push(other);
       }

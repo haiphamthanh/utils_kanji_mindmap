@@ -64,6 +64,7 @@ def main():
             if r["character"] not in members:
                 continue
             entry = dict(r)
+            entry.pop("jlpt", None)  # chỉ kanji-list/kanji.json chứa jlpt
             bc = r["biggest_component"]
             if bc in id_of:
                 entry["biggest_component_id"] = id_of[bc]

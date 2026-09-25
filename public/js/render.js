@@ -4,16 +4,14 @@ import { edgePath } from "./layout.js";
 
 const NS = "http://www.w3.org/2000/svg";
 
-export const JLPT_COLORS = {
-  N5: "#22b573",
-  N4: "#2778d8",
-  N3: "#7c4dcc",
-  N2: "#e5a817",
-  N1: "#d94b4b",
+export const LEVEL_COLORS = {
+  1: "#22b573",
+  2: "#2778d8",
+  3: "#7c4dcc",
 };
 
-export function jlptColor(level) {
-  return JLPT_COLORS[level] || "#8aa0b8";
+export function levelColor(level) {
+  return LEVEL_COLORS[level] || "#8aa0b8";
 }
 
 /**
@@ -45,13 +43,14 @@ export function renderGraph(layout, data, dom) {
   const nodeEls = [];
   for (const node of layout.nodes) {
     const entry = data.kanji[node.id] || {};
+    const lv = data.level[node.id] && data.level[node.id].level;
     const isCenter = node.level === 0;
 
     const g = document.createElementNS(NS, "g");
     g.setAttribute("class", `kanji-node${isCenter ? " center" : ""}`);
     g.setAttribute("transform", `translate(${node.x} ${node.y})`);
     g.dataset.id = node.id;
-    g.style.setProperty("--jlpt", jlptColor(entry.jlpt));
+    g.style.setProperty("--jlpt", levelColor(lv));
 
     const inner = document.createElementNS(NS, "g");
     inner.setAttribute("class", "node-inner");
@@ -80,47 +79,40 @@ export function renderGraph(layout, data, dom) {
 export function renderDetail(entry, data) {
   if (!entry) return "";
 
-  const on = (entry.readings && entry.readings.on) || [];
-  const kun = (entry.readings && entry.readings.kun) || [];
-  const vi = (entry.meanings && entry.meanings.vi) || [];
-  const en = (entry.meanings && entry.meanings.en) || [];
+  const ch = entry.character;
+  const lv = data.level[ch] && data.level[ch].level;
+  const vi = entry.meanings_vi || [];
   const components = entry.components || [];
-  const outCount = (data.outAdj.get(entry.literal) || []).length;
-  const inCount = (data.inAdj.get(entry.literal) || []).length;
-
-  const readingRows = [];
-  if (on.length) {
-    readingRows.push(
-      `<div class="detail-reading"><span class="label">On</span>${on.join("、")}</div>`
-    );
-  }
-  if (kun.length) {
-    readingRows.push(
-      `<div class="detail-reading"><span class="label">Kun</span>${kun.join("、")}</div>`
-    );
-  }
+  const upCount = (data.upAdj.get(ch) || []).length;
+  const downCount = (data.downAdj.get(ch) || []).length;
 
   const componentTags = components
-    .map((c) => `<span class="tag">${c.character}</span>`)
+    .map((c) => `<span class="tag">${c}</span>`)
     .join("");
 
+  const alias =
+    entry.character_name_vi && entry.character_name_vi !== entry.chosen_name
+      ? `<span class="detail-sub">(${entry.character_name_vi})</span>`
+      : "";
+
   return `
-    <div class="detail-head" style="--jlpt:${jlptColor(entry.jlpt)}">
-      <div class="detail-char">${entry.literal}</div>
+    <div class="detail-head" style="--jlpt:${levelColor(lv)}">
+      <div class="detail-char">${entry.character}</div>
       <div class="detail-title">
-        <span class="detail-badge">${entry.jlpt || "—"}</span>
-        <span class="detail-sub">${entry.stroke_count || "?"} nét</span>
+        <span class="detail-badge">Cấp ${lv ?? "—"}</span>
+        ${entry.jlpt ? `<span class="detail-badge">${entry.jlpt}</span>` : ""}
+        <span class="detail-sub">${entry.chosen_name || ""}</span>
       </div>
     </div>
 
     <div class="detail-section">
-      <h3>Cách đọc</h3>
-      ${readingRows.join("") || '<div class="detail-sub">—</div>'}
+      <h3>Tên Hán-Việt</h3>
+      <div class="detail-meaning">${entry.chosen_name || "—"} ${alias}</div>
     </div>
 
     <div class="detail-section">
       <h3>Nghĩa</h3>
-      <div class="detail-meaning">${vi.join(", ") || en.join(", ") || "—"}</div>
+      <div class="detail-meaning">${vi.join(", ") || "—"}</div>
     </div>
 
     ${
@@ -132,9 +124,18 @@ export function renderDetail(entry, data) {
         : ""
     }
 
+    ${
+      entry.biggest_component
+        ? `<div class="detail-section">
+             <h3>Bộ chính</h3>
+             <div class="detail-meaning">${entry.biggest_component}</div>
+           </div>`
+        : ""
+    }
+
     <div class="detail-section">
       <h3>Quan hệ</h3>
-      <div class="detail-sub">Chứa bộ phận: ${outCount} · Nằm trong: ${inCount}</div>
+      <div class="detail-sub">Bóc thành phần: ${downCount} · Đi lên: ${upCount}</div>
     </div>
 
     <div class="detail-actions">

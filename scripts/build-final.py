@@ -41,6 +41,7 @@ def main():
             "character": r["character"],
             "character_name_vi": name,
             "chosen_name": chosen,
+            "jlpt": r.get("jlpt"),
             "meanings_vi": r["meanings_vi"],
             "components": r["components"],
             "biggest_component": r["biggest_component"],

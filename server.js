@@ -4,6 +4,15 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Dữ liệu runtime lấy trực tiếp từ data/final/ (nguồn chuẩn).
+app.use(
+  "/data",
+  express.static(path.join(__dirname, "data", "final"), {
+    etag: false,
+    maxAge: 0,
+  })
+);
+
 app.use(
   express.static(path.join(__dirname, "public"), {
     etag: false,

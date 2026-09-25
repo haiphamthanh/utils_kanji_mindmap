@@ -3,11 +3,11 @@
 import { loadData, searchKanji } from "./data.js";
 import { buildGraph } from "./graph.js";
 import { computeLayout } from "./layout.js";
-import { renderGraph, renderDetail, jlptColor } from "./render.js";
+import { renderGraph, renderDetail, levelColor } from "./render.js";
 import { playEnter, playExit } from "./animation.js";
 import { createViewport } from "./interaction.js";
 
-const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
+const LEVELS = [1, 2, 3];
 const DEFAULT_KANJI = "車";
 
 const dom = {
@@ -41,7 +41,7 @@ const state = {
   center: null,
   depth: 2,
   reverse: false,
-  jlpt: new Set(JLPT_LEVELS),
+  levels: new Set(LEVELS),
   path: [],
   rendered: null,
   layout: null,
@@ -57,7 +57,7 @@ init();
 
 async function init() {
   initTheme();
-  buildJlptChips();
+  buildLevelChips();
   wireToolbar();
   wireKeyboard();
   viewport.onChange(({ scale }) => {
@@ -112,7 +112,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
     depth: state.depth,
     direction: state.reverse ? "reverse" : "children",
     data: state.data,
-    jlpt: state.jlpt,
+    levels: state.levels,
   });
 
   if (animate && state.rendered) {
@@ -241,16 +241,15 @@ function showTooltip(el, entry) {
   const areaRect = dom.area.getBoundingClientRect();
   const rect = el.getBoundingClientRect();
 
-  const kun = (entry.readings && entry.readings.kun) || [];
-  const on = (entry.readings && entry.readings.on) || [];
-  const vi = (entry.meanings && entry.meanings.vi) || [];
+  const vi = entry.meanings_vi || [];
+  const lv = state.data.level[entry.character]?.level;
 
   dom.tooltip.innerHTML = `
     <div class="tooltip-char">
-      ${entry.literal}
-      <span class="detail-badge" style="--jlpt:${jlptColor(entry.jlpt)}">${entry.jlpt || ""}</span>
+      ${entry.character}
+      <span class="detail-badge" style="--jlpt:${levelColor(lv)}">Cấp ${lv ?? "—"}</span>
     </div>
-    <div class="tooltip-reading">${[...kun, ...on].join("、") || "—"}</div>
+    <div class="tooltip-reading">${entry.chosen_name || "—"}${entry.jlpt ? ` · ${entry.jlpt}` : ""}</div>
     <div class="tooltip-meaning">${vi.join(", ") || "—"}</div>
   `;
   dom.tooltip.style.left = `${rect.left - areaRect.left + rect.width / 2}px`;
@@ -338,7 +337,7 @@ function openHistoryMenu() {
       const item = document.createElement("button");
       item.className = "history-item";
       item.textContent = id;
-      item.style.setProperty("--jlpt", jlptColor(state.data.kanji[id]?.jlpt));
+      item.style.setProperty("--jlpt", levelColor(state.data.level[id]?.level));
       item.addEventListener("click", () => {
         setCenter(id, { mode: "reset" });
         menu.remove();
@@ -432,18 +431,18 @@ function wireToolbar() {
   });
 }
 
-function buildJlptChips() {
+function buildLevelChips() {
   dom.jlptFilters.replaceChildren();
-  for (const level of JLPT_LEVELS) {
+  for (const level of LEVELS) {
     const chip = document.createElement("button");
     chip.className = "jlpt-chip active";
-    chip.style.setProperty("--jlpt", jlptColor(level));
+    chip.style.setProperty("--jlpt", levelColor(level));
     chip.dataset.level = level;
-    chip.innerHTML = `<span class="check">✓</span>${level}`;
+    chip.innerHTML = `<span class="check">✓</span>Cấp ${level}`;
     chip.addEventListener("click", () => {
-      if (state.jlpt.has(level)) state.jlpt.delete(level);
-      else state.jlpt.add(level);
-      chip.classList.toggle("active", state.jlpt.has(level));
+      if (state.levels.has(level)) state.levels.delete(level);
+      else state.levels.add(level);
+      chip.classList.toggle("active", state.levels.has(level));
       if (state.center) renderCurrent({ animate: false, fit: true, push: false });
     });
     dom.jlptFilters.appendChild(chip);
@@ -458,7 +457,7 @@ function createFromSearch() {
     return;
   }
   const results = searchKanji(q, state.data, 1);
-  if (results.length) selectKanji(results[0].literal);
+  if (results.length) selectKanji(results[0].character);
 }
 
 function selectKanji(id) {
@@ -489,20 +488,19 @@ function showSuggestions(query) {
     dom.suggestions.appendChild(empty);
   } else {
     for (const entry of results) {
-      const kun = (entry.readings && entry.readings.kun) || [];
-      const on = (entry.readings && entry.readings.on) || [];
-      const vi = (entry.meanings && entry.meanings.vi) || [];
+      const vi = entry.meanings_vi || [];
+      const lv = state.data.level[entry.character]?.level;
 
       const li = document.createElement("li");
-      li.dataset.id = entry.literal;
+      li.dataset.id = entry.character;
       li.innerHTML = `
-        <span class="sug-char" style="--jlpt:${jlptColor(entry.jlpt)}">${entry.literal}</span>
+        <span class="sug-char" style="--jlpt:${levelColor(lv)}">${entry.character}</span>
         <span class="sug-meta">
-          <span class="sug-reading">${[...kun, ...on].join("、") || "—"} · ${entry.jlpt || ""}</span>
+          <span class="sug-reading">${entry.chosen_name || "—"} · Cấp ${lv ?? "—"}${entry.jlpt ? ` · ${entry.jlpt}` : ""}</span>
           <span class="sug-meaning">${vi.join(", ")}</span>
         </span>
       `;
-      li.addEventListener("click", () => selectKanji(entry.literal));
+      li.addEventListener("click", () => selectKanji(entry.character));
       dom.suggestions.appendChild(li);
     }
   }
