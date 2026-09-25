@@ -34,7 +34,15 @@ const dom = {
   emptyState: document.getElementById("emptyState"),
   breadcrumb: document.getElementById("breadcrumb"),
   status: document.getElementById("status"),
+  listBtn: document.getElementById("listBtn"),
+  listModal: document.getElementById("listModal"),
+  listClose: document.getElementById("listClose"),
+  listSearch: document.getElementById("listSearch"),
+  listLevels: document.getElementById("listLevels"),
+  listBody: document.getElementById("listBody"),
 };
+
+const LIST_LEVELS = [...JLPT_LEVELS];
 
 const state = {
   data: null,
@@ -42,6 +50,7 @@ const state = {
   depth: 3,
   layoutMode: "grid",
   jlpt: new Set(JLPT_LEVELS),
+  listLevels: new Set(JLPT_LEVELS),
   pinnedId: null,
   path: [],
   rendered: null,
@@ -463,6 +472,19 @@ function wireToolbar() {
   dom.themeBtn.addEventListener("click", toggleTheme);
   dom.historyBtn.addEventListener("click", openHistoryMenu);
 
+  dom.listBtn.addEventListener("click", openList);
+  dom.listClose.addEventListener("click", closeList);
+  dom.listModal.addEventListener("click", (e) => {
+    if (e.target.dataset.close) closeList();
+  });
+  dom.listSearch.addEventListener("input", renderList);
+  dom.listBody.addEventListener("click", (e) => {
+    const item = e.target.closest(".list-item");
+    if (!item) return;
+    selectKanji(item.dataset.id);
+    closeList();
+  });
+
   document.addEventListener("click", (e) => {
     if (!dom.suggestions.contains(e.target) && e.target !== dom.search) {
       hideSuggestions();
@@ -509,6 +531,92 @@ function buildJlptChips() {
     });
     dom.jlptFilters.appendChild(chip);
   }
+}
+
+// =============================================================
+// List modal: danh sách kanji theo cấp, có search
+// =============================================================
+
+const MAX_LIST = 800;
+
+function buildListLevelChips() {
+  dom.listLevels.replaceChildren();
+  for (const level of LIST_LEVELS) {
+    const chip = document.createElement("button");
+    chip.className = `jlpt-chip${state.listLevels.has(level) ? " active" : ""}`;
+    chip.style.setProperty("--jlpt", jlptColor(level));
+    chip.dataset.jlpt = level;
+    chip.innerHTML = `<span class="check">✓</span>${level}`;
+    chip.addEventListener("click", () => {
+      if (state.listLevels.has(level)) state.listLevels.delete(level);
+      else state.listLevels.add(level);
+      chip.classList.toggle("active", state.listLevels.has(level));
+      renderList();
+    });
+    dom.listLevels.appendChild(chip);
+  }
+}
+
+function openList() {
+  dom.listModal.hidden = false;
+  buildListLevelChips();
+  renderList();
+  dom.listSearch.focus();
+}
+
+function closeList() {
+  dom.listModal.hidden = true;
+  dom.listSearch.value = "";
+}
+
+function renderList() {
+  if (!state.data) return;
+
+  const q = dom.listSearch.value.trim();
+  const base = q ? searchKanji(q, state.data, state.data.list.length) : state.data.list;
+
+  const groups = new Map(LIST_LEVELS.map((l) => [l, []]));
+  let total = 0;
+  for (const entry of base) {
+    if (!state.listLevels.has(entry.jlpt)) continue;
+    const bucket = groups.get(entry.jlpt);
+    if (!bucket) continue;
+    bucket.push(entry);
+    total++;
+  }
+
+  let shown = 0;
+  let html = "";
+  for (const level of LIST_LEVELS) {
+    const items = groups.get(level);
+    if (!items.length || shown >= MAX_LIST) continue;
+    html += `<div class="list-group-title">${level} · ${items.length}</div><div class="list-grid">`;
+    for (const entry of items) {
+      if (shown >= MAX_LIST) break;
+      const meaning = (entry.meanings_vi || []).slice(0, 2).join(", ");
+      html += `
+        <button class="list-item" data-id="${entry.character}">
+          <span class="li-char" style="--jlpt:${jlptColor(entry.jlpt)}">${entry.character}</span>
+          <span class="li-meta">
+            <span class="li-name">${entry.chosen_name || "—"}</span>
+            <span class="li-meaning">${meaning || "—"}</span>
+          </span>
+        </button>`;
+      shown++;
+    }
+    html += `</div>`;
+  }
+
+  if (!shown) {
+    dom.listBody.innerHTML = `<div class="list-empty">Không tìm thấy Hán tự phù hợp.</div>`;
+    return;
+  }
+
+  const note =
+    total > shown
+      ? `Hiển thị ${shown} / ${total} — lọc thêm bằng cấp độ.`
+      : `${total} Hán tự`;
+  dom.listBody.innerHTML = `<div class="list-count">${note}</div>${html}`;
 }
 
 function createFromSearch() {
@@ -638,6 +746,10 @@ function wireKeyboard() {
       e.preventDefault();
       dom.search.focus();
     } else if (e.key === "Escape") {
+      if (!dom.listModal.hidden) {
+        closeList();
+        return;
+      }
       hideSuggestions();
       hideTooltip();
       unpinFocus();

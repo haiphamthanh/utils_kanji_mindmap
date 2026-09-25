@@ -4,6 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>漢字 MAP — Sơ đồ Kanji</title>
+  <script>
+    try {
+      document.documentElement.dataset.theme =
+        localStorage.getItem("kanji-theme") || "dark";
+    } catch (e) {
+      document.documentElement.dataset.theme = "dark";
+    }
+  </script>
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
@@ -13,6 +21,7 @@
       <h1>Sơ đồ Kanji</h1>
     </div>
     <div class="header-actions">
+      <button id="listBtn" class="ghost-btn" title="Danh sách Kanji">Danh sách</button>
       <button id="historyBtn" class="ghost-btn" title="Lịch sử">Lịch sử</button>
       <button id="themeBtn" class="ghost-btn" title="Đổi giao diện">🌙</button>
     </div>
@@ -83,6 +92,22 @@
     <nav id="breadcrumb" class="breadcrumb" aria-label="Lịch sử khám phá"></nav>
     <span id="status" class="status-text"></span>
   </footer>
+
+  <div id="listModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel" role="dialog" aria-label="Danh sách Kanji">
+      <header class="modal-head">
+        <h2>Danh sách Kanji</h2>
+        <button id="listClose" class="icon-btn" title="Đóng">×</button>
+      </header>
+      <div class="modal-search">
+        <span class="search-icon">🔍</span>
+        <input id="listSearch" type="text" autocomplete="off" placeholder="Tìm Hán tự, Hán-Việt, nghĩa…" />
+      </div>
+      <div id="listLevels" class="list-levels"></div>
+      <div id="listBody" class="list-body"></div>
+    </div>
+  </div>
 
   <script type="module" src="/js/app.js"></script>
 </body>
