@@ -36,6 +36,7 @@ app.get("/api/health", (req, res) => {
 const MARK_FILES = {
   learned: path.join(DATA_DIR, "learned.json"),
   favorites: path.join(DATA_DIR, "favorites.json"),
+  hidden: path.join(DATA_DIR, "hidden.json"),
 };
 
 function readMarks(kind) {
@@ -58,6 +59,7 @@ app.get("/api/marks", (req, res) => {
   res.json({
     learned: readMarks("learned"),
     favorites: readMarks("favorites"),
+    hidden: readMarks("hidden"),
   });
 });
 

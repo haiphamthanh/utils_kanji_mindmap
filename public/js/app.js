@@ -23,7 +23,7 @@ const dom = {
   jlptFilters: document.getElementById("jlptFilters"),
   depthSelect: document.getElementById("depthSelect"),
   layoutSelect: document.getElementById("layoutSelect"),
-  editToggle: document.getElementById("editToggle"),
+  showAllToggle: document.getElementById("showAllToggle"),
   zoomOut: document.getElementById("zoomOut"),
   zoomIn: document.getElementById("zoomIn"),
   zoomRange: document.getElementById("zoomRange"),
@@ -59,7 +59,7 @@ const state = {
   learned: new Set(),
   favorites: new Set(),
   hidden: new Set(),
-  editMode: false,
+  showAll: false,
   pinnedId: null,
   selectedId: null,
   path: [],
@@ -140,12 +140,11 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   const pinned = state.pinnedId;
   const selected = state.selectedId;
 
-  let graph = buildGraph(state.center, {
+  const graph = buildGraph(state.center, {
     depth: state.depth,
     data: state.data,
     jlpt: state.jlpt,
   });
-  if (!state.editMode && state.hidden.size) graph = pruneHidden(graph);
 
   if (animate && state.rendered) {
     await playExit(dom);
@@ -153,11 +152,13 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   const layout = computeLayout(graph, { mode: state.layoutMode });
   state.layout = layout;
+
+  const hiddenSets = computeHiddenSets();
   state.rendered = renderGraph(layout, state.data, dom, {
     learned: state.learned,
     favorites: state.favorites,
-    hidden: state.hidden,
-    editMode: state.editMode,
+    hidden: hiddenSets.hidden,
+    dimmed: hiddenSets.dimmed,
   });
   currentPositions = layoutPositions();
 
@@ -176,6 +177,14 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
     state.pinnedId = null;
     state.selectedId =
       selected && state.rendered.byId.has(selected) ? selected : null;
+    clearFocus();
+  }
+
+  // Node đang ghim/chọn mà bị ẩn thì bỏ focus.
+  if (hiddenSets.hidden.has(state.pinnedId) || hiddenSets.hidden.has(state.selectedId)) {
+    state.pinnedId = null;
+    state.selectedId = null;
+    clearFocus();
   }
 
   if (animate) {
@@ -466,11 +475,12 @@ function hideTooltip() {
 function renderDetailPanel(id) {
   const entry = state.data.kanji[id];
   if (!entry) return;
+  const hs = computeHiddenSets();
+  const hiddenSet = new Set([...hs.hidden, ...hs.dimmed]);
   dom.detailPanel.innerHTML = renderDetail(entry, state.data, {
     learned: state.learned,
     favorites: state.favorites,
-    hidden: state.hidden,
-    editMode: state.editMode,
+    hidden: hiddenSet,
     center: state.center,
   });
   dom.detailPanel.hidden = false;
@@ -512,6 +522,7 @@ async function loadMarks() {
     const marks = await res.json();
     state.learned = new Set(marks.learned || []);
     state.favorites = new Set(marks.favorites || []);
+    state.hidden = new Set(marks.hidden || []);
   } catch (_) {
     /* offline: giữ rỗng */
   }
@@ -537,39 +548,79 @@ async function toggleMark(kind, id) {
 }
 
 // =============================================================
-// Ẩn node tạm thời (chỉ trong edit mode thuộc state.hidden)
+// Ẩn/hiện node tạm thời (animation bằng CSS, không re-render)
 // =============================================================
 
-function toggleHidden(id) {
-  if (id === state.center) return;
-  if (state.hidden.has(id)) state.hidden.delete(id);
-  else state.hidden.add(id);
-  renderCurrent({ animate: false, fit: true, push: false });
-}
+// Tập node bị ẩn (kèm con của node bị ẩn). Khi "Show all" bật thì chỉ làm mờ.
+function computeHiddenSets() {
+  const nodes = state.layout ? state.layout.nodes : [];
+  const byId = new Map(nodes.map((n) => [n.id, n]));
+  const raw = new Set();
 
-// Bỏ các node bị ẩn và toàn bộ node con của chúng.
-function pruneHidden(graph) {
-  const byId = new Map(graph.nodes.map((n) => [n.id, n]));
-  const removed = new Set();
-
-  for (const node of graph.nodes) {
+  for (const node of nodes) {
     let cur = node;
     while (cur) {
       if (state.hidden.has(cur.id)) {
-        removed.add(node.id);
+        raw.add(node.id);
         break;
       }
       cur = cur.parent ? byId.get(cur.parent) : null;
     }
   }
 
-  return {
-    ...graph,
-    nodes: graph.nodes.filter((n) => !removed.has(n.id)),
-    edges: graph.edges.filter(
-      (e) => !removed.has(e.source) && !removed.has(e.target)
-    ),
-  };
+  if (state.showAll) return { hidden: new Set(), dimmed: raw };
+  return { hidden: raw, dimmed: new Set() };
+}
+
+function applyHiddenClasses() {
+  if (!state.rendered) return;
+  const { hidden, dimmed } = computeHiddenSets();
+  for (const el of state.rendered.nodeEls) {
+    const id = el.dataset.id;
+    el.classList.toggle("hidden", hidden.has(id));
+    el.classList.toggle("is-hidden", dimmed.has(id));
+  }
+  for (const path of state.rendered.edgeEls) {
+    const isHidden =
+      hidden.has(path.dataset.source) || hidden.has(path.dataset.target);
+    const isDim =
+      dimmed.has(path.dataset.source) || dimmed.has(path.dataset.target);
+    path.classList.toggle("hidden", isHidden);
+    path.classList.toggle("is-hidden", isDim);
+  }
+}
+
+// Nếu node đang ghim/chọn bị ẩn thì bỏ focus.
+function clearFocusIfHidden() {
+  const { hidden } = computeHiddenSets();
+  if (!hidden.has(state.pinnedId) && !hidden.has(state.selectedId)) return false;
+  state.pinnedId = null;
+  state.selectedId = null;
+  clearFocus();
+  animatePositions(layoutPositions());
+  renderDetailPanel(state.center);
+  return true;
+}
+
+async function toggleHidden(id) {
+  if (id === state.center) return;
+  const value = !state.hidden.has(id);
+  if (value) state.hidden.add(id);
+  else state.hidden.delete(id);
+
+  applyHiddenClasses();
+  clearFocusIfHidden();
+  renderDetailPanel(state.selectedId || state.center);
+
+  try {
+    await fetch("/api/marks/hidden", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ character: id, value }),
+    });
+  } catch (err) {
+    console.error("Không lưu được trạng thái ẩn", err);
+  }
 }
 
 // =============================================================
@@ -704,9 +755,10 @@ function wireToolbar() {
     if (state.center) renderCurrent({ animate: false, fit: true, push: false });
   });
 
-  dom.editToggle.addEventListener("change", () => {
-    state.editMode = dom.editToggle.checked;
-    if (state.center) renderCurrent({ animate: false, fit: true, push: false });
+  dom.showAllToggle.addEventListener("change", () => {
+    state.showAll = dom.showAllToggle.checked;
+    applyHiddenClasses();
+    if (!state.showAll) clearFocusIfHidden();
   });
 
   dom.zoomIn.addEventListener("click", () => viewport.zoomBy(1.18));
