@@ -61,12 +61,18 @@ export function createViewport(svg, viewport) {
     setTransform(1, 0, 0);
   }
 
-  // ---- wheel zoom -------------------------------------------------
+  // ---- wheel zoom / scroll ----------------------------------------
   svg.addEventListener(
     "wheel",
     (e) => {
-      if (!wheelZoom) return;
       e.preventDefault();
+      if (!wheelZoom) {
+        // Chặn zoom: con lăn để cuộn map lên/xuống (và ngang nếu có).
+        tx -= e.deltaX;
+        ty -= e.deltaY;
+        apply();
+        return;
+      }
       const rect = svg.getBoundingClientRect();
       zoomAt(e.deltaY < 0 ? 1.12 : 1 / 1.12, e.clientX - rect.left, e.clientY - rect.top);
     },
