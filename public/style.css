@@ -516,6 +516,10 @@ button {
   filter: drop-shadow(0 0 6px var(--jlpt, var(--accent)));
 }
 
+.kanji-node.selected circle {
+  stroke-dasharray: 6 5;
+}
+
 .kanji-node.center circle {
   fill: var(--jlpt, var(--accent));
   stroke: var(--jlpt, var(--accent));

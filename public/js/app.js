@@ -58,6 +58,7 @@ const state = {
   learned: new Set(),
   favorites: new Set(),
   pinnedId: null,
+  selectedId: null,
   path: [],
   rendered: null,
   layout: null,
@@ -134,6 +135,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   posAnim = null;
 
   const pinned = state.pinnedId;
+  const selected = state.selectedId;
 
   const graph = buildGraph(state.center, {
     depth: state.depth,
@@ -158,11 +160,16 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   // Giữ lại ghim tô sáng nếu node vẫn còn sau khi render.
   if (pinned && state.rendered.byId.has(pinned)) {
     state.pinnedId = pinned;
+    state.selectedId =
+      selected && state.rendered.byId.has(selected) ? selected : pinned;
     applyFocus(pinned);
     markPinned(pinned);
+    markSelected(state.selectedId);
     applyPositions(focusPositions(pinned));
   } else {
     state.pinnedId = null;
+    state.selectedId =
+      selected && state.rendered.byId.has(selected) ? selected : null;
   }
 
   if (animate) {
@@ -174,7 +181,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
 
   if (fit) fitToContent();
 
-  renderDetailPanel(state.pinnedId || state.center);
+  renderDetailPanel(state.selectedId || state.center);
   renderBreadcrumb();
   renderStatus(graph, layout);
 
@@ -185,6 +192,7 @@ function setCenter(id, { mode = "navigate", animate = true } = {}) {
   if (!state.data.kanji[id]) return;
 
   state.pinnedId = null;
+  state.selectedId = null;
   clearFocus();
 
   if (mode === "reset") {
@@ -257,15 +265,39 @@ function nodeFromEvent(e) {
 
 function pinFocus(id) {
   state.pinnedId = id;
+  state.selectedId = id;
   applyFocus(id);
   markPinned(id);
+  markSelected(id);
   renderDetailPanel(id);
   animatePositions(focusPositions(id));
+}
+
+// Đang ghim: click node liên quan chỉ đổi detail, không đổi ghim.
+function activateNode(id) {
+  if (state.pinnedId) {
+    if (relatedSet(state.pinnedId).has(id)) {
+      state.selectedId = id;
+      markSelected(id);
+      renderDetailPanel(id);
+      return;
+    }
+    pinFocus(id);
+    return;
+  }
+  pinFocus(id);
+}
+
+function markSelected(id) {
+  for (const node of dom.nodes.children) {
+    node.classList.toggle("selected", node.dataset.id === id);
+  }
 }
 
 function unpinFocus() {
   if (!state.pinnedId) return;
   state.pinnedId = null;
+  state.selectedId = null;
   clearFocus();
   renderDetailPanel(state.center);
   animatePositions(layoutPositions());
@@ -392,7 +424,7 @@ function clearFocus() {
   dom.svg.classList.remove("focusing");
   for (const edge of dom.edges.children) edge.classList.remove("highlight");
   for (const node of dom.nodes.children) {
-    node.classList.remove("related", "pinned");
+    node.classList.remove("related", "pinned", "selected");
   }
 }
 
@@ -672,7 +704,7 @@ function wireToolbar() {
     }
     if (e.detail > 1) return; // để dblclick xử lý
     const id = node.dataset.id;
-    nodeClickTimer = setTimeout(() => pinFocus(id), 240);
+    nodeClickTimer = setTimeout(() => activateNode(id), 240);
   });
 
   dom.svg.addEventListener("dblclick", (e) => {
