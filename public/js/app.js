@@ -23,6 +23,7 @@ const dom = {
   jlptFilters: document.getElementById("jlptFilters"),
   depthSelect: document.getElementById("depthSelect"),
   layoutSelect: document.getElementById("layoutSelect"),
+  editToggle: document.getElementById("editToggle"),
   zoomOut: document.getElementById("zoomOut"),
   zoomIn: document.getElementById("zoomIn"),
   zoomRange: document.getElementById("zoomRange"),
@@ -57,6 +58,8 @@ const state = {
   listLearnedOnly: false,
   learned: new Set(),
   favorites: new Set(),
+  hidden: new Set(),
+  editMode: false,
   pinnedId: null,
   selectedId: null,
   path: [],
@@ -137,11 +140,12 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   const pinned = state.pinnedId;
   const selected = state.selectedId;
 
-  const graph = buildGraph(state.center, {
+  let graph = buildGraph(state.center, {
     depth: state.depth,
     data: state.data,
     jlpt: state.jlpt,
   });
+  if (!state.editMode && state.hidden.size) graph = pruneHidden(graph);
 
   if (animate && state.rendered) {
     await playExit(dom);
@@ -152,6 +156,8 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   state.rendered = renderGraph(layout, state.data, dom, {
     learned: state.learned,
     favorites: state.favorites,
+    hidden: state.hidden,
+    editMode: state.editMode,
   });
   currentPositions = layoutPositions();
 
@@ -463,6 +469,9 @@ function renderDetailPanel(id) {
   dom.detailPanel.innerHTML = renderDetail(entry, state.data, {
     learned: state.learned,
     favorites: state.favorites,
+    hidden: state.hidden,
+    editMode: state.editMode,
+    center: state.center,
   });
   dom.detailPanel.hidden = false;
 
@@ -484,6 +493,11 @@ function renderDetailPanel(id) {
   const favBtn = dom.detailPanel.querySelector("[data-action='favorite']");
   if (favBtn) {
     favBtn.addEventListener("click", () => toggleMark("favorites", id));
+  }
+
+  const hideBtn = dom.detailPanel.querySelector("[data-action='hide']");
+  if (hideBtn) {
+    hideBtn.addEventListener("click", () => toggleHidden(id));
   }
 }
 
@@ -520,6 +534,42 @@ async function toggleMark(kind, id) {
   } catch (err) {
     console.error("Không lưu được đánh dấu", err);
   }
+}
+
+// =============================================================
+// Ẩn node tạm thời (chỉ trong edit mode thuộc state.hidden)
+// =============================================================
+
+function toggleHidden(id) {
+  if (id === state.center) return;
+  if (state.hidden.has(id)) state.hidden.delete(id);
+  else state.hidden.add(id);
+  renderCurrent({ animate: false, fit: true, push: false });
+}
+
+// Bỏ các node bị ẩn và toàn bộ node con của chúng.
+function pruneHidden(graph) {
+  const byId = new Map(graph.nodes.map((n) => [n.id, n]));
+  const removed = new Set();
+
+  for (const node of graph.nodes) {
+    let cur = node;
+    while (cur) {
+      if (state.hidden.has(cur.id)) {
+        removed.add(node.id);
+        break;
+      }
+      cur = cur.parent ? byId.get(cur.parent) : null;
+    }
+  }
+
+  return {
+    ...graph,
+    nodes: graph.nodes.filter((n) => !removed.has(n.id)),
+    edges: graph.edges.filter(
+      (e) => !removed.has(e.source) && !removed.has(e.target)
+    ),
+  };
 }
 
 // =============================================================
@@ -651,6 +701,11 @@ function wireToolbar() {
 
   dom.layoutSelect.addEventListener("change", () => {
     state.layoutMode = dom.layoutSelect.value;
+    if (state.center) renderCurrent({ animate: false, fit: true, push: false });
+  });
+
+  dom.editToggle.addEventListener("change", () => {
+    state.editMode = dom.editToggle.checked;
     if (state.center) renderCurrent({ animate: false, fit: true, push: false });
   });
 

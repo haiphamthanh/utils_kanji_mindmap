@@ -371,6 +371,53 @@ button {
   cursor: pointer;
 }
 
+/* Edit switch */
+.edit-switch {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 14px;
+  border-radius: 11px;
+  background: var(--bg-soft);
+  font-size: 14px;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.edit-switch input {
+  display: none;
+}
+
+.edit-switch .switch-track {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--border);
+  transition: background 0.18s;
+}
+
+.edit-switch .switch-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.18s var(--ease-out);
+}
+
+.edit-switch input:checked + .switch-track {
+  background: var(--accent);
+}
+
+.edit-switch input:checked + .switch-track .switch-thumb {
+  transform: translateX(18px);
+}
+
 /* Zoom controls */
 .zoom-controls {
   display: flex;
@@ -709,6 +756,35 @@ button {
 .detail-actions .fav-btn.is-on {
   background: #e5a817;
   color: #fff;
+}
+
+.detail-actions .eye-btn {
+  flex: 0 0 44px;
+  display: grid;
+  place-items: center;
+  padding: 10px 0;
+  border-radius: 11px;
+  background: var(--bg-soft);
+  color: var(--text-muted);
+  transition: background 0.12s, color 0.12s;
+}
+
+.detail-actions .eye-btn:hover {
+  background: var(--accent-soft);
+}
+
+.detail-actions .eye-btn.is-closed {
+  color: #d94b4b;
+}
+
+.detail-actions .eye-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.kanji-node.is-hidden .node-inner {
+  opacity: 0.35;
+  filter: grayscale(1);
 }
 
 .detail-actions .primary-btn {
