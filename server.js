@@ -1,9 +1,10 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
+const { exec } = require("child_process");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5188;
 
 const DATA_DIR = path.join(__dirname, "data", "final");
 
@@ -120,5 +121,17 @@ app.post("/api/marks/:kind", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Kanji Map running at http://localhost:${PORT}`);
+  const url = `http://localhost:${PORT}`;
+  console.log(`Kanji Map running at ${url}`);
+  if (process.env.KANJI_OPEN === "1") openBrowser(url);
 });
+
+function openBrowser(url) {
+  const cmd =
+    process.platform === "darwin"
+      ? `open "${url}"`
+      : process.platform === "win32"
+      ? `start "" "${url}"`
+      : `xdg-open "${url}"`;
+  exec(cmd, () => {});
+}
