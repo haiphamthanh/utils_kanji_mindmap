@@ -289,62 +289,42 @@ function relatedSet(id) {
   return related;
 }
 
-// Vị trí rút ngắn: kéo các node liên quan về phía node được ghim.
+// Vị trí khi ghim: xếp các node liên quan thành vòng quanh node ghim,
+// cạnh nối ngắn đều nhau và khoảng cách node rộng rãi.
 function focusPositions(pinnedId) {
   if (!state.layout) return null;
   const pin = state.layout.nodes.find((n) => n.id === pinnedId);
   if (!pin) return null;
 
-  const related = relatedSet(pinnedId);
-  const factor = 0.55;
-  const MIN = 64;
   const pos = new Map();
+  for (const n of state.layout.nodes) pos.set(n.id, { x: n.x, y: n.y });
 
-  for (const n of state.layout.nodes) {
-    if (n.id !== pinnedId && related.has(n.id)) {
-      pos.set(n.id, {
-        x: pin.x + (n.x - pin.x) * factor,
-        y: pin.y + (n.y - pin.y) * factor,
-      });
-    } else {
-      pos.set(n.id, { x: n.x, y: n.y });
-    }
-  }
+  const related = relatedSet(pinnedId);
+  // Không di chuyển center (hub) để tránh kéo giãn các cạnh khác.
+  const neighbors = state.layout.nodes.filter(
+    (n) => n.id !== pinnedId && n.id !== state.center && related.has(n.id)
+  );
+  const count = neighbors.length;
+  if (!count) return pos;
 
-  // Đẩy các node liên quan ra để không chồng nhau (giữ node ghim cố định).
-  const ids = [...related];
-  for (let iter = 0; iter < 6; iter++) {
-    let moved = false;
-    for (let i = 0; i < ids.length; i++) {
-      for (let j = i + 1; j < ids.length; j++) {
-        const a = ids[i];
-        const b = ids[j];
-        const pa = pos.get(a);
-        const pb = pos.get(b);
-        const dx = pb.x - pa.x;
-        const dy = pb.y - pa.y;
-        const d = Math.hypot(dx, dy) || 0.001;
-        if (d >= MIN) continue;
-        const push = (MIN - d) / 2;
-        const ux = dx / d;
-        const uy = dy / d;
-        if (a === pinnedId) {
-          pb.x += ux * 2 * push;
-          pb.y += uy * 2 * push;
-        } else if (b === pinnedId) {
-          pa.x -= ux * 2 * push;
-          pa.y -= uy * 2 * push;
-        } else {
-          pa.x -= ux * push;
-          pa.y -= uy * push;
-          pb.x += ux * push;
-          pb.y += uy * push;
-        }
-        moved = true;
-      }
-    }
-    if (!moved) break;
-  }
+  const MIN = 110;
+  const RING = Math.max(150, (count * MIN) / (Math.PI * 2));
+  const baseAngle = Math.atan2(neighbors[0].y - pin.y, neighbors[0].x - pin.x);
+
+  // Sắp theo góc gốc để ít cắt nét.
+  neighbors.sort(
+    (a, b) =>
+      Math.atan2(a.y - pin.y, a.x - pin.x) -
+      Math.atan2(b.y - pin.y, b.x - pin.x)
+  );
+
+  neighbors.forEach((node, i) => {
+    const angle = baseAngle + (Math.PI * 2 * i) / count;
+    pos.set(node.id, {
+      x: pin.x + Math.cos(angle) * RING,
+      y: pin.y + Math.sin(angle) * RING,
+    });
+  });
 
   return pos;
 }

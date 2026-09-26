@@ -455,11 +455,12 @@ button {
 
 /* Focus mode: dim unrelated */
 #kanjiGraph.focusing .edge:not(.highlight) {
-  opacity: 0.12;
+  opacity: 0.05;
 }
 
 #kanjiGraph.focusing .kanji-node:not(.related):not(.hovered) {
-  opacity: 0.25;
+  opacity: 0.08;
+  filter: grayscale(1);
 }
 
 .edge.highlight {
@@ -470,6 +471,7 @@ button {
 /* Nodes */
 .kanji-node {
   cursor: pointer;
+  transition: opacity 0.2s ease, filter 0.2s ease;
 }
 
 .kanji-node .node-inner {
