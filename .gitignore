@@ -3,3 +3,9 @@ npm-debug.log*
 .DS_Store
 .env
 .cache/
+
+# Dữ liệu riêng của từng người dùng (đánh dấu đã nhớ/yêu thích/ẩn + view state)
+data/final/learned.json
+data/final/favorites.json
+data/final/hidden.json
+data/final/ui_setting.json
