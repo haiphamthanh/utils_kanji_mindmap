@@ -24,6 +24,7 @@ const dom = {
   depthSelect: document.getElementById("depthSelect"),
   layoutSelect: document.getElementById("layoutSelect"),
   showAllToggle: document.getElementById("showAllToggle"),
+  wheelToggle: document.getElementById("wheelToggle"),
   zoomOut: document.getElementById("zoomOut"),
   zoomIn: document.getElementById("zoomIn"),
   zoomRange: document.getElementById("zoomRange"),
@@ -60,6 +61,7 @@ const state = {
   favorites: new Set(),
   hidden: new Set(),
   showAll: false,
+  blockWheelZoom: false,
   pinnedId: null,
   selectedId: null,
   path: [],
@@ -81,11 +83,11 @@ init();
 
 async function init() {
   initTheme();
-  buildJlptChips();
   wireToolbar();
   wireKeyboard();
   viewport.onChange(({ scale }) => {
     dom.zoomRange.value = Math.round(scale * 100);
+    scheduleSaveUI();
   });
 
   try {
@@ -97,16 +99,27 @@ async function init() {
   }
 
   await loadMarks();
+  const ui = await loadUISettings();
+  applyUISettings(ui);
+  buildJlptChips();
+  viewport.setWheelZoom(!state.blockWheelZoom);
 
   const params = new URLSearchParams(location.search);
-  const initial = params.get("kanji") || DEFAULT_KANJI;
+  const initial = params.get("kanji") || ui.center || DEFAULT_KANJI;
   const start = state.data.kanji[initial] ? initial : DEFAULT_KANJI;
 
   dom.search.value = start;
   state.path = [start];
   state.center = start;
   addHistory(start);
-  await renderCurrent({ animate: true, fit: true, push: false });
+  await renderCurrent({ animate: true, fit: false, push: false });
+
+  if (Number.isFinite(ui.scale)) {
+    viewport.setTransform(ui.scale, ui.tx || 0, ui.ty || 0);
+  } else {
+    fitToContent();
+  }
+  scheduleSaveUI();
 
   window.addEventListener("popstate", () => {
     const id = new URLSearchParams(location.search).get("kanji");
@@ -120,6 +133,8 @@ async function init() {
       if (state.center) renderCurrent({ animate: false, fit: false, push: false });
     }, 160);
   });
+
+  window.addEventListener("pagehide", saveUIBeacon);
 }
 
 // =============================================================
@@ -201,6 +216,7 @@ async function renderCurrent({ animate = true, fit = true, push = false } = {}) 
   renderStatus(graph, layout);
 
   if (push) updateURL(state.center);
+  scheduleSaveUI();
 }
 
 function setCenter(id, { mode = "navigate", animate = true } = {}) {
@@ -624,6 +640,108 @@ async function toggleHidden(id) {
 }
 
 // =============================================================
+// UI settings: lưu/khôi phục toàn bộ trạng thái view
+// =============================================================
+
+let uiSaveTimer = null;
+
+async function loadUISettings() {
+  try {
+    const res = await fetch("/api/ui");
+    if (!res.ok) return {};
+    const ui = await res.json();
+    return ui && typeof ui === "object" ? ui : {};
+  } catch (_) {
+    return {};
+  }
+}
+
+function applyUISettings(ui) {
+  if (!ui || typeof ui !== "object") return;
+
+  if (ui.theme === "light" || ui.theme === "dark") {
+    document.documentElement.dataset.theme = ui.theme;
+    dom.themeBtn.textContent = ui.theme === "dark" ? "☀" : "🌙";
+    try {
+      localStorage.setItem("kanji-theme", ui.theme);
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
+  if (Number.isFinite(ui.depth)) {
+    state.depth = Math.max(1, Math.min(3, Math.round(ui.depth)));
+    dom.depthSelect.value = String(state.depth);
+  }
+
+  if (["auto", "radial", "grid"].includes(ui.layoutMode)) {
+    state.layoutMode = ui.layoutMode;
+    dom.layoutSelect.value = ui.layoutMode;
+  }
+
+  if (Array.isArray(ui.jlpt)) {
+    state.jlpt = new Set(ui.jlpt.filter((l) => JLPT_LEVELS.includes(l)));
+  }
+
+  if (typeof ui.showAll === "boolean") {
+    state.showAll = ui.showAll;
+    dom.showAllToggle.checked = ui.showAll;
+  }
+
+  if (typeof ui.blockWheelZoom === "boolean") {
+    state.blockWheelZoom = ui.blockWheelZoom;
+    dom.wheelToggle.checked = ui.blockWheelZoom;
+  }
+}
+
+function currentUISettings() {
+  const t = viewport.getTransform();
+  return {
+    center: state.center,
+    scale: t.scale,
+    tx: t.tx,
+    ty: t.ty,
+    depth: state.depth,
+    layoutMode: state.layoutMode,
+    jlpt: [...state.jlpt],
+    theme: document.documentElement.dataset.theme || "dark",
+    showAll: state.showAll,
+    blockWheelZoom: state.blockWheelZoom,
+  };
+}
+
+function scheduleSaveUI() {
+  if (!state.data || !state.center) return;
+  clearTimeout(uiSaveTimer);
+  uiSaveTimer = setTimeout(saveUI, 400);
+}
+
+function saveUI() {
+  try {
+    fetch("/api/ui", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(currentUISettings()),
+      keepalive: true,
+    }).catch(() => {});
+  } catch (_) {
+    /* ignore */
+  }
+}
+
+function saveUIBeacon() {
+  if (!state.data || !state.center) return;
+  try {
+    const blob = new Blob([JSON.stringify(currentUISettings())], {
+      type: "application/json",
+    });
+    navigator.sendBeacon("/api/ui", blob);
+  } catch (_) {
+    /* ignore */
+  }
+}
+
+// =============================================================
 // Breadcrumb + history
 // =============================================================
 
@@ -747,11 +865,13 @@ function wireToolbar() {
 
   dom.depthSelect.addEventListener("change", () => {
     state.depth = Number(dom.depthSelect.value);
+    scheduleSaveUI();
     if (state.center) renderCurrent({ animate: true, fit: true, push: false });
   });
 
   dom.layoutSelect.addEventListener("change", () => {
     state.layoutMode = dom.layoutSelect.value;
+    scheduleSaveUI();
     if (state.center) renderCurrent({ animate: false, fit: true, push: false });
   });
 
@@ -759,6 +879,13 @@ function wireToolbar() {
     state.showAll = dom.showAllToggle.checked;
     applyHiddenClasses();
     if (!state.showAll) clearFocusIfHidden();
+    scheduleSaveUI();
+  });
+
+  dom.wheelToggle.addEventListener("change", () => {
+    state.blockWheelZoom = dom.wheelToggle.checked;
+    viewport.setWheelZoom(!state.blockWheelZoom);
+    scheduleSaveUI();
   });
 
   dom.zoomIn.addEventListener("click", () => viewport.zoomBy(1.18));
@@ -828,7 +955,7 @@ function buildJlptChips() {
   dom.jlptFilters.replaceChildren();
   for (const level of JLPT_LEVELS) {
     const chip = document.createElement("button");
-    chip.className = "jlpt-chip active";
+    chip.className = `jlpt-chip${state.jlpt.has(level) ? " active" : ""}`;
     chip.style.setProperty("--jlpt", jlptColor(level));
     chip.dataset.jlpt = level;
     chip.innerHTML = `<span class="check">✓</span>${level}`;
@@ -836,6 +963,7 @@ function buildJlptChips() {
       if (state.jlpt.has(level)) state.jlpt.delete(level);
       else state.jlpt.add(level);
       chip.classList.toggle("active", state.jlpt.has(level));
+      scheduleSaveUI();
       if (state.center) renderCurrent({ animate: false, fit: true, push: false });
     });
     dom.jlptFilters.appendChild(chip);
@@ -1050,6 +1178,7 @@ function toggleTheme() {
   document.documentElement.dataset.theme = next;
   localStorage.setItem("kanji-theme", next);
   dom.themeBtn.textContent = next === "dark" ? "☀" : "🌙";
+  scheduleSaveUI();
 }
 
 function wireKeyboard() {

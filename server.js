@@ -63,6 +63,38 @@ app.get("/api/marks", (req, res) => {
   });
 });
 
+// ---------------------------------------------------------------
+// UI settings (view state)
+// ---------------------------------------------------------------
+
+const UI_FILE = path.join(DATA_DIR, "ui_setting.json");
+
+function readUISettings() {
+  try {
+    const data = JSON.parse(fs.readFileSync(UI_FILE, "utf8"));
+    return data && typeof data === "object" && !Array.isArray(data) ? data : {};
+  } catch (_) {
+    return {};
+  }
+}
+
+app.get("/api/ui", (req, res) => {
+  res.json(readUISettings());
+});
+
+app.post("/api/ui", (req, res) => {
+  const body = req.body;
+  if (!body || typeof body !== "object" || Array.isArray(body)) {
+    return res.status(400).json({ error: "Dữ liệu không hợp lệ." });
+  }
+  try {
+    fs.writeFileSync(UI_FILE, JSON.stringify(body, null, 2) + "\n");
+    res.json({ ok: true });
+  } catch (err) {
+    res.status(500).json({ error: "Không ghi được ui_setting." });
+  }
+});
+
 app.post("/api/marks/:kind", (req, res) => {
   const { kind } = req.params;
   if (!MARK_FILES[kind]) {

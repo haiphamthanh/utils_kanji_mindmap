@@ -16,6 +16,7 @@ export function createViewport(svg, viewport) {
   let startTx = 0;
   let startTy = 0;
   let suppressClick = false;
+  let wheelZoom = true;
 
   const listeners = new Set();
 
@@ -64,6 +65,7 @@ export function createViewport(svg, viewport) {
   svg.addEventListener(
     "wheel",
     (e) => {
+      if (!wheelZoom) return;
       e.preventDefault();
       const rect = svg.getBoundingClientRect();
       zoomAt(e.deltaY < 0 ? 1.12 : 1 / 1.12, e.clientX - rect.left, e.clientY - rect.top);
@@ -127,6 +129,12 @@ export function createViewport(svg, viewport) {
     zoomBy,
     zoomTo,
     reset,
+    setWheelZoom(enabled) {
+      wheelZoom = !!enabled;
+    },
+    getTransform() {
+      return { scale, tx, ty };
+    },
     /** true once if the last gesture was a drag (used to cancel click) */
     consumeClickSuppressed() {
       const value = suppressClick;
