@@ -787,6 +787,23 @@ button {
   filter: grayscale(1);
 }
 
+.kanji-node.hidden {
+  pointer-events: none;
+}
+
+.kanji-node.hidden .node-inner {
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+.edge.hidden {
+  opacity: 0;
+}
+
+.edge.is-hidden {
+  opacity: 0.12;
+}
+
 .detail-actions .primary-btn {
   flex: 1 1 100%;
 }

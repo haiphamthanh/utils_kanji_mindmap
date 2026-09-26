@@ -26,7 +26,7 @@ export function renderGraph(layout, data, dom, marks = {}) {
   const learned = marks.learned || new Set();
   const favorites = marks.favorites || new Set();
   const hidden = marks.hidden || new Set();
-  const editMode = !!marks.editMode;
+  const dimmed = marks.dimmed || new Set();
 
   dom.edges.replaceChildren();
   dom.nodes.replaceChildren();
@@ -41,7 +41,14 @@ export function renderGraph(layout, data, dom, marks = {}) {
 
     const path = document.createElementNS(NS, "path");
     path.setAttribute("d", edgePath(a, b));
-    path.setAttribute("class", `edge edge-type-${edge.type}`);
+    const eHidden = hidden.has(edge.source) || hidden.has(edge.target);
+    const eDim = dimmed.has(edge.source) || dimmed.has(edge.target);
+    path.setAttribute(
+      "class",
+      `edge edge-type-${edge.type}${eHidden ? " hidden" : ""}${
+        eDim ? " is-hidden" : ""
+      }`
+    );
     path.setAttribute("pathLength", "1");
     path.dataset.source = edge.source;
     path.dataset.target = edge.target;
@@ -55,14 +62,15 @@ export function renderGraph(layout, data, dom, marks = {}) {
     const isCenter = node.isCenter;
     const isLearned = learned.has(node.id);
     const isFav = favorites.has(node.id);
-    const isHidden = editMode && hidden.has(node.id);
+    const isHidden = hidden.has(node.id);
+    const isDimmed = dimmed.has(node.id);
 
     const g = document.createElementNS(NS, "g");
     g.setAttribute(
       "class",
       `kanji-node${isCenter ? " center" : ""}${isLearned ? " learned" : ""}${
-        isHidden ? " is-hidden" : ""
-      }`
+        isHidden ? " hidden" : ""
+      }${isDimmed ? " is-hidden" : ""}`
     );
     g.setAttribute("transform", `translate(${node.x} ${node.y})`);
     g.dataset.id = node.id;
@@ -121,7 +129,7 @@ export function renderDetail(entry, data, marks = {}) {
   const learned = marks.learned ? marks.learned.has(ch) : false;
   const fav = marks.favorites ? marks.favorites.has(ch) : false;
   const hidden = marks.hidden ? marks.hidden.has(ch) : false;
-  const canHide = marks.editMode && ch !== marks.center;
+  const canHide = ch !== marks.center;
 
   const componentTags = components
     .map((c) => `<span class="tag">${c}</span>`)
