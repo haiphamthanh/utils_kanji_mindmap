@@ -1,0 +1,6 @@
+2026-10-21  public/index.html  thêm nút viết tay + panel nhận diện trong khung search
+2026-10-21  public/js/handwriting.js  thêm pad viết tay, nhận diện 5 chữ gần nhất (KanjiCanvas offline, Google IME fallback)
+2026-10-21  public/js/app.js  nối kết quả viết tay với selectKanji, thêm mở/đóng pad và phím Escape
+2026-10-21  public/style.css  style panel viết tay, lưới canvas, hàng 5 gợi ý, responsive
+2026-10-21  public/vendor/  thêm KanjiCanvas + ref-patterns (MIT) để nhận diện offline
+2026-10-21  server.js  thêm POST /api/handwriting (proxy Google IME handwriting)

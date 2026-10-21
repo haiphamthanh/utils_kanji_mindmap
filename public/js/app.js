@@ -6,6 +6,7 @@ import { computeLayout, edgePath } from "./layout.js";
 import { renderGraph, renderDetail, jlptColor } from "./render.js";
 import { playEnter, playExit } from "./animation.js";
 import { createViewport } from "./interaction.js";
+import { createHandwritingPad } from "./handwriting.js";
 
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 const DEFAULT_KANJI = "車";
@@ -19,6 +20,18 @@ const dom = {
   search: document.getElementById("searchInput"),
   clearSearch: document.getElementById("clearSearch"),
   suggestions: document.getElementById("suggestions"),
+  handwritingBtn: document.getElementById("handwritingBtn"),
+  hwPanel: document.getElementById("hwPanel"),
+  hwCanvas: document.getElementById("hwCanvas"),
+  hwEngine: document.getElementById("hwEngine"),
+  hwHint: document.getElementById("hwHint"),
+  hwUndo: document.getElementById("hwUndo"),
+  hwClear: document.getElementById("hwClear"),
+  hwRecognize: document.getElementById("hwRecognize"),
+  hwOnline: document.getElementById("hwOnline"),
+  hwResults: document.getElementById("hwResults"),
+  hwStatus: document.getElementById("hwStatus"),
+  hwClose: document.getElementById("hwClose"),
   createBtn: document.getElementById("createBtn"),
   jlptFilters: document.getElementById("jlptFilters"),
   depthSelect: document.getElementById("depthSelect"),
@@ -72,6 +85,7 @@ const state = {
 let nodeClickTimer = null;
 let posAnim = null;
 let currentPositions = new Map();
+let pad = null;
 
 const viewport = createViewport(dom.svg, dom.viewport);
 
@@ -99,6 +113,7 @@ async function init() {
   }
 
   await loadMarks();
+  setupHandwriting();
   const ui = await loadUISettings();
   applyUISettings(ui);
   buildJlptChips();
@@ -925,6 +940,14 @@ function wireToolbar() {
     if (!dom.suggestions.contains(e.target) && e.target !== dom.search) {
       hideSuggestions();
     }
+    if (
+      pad &&
+      pad.isOpen() &&
+      !dom.hwPanel.contains(e.target) &&
+      !dom.handwritingBtn.contains(e.target)
+    ) {
+      closeHandwriting();
+    }
   });
 
   // Click node: ghim tô sáng. Double-click: điều hướng. Click nền: bỏ ghim.
@@ -1081,6 +1104,105 @@ function selectKanji(id) {
 }
 
 // =============================================================
+// Handwriting
+// =============================================================
+
+function setupHandwriting() {
+  pad = createHandwritingPad({
+    els: {
+      panel: dom.hwPanel,
+      canvas: dom.hwCanvas,
+      hint: dom.hwHint,
+      engine: dom.hwEngine,
+      undoBtn: dom.hwUndo,
+      clearBtn: dom.hwClear,
+      recognizeBtn: dom.hwRecognize,
+      onlineBtn: dom.hwOnline,
+      results: dom.hwResults,
+      status: dom.hwStatus,
+    },
+    onResults: renderHandwritingResults,
+  });
+
+  dom.handwritingBtn.addEventListener("click", () => {
+    if (!pad) return;
+    if (pad.isOpen()) closeHandwriting();
+    else openHandwriting();
+  });
+  dom.hwClose.addEventListener("click", closeHandwriting);
+}
+
+function openHandwriting() {
+  hideSuggestions();
+  dom.handwritingBtn.classList.add("active");
+  dom.handwritingBtn.setAttribute("aria-expanded", "true");
+  pad.open();
+}
+
+function closeHandwriting() {
+  if (!pad || !pad.isOpen()) return;
+  pad.close();
+  dom.handwritingBtn.classList.remove("active");
+  dom.handwritingBtn.setAttribute("aria-expanded", "false");
+}
+
+function renderHandwritingResults(candidates, source) {
+  const list = [];
+  const seen = new Set();
+  for (const ch of candidates) {
+    if (typeof ch !== "string" || !ch || seen.has(ch)) continue;
+    seen.add(ch);
+    list.push(ch);
+    if (list.length === 5) break;
+  }
+
+  dom.hwResults.replaceChildren();
+  if (!list.length) {
+    dom.hwResults.hidden = true;
+    return;
+  }
+
+  let known = 0;
+  for (const ch of list) {
+    const entry = state.data.kanji[ch];
+    if (entry) known++;
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = entry ? "hw-result" : "hw-result unknown";
+    btn.disabled = !entry;
+    btn.title = entry
+      ? `${entry.chosen_name || ch}${entry.jlpt ? ` · ${entry.jlpt}` : ""}`
+      : `${ch} chưa có trong bộ dữ liệu`;
+
+    const charEl = document.createElement("span");
+    charEl.className = "hw-result-char";
+    charEl.style.setProperty("--jlpt", entry ? jlptColor(entry.jlpt) : "#8aa0b8");
+    charEl.textContent = ch;
+
+    const nameEl = document.createElement("span");
+    nameEl.className = "hw-result-name";
+    nameEl.textContent = entry ? entry.chosen_name || "—" : "chưa có";
+
+    btn.append(charEl, nameEl);
+    if (entry) {
+      btn.addEventListener("click", () => {
+        closeHandwriting();
+        selectKanji(ch);
+        dom.search.focus();
+      });
+    }
+    dom.hwResults.appendChild(btn);
+  }
+
+  dom.hwResults.hidden = false;
+  dom.hwEngine.textContent = source === "online" ? "Google" : "Offline";
+  dom.hwStatus.textContent = `${source === "online" ? "Google" : "Offline"} · ${list.length} gợi ý${
+    known < list.length ? ` (${known} có trong dữ liệu)` : ""
+  }`;
+}
+
+// =============================================================
 // Suggestions
 // =============================================================
 
@@ -1173,6 +1295,7 @@ function initTheme() {
 }
 
 function toggleTheme() {
+  if (pad && pad.isOpen()) closeHandwriting();
   const dark = document.documentElement.dataset.theme === "dark";
   const next = dark ? "light" : "dark";
   document.documentElement.dataset.theme = next;
@@ -1190,6 +1313,10 @@ function wireKeyboard() {
       e.preventDefault();
       dom.search.focus();
     } else if (e.key === "Escape") {
+      if (pad && pad.isOpen()) {
+        closeHandwriting();
+        return;
+      }
       if (!dom.listModal.hidden) {
         closeList();
         return;

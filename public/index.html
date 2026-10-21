@@ -37,7 +37,54 @@
         placeholder="Tìm Hán tự, Hán-Việt, nghĩa…"
       />
       <button id="clearSearch" class="clear-btn" title="Xóa" hidden>×</button>
+      <button
+        id="handwritingBtn"
+        class="hw-btn"
+        title="Viết tay để tìm Hán tự"
+        aria-label="Viết tay để tìm Hán tự"
+        aria-expanded="false"
+        aria-controls="hwPanel"
+      >✍</button>
       <ul id="suggestions" class="suggestions" hidden></ul>
+
+      <div
+        id="hwPanel"
+        class="hw-panel"
+        role="dialog"
+        aria-label="Viết tay để tìm Hán tự"
+        hidden
+      >
+        <div class="hw-head">
+          <span class="hw-title">Viết tay</span>
+          <span id="hwEngine" class="hw-engine">Offline</span>
+          <button id="hwClose" class="icon-btn" title="Đóng">×</button>
+        </div>
+
+        <div class="hw-canvas-wrap">
+          <canvas
+            id="hwCanvas"
+            width="300"
+            height="300"
+            data-stroke-numbers="false"
+            aria-label="Khung viết chữ Hán"
+            aria-describedby="hwHint"
+          ></canvas>
+          <span id="hwHint" class="hw-hint">Viết một chữ Hán vào ô vuông</span>
+        </div>
+
+        <div class="hw-tools">
+          <button id="hwUndo" class="ghost-btn" title="Xóa nét vừa viết">↶ Nét cuối</button>
+          <button id="hwClear" class="ghost-btn">Xóa hết</button>
+          <button id="hwRecognize" class="primary-btn">Nhận diện</button>
+        </div>
+
+        <div id="hwResults" class="hw-results" hidden></div>
+
+        <div class="hw-foot">
+          <span id="hwStatus" class="hw-status" aria-live="polite"></span>
+          <button id="hwOnline" class="hw-link" hidden>Thử Google</button>
+        </div>
+      </div>
     </div>
 
     <button id="createBtn" class="primary-btn">Tạo sơ đồ</button>
